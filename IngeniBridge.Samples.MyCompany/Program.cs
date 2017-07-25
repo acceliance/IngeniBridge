@@ -36,7 +36,7 @@ namespace IngeniBridge.Samples.MyCompany
                 #endregion
                 #region nomenclatures
                 Dictionary<string, TypeOfMeasure> measures = new Dictionary<string, TypeOfMeasure> ();
-                measures.Add ( "TMP", new TypeOfMeasure () { Code = "TMP", Label = "Temperature", Unit = "°C" } );
+                measures.Add ( "TMP", new TypeOfMeasure () { Code = "TMP", Label = "Temperature ", Unit = "°C" } );
                 measures.Add ( "PRESS", new TypeOfMeasure () { Code = "PRESS", Label = "Pressure", Unit = "bar" } );
                 measures.Add ( "ELEC", new TypeOfMeasure () { Code = "ELEC", Label = "Electricity", Unit = "kw/h" } );
                 measures.Add ( "WT", new TypeOfMeasure () { Code = "WT", Label = "Water throuput", Unit = "m3/h" } );

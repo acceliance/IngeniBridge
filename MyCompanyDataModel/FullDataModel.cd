@@ -150,7 +150,7 @@
       <FileName>Equipment.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="IngeniBridge.Core.Asset" Collapsed="true">
+  <Class Name="IngeniBridge.Core.Asset">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
