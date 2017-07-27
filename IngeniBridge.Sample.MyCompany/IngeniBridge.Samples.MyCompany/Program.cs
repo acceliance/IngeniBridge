@@ -11,6 +11,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using log4net;
+using System.Diagnostics;
 
 namespace IngeniBridge.Samples.MyCompany
 {
@@ -18,11 +20,16 @@ namespace IngeniBridge.Samples.MyCompany
     {
         public static MetaHelper metahelper;
         public static NodesHelper nodeshelper;
+        private static readonly ILog log = LogManager.GetLogger ( System.Reflection.MethodBase.GetCurrentMethod ().DeclaringType );
         static int Main ( string [] args )
         {
+            log4net.Config.XmlConfigurator.Configure ();
             int ret = 0;
             try
             {
+                FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
+                log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
+                log.Info ( "Starting " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
                 TypeOfMeasure [] tom = new TypeOfMeasure [ 0 ];
                 Type t = tom.GetType ();
                 #region init IngeniBridge
@@ -100,9 +107,10 @@ namespace IngeniBridge.Samples.MyCompany
             }
             catch ( Exception e )
             {
-                Console.WriteLine ( "Exception => " + e.GetType () + " = " + e.Message );
+                log.Error ( "Exception => " + e.GetType () + " = " + e.Message );
                 ret = 1;
             }
+            log.Info ( "Terminated => " + ret.ToString () );
             return ( ret );
         }
     }

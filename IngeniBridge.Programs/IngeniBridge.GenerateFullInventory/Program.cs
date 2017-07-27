@@ -13,6 +13,7 @@ using System.Text;
 using IngeniBridge.Core.Diags;
 using IngeniBridge.Core.StagingData;
 using IngeniBridge.Core.Inventory;
+using System.Diagnostics;
 
 namespace IngeniBridge.GenerateFullInventory
 {
@@ -29,8 +30,10 @@ namespace IngeniBridge.GenerateFullInventory
                 ret = 1;
                 return ( ret );
             }
-            log.Info ( "Starting application " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
-            log.Info ( "IB database => " + result.Value.INgeniBridgeDBFile );
+            FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
+            log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
+            log.Info ( "INgeniBridgeDBFile => " + result.Value.INgeniBridgeDBFile );
+            log.Info ( "InventoryFilee => " + result.Value.InventoryFile );
             try
             {
                 Core.StagingData.Serializer ser = new Core.StagingData.Serializer ();
