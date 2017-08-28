@@ -99,7 +99,6 @@ namespace IngeniBridge.GenerateFullInventory
                 ret = 1;
             }
             return ( ret );
-
         }
     }
 }
