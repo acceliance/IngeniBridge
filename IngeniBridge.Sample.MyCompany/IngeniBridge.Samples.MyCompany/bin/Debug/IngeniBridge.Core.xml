@@ -162,6 +162,12 @@
             The iterator helpaer
             </summary>
         </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.#ctor(IngeniBridge.Core.MetaHelper.MetaHelper)">
+            <summary>
+            Use this class to iterate the IngeniBridge tree
+            </summary>
+            <param name="helper"></param>
+        </member>
         <member name="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1">
             <summary>
             Notifies a node in the tree
@@ -187,7 +193,7 @@
             <param name="isf">The callback to match the node, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition`1"/></param>
             <returns>The nodes found</returns>
         </member>
-        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.TreeIterator(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{System.Object})">
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.IterateTree(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{System.Object})">
             <summary>
             This method iterates a data model tree
             </summary>
@@ -219,14 +225,23 @@
             <param name="isf">The callback to match the node, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition`1"/></param>
             <returns>The node found</returns>
         </member>
-        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.TreeIterator``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{``0})">
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.IterateTree``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{``0})">
             <summary>
             This method processes the data model tree
             </summary>
             <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
             <param name="asset">The parent asset</param>
             <param name="hn">The callback to notify the nodes, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1"/></param>
-            <param name="helper">Meta helper</param>
+            <returns>false if aborted else true</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.IterateTreeAsync``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{``0},JT.TechCases.Threading.ThreadPool)">
+            <summary>
+            This method processes the data model tree in an async way
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="asset">The parent asset</param>
+            <param name="hn">The callback to notify the nodes, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1"/></param>
+            <param name="tp">The tread pool containing the number of simultanous threads, call WaitAllFinished to wait the async processing</param>
             <returns>false if aborted else true</returns>
         </member>
         <member name="T:IngeniBridge.Core.Diags.TreeChecker">
@@ -251,6 +266,14 @@
             This method launches the tree check
             </summary>
             <param name="frame">The frame containing the data model tree root</param>
+            <param name="em">Callback to errors, <seealso cref="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage"/></param>
+        </member>
+        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTreeAsync(IngeniBridge.Core.StagingData.DataModelFrame,JT.TechCases.Threading.ThreadPool,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
+            <summary>
+            This method launches the tree check
+            </summary>
+            <param name="frame">The frame containing the data model tree root</param>
+            <param name="tp">The tread pool containing the number of simultanous threads, call WaitAllFinished to wait the async processing</param>
             <param name="em">Callback to errors, <seealso cref="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage"/></param>
         </member>
         <member name="T:IngeniBridge.Core.Diags.Diagnostic">
@@ -326,128 +349,6 @@
             This method parameterizes the json serializer
             </summary>
             <param name="settings"></param>
-        </member>
-        <member name="T:IngeniBridge.Core.Arrays.ArraysHelper">
-            <summary>
-            This class provides methods to populate data into your model while using [] simple arrays
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.SetMetaHelper(IngeniBridge.Core.MetaHelper.MetaHelper)">
-            <summary>
-            This method set the meta helper
-            </summary>
-            <param name="helper">The Meta Helper</param>
-        </member>
-        <member name="P:IngeniBridge.Core.Arrays.ArraysHelper.ExceptionOnErrorEnabled">
-            <summary>
-            Set this flag to enable exceptions on errors, sometimes it may be helpful to disable
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.RemoveElement(System.Object,System.String,System.String)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="pn"></param>
-            <param name="key"></param>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.TryGetFirstElement``2(System.Object,System.String)">
-            <summary>
-            
-            </summary>
-            <typeparam name="NATIVE"></typeparam>
-            <typeparam name="CAST"></typeparam>
-            <param name="o"></param>
-            <param name="pn"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.TryFindElement``2(System.Object,System.String)">
-            <summary>
-            
-            </summary>
-            <typeparam name="NATIVE"></typeparam>
-            <typeparam name="CAST"></typeparam>
-            <param name="o"></param>
-            <param name="key"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.TryFindElement``2(System.Object,System.String,System.String)">
-            <summary>
-            
-            </summary>
-            <typeparam name="NATIVE"></typeparam>
-            <typeparam name="CAST"></typeparam>
-            <param name="o"></param>
-            <param name="key"></param>
-            <param name="pn"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.ElementExists(System.Object,System.String,System.String)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="pn"></param>
-            <param name="key"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.ElementExistsInAllCollections(System.Object,System.String)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="key"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.TryFindCollectionsForElement(System.Object,System.String)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="key"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.TryFindObjectInAnyCollection``1(System.String)">
-            <summary>
-            
-            </summary>
-            <typeparam name="TYPE"></typeparam>
-            <param name="key"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.GetElementFromProperty``1(System.Object,System.String,System.String)">
-            <summary>
-            
-            </summary>
-            <typeparam name="CAST"></typeparam>
-            <param name="o"></param>
-            <param name="key"></param>
-            <param name="pn"></param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.AddElementToArray(System.Object,System.Object)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="element"></param>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.AddElementToArray(System.Object,System.Object,System.String)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="element"></param>
-            <param name="pn"></param>
-        </member>
-        <member name="M:IngeniBridge.Core.Arrays.ArraysHelper.AddElementToArray(System.Object,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.Object)">
-            <summary>
-            
-            </summary>
-            <param name="o"></param>
-            <param name="dictionaries"></param>
-            <param name="pn"></param>
-            <param name="element"></param>
         </member>
         <member name="T:IngeniBridge.Core.Service.ContextedAsset">
             <summary>
@@ -775,6 +676,26 @@
             </summary>
         </member>
         <member name="M:IngeniBridge.Core.Exceptions.ArraysHelperException.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.DataModelException">
+            <summary>
+            Exception related to the data model definition
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.DataModelException.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.RequestCheckerException">
+            <summary>
+            Exception related to request checking
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.RequestCheckerException.#ctor(System.String)">
             <summary>
             
             </summary>
@@ -1231,7 +1152,7 @@
             Unit of measure
             </summary>
         </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddedFunctionalAxis">
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis">
             <summary>
             Functional axis to add for this attribute
             </summary>

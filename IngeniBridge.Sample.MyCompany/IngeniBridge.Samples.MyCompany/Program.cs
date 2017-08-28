@@ -1,9 +1,9 @@
 ﻿using IngeniBridge.Core.Diags;
 using IngeniBridge.Core.Iterator;
 using IngeniBridge.Core.MetaHelper;
-using IngeniBridge.Core.Arrays;
+using IngeniBridge.BuildUtils.Arrays;
 using IngeniBridge.Core.StagingData;
-using IngeniBridge.Utils;
+using IngeniBridge.BuildUtils;
 using MyCompanyDataModel;
 using System;
 using System.Collections.Generic;
@@ -55,41 +55,41 @@ namespace IngeniBridge.Samples.MyCompany
                 #endregion
                 #region assets
                 ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", Location = "Paris", Sector = sectors [ "W" ] };
-                ArraysHelper.AddElementToArray ( root, siteParis );
+                root.AddElementToArray ( siteParis );
                 ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = sectors [ "S" ] };
-                ArraysHelper.AddElementToArray ( root, siteLivry );
+                root.AddElementToArray ( siteLivry );
                 GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
-                ArraysHelper.AddElementToArray ( siteParis, grouppumps );
+                siteParis.AddElementToArray ( grouppumps );
                 PressureSensor iot1 = new PressureSensor () { Code = "PS 001", TelephoneNumber = "0123456789" };
-                ArraysHelper.AddElementToArray ( grouppumps, iot1 );
+                grouppumps.AddElementToArray ( iot1 );
                 WaterPump wp1 = new WaterPump () { Code = "WP 001" };
-                ArraysHelper.AddElementToArray ( grouppumps, wp1 );
+                grouppumps.AddElementToArray ( wp1 );
                 WaterPump wp2 = new WaterPump () { Code = "WP 002" };
-                ArraysHelper.AddElementToArray ( grouppumps, wp2 );
+                grouppumps.AddElementToArray ( wp2 );
                 ClorineInjector cl1 = new ClorineInjector () { Code = "CI 001" };
-                ArraysHelper.AddElementToArray ( siteLivry, cl1 );
+                siteLivry.AddElementToArray (  cl1 );
                 MultiFunctionSensor iot2 = new MultiFunctionSensor () { Code = "MFS 001", TelephoneNumber = "1234567890" };
-                ArraysHelper.AddElementToArray ( cl1, iot2 );
+                cl1.AddElementToArray ( iot2 );
                 #endregion
                 #region measures
                 AcquiredMeasure am1 = new AcquiredMeasure () { Code = "M 001", ScadaExternalReference = "EXTREF 001", TypeOfMeasure = measures [ "WT" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( grouppumps, am1 );
+                grouppumps.AddElementToArray ( am1 );
                 AcquiredMeasure am2 = new AcquiredMeasure () { Code = "M 002", ScadaExternalReference = "EXTREF 002", TypeOfMeasure = measures [ "ELEC" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( wp1, am2 );
+                wp1.AddElementToArray ( am2 );
                 AcquiredMeasure am3 = new AcquiredMeasure () { Code = "M 003", ScadaExternalReference = "EXTREF 003", TypeOfMeasure = measures [ "ELEC" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( wp2, am3 );
+                wp2.AddElementToArray ( am3 );
                 AcquiredMeasure am4 = new AcquiredMeasure () { Code = "M 004", ScadaExternalReference = "EXTREF 004", TypeOfMeasure = measures [ "PRESS" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( iot1, am4 );
+                iot1.AddElementToArray ( am4 );
                 ComputedMeasure am5 = new ComputedMeasure () { Code = "M 005", ScadaExternalReference = "EXTREF 005", TypeOfMeasure = measures [ "ELEC" ], ConsolidationType = ConsolidationType.Average };
-                ArraysHelper.AddElementToArray ( siteParis, am5 );
+                siteParis.AddElementToArray ( am5 );
                 AcquiredMeasure am6 = new AcquiredMeasure () { Code = "M 006", ScadaExternalReference = "EXTREF 006", TypeOfMeasure = measures [ "CL" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( iot2, am6 );
+                iot2.AddElementToArray ( am6 );
                 AcquiredMeasure am7 = new AcquiredMeasure () { Code = "M 007", ScadaExternalReference = "EXTREF 007", TypeOfMeasure = measures [ "PRESS" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( cl1, am7 );
+                cl1.AddElementToArray ( am7 );
                 AcquiredMeasure am8 = new AcquiredMeasure () { Code = "M 008", ScadaExternalReference = "EXTREF 008", TypeOfMeasure = measures [ "ELEC" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( cl1, am8 );
+                cl1.AddElementToArray ( am8 );
                 AcquiredMeasure am9 = new AcquiredMeasure () { Code = "M 009", ScadaExternalReference = "EXTREF 010", TypeOfMeasure = measures [ "CL" ], ConsolidationType = ConsolidationType.None };
-                ArraysHelper.AddElementToArray ( cl1, am9 );
+                cl1.AddElementToArray ( am9 );
                 AcquiredMeasure am10 = new AcquiredMeasure () { Code = "M 010", ScadaExternalReference = "EXTREF 009", TypeOfMeasure = measures [ "ELEC" ], ConsolidationType = ConsolidationType.None };
                 //ArraysHelper.AddElementToArray ( cl1, am10 );
                 #endregion
