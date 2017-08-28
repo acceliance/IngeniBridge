@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IngeniBridge.Utils</name>
+    </assembly>
+    <members>
+        <member name="T:IngeniBridge.Utils.ExcelTempLog">
+            <summary>
+            This class supports context for Excel output
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Utils.ExcelTempLog.filename">
+            <summary>
+            File Name
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Utils.ExcelTempLog.pck">
+            <summary>
+            Excel package
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Utils.ExcelTempLog.wk">
+            <summary>
+            Excel worksheet
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Utils.ExcelTempLog.line">
+            <summary>
+            Current line into the worksheet
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Utils.ExcelTempLog.columns">
+            <summary>
+            Header columns
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Utils.ExcelTempLogs">
+            <summary>
+            This class helps you provide Excel formatted logs
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Utils.ExcelTempLogs.LogsExcelActivees">
+            <summary>
+            Activate Logs (deactivated by default)
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Utils.ExcelTempLogs.Save">
+            <summary>
+            Saves all he logs actually open
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Utils.ExcelTempLogs.CreateExcelLog(System.String,System.String[])">
+            <summary>
+            This method creates an Excel log (can be invoked any numbrt of times, only the first time is relevant)
+            </summary>
+            <param name="title">Title used for Excel file and first tab name</param>
+            <param name="columns">Column headers</param>
+            <returns>Excel log context</returns>
+        </member>
+        <member name="M:IngeniBridge.Utils.ExcelTempLogs.WritelLog(IngeniBridge.Utils.ExcelTempLog,System.String[])">
+            <summary>
+            This method adds a line into an Excel log
+            </summary>
+            <param name="etl">Context returned by creation <seealso cref="M:IngeniBridge.Utils.ExcelTempLogs.CreateExcelLog(System.String,System.String[])"/></param>
+            <param name="columns">Column values (must be aligned wit headers)</param>
+        </member>
+        <member name="T:IngeniBridge.Utils.FileDater">
+            <summary>
+            This class timestamps a file name
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Utils.FileDater.SetFileNameDateTime(System.String,System.Boolean)">
+            <summary>
+            This method timestamps a file name
+            </summary>
+            <param name="filename">File name to be time stamped</param>
+            <param name="withoutdir">Flag to remove path from file path</param>
+            <returns>The actual time stamped file name</returns>
+        </member>
+    </members>
+</doc>
