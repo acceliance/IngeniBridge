@@ -105,7 +105,7 @@ namespace IngeniBridge.TestServer
                 EntityMetaDescription emd = helper.GetMetaDataFromType ( cd.Data.GetType () );
                 helper.ParseEntityAttributes ( cd.Data, ( attribute, val ) =>
                 {
-                    Console.WriteLine ( "\t" + attribute + " => " + val.ToString () + "\n" );
+                    Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType () .Name + ") => " + val.ToString () + "\n" );
                     return ( true );
                 }, true, true, true );
                 return ( true );

@@ -52,3 +52,25 @@
 2017-08-28 16:02:26,580;[8];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
 2017-08-28 16:02:33,881;[8];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2017-08-28 16:02:44,545;[8];ERROR;IngeniBridge.TestServer.Program;Exception => System.BadImageFormatException = Impossible de charger le fichier ou l'assembly 'MyCompanyDataModel, Version=1.0.3.18446, Culture=neutral, PublicKeyToken=null'. Cet assembly a été compilé pour un autre processeur.
+2017-09-01 12:43:14,668;[10];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-01 12:43:14,725;[10];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-01 12:53:16,562;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-01 12:53:16,617;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-01 13:05:21,444;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-01 13:05:21,506;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-01 13:05:28,432;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-01 13:05:28,621;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-01 13:05:29,105;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-01 13:05:30,182;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-01 13:07:17,696;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-01 13:07:17,749;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-01 13:07:26,414;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-01 13:07:26,481;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-01 13:07:26,736;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-01 13:07:27,516;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-01 13:08:08,571;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-01 13:08:08,615;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-01 13:08:14,796;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-01 13:08:14,866;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-01 13:08:15,142;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-01 13:08:15,956;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0

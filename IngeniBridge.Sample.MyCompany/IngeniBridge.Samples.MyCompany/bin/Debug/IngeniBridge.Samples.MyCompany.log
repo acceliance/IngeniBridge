@@ -1,3 +1,18 @@
 2017-08-28 11:51:58,516;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
 2017-08-28 11:51:58,559;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting IngeniBridge.Samples.MyCompany v1.0.0.0
 2017-08-28 11:51:59,059;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-08-29 15:29:23,238;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-08-29 15:29:23,269;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-08-29 15:29:25,283;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-08-29 15:30:56,704;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-08-29 15:30:56,751;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-08-29 15:30:56,751;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.3.21306
+2017-08-29 15:30:58,501;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-08-29 15:35:45,353;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-08-29 15:35:45,385;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-08-29 15:35:45,385;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.4.28071
+2017-08-29 15:35:47,228;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-08-29 15:36:17,268;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-08-29 15:36:17,299;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-08-29 15:36:17,299;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.4.28071
+2017-08-29 15:36:18,862;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0

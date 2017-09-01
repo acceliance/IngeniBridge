@@ -29,7 +29,8 @@ namespace IngeniBridge.Samples.MyCompany
             {
                 FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
                 log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
-                log.Info ( "Starting " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
+                log.Info ( "Starting => " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
+                log.Info ( "Data Model => " + Assembly.GetAssembly ( typeof ( ProductionSite ) ).GetName ().Name + " v" + Assembly.GetAssembly ( typeof ( ProductionSite ) ) .GetName ().Version );
                 TypeOfMeasure [] tom = new TypeOfMeasure [ 0 ];
                 Type t = tom.GetType ();
                 #region init IngeniBridge
@@ -51,12 +52,16 @@ namespace IngeniBridge.Samples.MyCompany
                 Dictionary<string, Sector> sectors = new Dictionary<string, Sector> ();
                 sectors.Add ( "W", new Sector () { Code = "W", Label = "West" } );
                 sectors.Add ( "S", new Sector () { Code = "S", Label = "South" } );
-                frame.Nomenclatures = new Core.Nomenclature [] [] { measures.Values.ToArray (), sectors.Values.ToArray () };
+                Dictionary<string, Organization> orgas = new Dictionary<string, Organization> ();
+                orgas.Add ( "O1", new Organization () { Code = "O1", Label = "Organization 1" } );
+                orgas.Add ( "O2", new Organization () { Code = "O2", Label = "Organization 2" } );
+                // add all nomenclatures at one time
+                frame.Nomenclatures = new Core.Nomenclature [] [] { measures.Values.ToArray (), sectors.Values.ToArray (), orgas.Values.ToArray () };
                 #endregion
                 #region assets
-                ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", Location = "Paris", Sector = sectors [ "W" ] };
+                ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", Location = "Paris", Sector = sectors [ "W" ], Organization = orgas [ "O1" ] };
                 root.AddElementToArray ( siteParis );
-                ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = sectors [ "S" ] };
+                ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = sectors [ "S" ], Organization = orgas [ "O2" ] };
                 root.AddElementToArray ( siteLivry );
                 GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
                 siteParis.AddElementToArray ( grouppumps );

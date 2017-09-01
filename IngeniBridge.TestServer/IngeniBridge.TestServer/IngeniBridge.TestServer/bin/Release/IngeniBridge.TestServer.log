@@ -22,3 +22,9 @@
 2017-08-28 16:31:57,548;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
 2017-08-28 16:31:57,837;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2017-08-28 16:31:58,635;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-01 12:42:23,566;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-01 12:42:23,598;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-01 12:42:35,354;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-01 12:42:37,181;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-01 12:42:37,415;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.ArgumentException = Accessed JArray values with invalid key value: "$values". Int32 array index expected.
+2017-09-01 12:42:37,415;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1

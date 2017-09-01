@@ -337,12 +337,26 @@
             <param name="ser">The stream string</param>
             <returns>The contexted asset</returns>
         </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedAssetsFromString(System.String)">
+            <summary>
+            This method deserializes a multiple contexted asset (from the Ingenibridge REST server)
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted assets</returns>
+        </member>
         <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedDataFromString(System.String)">
             <summary>
             This method deserializes a contexted data
             </summary>
             <param name="ser">The stream string</param>
             <returns>The contexted data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedDatasFromString(System.String)">
+            <summary>
+            This method deserializes a multiple contexted data (from the Ingenibridge REST server)
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted datas</returns>
         </member>
         <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.ParameterizeJsonSetting(Newtonsoft.Json.JsonSerializerSettings)">
             <summary>
@@ -476,6 +490,11 @@
         <member name="P:IngeniBridge.Core.StagingData.Serializer.DataModelAssembly">
             <summary>
             Assembly used for the data model
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.Serializer.DataModelAssemblyBuffer">
+            <summary>
+            Assembly bytes
             </summary>
         </member>
         <member name="M:IngeniBridge.Core.StagingData.Serializer.SerializeTree(System.IO.Stream)">

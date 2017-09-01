@@ -12,5 +12,6 @@ namespace MyCompanyDataModel
         public Equipment [] Equipments { get; set; }
         public string Location { get; set; }
         public Sector Sector { get; set; }
+        public Organization Organization { get; set; }
     }
 }

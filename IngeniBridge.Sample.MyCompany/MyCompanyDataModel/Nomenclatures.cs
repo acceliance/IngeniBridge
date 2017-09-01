@@ -14,4 +14,7 @@ namespace MyCompanyDataModel
     public class Sector : Nomenclature
     {
     }
+    public class Organization : Nomenclature
+    {
+    }
 }
