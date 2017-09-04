@@ -74,3 +74,35 @@
 2017-09-01 13:08:14,866;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
 2017-09-01 13:08:15,142;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2017-09-01 13:08:15,956;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-04 09:26:54,420;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-04 09:26:54,469;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-04 09:27:00,867;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-04 09:27:01,548;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-04 09:27:01,795;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-04 09:27:01,927;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.BadImageFormatException = Impossible de charger le fichier ou l'assembly '1245 bytes loaded from IngeniBridge.Core, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null' ou une de ses dépendances. Tentative de chargement d’un programme de format incorrect.
+2017-09-04 09:27:01,933;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2017-09-04 09:28:48,246;[9];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-04 09:28:48,295;[9];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-04 09:28:55,483;[9];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-04 09:28:56,007;[9];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-04 09:28:56,357;[9];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-04 09:28:56,634;[9];ERROR;IngeniBridge.TestServer.Program;Exception => System.BadImageFormatException = Impossible de charger le fichier ou l'assembly '1245 bytes loaded from IngeniBridge.Core, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null' ou une de ses dépendances. Tentative de chargement d’un programme de format incorrect.
+2017-09-04 09:28:56,636;[9];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2017-09-04 09:29:02,162;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-04 09:29:02,232;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-04 09:29:08,319;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-04 09:29:08,654;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-04 09:29:08,744;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2017-09-04 09:29:08,744;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2017-09-04 09:29:28,263;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-04 09:29:28,312;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-04 09:29:34,476;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-04 09:29:34,877;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-04 09:29:35,126;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-04 09:29:36,036;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-04 09:29:57,496;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-04 09:29:57,551;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-04 09:30:03,420;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-04 09:30:03,744;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-04 09:30:03,986;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-04 09:30:04,884;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0

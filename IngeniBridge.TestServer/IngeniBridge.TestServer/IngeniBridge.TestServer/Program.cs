@@ -16,6 +16,7 @@ using System.Runtime.Serialization;
 using IngeniBridge.Core.Service;
 using System.Runtime.Serialization.Formatters;
 using IngeniBridge.Core.Mining;
+using IngeniBridge.Core.StagingData;
 
 namespace IngeniBridge.TestServer
 {
@@ -90,9 +91,9 @@ namespace IngeniBridge.TestServer
         static void MethodMapping ( HttpClient client, string buf )
         {
             log.Info ( "MethodMapping ==============================" );
-            Task<HttpResponseMessage> response = client.GetAsync ( url + "/DotnetAssembly" );
-            byte [] datamodelbuffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
-            Assembly DataModelAssembly = Assembly.Load ( datamodelbuffer );
+            Task<HttpResponseMessage> response = client.GetAsync ( url + "/DataModel" );
+            byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
+            Assembly DataModelAssembly = Serializer.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             ContextedData [] cds = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf );
             cds.All ( cd =>

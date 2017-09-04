@@ -394,6 +394,22 @@
             The data found
             </summary>
         </member>
+        <member name="T:IngeniBridge.Core.StagingData.AssemblyResolver">
+            <summary>
+            This is the assembly resolver in case to stream the datamodel on the client
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.AssemblyResolver.Inintialize">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.AssemblyResolver.AddAssembly(System.Reflection.Assembly)">
+            <summary>
+            Call tis method just after calling Load agqinst the streamed data model
+            </summary>
+            <param name="assembly"></param>
+        </member>
         <member name="T:IngeniBridge.Core.StagingData.DataModelVersion">
             <summary>
             This class provides complete versioning for a data model tree
@@ -536,6 +552,13 @@
             </summary>
             <param name="filename">The input file</param>
             <returns>The version information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.RebuildDataModel(System.Byte[])">
+            <summary>
+            This method rebuilds the data model from stream fron IngeniBridge server
+            </summary>
+            <param name="buffer"></param>
+            <returns></returns>
         </member>
         <member name="T:IngeniBridge.Core.TimedData">
             <summary>
