@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets.cs" />
+    <Compile Include="InfluenceZone.cs" />
     <Compile Include="Measure.cs" />
     <Compile Include="Equipment.cs" />
     <Compile Include="Nomenclatures.cs" />

@@ -16,3 +16,20 @@
 2017-08-29 15:36:17,299;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
 2017-08-29 15:36:17,299;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.4.28071
 2017-08-29 15:36:18,862;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-09-12 09:52:41,848;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-12 09:52:41,887;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-12 09:52:41,888;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.5.17777
+2017-09-12 09:53:17,624;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-12 09:53:17,658;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-12 09:53:17,658;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.5.17777
+2017-09-12 09:55:47,787;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-12 09:55:47,859;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-12 09:55:47,859;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.5.17777
+2017-09-12 09:57:57,452;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-12 09:57:57,480;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-12 09:57:57,480;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.5.17937
+2017-09-12 09:57:57,824;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-09-12 09:58:46,747;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-12 09:58:46,798;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-12 09:58:46,798;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.6.17962
+2017-09-12 09:58:47,128;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0

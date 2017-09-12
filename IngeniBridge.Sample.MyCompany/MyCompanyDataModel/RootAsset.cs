@@ -11,6 +11,7 @@ namespace MyCompanyDataModel
     [RootAsset]
     public class MyCompanyRootAsset : Asset
     {
+        public InfluenceZone [] InfluenceZones { get; set; }
         public ProductionSite [] ProductionSites { get; set; }
     }
 }

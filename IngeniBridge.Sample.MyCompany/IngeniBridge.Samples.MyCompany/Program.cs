@@ -42,6 +42,12 @@ namespace IngeniBridge.Samples.MyCompany
                 MyCompanyRootAsset root = new MyCompanyRootAsset () { Code = "Root Asset", Label = "The root of my company's assests and measures" };
                 DataModelFrame frame = new DataModelFrame () { TreeRoot = root };
                 #endregion
+                #region Influence zones
+                InfluenceZone z1 = new InfluenceZone () { Code = "Z1", Label = "Influence Zone 1" };
+                root.AddElementToArray ( z1 );
+                InfluenceZone z2 = new InfluenceZone () { Code = "Z2", Label = "Influence Zone 2" };
+                root.AddElementToArray ( z2 );
+                #endregion
                 #region nomenclatures
                 Dictionary<string, TypeOfMeasure> measures = new Dictionary<string, TypeOfMeasure> ();
                 measures.Add ( "TMP", new TypeOfMeasure () { Code = "TMP", Label = "Temperature ", Unit = "°C" } );
@@ -63,15 +69,15 @@ namespace IngeniBridge.Samples.MyCompany
                 root.AddElementToArray ( siteParis );
                 ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = sectors [ "S" ], Organization = orgas [ "O2" ] };
                 root.AddElementToArray ( siteLivry );
-                GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
+                GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001", InfluenceZone = z1 };
                 siteParis.AddElementToArray ( grouppumps );
                 PressureSensor iot1 = new PressureSensor () { Code = "PS 001", TelephoneNumber = "0123456789" };
                 grouppumps.AddElementToArray ( iot1 );
-                WaterPump wp1 = new WaterPump () { Code = "WP 001" };
+                WaterPump wp1 = new WaterPump () { Code = "WP 001", InfluenceZone = z2 };
                 grouppumps.AddElementToArray ( wp1 );
-                WaterPump wp2 = new WaterPump () { Code = "WP 002" };
+                WaterPump wp2 = new WaterPump () { Code = "WP 002", InfluenceZone = z1 };
                 grouppumps.AddElementToArray ( wp2 );
-                ClorineInjector cl1 = new ClorineInjector () { Code = "CI 001" };
+                ClorineInjector cl1 = new ClorineInjector () { Code = "CI 001", InfluenceZone = z2 };
                 siteLivry.AddElementToArray (  cl1 );
                 MultiFunctionSensor iot2 = new MultiFunctionSensor () { Code = "MFS 001", TelephoneNumber = "1234567890" };
                 cl1.AddElementToArray ( iot2 );

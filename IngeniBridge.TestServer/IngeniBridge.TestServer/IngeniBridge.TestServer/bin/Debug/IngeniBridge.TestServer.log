@@ -106,3 +106,73 @@
 2017-09-04 09:30:03,744;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
 2017-09-04 09:30:03,986;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2017-09-04 09:30:04,884;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-07 12:34:07,802;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-07 12:34:07,883;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-07 12:34:14,807;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-07 12:34:16,882;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-07 12:34:17,162;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-07 12:34:18,030;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-07 12:34:56,971;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-07 12:34:57,041;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-07 12:35:03,263;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-07 12:35:03,332;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-07 12:35:03,597;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-07 12:35:04,242;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-07 12:36:32,965;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-07 12:36:33,010;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-07 12:36:39,436;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-07 12:36:39,495;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-07 12:36:39,715;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-07 12:36:40,419;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-07 12:37:01,576;[8];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-07 12:37:01,656;[8];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-07 12:37:08,649;[8];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-07 12:37:08,849;[8];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-07 12:37:09,183;[8];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-07 12:37:38,008;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-07 12:37:38,052;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-07 12:37:44,490;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-07 12:37:44,558;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-07 12:37:44,843;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-07 12:37:45,512;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-12 10:44:55,707;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-12 10:44:55,761;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-12 10:45:02,655;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-12 10:45:02,959;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-12 10:45:03,199;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-12 10:45:04,098;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-09-12 10:45:04,447;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonSerializationException = Error resolving type specified in JSON 'System.Web.Http.HttpError, System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. Path '$type', line 2, position 122.
+2017-09-12 10:45:04,451;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2017-09-12 10:46:33,499;[8];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-12 10:46:33,572;[8];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-12 10:46:43,082;[8];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-12 10:46:43,416;[8];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-12 10:46:43,713;[8];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2017-09-12 10:46:43,713;[8];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2017-09-12 10:47:04,078;[10];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-12 10:47:04,167;[10];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-12 10:47:11,334;[10];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-12 10:47:11,579;[10];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-12 10:47:11,839;[10];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-12 10:47:20,842;[10];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-09-12 10:48:41,537;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-12 10:48:41,577;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-12 10:48:49,263;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-12 10:48:49,444;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-12 10:48:49,659;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-12 10:48:50,443;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-09-12 10:48:50,739;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-12 10:49:38,691;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-12 10:49:38,725;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-12 10:49:45,663;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-12 10:49:45,835;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-12 10:49:46,030;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-12 10:49:46,803;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-09-12 10:49:47,098;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-09-12 10:51:40,932;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-09-12 10:51:40,969;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-09-12 10:51:47,422;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-09-12 10:51:47,596;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-09-12 10:51:47,804;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-09-12 10:51:48,580;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-09-12 10:51:48,875;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0

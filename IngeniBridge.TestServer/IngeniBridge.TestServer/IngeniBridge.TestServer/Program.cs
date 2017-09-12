@@ -50,10 +50,14 @@ namespace IngeniBridge.TestServer
                 var byteArray = Encoding.ASCII.GetBytes ( login + ":" + password );
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ( "Basic", Convert.ToBase64String ( byteArray ) );
                 log.Info ( "Connecting => " + url );
-                Task<HttpResponseMessage> response = client.GetAsync ( url + "/REST/RetrieveDatas?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" );
+                Task<HttpResponseMessage> response = client.GetAsync ( url + "/REST/RetrieveDatas?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
                 string buf = response.Result.Content.ReadAsStringAsync ().Result;
                 MethodREST ( client, buf );
                 MethodMapping ( client, buf );
+                // here find data from Historian reference EXTREF 004, the acquisistion platform detected an exceeding threshold, now we must correlate this alarm with an existing alarm
+                response = client.GetAsync ( url + "/REST/RetrieveDatas?CorrelationCriteria=TimedData.ScadaExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" ); 
+                buf = response.Result.Content.ReadAsStringAsync ().Result;
+                CorrelationInfluenceZoneBusinessUseCase ( client, buf );
             }
             catch ( Exception e )
             {
@@ -103,14 +107,49 @@ namespace IngeniBridge.TestServer
                 Console.WriteLine ();
                 Console.Write ( "Type => " + cd.Data.GetType () .FullName + "\n" );
                 Console.Write ( "Code => " + cd.Data.Code + "\n" );
+                Console.WriteLine ();
                 EntityMetaDescription emd = helper.GetMetaDataFromType ( cd.Data.GetType () );
                 helper.ParseEntityAttributes ( cd.Data, ( attribute, val ) =>
                 {
                     Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType () .Name + ") => " + val.ToString () + "\n" );
                     return ( true );
                 }, true, true, true );
+                object [] vals = helper.RetrieveValuesFromType ( cd.Data, "TypeOfMeasure" );
+                if ( vals?.Count () > 0 ) Console.WriteLine ( "Found type TypeOfMeasure in object, value is => " + helper.RetrieveCodeValueFromEntity ( vals [ 0 ] ) );
                 return ( true );
             } );
+        }
+        static void CorrelationInfluenceZoneBusinessUseCase ( HttpClient client, string buf )
+        {
+            log.Info ( "CorrelationInfluenceZoneBusinessUseCase ==============================" );
+            Task<HttpResponseMessage> response = client.GetAsync ( url + "/DataModel" );
+            byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
+            Assembly DataModelAssembly = Serializer.RebuildDataModel ( buffer );
+            MetaHelper helper = new MetaHelper ( DataModelAssembly );
+            ContextedData cd = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.ScadaExternalReference=EXTREF 004
+            //
+            // the business use case states that:
+            // - correlating two alarms should be made on the influence zone (the same influence zone for 2 or more alarms)
+            // - the influence zone is set on an equipement asset but that could change as the metamodel gets more accurate
+            // - the influence zone is set on a parent of the data but the exact position is variable is a data come from an iot or from from an equipement or any other case
+            //
+            // conclusion:
+            // - reading the use case specification, identifying the influence zone for correlation should be made using discovery features of IngeniBridge
+            // 
+            // now find influence zone for correlation
+            string influencezonecode = "";
+            string path = "";
+            cd.Parents.Reverse ().All ( parent => 
+            {
+                path += parent.Code + "\\";
+                response = client.GetAsync ( url + "/REST/RetrieveAsset?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
+                buf = response.Result.Content.ReadAsStringAsync ().Result;
+                ContextedAsset ca = ContextedAssetSerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
+                object [] vals = helper.RetrieveValuesFromType ( ca.Asset, "InfluenceZone" );
+                if ( vals?.Count () > 0 ) influencezonecode = helper.RetrieveCodeValueFromEntity ( vals [ 0 ] );
+                return ( influencezonecode.Length == 0 );
+            } );
+            Console.WriteLine ( "Influence Zone found = " + influencezonecode );
         }
     }
 }

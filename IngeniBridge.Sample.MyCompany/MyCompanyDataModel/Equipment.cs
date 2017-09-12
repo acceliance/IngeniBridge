@@ -11,6 +11,8 @@ namespace MyCompanyDataModel
     {
         public Equipment [] SubEquipments { get; set; }
         public IOT [] IOTs { get; set; }
+        [ExternalReference]
+        public InfluenceZone InfluenceZone { get; set; }
     }
     public class GroupOfPumps : Equipment
     {
