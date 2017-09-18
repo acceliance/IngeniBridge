@@ -33,3 +33,11 @@
 2017-09-12 09:58:46,798;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
 2017-09-12 09:58:46,798;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.6.17962
 2017-09-12 09:58:47,128;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-09-18 09:00:41,738;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-18 09:00:41,827;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-18 09:00:41,828;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.6.16219
+2017-09-18 09:00:44,282;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-09-18 09:05:05,267;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-09-18 09:05:05,306;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-09-18 09:05:05,307;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.6.16351
+2017-09-18 09:05:07,219;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0

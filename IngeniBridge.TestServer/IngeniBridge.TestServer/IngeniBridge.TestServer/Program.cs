@@ -109,13 +109,13 @@ namespace IngeniBridge.TestServer
                 Console.Write ( "Code => " + cd.Data.Code + "\n" );
                 Console.WriteLine ();
                 EntityMetaDescription emd = helper.GetMetaDataFromType ( cd.Data.GetType () );
-                helper.ParseEntityAttributes ( cd.Data, ( attribute, val ) =>
+                helper.ParseAttributes ( cd.Data, ( attribute, val ) =>
                 {
                     Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType () .Name + ") => " + val.ToString () + "\n" );
                     return ( true );
                 }, true, true, true );
                 object [] vals = helper.RetrieveValuesFromType ( cd.Data, "TypeOfMeasure" );
-                if ( vals?.Count () > 0 ) Console.WriteLine ( "Found type TypeOfMeasure in object, value is => " + helper.RetrieveCodeValueFromEntity ( vals [ 0 ] ) );
+                if ( vals?.Count () > 0 ) Console.WriteLine ( "Found type TypeOfMeasure in object, value is => " + helper.RetrieveCodeValue ( vals [ 0 ] ) );
                 return ( true );
             } );
         }
@@ -134,9 +134,11 @@ namespace IngeniBridge.TestServer
             // - the influence zone is set on a parent of the data but the exact position is variable is a data come from an iot or from from an equipement or any other case
             //
             // conclusion:
-            // - reading the use case specification, identifying the influence zone for correlation should be made using discovery features of IngeniBridge
+            // - reading the use case specification, to identify the influence zone for correlation it needs to make use of discovery features of IngeniBridge
             // 
-            // now find influence zone for correlation
+            // now see code below find influence zone for correlation
+            //
+            // IngeniBridge is fully metadata driven platform
             string influencezonecode = "";
             string path = "";
             cd.Parents.Reverse ().All ( parent => 
@@ -146,7 +148,7 @@ namespace IngeniBridge.TestServer
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
                 ContextedAsset ca = ContextedAssetSerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
                 object [] vals = helper.RetrieveValuesFromType ( ca.Asset, "InfluenceZone" );
-                if ( vals?.Count () > 0 ) influencezonecode = helper.RetrieveCodeValueFromEntity ( vals [ 0 ] );
+                if ( vals?.Count () > 0 ) influencezonecode = helper.RetrieveCodeValue ( vals [ 0 ] );
                 return ( influencezonecode.Length == 0 );
             } );
             Console.WriteLine ( "Influence Zone found = " + influencezonecode );

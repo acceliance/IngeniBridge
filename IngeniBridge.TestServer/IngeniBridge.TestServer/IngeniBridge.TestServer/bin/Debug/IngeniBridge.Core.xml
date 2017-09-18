@@ -400,21 +400,6 @@
             </summary>
             <returns>The string</returns>
         </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.MasterDataCodeAttribute">
-            <summary>
-            Code
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.MasterDataLabelAttribute">
-            <summary>
-            Label
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IgnoreInDataModelAttribute">
-            <summary>
-            Property is ignored in the data model
-            </summary>
-        </member>
         <member name="T:IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute">
             <summary>
             Root entity
@@ -583,7 +568,17 @@
             <param name="propertyname">Property name</param>
             <returns>The value</returns>
         </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveCodeValueFromEntity(System.Object)">
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveValuesFromType(System.Object,System.String,System.Boolean,System.String)">
+            <summary>
+            This method retrieves the properties of specified type
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="typename">Type name as a string</param>
+            <param name="isarray">Looking for array property ?</param>
+            <param name="propertyname">The property name if specified</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveCodeValue(System.Object)">
             <summary>
             This method retrieves the code property value from an entity
             </summary>
@@ -644,7 +639,7 @@
             <param name="hp">Callback to properties, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty"/></param>
             <param name="externalrefsasproperties">return external references as properties</param>
         </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleEntityAttribute">
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute">
             <summary>
             Notifies attributes values
             </summary>
@@ -652,12 +647,12 @@
             <param name="val">Value</param>
             <returns></returns>
         </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseEntityAttributes(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleEntityAttribute,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseAttributes(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
             <summary>
             This method parses all nomenclatures and external references if specified
             </summary>
             <param name="entityinstance">Entity</param>
-            <param name="hea">Callback to attributes, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleEntityAttribute"/></param>
+            <param name="ha">Callback to attributes, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute"/></param>
             <param name="includeexternalentities">return external references as properties</param>
             <param name="includenomenclatures">return nomenclatures as properties</param>
             <param name="includeentities">return links to entities as properties</param>

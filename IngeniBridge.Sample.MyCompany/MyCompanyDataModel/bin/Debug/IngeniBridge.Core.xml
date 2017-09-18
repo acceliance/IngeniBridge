@@ -55,14 +55,14 @@
             <param name="frame">The frame contaning the tree root node</param>
             <param name="hara">A callback to be notified of missing externally references assets</param>
         </member>
-        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedPatrimoineByHashCode(System.Int32)">
+        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByHashCode(System.Int32)">
             <summary>
             This method fast finds an asset by hash code
             </summary>
             <param name="HashCode">The asset hash code</param>
             <returns></returns>
         </member>
-        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedPatrimoineByPath(System.String)">
+        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByPath(System.String)">
             <summary>
             This method fast finds an asset by tree path
             </summary>
@@ -304,6 +304,481 @@
             <param name="hda"></param>
             <param name="hdn"></param>
         </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.AttributeMetaDescription">
+            <summary>
+            This class contains meta information about a property into an entity
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.META_ATTRIBUTE_DESCRIPTION">
+            <summary>
+            Description field name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsArray">
+            <summary>
+            Indicates if array
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsEnum">
+            <summary>
+            Indicates if enum
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsScadaExternalReference">
+            <summary>
+            Indicates if scada reference
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalReference">
+            <summary>
+            Indicates if external reference
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsDescriptionField">
+            <summary>
+            Indicates if description field
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DeclaringEntityType">
+            <summary>
+            Entity declaring this attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeType">
+            <summary>
+            Type of the attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeName">
+            <summary>
+            Attribute name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NameDesc">
+            <summary>
+            Name description
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NotToDisplay">
+            <summary>
+            Indicates if not to display
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.Unit">
+            <summary>
+            Unit of measure
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxisOnBaseClass">
+            <summary>
+            Indicates if index on base class
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexRefOnlyOnTarget">
+            <summary>
+            Indicates if index only on target
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexPropertyOnParents">
+            <summary>
+            Indicates if a property should be indexed on the parents of the leaf node (in the model, the property propagates on the children nodes) also
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis">
+            <summary>
+            Functional axis to add for this attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexEntityAttribute">
+            <summary>
+            Index embedded object's specific attribute
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute">
+            <summary>
+            Root entity
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute">
+            <summary>
+            Display name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ScadaExternalReferenceAttribute">
+            <summary>
+            Property containg external SCADA reference
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute">
+            <summary>
+            Property is referencing a foreign entity into the data model tree
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute">
+            <summary>
+            Add functional axis on base class
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute">
+            <summary>
+            Add functional axis
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute">
+            <summary>
+            Index property only on target node
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute">
+            <summary>
+            Unit attribute for data
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="unit"></param>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.Unit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute">
+            <summary>
+            Flag to indicated not to display property
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute">
+            <summary>
+            Flag to deactivate indexation on this entity
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexPropertyOnParentsAttribute">
+            <summary>
+            This flag indicates if a property should be indexed on the parents of the leaf node (in the model, the property propagates on the children nodes) also
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute">
+            <summary>
+            This flag indicates if an embedded entity attribute should be indexed on the container, used to enrich index with more info
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="attributename"></param>
+            <param name="functionalaxisname"></param>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.AttributeName">
+            <summary>
+            The attribute name withinh the contained Nomenclature or Entity wich must be external or Nomenclature
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.FunctionalAxisName">
+            <summary>
+            Functional axis name, optional
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper">
+            <summary>
+            This class contains meta data servicesfor the data model 
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.IsIngeniBridgeType(System.Type)">
+            <summary>
+            This method indicate if a type is IngeniBridge compliant
+            </summary>
+            <param name="t">The type</param>
+            <returns>true if yes else no</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaDataFromType(System.Type)">
+            <summary>
+            This method returns meta data describing an entity type
+            </summary>
+            <param name="t">The type</param>
+            <returns>Meta data information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaDataFromName(System.String)">
+            <summary>
+            This method returns meta data describing an entity type
+            </summary>
+            <param name="name">The entity type name</param>
+            <returns>>Meta data information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaData">
+            <summary>
+            This method retrieves all meta data for the model
+            </summary>
+            <returns>a list of meta data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetEnumTypes">
+            <summary>
+            This method retrieves the enum types in the model
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetInheritanceMetaData">
+            <summary>
+            This method builds a tree of inheritance meta data
+            </summary>
+            <returns>>a list of meta data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.LoadMetaDataForEntityModeling">
+            <summary>
+            This method loads all meta data information from a data model assembly
+            </summary>
+            <returns>Meta data information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveValueFromDataName(System.Object,System.String)">
+            <summary>
+            This method retrieves a property value 
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="propertyname">Property name</param>
+            <returns>The value</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveValuesFromType(System.Object,System.String,System.Boolean,System.String)">
+            <summary>
+            This method retrieves the properties of specified type
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="typename">Type name as a string</param>
+            <param name="isarray">Looking for array property ?</param>
+            <param name="propertyname">The property name if specified</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveCodeValue(System.Object)">
+            <summary>
+            This method retrieves the code property value from an entity
+            </summary>
+            <param name="entityinstance">The entity</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.SetValueFromDataName(System.Object,System.String,System.Object)">
+            <summary>
+            This method set a property value 
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="propertyname">Property name</param>
+            <param name="value">The vaue</param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetTypes">
+            <summary>
+            This method converts meta data to actual type
+            </summary>
+            <param name="mdvs">Meta data information</param>
+            <returns>Types</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1">
+            <summary>
+            Notifies linked entities from entity
+            </summary>
+            <typeparam name="ENTITYTYPE">Entity type, applies also to derivated entity types</typeparam>
+            <param name="entity"></param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseLinkedEntities``1(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity{``0},System.Boolean)">
+            <summary>
+            This method parses linked entities
+            </summary>
+            <typeparam name="ENTITYTYPE">Entity type, applies also to derivated entity types</typeparam>
+            <param name="entityinstance">Entity</param>
+            <param name="hle">Callback to linked entities, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1"/></param>
+            <param name="withexternalrefs">indicates wether to return external refs as well</param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseLinkedEntities(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity{System.Object},System.Boolean)">
+            <summary>
+            This method parses all linked entities (Asset and Nomenclature)
+            </summary>
+            <param name="entityinstance">Entity</param>
+            <param name="hle">Callback to linked entities, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1"/></param>
+            <param name="withexternalrefs">indicates wether to return external refs as well</param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty">
+            <summary>
+            Notifies properties values
+            </summary>
+            <param name="property">Property name</param>
+            <param name="val">Value</param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParsePropertiesAndLinks(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty,System.Boolean)">
+            <summary>
+            This method parses all nomenclatures and external references if specified
+            </summary>
+            <param name="entityinstance">Entity</param>
+            <param name="hp">Callback to properties, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty"/></param>
+            <param name="externalrefsasproperties">return external references as properties</param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute">
+            <summary>
+            Notifies attributes values
+            </summary>
+            <param name="attribute">Attribute description</param>
+            <param name="val">Value</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseAttributes(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            This method parses all nomenclatures and external references if specified
+            </summary>
+            <param name="entityinstance">Entity</param>
+            <param name="ha">Callback to attributes, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute"/></param>
+            <param name="includeexternalentities">return external references as properties</param>
+            <param name="includenomenclatures">return nomenclatures as properties</param>
+            <param name="includeentities">return links to entities as properties</param>
+            <param name="includedatas">return datas as properties</param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.EntityMetaDescription">
+            <summary>
+            This class represents the meta information on an IngeniBridge entity
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum">
+            <summary>
+            Entity kind
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimedData">
+            <summary>
+            Data, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimedData"/>
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset">
+            <summary>
+            Asset, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset"/>
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature">
+            <summary>
+            Nomenclature, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature"/>
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsRoot">
+            <summary>
+            Indicates if entity is root in the data model
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKind">
+            <summary>
+            Entity kind
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityType">
+            <summary>
+            .Net type of the entity
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodeProperty">
+            <summary>
+            Attribute meta information for code
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelProperty">
+            <summary>
+            Attribute meta information for label
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodePropertyName">
+            <summary>
+            Name of code property
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.DoNotIndexEntity">
+            <summary>
+            Indicates if entity must not be indexed
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelPropertyName">
+            <summary>
+            Name of label property
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.Properties">
+            <summary>
+            Properties in the entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToEntity">
+            <summary>
+            Entities linked with the entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToNomenclature">
+            <summary>
+            Nomenclatures linked with the entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinks">
+            <summary>
+            Merged link of entities and nomenclatures
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinks">
+            <summary>
+            Link to all data
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinksButTimedDatas">
+            <summary>
+            Link to all data but timed datas
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntities">
+            <summary>
+            Link to only external entities
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.BaseEntityType">
+            <summary>
+            Type of base entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityDisplayName">
+            <summary>
+            Display name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityName">
+            <summary>
+            Entity name
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.EntityMetaDescription.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
         <member name="T:IngeniBridge.Core.Mining.ContextedAssetSerializer">
             <summary>
             This class contains services to serialize and deseiralize results form the webservice
@@ -337,12 +812,26 @@
             <param name="ser">The stream string</param>
             <returns>The contexted asset</returns>
         </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedAssetsFromString(System.String)">
+            <summary>
+            This method deserializes a multiple contexted asset (from the Ingenibridge REST server)
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted assets</returns>
+        </member>
         <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedDataFromString(System.String)">
             <summary>
             This method deserializes a contexted data
             </summary>
             <param name="ser">The stream string</param>
             <returns>The contexted data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedDatasFromString(System.String)">
+            <summary>
+            This method deserializes a multiple contexted data (from the Ingenibridge REST server)
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted datas</returns>
         </member>
         <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.ParameterizeJsonSetting(Newtonsoft.Json.JsonSerializerSettings)">
             <summary>
@@ -379,6 +868,22 @@
             <summary>
             The data found
             </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.StagingData.AssemblyResolver">
+            <summary>
+            This is the assembly resolver in case to stream the datamodel on the client
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.AssemblyResolver.Inintialize">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.AssemblyResolver.AddAssembly(System.Reflection.Assembly)">
+            <summary>
+            Call tis method just after calling Load agqinst the streamed data model
+            </summary>
+            <param name="assembly"></param>
         </member>
         <member name="T:IngeniBridge.Core.StagingData.DataModelVersion">
             <summary>
@@ -478,6 +983,11 @@
             Assembly used for the data model
             </summary>
         </member>
+        <member name="P:IngeniBridge.Core.StagingData.Serializer.DataModelAssemblyBuffer">
+            <summary>
+            Assembly bytes
+            </summary>
+        </member>
         <member name="M:IngeniBridge.Core.StagingData.Serializer.SerializeTree(System.IO.Stream)">
             <summary>
             This method serializes the data model
@@ -517,6 +1027,13 @@
             </summary>
             <param name="filename">The input file</param>
             <returns>The version information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.RebuildDataModel(System.Byte[])">
+            <summary>
+            This method rebuilds the data model from stream fron IngeniBridge server
+            </summary>
+            <param name="buffer"></param>
+            <returns></returns>
         </member>
         <member name="T:IngeniBridge.Core.TimedData">
             <summary>
@@ -699,469 +1216,6 @@
             <summary>
             
             </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.MasterDataCodeAttribute">
-            <summary>
-            Code
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.MasterDataLabelAttribute">
-            <summary>
-            Label
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IgnoreInDataModelAttribute">
-            <summary>
-            Property is ignored in the data model
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute">
-            <summary>
-            Root entity
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute">
-            <summary>
-            Display name
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.Name">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.#ctor(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="name"></param>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ScadaExternalReferenceAttribute">
-            <summary>
-            Property containg external SCADA reference
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute">
-            <summary>
-            Property is referencing a foreign entity into the data model tree
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute">
-            <summary>
-            Add functional axis on base class
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute">
-            <summary>
-            Add functional axis
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.Name">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.#ctor(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="name"></param>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute">
-            <summary>
-            Index property only on target node
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute">
-            <summary>
-            Unit attribute for data
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.#ctor(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="unit"></param>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.Unit">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute">
-            <summary>
-            Flag to indicated not to display property
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute">
-            <summary>
-            Flag to deactivate indexation on this entity
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexPropertyOnParentsAttribute">
-            <summary>
-            This flag indicates if a property should be indexed on the parents of the leaf node (in the model, the property propagates on the children nodes) also
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexPropertyOnParentAttribute">
-            <summary>
-            This flag indicates if a property should be indexed on the immediate parent of the leaf node (in the model, the property propagates on the first level only children nodes) also
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper">
-            <summary>
-            This class contains meta data servicesfor the data model 
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.IsIngeniBridgeType(System.Type)">
-            <summary>
-            This method indicate if a type is IngeniBridge compliant
-            </summary>
-            <param name="t">The type</param>
-            <returns>true if yes else no</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaDataFromType(System.Type)">
-            <summary>
-            This method returns meta data describing an entity type
-            </summary>
-            <param name="t">The type</param>
-            <returns>Meta data information</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaDataFromName(System.String)">
-            <summary>
-            This method returns meta data describing an entity type
-            </summary>
-            <param name="name">The entity type name</param>
-            <returns>>Meta data information</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaData">
-            <summary>
-            This method retrieves all meta data for the model
-            </summary>
-            <returns>a list of meta data</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetEnumTypes">
-            <summary>
-            This method retrieves the enum types in the model
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetInheritanceMetaData">
-            <summary>
-            This method builds a tree of inheritance meta data
-            </summary>
-            <returns>>a list of meta data</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.LoadMetaDataForEntityModeling">
-            <summary>
-            This method loads all meta data information from a data model assembly
-            </summary>
-            <returns>Meta data information</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveValueFromDataName(System.Object,System.String)">
-            <summary>
-            This method retrieves a property value 
-            </summary>
-            <param name="objectinstance">Entity instance</param>
-            <param name="propertyname">Property name</param>
-            <returns>The value</returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveCodeValueFromEntity(System.Object)">
-            <summary>
-            This method retrieves the code property value from an entity
-            </summary>
-            <param name="entityinstance">The entity</param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.SetValueFromDataName(System.Object,System.String,System.Object)">
-            <summary>
-            This method set a property value 
-            </summary>
-            <param name="objectinstance">Entity instance</param>
-            <param name="propertyname">Property name</param>
-            <param name="value">The vaue</param>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetTypes">
-            <summary>
-            This method converts meta data to actual type
-            </summary>
-            <param name="mdvs">Meta data information</param>
-            <returns>Types</returns>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1">
-            <summary>
-            Notifies linked entities from entity
-            </summary>
-            <typeparam name="ENTITYTYPE">Entity type, applies also to derivated entity types</typeparam>
-            <param name="entity"></param>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseLinkedEntities``1(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity{``0},System.Boolean)">
-            <summary>
-            This method parses linked entities
-            </summary>
-            <typeparam name="ENTITYTYPE">Entity type, applies also to derivated entity types</typeparam>
-            <param name="entityinstance">Entity</param>
-            <param name="hle">Callback to linked entities, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1"/></param>
-            <param name="withexternalrefs">indicates wether to return external refs as well</param>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseLinkedEntities(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity{System.Object},System.Boolean)">
-            <summary>
-            This method parses all linked entities (Asset and Nomenclature)
-            </summary>
-            <param name="entityinstance">Entity</param>
-            <param name="hle">Callback to linked entities, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1"/></param>
-            <param name="withexternalrefs">indicates wether to return external refs as well</param>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty">
-            <summary>
-            Notifies properties values
-            </summary>
-            <param name="property">Property name</param>
-            <param name="val">Value</param>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParsePropertiesAndLinks(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty,System.Boolean)">
-            <summary>
-            This method parses all nomenclatures and external references if specified
-            </summary>
-            <param name="entityinstance">Entity</param>
-            <param name="hp">Callback to properties, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty"/></param>
-            <param name="externalrefsasproperties">return external references as properties</param>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleEntityAttribute">
-            <summary>
-            Notifies attributes values
-            </summary>
-            <param name="attribute">Attribute description</param>
-            <param name="val">Value</param>
-            <returns></returns>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseEntityAttributes(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleEntityAttribute,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
-            <summary>
-            This method parses all nomenclatures and external references if specified
-            </summary>
-            <param name="entityinstance">Entity</param>
-            <param name="hea">Callback to attributes, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleEntityAttribute"/></param>
-            <param name="includeexternalentities">return external references as properties</param>
-            <param name="includenomenclatures">return nomenclatures as properties</param>
-            <param name="includeentities">return links to entities as properties</param>
-            <param name="includedatas">return datas as properties</param>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.EntityMetaDescription">
-            <summary>
-            This class represents the meta information on an IngeniBridge entity
-            </summary>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum">
-            <summary>
-            Entity kind
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimedData">
-            <summary>
-            Data, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimedData"/>
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset">
-            <summary>
-            Asset, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset"/>
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature">
-            <summary>
-            Nomenclature, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature"/>
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsRoot">
-            <summary>
-            Indicates if entity is root in the data model
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKind">
-            <summary>
-            Entity kind
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityType">
-            <summary>
-            .Net type of the entity
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodeProperty">
-            <summary>
-            Attribute meta information for code
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelProperty">
-            <summary>
-            Attribute meta information for label
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodePropertyName">
-            <summary>
-            Name of code property
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.DoNotIndexEntity">
-            <summary>
-            Indicates if entity must not be indexed
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelPropertyName">
-            <summary>
-            Name of label property
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.Properties">
-            <summary>
-            Properties in the entity
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToEntity">
-            <summary>
-            Entities linked with the entity
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToNomenclature">
-            <summary>
-            Nomenclatures linked with the entity
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinks">
-            <summary>
-            Merged link of entities and nomenclatures
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinks">
-            <summary>
-            Link to all data
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinksButTimedDatas">
-            <summary>
-            Link to all data but timed datas
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntities">
-            <summary>
-            Link to only external entities
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.BaseEntityType">
-            <summary>
-            Type of base entity
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityDisplayName">
-            <summary>
-            Display name
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityName">
-            <summary>
-            Entity name
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.EntityMetaDescription.ToString">
-            <summary>
-            Converts to string
-            </summary>
-            <returns>The string</returns>
-        </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.AttributeMetaDescription">
-            <summary>
-            This class contains meta information about a property into an entity
-            </summary>
-        </member>
-        <member name="F:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.META_ATTRIBUTE_DESCRIPTION">
-            <summary>
-            Description field name
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsArray">
-            <summary>
-            Indicates if array
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsEnum">
-            <summary>
-            Indicates if enum
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsScadaExternalReference">
-            <summary>
-            Indicates if scada reference
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalReference">
-            <summary>
-            Indicates if external reference
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsDescriptionField">
-            <summary>
-            Indicates if description field
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DeclaringEntityType">
-            <summary>
-            Entity declaring this attribute
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeType">
-            <summary>
-            Type of the attribute
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeName">
-            <summary>
-            Attribute name
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NameDesc">
-            <summary>
-            Name description
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxisOnBaseClass">
-            <summary>
-            Indicates if index on base class
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexRefOnlyOnTarget">
-            <summary>
-            Indicates if index only on target
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexPropertyOnParents">
-            <summary>
-            Indicates if a property should be indexed on the parents of the leaf node (in the model, the property propagates on the children nodes) also
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.CreateEmbeddingNode">
-            <summary>
-            Indicates if create embedding node
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NotToDisplay">
-            <summary>
-            Indicates if not to display
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.Unit">
-            <summary>
-            Unit of measure
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis">
-            <summary>
-            Functional axis to add for this attribute
-            </summary>
-        </member>
-        <member name="M:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString">
-            <summary>
-            Converts to string
-            </summary>
-            <returns>The string</returns>
         </member>
         <member name="T:IngeniBridge.Core.Nomenclature">
             <summary>

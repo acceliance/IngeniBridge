@@ -1,0 +1,20 @@
+2017-09-18 09:01:41,273;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;IngeniBridge.GenerateFullInventory v1.0.0.16244 -- Copyright © 2016 Deagital
+2017-09-18 09:01:41,311;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;INgeniBridgeDBFile => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_07_27.ibdb
+2017-09-18 09:01:41,311;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;InventoryFilee => InventoryFileIB.xlsx
+2017-09-18 09:01:41,326;[1];ERROR;IngeniBridge.GenerateFullInventory.Program;System.IO.FileNotFoundException: Le fichier 'C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_07_27.ibdb' est introuvable.
+Nom de fichier : 'C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_07_27.ibdb'
+   à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   à System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   à System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   à IngeniBridge.Core.StagingData.Serializer.DeserializeTree(String filename)
+   à IngeniBridge.GenerateFullInventory.Program.Main(String[] args) dans C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.GenerateFullInventory\Program.cs:ligne 39
+2017-09-18 09:01:41,341;[1];ERROR;IngeniBridge.GenerateFullInventory.Program;Terminated FAILED.
+2017-09-18 09:02:51,831;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;IngeniBridge.GenerateFullInventory v1.0.0.16244 -- Copyright © 2016 Deagital
+2017-09-18 09:02:51,863;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;INgeniBridgeDBFile => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_09_18.ibdb
+2017-09-18 09:02:51,864;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;InventoryFilee => InventoryFileIB.xlsx
+2017-09-18 09:02:52,670;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Name => MyCompanyDataModel
+2017-09-18 09:02:52,672;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Date => 18/09/2017 09:00:43
+2017-09-18 09:02:52,672;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Major => 1
+2017-09-18 09:02:52,672;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Minor => 0
+2017-09-18 09:02:52,672;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Build => 6
+2017-09-18 09:02:53,432;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;Terminated OK.
