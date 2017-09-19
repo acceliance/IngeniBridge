@@ -141,17 +141,20 @@ namespace IngeniBridge.TestServer
             // IngeniBridge is fully metadata driven platform
             string influencezonecode = "";
             string path = "";
+            // now we loop into each parent to find out the "InfluenceZone" typed attribute
             cd.Parents.Reverse ().All ( parent => 
             {
                 path += parent.Code + "\\";
+                // retrieve the asset object description before using discovery features
                 response = client.GetAsync ( url + "/REST/RetrieveAsset?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
                 ContextedAsset ca = ContextedAssetSerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
+                // now we try to discover the "InfluenceZone" typed attribute
                 object [] vals = helper.RetrieveValuesFromType ( ca.Asset, "InfluenceZone" );
                 if ( vals?.Count () > 0 ) influencezonecode = helper.RetrieveCodeValue ( vals [ 0 ] );
-                return ( influencezonecode.Length == 0 );
+                return ( influencezonecode.Length == 0 ); // stop looping when found
             } );
-            Console.WriteLine ( "Influence Zone found = " + influencezonecode );
+            Console.WriteLine ( "Influence Zone found = " + influencezonecode ); // here we have what we looked for => the influence zone of the acquired timed data reference "EXTREF 004" in the data lake
         }
     }
 }
