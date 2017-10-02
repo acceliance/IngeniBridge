@@ -261,19 +261,21 @@
             </summary>
             <param name="message">The actual message</param>
         </member>
-        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTree(IngeniBridge.Core.StagingData.DataModelFrame,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
+        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTree(IngeniBridge.Core.StagingData.DataModelFrame,System.Boolean,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
             <summary>
             This method launches the tree check
             </summary>
             <param name="frame">The frame containing the data model tree root</param>
+            <param name="testdataviz">dataviz must be tested</param>
             <param name="em">Callback to errors, <seealso cref="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage"/></param>
         </member>
-        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTreeAsync(IngeniBridge.Core.StagingData.DataModelFrame,JT.TechCases.Threading.ThreadPool,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
+        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTreeAsync(IngeniBridge.Core.StagingData.DataModelFrame,JT.TechCases.Threading.ThreadPool,System.Boolean,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
             <summary>
             This method launches the tree check
             </summary>
             <param name="frame">The frame containing the data model tree root</param>
             <param name="tp">The tread pool containing the number of simultanous threads, call WaitAllFinished to wait the async processing</param>
+            <param name="testdataviz">dataviz must be tested</param>
             <param name="em">Callback to errors, <seealso cref="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage"/></param>
         </member>
         <member name="T:IngeniBridge.Core.Diags.Diagnostic">
@@ -322,11 +324,6 @@
         <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsEnum">
             <summary>
             Indicates if enum
-            </summary>
-        </member>
-        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsScadaExternalReference">
-            <summary>
-            Indicates if scada reference
             </summary>
         </member>
         <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalReference">
@@ -421,11 +418,6 @@
             </summary>
             <param name="name"></param>
         </member>
-        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ScadaExternalReferenceAttribute">
-            <summary>
-            Property containg external SCADA reference
-            </summary>
-        </member>
         <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute">
             <summary>
             Property is referencing a foreign entity into the data model tree
@@ -515,6 +507,11 @@
             This class contains meta data servicesfor the data model 
             </summary>
         </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.MetaHelper.DatavizIndexHelper">
+            <summary>
+            returns a Dataviz index helper if implemented in the metamodel
+            </summary>
+        </member>
         <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.IsIngeniBridgeType(System.Type)">
             <summary>
             This method indicate if a type is IngeniBridge compliant
@@ -583,7 +580,14 @@
             This method retrieves the code property value from an entity
             </summary>
             <param name="entityinstance">The entity</param>
-            <returns></returns>
+            <returns>the code value</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveLabelValue(System.Object)">
+            <summary>
+            This method retrieves the label property value from an entity
+            </summary>
+            <param name="entityinstance">The entity</param>
+            <returns>the label value</returns>
         </member>
         <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.SetValueFromDataName(System.Object,System.String,System.Object)">
             <summary>
@@ -805,6 +809,13 @@
             <param name="contexteddata">Contexted data</param>
             <returns>The stream string</returns>
         </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.SerializeDatavizData(IngeniBridge.Core.Service.DatavizData)">
+            <summary>
+            This method is used to serialize a dataviz data
+            </summary>
+            <param name="dvd">dataviz data</param>
+            <returns>The stream string</returns>
+        </member>
         <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedAssetFromString(System.String)">
             <summary>
             This method deserializes a contexted asset
@@ -839,6 +850,19 @@
             </summary>
             <param name="settings"></param>
         </member>
+        <member name="T:IngeniBridge.Core.Mining.IDatavizIndexHelper">
+            <summary>
+            This interface is the Dataviz index contract
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.IDatavizIndexHelper.IndexNode(IngeniBridge.Core.MetaHelper.MetaHelper,IngeniBridge.Core.Iterator.IteratedNode{System.Object})">
+            <summary>
+            Implement this method to index a node
+            </summary>
+            <param name="helper">the helper associated with the metamodel</param>
+            <param name="inode">the iterated node</param>
+            <returns>the actual text to be searched through rest calls</returns>
+        </member>
         <member name="T:IngeniBridge.Core.Service.ContextedAsset">
             <summary>
             Contexted asset returned by the web service
@@ -852,6 +876,11 @@
         <member name="F:IngeniBridge.Core.Service.ContextedAsset.Asset">
             <summary>
             The asset found
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Service.DatavizData">
+            <summary>
+            DatavizData data returned by the web service
             </summary>
         </member>
         <member name="T:IngeniBridge.Core.Service.ContextedData">

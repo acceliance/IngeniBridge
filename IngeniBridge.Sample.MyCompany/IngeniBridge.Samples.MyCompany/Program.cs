@@ -106,7 +106,7 @@ namespace IngeniBridge.Samples.MyCompany
                 #endregion
                 #region check and generation (generic script)
                 TreeChecker tc = new TreeChecker ( metahelper );
-                tc.CheckTree ( frame, message =>
+                tc.CheckTree ( frame, false, message =>
                 {
                     Console.WriteLine ( "error => " + message );
                 } );

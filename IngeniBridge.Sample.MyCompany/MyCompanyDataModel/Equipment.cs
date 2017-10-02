@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyCompanyDataModel
 {
-    public class Equipment : MyCompanyAsset
+    public abstract class Equipment : MyCompanyAsset
     {
         public Equipment [] SubEquipments { get; set; }
         public IOT [] IOTs { get; set; }
@@ -23,7 +23,7 @@ namespace MyCompanyDataModel
     public class ClorineInjector : Equipment
     {
     }
-    public class IOT : MyCompanyAsset
+    public abstract class IOT : MyCompanyAsset
     {
         [IndexPropertyOnParents]
         public string TelephoneNumber { get; set; }

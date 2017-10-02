@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MyCompanyDataModel
 {
     public enum ConsolidationType { None, Average };
-    public class MyCompanyData : TimedData
+    public abstract class MyCompanyData : TimedData
     {
         public ConsolidationType ConsolidationType { get; set; }
         public TypeOfMeasure TypeOfMeasure { get; set; }

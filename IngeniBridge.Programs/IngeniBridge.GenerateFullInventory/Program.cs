@@ -47,7 +47,7 @@ namespace IngeniBridge.GenerateFullInventory
                 log.Info ( "DataModel Version Build => " + dmv.Build.ToString () );
                 TreeChecker tc = new TreeChecker ( helper );
                 Console.WriteLine ( "Verifying the tree..." );
-                tc.CheckTree ( ser.Frame, message => log.Error ( message ) );
+                tc.CheckTree ( ser.Frame, false, message => log.Error ( message ) );
                 FileInfo fi = new FileInfo ( result.Value.InventoryFile );
                 if ( fi.Exists ) fi.Delete ();
                 ExcelPackage xlMatricesPatrimoines = new ExcelPackage ( fi );

@@ -41,3 +41,7 @@
 2017-09-18 09:05:05,306;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
 2017-09-18 09:05:05,307;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.6.16351
 2017-09-18 09:05:07,219;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-10-02 08:27:49,720;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-02 08:27:49,745;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-02 08:27:49,746;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15234
+2017-10-02 08:27:50,077;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0

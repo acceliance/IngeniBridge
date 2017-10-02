@@ -6,3 +6,4 @@
 2017-09-12 10:45:04,447;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonSerializationException = Error resolving type specified in JSON 'System.Web.Http.HttpError, System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. Path '$type', line 2, position 122.
 2017-09-12 10:46:43,713;[8];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
 2017-09-19 08:50:43,027;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.InvalidCastException = Impossible d'effectuer un cast d'un objet de type 'Newtonsoft.Json.Linq.JObject' en type 'Newtonsoft.Json.Linq.JArray'.
+2017-10-02 08:21:43,092;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.InvalidCastException = Impossible d'effectuer un cast d'un objet de type 'Newtonsoft.Json.Linq.JObject' en type 'Newtonsoft.Json.Linq.JArray'.

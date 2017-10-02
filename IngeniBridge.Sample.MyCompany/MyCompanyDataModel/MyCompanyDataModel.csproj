@@ -35,8 +35,8 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IngeniBridge.Core, Version=1.0.24.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.Core.1.0.24\lib\net452\IngeniBridge.Core.dll</HintPath>
+    <Reference Include="IngeniBridge.Core, Version=1.0.25.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.Core.1.0.25\lib\net452\IngeniBridge.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="JT.TechCases.Threading, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets.cs" />
+    <Compile Include="DatavizIndexHelper.cs" />
     <Compile Include="InfluenceZone.cs" />
     <Compile Include="Measure.cs" />
     <Compile Include="Equipment.cs" />
@@ -68,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="FullDataModel.cd" />
+    <None Include="FullDataModel.cd.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

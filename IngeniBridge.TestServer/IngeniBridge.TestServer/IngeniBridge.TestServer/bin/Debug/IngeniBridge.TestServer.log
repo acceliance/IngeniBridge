@@ -203,3 +203,30 @@
 2017-09-19 08:51:30,544;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2017-09-19 08:51:31,169;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
 2017-09-19 08:51:31,232;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-10-02 08:21:31,723;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-10-02 08:21:31,783;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-10-02 08:21:40,476;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-10-02 08:21:42,886;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-10-02 08:21:43,092;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.InvalidCastException = Impossible d'effectuer un cast d'un objet de type 'Newtonsoft.Json.Linq.JObject' en type 'Newtonsoft.Json.Linq.JArray'.
+2017-10-02 08:21:43,093;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2017-10-02 08:22:03,452;[9];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-10-02 08:22:03,548;[9];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-10-02 08:22:10,896;[9];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-10-02 08:22:11,133;[9];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-10-02 08:22:11,831;[9];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-10-02 08:22:12,831;[9];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-10-02 08:22:12,918;[9];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-10-02 08:22:29,560;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-10-02 08:22:29,595;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-10-02 08:22:36,381;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-10-02 08:22:36,442;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-10-02 08:22:36,664;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-10-02 08:22:37,393;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-10-02 08:22:37,454;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2017-10-02 08:28:40,890;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2017-10-02 08:28:40,926;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2017-10-02 08:28:47,327;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2017-10-02 08:28:47,384;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2017-10-02 08:28:47,585;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
+2017-10-02 08:28:48,270;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2017-10-02 08:28:48,339;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
