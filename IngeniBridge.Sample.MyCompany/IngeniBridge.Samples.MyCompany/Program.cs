@@ -13,6 +13,8 @@ using System.Text;
 using System.Threading.Tasks;
 using log4net;
 using System.Diagnostics;
+using System.IO;
+using OfficeOpenXml;
 
 namespace IngeniBridge.Samples.MyCompany
 {
@@ -43,10 +45,18 @@ namespace IngeniBridge.Samples.MyCompany
                 DataModelFrame frame = new DataModelFrame () { TreeRoot = root };
                 #endregion
                 #region Influence zones
-                InfluenceZone z1 = new InfluenceZone () { Code = "Z1", Label = "Influence Zone 1" };
-                root.AddElementToArray ( z1 );
-                InfluenceZone z2 = new InfluenceZone () { Code = "Z2", Label = "Influence Zone 2" };
-                root.AddElementToArray ( z2 );
+                // Here you see how to access an Excel file using the EPPlus package
+                FileInfo fi = new FileInfo ( "..\\..\\Metadata content to consolidate.xlsx" );
+                ExcelPackage xlConsolidate = new ExcelPackage ( fi );
+                ExcelWorksheet wksZones = xlConsolidate.Workbook.Worksheets [ "Influence Zone" ];
+                int line = 2;
+                while ( wksZones.Cells [ line, 1 ].Value != null )
+                {
+                    InfluenceZone iz = new InfluenceZone () { Code = wksZones.Cells [ line, 1 ].Text, Label = wksZones.Cells [ line, 2 ].Text };
+                    root.AddElementToArray ( iz );
+                    line += 1;
+                }
+                xlConsolidate.Dispose ();
                 #endregion
                 #region nomenclatures
                 Dictionary<string, TypeOfMeasure> measures = new Dictionary<string, TypeOfMeasure> ();
@@ -69,15 +79,15 @@ namespace IngeniBridge.Samples.MyCompany
                 root.AddElementToArray ( siteParis );
                 ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = sectors [ "S" ], Organization = orgas [ "O2" ] };
                 root.AddElementToArray ( siteLivry );
-                GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001", InfluenceZone = z1 };
+                GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001", InfluenceZone = root.GetElementFromProperty<InfluenceZone> ( "Z1", "InfluenceZones" ) };
                 siteParis.AddElementToArray ( grouppumps );
                 PressureSensor iot1 = new PressureSensor () { Code = "PS 001", TelephoneNumber = "0123456789" };
                 grouppumps.AddElementToArray ( iot1 );
-                WaterPump wp1 = new WaterPump () { Code = "WP 001", InfluenceZone = z2 };
+                WaterPump wp1 = new WaterPump () { Code = "WP 001", InfluenceZone = root.GetElementFromProperty<InfluenceZone> ( "Z1", "InfluenceZones" ) };
                 grouppumps.AddElementToArray ( wp1 );
-                WaterPump wp2 = new WaterPump () { Code = "WP 002", InfluenceZone = z1 };
+                WaterPump wp2 = new WaterPump () { Code = "WP 002", InfluenceZone = root.GetElementFromProperty<InfluenceZone> ( "Z1", "InfluenceZones" ) };
                 grouppumps.AddElementToArray ( wp2 );
-                ClorineInjector cl1 = new ClorineInjector () { Code = "CI 001", InfluenceZone = z2 };
+                ClorineInjector cl1 = new ClorineInjector () { Code = "CI 001", InfluenceZone = root.GetElementFromProperty<InfluenceZone> ( "Z2", "InfluenceZones" ) };
                 siteLivry.AddElementToArray (  cl1 );
                 MultiFunctionSensor iot2 = new MultiFunctionSensor () { Code = "MFS 001", TelephoneNumber = "1234567890" };
                 cl1.AddElementToArray ( iot2 );

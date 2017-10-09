@@ -45,3 +45,37 @@
 2017-10-02 08:27:49,745;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
 2017-10-02 08:27:49,746;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15234
 2017-10-02 08:27:50,077;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2017-10-09 15:32:27,956;[8];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:32:28,011;[8];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:32:28,011;[8];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:32:28,526;[8];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.NullReferenceException = La référence d'objet n'est pas définie à une instance d'un objet.
+2017-10-09 15:32:28,528;[8];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2017-10-09 15:32:47,526;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:32:47,556;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:32:47,556;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:32:47,730;[10];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.NullReferenceException = La référence d'objet n'est pas définie à une instance d'un objet.
+2017-10-09 15:32:47,736;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2017-10-09 15:32:52,493;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:32:52,515;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:32:52,515;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:32:52,632;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.NullReferenceException = La référence d'objet n'est pas définie à une instance d'un objet.
+2017-10-09 15:32:52,636;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2017-10-09 15:33:09,505;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:33:09,541;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:33:09,541;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:40:28,368;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:40:28,394;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:40:28,394;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:43:15,577;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:43:15,630;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:43:15,634;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:43:58,298;[11];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:43:58,339;[11];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:43:58,339;[11];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:44:54,388;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:44:54,476;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:44:54,476;[10];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:45:34,801;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2017-10-09 15:45:35,290;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2017-10-09 15:45:35,304;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15296
+2017-10-09 15:46:09,151;[9];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0

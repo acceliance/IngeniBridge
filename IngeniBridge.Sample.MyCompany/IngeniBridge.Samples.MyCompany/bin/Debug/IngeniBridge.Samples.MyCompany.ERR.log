@@ -1,0 +1,3 @@
+2017-10-09 15:32:28,526;[8];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.NullReferenceException = La référence d'objet n'est pas définie à une instance d'un objet.
+2017-10-09 15:32:47,730;[10];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.NullReferenceException = La référence d'objet n'est pas définie à une instance d'un objet.
+2017-10-09 15:32:52,632;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.NullReferenceException = La référence d'objet n'est pas définie à une instance d'un objet.
