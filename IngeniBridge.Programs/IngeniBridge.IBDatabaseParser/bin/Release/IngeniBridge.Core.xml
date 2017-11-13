@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IngeniBridge.Core</name>
+    </assembly>
+    <members>
+        <member name="T:IngeniBridge.Core.Asset">
+            <summary>
+            This class represents an asset into an IngeniBridge tree
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Asset.Code">
+            <summary>
+            The asset code
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Asset.Label">
+            <summary>
+            The asset label
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Asset.Datas">
+            <summary>
+            The timed datas associated directly with that asset
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Asset.Deactivated">
+            <summary>
+            Flag used for deactivation, deactivated assets wont be returned (by default) by the multi dimensional requester
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Asset.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder">
+            <summary>
+            Asset cache builder class
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.HandleAbsentReferencedAsset">
+            <summary>
+            Notification to indicate a missing asset being externally referenced
+            </summary>
+            <param name="Node">The asset node</param>
+            <param name="LinkToEntityName">The link to entity property name from the asset</param>
+            <param name="ReferencedObject">The actually referenced asset object</param>
+        </member>
+        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.ProcessTree(IngeniBridge.Core.StagingData.DataModelFrame,IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.HandleAbsentReferencedAsset)">
+            <summary>
+            This method processes a data model tree
+            </summary>
+            <param name="frame">The frame contaning the tree root node</param>
+            <param name="hara">A callback to be notified of missing externally references assets</param>
+        </member>
+        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByHashCode(System.Int32)">
+            <summary>
+            This method fast finds an asset by hash code
+            </summary>
+            <param name="HashCode">The asset hash code</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByPath(System.String)">
+            <summary>
+            This method fast finds an asset by tree path
+            </summary>
+            <param name="Path">The asset tree path</param>
+            <returns></returns>
+        </member>
+        <member name="T:IngeniBridge.Core.ExternalReferences.AssetCacheEntry">
+            <summary>
+            Cache entry class
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Path">
+            <summary>
+            The asset path
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Node">
+            <summary>
+            The iterated asset node
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.ExternalReferences.AssetCacheEntry.UserData">
+            <summary>
+            Some data reserved for application use
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.ExternalReferences.AssetCacheEntry.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Inventory.InventoryHelper">
+            <summary>
+            This class lets you make flat inventory of the full data model
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader">
+            <summary>
+            Notifies entity and its headers in the flat inventory
+            </summary>
+            <param name="Name">Entity name</param>
+            <param name="Headers">Header naes</param>
+            <returns>false to stop the process, true to continue</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine">
+            <summary>
+            Notifies of an entity line
+            </summary>
+            <param name="Name">Entity name</param>
+            <param name="Columns">Columns content</param>
+            <returns>false to stop the process, true to continue</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Inventory.InventoryHelper.Launch(IngeniBridge.Core.StagingData.DataModelFrame,IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader,IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine)">
+            <summary>
+            This method launches the inventoy
+            </summary>
+            <param name="Frame">Input frame containg the data model tree</param>
+            <param name="hih">Headers notifications, must be provided, <seealso cref="T:IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader"/></param>
+            <param name="hil">Lines content notifications, must be provided, <seealso cref="T:IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine"/></param>
+            <returns>false if aborted else true</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Iterator.IteratedNode`1">
+            <summary>
+            This class contains a node information from tree iteration
+            </summary>
+            <typeparam name="NODETYPE"></typeparam>
+        </member>
+        <member name="P:IngeniBridge.Core.Iterator.IteratedNode`1.Parents">
+            <summary>
+            Parents in revere order (the 0 index element is the immediate parent)
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Iterator.IteratedNode`1.Node">
+            <summary>
+            The actual node
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Iterator.IteratedNode`1.vemdNode">
+            <summary>
+            Meta description associated with the node
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Iterator.IteratedNode`1.FlatPath">
+            <summary>
+            The flat path, <seealso cref="P:IngeniBridge.Core.Iterator.IteratedNode`1.Parents"/>
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.IteratedNode`1.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Iterator.NodesHelper">
+            <summary>
+            The iterator helpaer
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.#ctor(IngeniBridge.Core.MetaHelper.MetaHelper)">
+            <summary>
+            Use this class to iterate the IngeniBridge tree
+            </summary>
+            <param name="helper"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1">
+            <summary>
+            Notifies a node in the tree
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="inode">The node</param>
+            <returns>false to stop, true to continue</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition`1">
+            <summary>
+            Notifies to check a tree node
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="inode">The node</param>
+            <returns>true if matches search condition, else false</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.TreeElements``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition{``0})">
+            <summary>
+            This method search all children nodes matching a condition
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="asset">The parent asset</param>
+            <param name="isf">The callback to match the node, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition`1"/></param>
+            <returns>The nodes found</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.IterateTree(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{System.Object})">
+            <summary>
+            This method iterates a data model tree
+            </summary>
+            <param name="asset">The parent asset</param>
+            <param name="hn">The callback to notify the nodes, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1"/></param>
+            <returns>false if aborted else true</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.NbTreeElements``1(IngeniBridge.Core.Asset)">
+            <summary>
+            This method returns the total number of nodes
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="asset">The parent asset</param>
+            <returns>The number of nodes found</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.NbTreeElements(IngeniBridge.Core.Asset)">
+            <summary>
+            This method returns the total number of nodes
+            </summary>
+            <param name="asset">The parent asset</param>
+            <returns>The number of nodes found</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.TreeFirstElement``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition{``0})">
+            <summary>
+            This methods searches the first child element matching a condition
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="asset">The parent asset</param>
+            <param name="isf">The callback to match the node, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.NodeMatchesCondition`1"/></param>
+            <returns>The node found</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.IterateTree``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{``0})">
+            <summary>
+            This method processes the data model tree
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="asset">The parent asset</param>
+            <param name="hn">The callback to notify the nodes, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1"/></param>
+            <returns>false if aborted else true</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Iterator.NodesHelper.IterateTreeAsync``1(IngeniBridge.Core.Asset,IngeniBridge.Core.Iterator.NodesHelper.HandleNode{``0},JT.TechCases.Threading.ThreadPool)">
+            <summary>
+            This method processes the data model tree in an async way
+            </summary>
+            <typeparam name="NODETYPE">Node type, applies also to derivated entites</typeparam>
+            <param name="asset">The parent asset</param>
+            <param name="hn">The callback to notify the nodes, <seealso cref="T:IngeniBridge.Core.Iterator.NodesHelper.HandleNode`1"/></param>
+            <param name="tp">The tread pool containing the number of simultanous threads, call WaitAllFinished to wait the async processing</param>
+            <returns>false if aborted else true</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Diags.TreeChecker">
+            <summary>
+            This class contains services to check a data model tree, to be used before submitting to the IngeniBridge server
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Diags.TreeChecker.#ctor(IngeniBridge.Core.MetaHelper.MetaHelper)">
+            <summary>
+            This method check the actual tree for an error
+            </summary>
+            <param name="helper">MetaHelper set before calling this method</param>
+        </member>
+        <member name="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage">
+            <summary>
+            Notification of an error in the data model tree
+            </summary>
+            <param name="message">The actual message</param>
+        </member>
+        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTree(IngeniBridge.Core.StagingData.DataModelFrame,System.Boolean,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
+            <summary>
+            This method launches the tree check
+            </summary>
+            <param name="frame">The frame containing the data model tree root</param>
+            <param name="testdataviz">dataviz must be tested</param>
+            <param name="em">Callback to errors, <seealso cref="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage"/></param>
+        </member>
+        <member name="M:IngeniBridge.Core.Diags.TreeChecker.CheckTreeAsync(IngeniBridge.Core.StagingData.DataModelFrame,JT.TechCases.Threading.ThreadPool,System.Boolean,IngeniBridge.Core.Diags.TreeChecker.ErrorMessage)">
+            <summary>
+            This method launches the tree check
+            </summary>
+            <param name="frame">The frame containing the data model tree root</param>
+            <param name="tp">The tread pool containing the number of simultanous threads, call WaitAllFinished to wait the async processing</param>
+            <param name="testdataviz">dataviz must be tested</param>
+            <param name="em">Callback to errors, <seealso cref="T:IngeniBridge.Core.Diags.TreeChecker.ErrorMessage"/></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Diags.Diagnostic">
+            <summary>
+            This class provides services to make some diagnotics on the data model tree
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset">
+            <summary>
+            
+            </summary>
+            <param name="assettype"></param>
+            <param name="nbassets"></param>
+            <param name="nbdatas"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature">
+            <summary>
+            
+            </summary>
+            <param name="nomenclature"></param>
+            <param name="nbentries"></param>
+        </member>
+        <member name="M:IngeniBridge.Core.Diags.Diagnostic.Diagnose(IngeniBridge.Core.StagingData.DataModelFrame,IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset,IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature)">
+            <summary>
+            
+            </summary>
+            <param name="frame"></param>
+            <param name="hda"></param>
+            <param name="hdn"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.AttributeMetaDescription">
+            <summary>
+            This class contains meta information about a property into an entity
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.META_ATTRIBUTE_DESCRIPTION">
+            <summary>
+            Description field name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsArray">
+            <summary>
+            Indicates if array
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsEnum">
+            <summary>
+            Indicates if enum
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalReference">
+            <summary>
+            Indicates if external reference
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsDescriptionField">
+            <summary>
+            Indicates if description field
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DeclaringEntityType">
+            <summary>
+            Entity declaring this attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeType">
+            <summary>
+            Type of the attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeName">
+            <summary>
+            Attribute name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NameDesc">
+            <summary>
+            Name description
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NotToDisplay">
+            <summary>
+            Indicates if not to display
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.Unit">
+            <summary>
+            Unit of measure
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxisOnBaseClass">
+            <summary>
+            Indicates if index on base class
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexRefOnlyOnTarget">
+            <summary>
+            Indicates if index only on target
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexPropertyOnParents">
+            <summary>
+            Indicates if a property should be indexed on the parents of the leaf node (in the model, the property propagates on the children nodes) also
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis">
+            <summary>
+            Functional axis to add for this attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexEntityAttribute">
+            <summary>
+            Index embedded object's specific attribute
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute">
+            <summary>
+            Root entity
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute">
+            <summary>
+            Display name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute">
+            <summary>
+            Property is referencing a foreign entity into the data model tree
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute">
+            <summary>
+            Add functional axis on base class
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute">
+            <summary>
+            Add functional axis
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute">
+            <summary>
+            Index property only on target node
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute">
+            <summary>
+            Unit attribute for data
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="unit"></param>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.Unit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute">
+            <summary>
+            Flag to indicated not to display property
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute">
+            <summary>
+            Flag to deactivate indexation on this entity
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexPropertyOnParentsAttribute">
+            <summary>
+            This flag indicates if a property should be indexed on the parents of the leaf node (in the model, the property propagates on the children nodes) also
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute">
+            <summary>
+            This flag indicates if an embedded entity attribute should be indexed on the container, used to enrich index with more info
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="attributename"></param>
+            <param name="functionalaxisname"></param>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.AttributeName">
+            <summary>
+            The attribute name withinh the contained Nomenclature or Entity wich must be external or Nomenclature
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.FunctionalAxisName">
+            <summary>
+            Functional axis name, optional
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper">
+            <summary>
+            This class contains meta data servicesfor the data model 
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.MetaHelper.DatavizIndexHelper">
+            <summary>
+            returns a Dataviz index helper if implemented in the metamodel
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.IsIngeniBridgeType(System.Type)">
+            <summary>
+            This method indicate if a type is IngeniBridge compliant
+            </summary>
+            <param name="t">The type</param>
+            <returns>true if yes else no</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaDataFromType(System.Type)">
+            <summary>
+            This method returns meta data describing an entity type
+            </summary>
+            <param name="t">The type</param>
+            <returns>Meta data information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaDataFromName(System.String)">
+            <summary>
+            This method returns meta data describing an entity type
+            </summary>
+            <param name="name">The entity type name</param>
+            <returns>>Meta data information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetMetaData">
+            <summary>
+            This method retrieves all meta data for the model
+            </summary>
+            <returns>a list of meta data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetEnumTypes">
+            <summary>
+            This method retrieves the enum types in the model
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetInheritanceMetaData">
+            <summary>
+            This method builds a tree of inheritance meta data
+            </summary>
+            <returns>>a list of meta data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.LoadMetaDataForEntityModeling">
+            <summary>
+            This method loads all meta data information from a data model assembly
+            </summary>
+            <returns>Meta data information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveValueFromDataName(System.Object,System.String)">
+            <summary>
+            This method retrieves a property value 
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="propertyname">Property name</param>
+            <returns>The value</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveValuesFromType(System.Object,System.String,System.Boolean,System.String)">
+            <summary>
+            This method retrieves the properties of specified type
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="typename">Type name as a string</param>
+            <param name="isarray">Looking for array property ?</param>
+            <param name="propertyname">The property name if specified</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveCodeValue(System.Object)">
+            <summary>
+            This method retrieves the code property value from an entity
+            </summary>
+            <param name="entityinstance">The entity</param>
+            <returns>the code value</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.RetrieveLabelValue(System.Object)">
+            <summary>
+            This method retrieves the label property value from an entity
+            </summary>
+            <param name="entityinstance">The entity</param>
+            <returns>the label value</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.SetValueFromDataName(System.Object,System.String,System.Object)">
+            <summary>
+            This method set a property value 
+            </summary>
+            <param name="objectinstance">Entity instance</param>
+            <param name="propertyname">Property name</param>
+            <param name="value">The vaue</param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.GetTypes">
+            <summary>
+            This method converts meta data to actual type
+            </summary>
+            <param name="mdvs">Meta data information</param>
+            <returns>Types</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1">
+            <summary>
+            Notifies linked entities from entity
+            </summary>
+            <typeparam name="ENTITYTYPE">Entity type, applies also to derivated entity types</typeparam>
+            <param name="entity"></param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseLinkedEntities``1(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity{``0},System.Boolean)">
+            <summary>
+            This method parses linked entities
+            </summary>
+            <typeparam name="ENTITYTYPE">Entity type, applies also to derivated entity types</typeparam>
+            <param name="entityinstance">Entity</param>
+            <param name="hle">Callback to linked entities, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1"/></param>
+            <param name="withexternalrefs">indicates wether to return external refs as well</param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseLinkedEntities(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity{System.Object},System.Boolean)">
+            <summary>
+            This method parses all linked entities (Asset and Nomenclature)
+            </summary>
+            <param name="entityinstance">Entity</param>
+            <param name="hle">Callback to linked entities, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleLinkedEntity`1"/></param>
+            <param name="withexternalrefs">indicates wether to return external refs as well</param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty">
+            <summary>
+            Notifies properties values
+            </summary>
+            <param name="property">Property name</param>
+            <param name="val">Value</param>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParsePropertiesAndLinks(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty,System.Boolean)">
+            <summary>
+            This method parses all nomenclatures and external references if specified
+            </summary>
+            <param name="entityinstance">Entity</param>
+            <param name="hp">Callback to properties, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleProperty"/></param>
+            <param name="externalrefsasproperties">return external references as properties</param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute">
+            <summary>
+            Notifies attributes values
+            </summary>
+            <param name="attribute">Attribute description</param>
+            <param name="val">Value</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.MetaHelper.ParseAttributes(System.Object,IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            This method parses all nomenclatures and external references if specified
+            </summary>
+            <param name="entityinstance">Entity</param>
+            <param name="ha">Callback to attributes, <seealso cref="T:IngeniBridge.Core.MetaHelper.MetaHelper.HandleAttribute"/></param>
+            <param name="includeexternalentities">return external references as properties</param>
+            <param name="includenomenclatures">return nomenclatures as properties</param>
+            <param name="includeentities">return links to entities as properties</param>
+            <param name="includedatas">return datas as properties</param>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.EntityMetaDescription">
+            <summary>
+            This class represents the meta information on an IngeniBridge entity
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum">
+            <summary>
+            Entity kind
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimedData">
+            <summary>
+            Data, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimedData"/>
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset">
+            <summary>
+            Asset, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset"/>
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature">
+            <summary>
+            Nomenclature, <seealso cref="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature"/>
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsRoot">
+            <summary>
+            Indicates if entity is root in the data model
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKind">
+            <summary>
+            Entity kind
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityType">
+            <summary>
+            .Net type of the entity
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodeProperty">
+            <summary>
+            Attribute meta information for code
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelProperty">
+            <summary>
+            Attribute meta information for label
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodePropertyName">
+            <summary>
+            Name of code property
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.DoNotIndexEntity">
+            <summary>
+            Indicates if entity must not be indexed
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelPropertyName">
+            <summary>
+            Name of label property
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.Properties">
+            <summary>
+            Properties in the entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToEntity">
+            <summary>
+            Entities linked with the entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToNomenclature">
+            <summary>
+            Nomenclatures linked with the entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinks">
+            <summary>
+            Merged link of entities and nomenclatures
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinks">
+            <summary>
+            Link to all data
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinksButTimedDatas">
+            <summary>
+            Link to all data but timed datas
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntities">
+            <summary>
+            Link to only external entities
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.EntityMetaDescription.BaseEntityType">
+            <summary>
+            Type of base entity
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityDisplayName">
+            <summary>
+            Display name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityName">
+            <summary>
+            Entity name
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.MetaHelper.EntityMetaDescription.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Mining.ContextedAssetSerializer">
+            <summary>
+            This class contains services to serialize and deseiralize results form the webservice
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.GetKnownTypes(IngeniBridge.Core.MetaHelper.MetaHelper)">
+            <summary>
+            This method returns known types sed for serialization
+            </summary>
+            <param name="helper">Helper</param>
+            <returns>The types</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.SerializeContextedAsset(IngeniBridge.Core.Service.ContextedAsset)">
+            <summary>
+            This method is used to serialize a contexted asset
+            </summary>
+            <param name="contextedasset">Contexted asset</param>
+            <returns>The stream string</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.SerializeContextedData(IngeniBridge.Core.Service.ContextedData)">
+            <summary>
+            This method is used to serialize a contexted data
+            </summary>
+            <param name="contexteddata">Contexted data</param>
+            <returns>The stream string</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.SerializeDatavizData(IngeniBridge.Core.Service.DatavizData)">
+            <summary>
+            This method is used to serialize a dataviz data
+            </summary>
+            <param name="dvd">dataviz data</param>
+            <returns>The stream string</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedAssetFromString(System.String)">
+            <summary>
+            This method deserializes a contexted asset
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted asset</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedAssetsFromString(System.String)">
+            <summary>
+            This method deserializes a multiple contexted asset (from the Ingenibridge REST server)
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted assets</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedDataFromString(System.String)">
+            <summary>
+            This method deserializes a contexted data
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted data</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.DeserializeContextedDatasFromString(System.String)">
+            <summary>
+            This method deserializes a multiple contexted data (from the Ingenibridge REST server)
+            </summary>
+            <param name="ser">The stream string</param>
+            <returns>The contexted datas</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.ContextedAssetSerializer.ParameterizeJsonSetting(Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            This method parameterizes the json serializer
+            </summary>
+            <param name="settings"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Mining.IDatavizIndexHelper">
+            <summary>
+            This interface is the Dataviz index contract
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Mining.IDatavizIndexHelper.IndexNode(IngeniBridge.Core.MetaHelper.MetaHelper,IngeniBridge.Core.Iterator.IteratedNode{System.Object})">
+            <summary>
+            Implement this method to index a node
+            </summary>
+            <param name="helper">the helper associated with the metamodel</param>
+            <param name="inode">the iterated node</param>
+            <returns>the actual text to be searched through rest calls</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Service.ContextedAsset">
+            <summary>
+            Contexted asset returned by the web service
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.Service.ContextedAsset.Parents">
+            <summary>
+            The parents in reverse order, index 0 is the immediate parent
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.Service.ContextedAsset.Asset">
+            <summary>
+            The asset found
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Service.DatavizData">
+            <summary>
+            DatavizData data returned by the web service
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Service.ContextedData">
+            <summary>
+            Contexted data returned by the web service
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.Service.ContextedData.Parents">
+            <summary>
+            The parents in reverse order, index 0 is the immediate parent
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.Service.ContextedData.Data">
+            <summary>
+            The data found
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.StagingData.AssemblyResolver">
+            <summary>
+            This is the assembly resolver in case to stream the datamodel on the client
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.AssemblyResolver.Inintialize">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.AssemblyResolver.AddAssembly(System.Reflection.Assembly)">
+            <summary>
+            Call tis method just after calling Load agqinst the streamed data model
+            </summary>
+            <param name="assembly"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.StagingData.DataModelVersion">
+            <summary>
+            This class provides complete versioning for a data model tree
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.Name">
+            <summary>
+            Data model name
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.Build">
+            <summary>
+            Build version
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.Major">
+            <summary>
+            Major version
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.MajorRevision">
+            <summary>
+            MajorREvision version
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.Minor">
+            <summary>
+            Minor version
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.MinorRevision">
+            <summary>
+            MinorRevision version
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.Revision">
+            <summary>
+            Revision version
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelVersion.Generated">
+            <summary>
+            The date the data model was generated
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.DataModelVersion.Equals(System.Object)">
+            <summary>
+            Performs Equal comparison
+            </summary>
+            <param name="obj">object to compare</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.DataModelVersion.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>the string</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.StagingData.DataModelFrame">
+            <summary>
+            This class contains the whole data model tree including the nomenclatures
+            </summary>
+        </member>
+        <member name="F:IngeniBridge.Core.StagingData.DataModelFrame.DataModelAssemblyFullVersion">
+            <summary>
+            Version used to build the data model
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelFrame.TreeRoot">
+            <summary>
+            Tree root node
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.DataModelFrame.Nomenclatures">
+            <summary>
+            Nomenclatures
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.StagingData.Serializer">
+            <summary>
+            This class serializes a data model tree
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.Serializer.Version">
+            <summary>
+            Version information
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.Serializer.Frame">
+            <summary>
+            The Frame containing all the data model tree + nomenclatures
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.Serializer.DataModelAssembly">
+            <summary>
+            Assembly used for the data model
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.StagingData.Serializer.DataModelAssemblyBuffer">
+            <summary>
+            Assembly bytes
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.SerializeTree(System.IO.Stream)">
+            <summary>
+            This method serializes the data model
+            </summary>
+            <param name="stream">The output stream</param>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.SerializeTree(System.String)">
+            <summary>
+            This method serializes the data model
+            </summary>
+            <param name="filename">The output file</param>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.DeserializeTree(System.IO.Stream)">
+            <summary>
+            This method loads a data model tree
+            </summary>
+            <param name="stream">The input stream</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.DeserializeTree(System.String)">
+            <summary>
+            This method loads a data model tree
+            </summary>
+            <param name="filename">The input file</param>
+            <returns></returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.DeserializeOnlyVersion(System.IO.Stream)">
+            <summary>
+            This method only loads version information about a data model
+            </summary>
+            <param name="stream">The input stream</param>
+            <returns>The version information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.DeserializeOnlyVersion(System.String)">
+            <summary>
+            This method only loads version information about a data model
+            </summary>
+            <param name="filename">The input file</param>
+            <returns>The version information</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.StagingData.Serializer.RebuildDataModel(System.Byte[])">
+            <summary>
+            This method rebuilds the data model from stream fron IngeniBridge server
+            </summary>
+            <param name="buffer"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IngeniBridge.Core.TimedData">
+            <summary>
+            This class represents a timed data (SCADA or BigData timed value)
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.TimedData.Code">
+            <summary>
+            The data code
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.TimedData.Label">
+            <summary>
+            The data label
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.TimedData.Description">
+            <summary>
+            The data description
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.TimedData.ScadaExternalReference">
+            <summary>
+            The technical reference or key to the actual timed data contained into the external SCADA or BigData system
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.TimedData.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
+        <member name="M:IngeniBridge.Core.TimedData.GetScadaExternalReferenceWithDataHistorian">
+            <summary>
+            Overload this property to give a single Code with metadescribing several data historians (used for nonreg)
+            </summary>
+            <returns>The single TimedData Code</returns>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.Base">
+            <summary>
+            Base of exceptions
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.Base.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.Base.#ctor(System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.BadRootObjectFormat">
+            <summary>
+            The root object in the frame is not an compliant type
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.BadRootObjectFormat.#ctor(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="typ"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot">
+            <summary>
+            The root object must be tagged root
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.#ctor(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="typ"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.BadDataModel">
+            <summary>
+            The data model do not match
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.BadDataModel.#ctor(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="datamodelassembly"></param>
+            <param name="assembly"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.BadAssembly">
+            <summary>
+            The data model assembly contains no IngeniBridge data model
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.BadAssembly.#ctor(System.Reflection.Assembly)">
+            <summary>
+            
+            </summary>
+            <param name="asm"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared">
+            <summary>
+            A referenced asset was not declared in the tree
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="nberrors"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.TreeContainsErrors">
+            <summary>
+            The data model tree contains errors
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.TreeContainsErrors.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="nberrors"></param>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull">
+            <summary>
+            The data model assembly must be provided
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.FrameCannotBeNull">
+            <summary>
+            Frame must be provided
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.FrameCannotBeNull.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero">
+            <summary>
+            Minor revision cannot be 0
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.ArraysHelperException">
+            <summary>
+            Exception from the Arrays Helper
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.ArraysHelperException.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.DataModelException">
+            <summary>
+            Exception related to the data model definition
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.DataModelException.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Exceptions.RequestCheckerException">
+            <summary>
+            Exception related to request checking
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Exceptions.RequestCheckerException.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.Nomenclature">
+            <summary>
+            This class represents a Nomenclature into an IngeniBridge tree
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Nomenclature.Code">
+            <summary>
+            Code
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.Nomenclature.Label">
+            <summary>
+            Label
+            </summary>
+        </member>
+        <member name="M:IngeniBridge.Core.Nomenclature.ToString">
+            <summary>
+            Converts to string
+            </summary>
+            <returns>The string</returns>
+        </member>
+    </members>
+</doc>

@@ -7,6 +7,9 @@ Projects listed below:
 IngeniBridge.Programs\IngeniBridge.GenerateFullInventory
 	-	This project shows you how to parse the IngeniBridge database a make a dump to an Excel worksheet (uses EPPlus package) 
 
+IngeniBridge.Programs\IngeniBridge.IBDatabaseParser
+	-	This project shows you how to parse the IngeniBridge database a make a full and deep dump to screen
+
 IngeniBridge.Sample.MyCompany
 	-	This project is a startup project for your metabase
 	-	Includes
