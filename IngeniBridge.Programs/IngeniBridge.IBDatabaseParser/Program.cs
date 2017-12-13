@@ -48,11 +48,9 @@ namespace IngeniBridge.IBDatabaseParser
                 {
                     Console.WriteLine ( "Tree pos => " + inode.FlatPath );
                     Console.WriteLine ( "\tObject => " + inode.vemdNode.EntityType.Name + " - " + helper.RetrieveCodeValue ( inode.Node ) + " - " + helper.RetrieveLabelValue ( inode.Node ) );
-                    helper.RetrieveCodeValue ( inode.Node );
-                    EntityMetaDescription mdv = helper.GetMetaDataFromType ( inode.GetType () );
                     new MetaHelper ( ser.DataModelAssembly ).ParseAttributes ( inode.Node, ( attribute, val ) =>
                     {
-                        Console.WriteLine ( "\t\tAttribute => " + attribute.AttributeType.Name + " - " + val.ToString () );
+                        Console.WriteLine ( "\t\tAttribute => " + attribute.AttributeName + " (" + attribute.AttributeType.Name + ") = " + val.ToString () );
                         return ( true );
                     }, true, true );
                     return ( true ); 
