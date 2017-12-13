@@ -5,10 +5,10 @@ This repo contains tools to help building and exploiting a local IngeniBridge da
 Projects listed below:
 
 IngeniBridge.Programs\IngeniBridge.GenerateFullInventory
-	-	This project shows you how to parse the IngeniBridge database a make a dump to an Excel worksheet (uses EPPlus package) 
+	-	This project shows you how to parse the IngeniBridge database a make a dump to an Excel worksheet (uses EPPlus package) => build IngeniBridge.Sample.MyCompany to run it
 
 IngeniBridge.Programs\IngeniBridge.IBDatabaseParser
-	-	This project shows you how to parse the IngeniBridge database a make a full and deep dump to screen
+	-	This project shows you how to parse the IngeniBridge database a make a full and deep dump to screen => build IngeniBridge.Sample.MyCompany to run it
 
 IngeniBridge.Sample.MyCompany
 	-	This project is a startup project for your metabase
