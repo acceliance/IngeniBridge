@@ -35,8 +35,8 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IngeniBridge.Core, Version=1.0.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.Core.1.0.25\lib\net452\IngeniBridge.Core.dll</HintPath>
+    <Reference Include="IngeniBridge.Core, Version=1.0.26.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.Core.1.0.26\lib\net452\IngeniBridge.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="JT.TechCases.Threading, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">

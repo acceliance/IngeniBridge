@@ -8,3 +8,4 @@ C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompany
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\bin\Debug\Newtonsoft.Json.xml
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\MyCompanyDataModel.dll
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\MyCompanyDataModel.pdb
+C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\MyCompanyDataModel.csprojResolveAssemblyReference.cache

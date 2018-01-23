@@ -18,3 +18,12 @@ Nom de fichier : 'C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.M
 2017-09-18 09:02:52,672;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Minor => 0
 2017-09-18 09:02:52,672;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Build => 6
 2017-09-18 09:02:53,432;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;Terminated OK.
+2018-01-23 08:25:46,316;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;IngeniBridge.GenerateFullInventory v1.0.0.15141 -- Copyright © 2016 Deagital
+2018-01-23 08:25:46,404;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;INgeniBridgeDBFile => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_09_18.ibdb
+2018-01-23 08:25:46,404;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;InventoryFilee => InventoryFileIB.xlsx
+2018-01-23 08:25:47,132;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Name => MyCompanyDataModel
+2018-01-23 08:25:47,138;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Date => 18/09/2017 09:05:06
+2018-01-23 08:25:47,139;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Major => 1
+2018-01-23 08:25:47,140;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Minor => 0
+2018-01-23 08:25:47,140;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Build => 6
+2018-01-23 08:25:48,362;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;Terminated OK.

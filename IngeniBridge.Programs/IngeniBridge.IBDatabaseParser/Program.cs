@@ -47,6 +47,7 @@ namespace IngeniBridge.IBDatabaseParser
                 new Core.Iterator.NodesHelper ( helper ).IterateTree ( ser.Frame.TreeRoot, ( inode ) =>
                 {
                     Console.WriteLine ( "Tree pos => " + inode.FlatPath );
+                    Console.WriteLine ( "Parent attribute containing node => " + inode.NodeParentAttribute );
                     Console.WriteLine ( "\tObject => " + inode.vemdNode.EntityType.Name + " - " + helper.RetrieveCodeValue ( inode.Node ) + " - " + helper.RetrieveLabelValue ( inode.Node ) );
                     new MetaHelper ( ser.DataModelAssembly ).ParseAttributes ( inode.Node, ( attribute, val ) =>
                     {

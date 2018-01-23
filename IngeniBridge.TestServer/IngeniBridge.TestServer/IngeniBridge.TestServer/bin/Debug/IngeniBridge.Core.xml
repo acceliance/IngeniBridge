@@ -136,6 +136,11 @@
             Parents in revere order (the 0 index element is the immediate parent)
             </summary>
         </member>
+        <member name="F:IngeniBridge.Core.Iterator.IteratedNode`1.NodeParentAttribute">
+            <summary>
+            The name of the attribute (in the parent) that contains the actual node
+            </summary>
+        </member>
         <member name="P:IngeniBridge.Core.Iterator.IteratedNode`1.Node">
             <summary>
             The actual node
@@ -316,6 +321,11 @@
             Description field name
             </summary>
         </member>
+        <member name="F:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.META_ATTRIBUTE_SCADAEXTERNALREFERENCE">
+            <summary>
+            Scada external reference name
+            </summary>
+        </member>
         <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsArray">
             <summary>
             Indicates if array
@@ -334,6 +344,11 @@
         <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsDescriptionField">
             <summary>
             Indicates if description field
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalScadaReference">
+            <summary>
+            /// Indicates if scada external reference field
             </summary>
         </member>
         <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DeclaringEntityType">
@@ -389,6 +404,11 @@
         <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexEntityAttribute">
             <summary>
             Index embedded object's specific attribute
+            </summary>
+        </member>
+        <member name="P:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexAlsoByName">
+            <summary>
+            Indicates if indexed also on name (Asset and Nomenclature attributes indexed by type by default)
             </summary>
         </member>
         <member name="M:IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString">
@@ -500,6 +520,11 @@
         <member name="P:IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.FunctionalAxisName">
             <summary>
             Functional axis name, optional
+            </summary>
+        </member>
+        <member name="T:IngeniBridge.Core.MetaHelper.Attributes.IndexAlsoByNameAttribute">
+            <summary>
+            This flag indicates if an Asset or Nomenclature attribute should also be index on its name (by default indexed on its type)
             </summary>
         </member>
         <member name="T:IngeniBridge.Core.MetaHelper.MetaHelper">

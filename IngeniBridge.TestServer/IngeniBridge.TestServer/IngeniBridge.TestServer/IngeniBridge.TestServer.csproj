@@ -35,16 +35,16 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EPPlus, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+    <Reference Include="EPPlus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.1.1\lib\net40\EPPlus.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="IngeniBridge.BuildUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.BuildUtils.1.0.0\lib\net452\IngeniBridge.BuildUtils.dll</HintPath>
+    <Reference Include="IngeniBridge.BuildUtils, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.BuildUtils.1.0.1\lib\net452\IngeniBridge.BuildUtils.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="IngeniBridge.Core, Version=1.0.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.Core.1.0.25\lib\net452\IngeniBridge.Core.dll</HintPath>
+    <Reference Include="IngeniBridge.Core, Version=1.0.26.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.Core.1.0.26\lib\net452\IngeniBridge.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="JT.TechCases.Threading, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">

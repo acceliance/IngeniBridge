@@ -230,3 +230,15 @@
 2017-10-02 08:28:47,585;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2017-10-02 08:28:48,270;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
 2017-10-02 08:28:48,339;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2018-01-23 08:37:05,091;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2018-01-23 08:37:05,261;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2018-01-23 08:40:05,150;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2018-01-23 08:40:05,642;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2018-01-23 08:40:05,817;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2018-01-23 08:40:05,821;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
+2018-01-23 08:40:38,021;[1];INFO ;IngeniBridge.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2018-01-23 08:40:38,270;[1];INFO ;IngeniBridge.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2018-01-23 08:40:46,591;[1];INFO ;IngeniBridge.TestServer.Program;Connecting => http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital
+2018-01-23 08:40:46,720;[1];INFO ;IngeniBridge.TestServer.Program;MethodREST ==============================
+2018-01-23 08:40:46,846;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2018-01-23 08:40:46,847;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 1
