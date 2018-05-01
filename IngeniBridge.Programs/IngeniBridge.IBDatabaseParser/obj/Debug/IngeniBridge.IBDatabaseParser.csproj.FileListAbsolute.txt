@@ -13,6 +13,5 @@ C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDa
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Debug\JT.TechCases.Threading.xml
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Debug\log4net.xml
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Debug\Newtonsoft.Json.xml
-C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Debug\IngeniBridge.IBDatabaseParser.csprojResolveAssemblyReference.cache
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Debug\IngeniBridge.IBDatabaseParser.exe
 C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Debug\IngeniBridge.IBDatabaseParser.pdb

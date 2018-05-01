@@ -23,7 +23,7 @@ namespace IngeniBridge.TestServer
     class Program
     {
         private static readonly ILog log = LogManager.GetLogger ( System.Reflection.MethodBase.GetCurrentMethod ().DeclaringType );
-        static string url = "http://www.deagital.com:8091/IngeniBridge/PrivateDemo/Deagital";
+        static string url = "https://cloud.ingenibridge.com/PublicDemo/Deagital/";
         static int Main ( string [] args )
         {
             log4net.Config.XmlConfigurator.Configure ();
@@ -37,25 +37,31 @@ namespace IngeniBridge.TestServer
                 string login = Console.ReadLine ();
                 Console.Write ( "Password => " );
                 string password = "";
-                while ( true )
+                if ( login.Length > 0 )
                 {
-                    var key = Console.ReadKey ( true );
-                    if ( key.Key == ConsoleKey.Enter ) break;
-                    password += key.KeyChar;
+                    while ( true )
+                    {
+                        var key = Console.ReadKey ( true );
+                        if ( key.Key == ConsoleKey.Enter ) break;
+                        password += key.KeyChar;
+                    }
                 }
                 HttpClientHandler handler = new HttpClientHandler () { UseDefaultCredentials = true };
                 HttpClient client = new HttpClient ();
                 client.BaseAddress = new Uri (url );
                 client.DefaultRequestHeaders.Accept.Add ( new MediaTypeWithQualityHeaderValue ( "application/json" ) );
-                var byteArray = Encoding.ASCII.GetBytes ( login + ":" + password );
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ( "Basic", Convert.ToBase64String ( byteArray ) );
+                if ( login.Length >  0 )
+                {
+                    var byteArray = Encoding.ASCII.GetBytes ( login + ":" + password );
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ( "Basic", Convert.ToBase64String ( byteArray ) );
+                }
                 log.Info ( "Connecting => " + url );
-                Task<HttpResponseMessage> response = client.GetAsync ( url + "/REST/RetrieveDatas?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
+                Task<HttpResponseMessage> response = client.GetAsync ( url + "/REQUESTER/RetrieveDatas?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
                 string buf = response.Result.Content.ReadAsStringAsync ().Result;
                 MethodREST ( client, buf );
                 MethodMapping ( client, buf );
                 // here find data from Historian reference EXTREF 004, the acquisistion platform detected an exceeding threshold, now we must correlate this alarm with an existing alarm
-                response = client.GetAsync ( url + "/REST/RetrieveDatas?CorrelationCriteria=TimedData.ScadaExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" ); 
+                response = client.GetAsync ( url + "/REQUESTER/RetrieveDatas?CorrelationCriteria=TimedData.ScadaExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" ); 
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
                 CorrelationInfluenceZoneBusinessUseCase ( client, buf );
             }
@@ -146,7 +152,7 @@ namespace IngeniBridge.TestServer
             {
                 path += parent.Code + "\\";
                 // retrieve the asset object description before using discovery features
-                response = client.GetAsync ( url + "/REST/RetrieveAsset?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
+                response = client.GetAsync ( url + "/REQUESTER/RetrieveAsset?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
                 ContextedAsset ca = ContextedAssetSerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
                 // now we try to discover the "InfluenceZone" typed attribute

@@ -9,3 +9,5 @@
 2017-10-02 08:21:43,092;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.InvalidCastException = Impossible d'effectuer un cast d'un objet de type 'Newtonsoft.Json.Linq.JObject' en type 'Newtonsoft.Json.Linq.JArray'.
 2018-01-23 08:40:05,817;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
 2018-01-23 08:40:46,846;[1];ERROR;IngeniBridge.TestServer.Program;Exception => Newtonsoft.Json.JsonReaderException = Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+2018-04-29 19:54:40,263;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.AggregateException = Une ou plusieurs erreurs se sont produites.
+2018-04-29 19:56:09,821;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.AggregateException = Une ou plusieurs erreurs se sont produites.
