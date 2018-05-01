@@ -47,12 +47,17 @@
         <member name="P:OfficeOpenXml.Compatibility.CompatibilitySettings.IsWorksheets1Based">
             <summary>
             If the worksheets collection of the ExcelWorkbook class is 1 based.
-            This property can be set from app.config file.
+            This property can be set from appsettings.json file.
             <code>
-              <appSettings>
-               <!--Set worksheets collection to start from zero.Default is 1, for backward compatibility reasons -->  
-               <add key = "EPPlus:ExcelPackage.Compatibility.IsWorksheets1Based" value="false" />
-              </appSettings>
+                {
+                  "EPPlus": {
+                    "ExcelPackage": {
+                      "Compatibility": {
+                        "IsWorksheets1Based": false //Default value is false
+                      }
+                    }
+                  }
+                }
             </code>
             </summary>
         </member>
@@ -8520,13 +8525,6 @@
             </summary>
             <param name="uriString">The URI</param>
         </member>
-        <member name="M:OfficeOpenXml.ExcelHyperLink.#ctor(System.String,System.Boolean)">
-            <summary>
-            A new hyperlink with the specified URI. This syntax is obsolete
-            </summary>
-            <param name="uriString">The URI</param>
-            <param name="dontEscape"></param>
-        </member>
         <member name="M:OfficeOpenXml.ExcelHyperLink.#ctor(System.String,System.UriKind)">
             <summary>
             A new hyperlink with the specified URI and kind
@@ -11416,7 +11414,7 @@
             <summary>
             Returns the worksheet at the specified position. 
             </summary>
-            <param name="PositionID">The position of the worksheet. Collection is zero-based or one-base depending on the Package.Compatibility.IsWorksheets1Based propery. Default is One based</param>
+            <param name="PositionID">The position of the worksheet. Collection is zero-based or one-base depending on the Package.Compatibility.IsWorksheets1Based propery. Default is Zero based</param>
             <seealso cref="P:OfficeOpenXml.ExcelPackage.Compatibility"/>
             <returns></returns>
         </member>
@@ -25403,7 +25401,7 @@
             </summary>
             <remarks>
               <para>
-                Set this at any point before calling <see cref="M:OfficeOpenXml.Packaging.Ionic.Crc.CrcCalculatorStream.Close"/>.
+                Set this at any point before calling <see cref="!:Close()"/>.
               </para>
             </remarks>
         </member>
@@ -25476,11 +25474,6 @@
             <see cref="T:System.NotSupportedException"/>
             </summary>
             <param name="value">N/A</param>
-        </member>
-        <member name="M:OfficeOpenXml.Packaging.Ionic.Crc.CrcCalculatorStream.Close">
-            <summary>
-            Closes the stream.
-            </summary>
         </member>
         <member name="T:OfficeOpenXml.Packaging.Ionic.LogicalConjunction">
             <summary>
