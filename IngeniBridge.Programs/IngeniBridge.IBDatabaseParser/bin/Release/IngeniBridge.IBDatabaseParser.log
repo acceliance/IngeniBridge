@@ -22,3 +22,39 @@
 2018-01-23 08:29:28,867;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
 2018-01-23 08:29:28,867;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 6
 2018-01-23 08:29:29,246;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.
+2018-06-19 16:52:09,560;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Starting IngeniBridge.IBDatabaseParser v1.0.0.0
+2018-06-19 16:52:09,577;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;StorageAccessorAssembly => IngeniBridge.StorageAccessor.InMemory.dll
+2018-06-19 16:52:09,577;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;IBDatabase => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2018_06_19.ibdb
+2018-06-19 16:52:09,748;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Name => MyCompanyDataModel
+2018-06-19 16:52:09,749;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Date => 19/06/2018 15:46:58
+2018-06-19 16:52:09,749;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Majour => 1
+2018-06-19 16:52:09,749;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
+2018-06-19 16:52:09,749;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 8
+2018-06-19 16:52:09,975;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.
+2018-06-19 16:52:26,332;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Starting IngeniBridge.IBDatabaseParser v1.0.0.0
+2018-06-19 16:52:26,364;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;StorageAccessorAssembly => IngeniBridge.StorageAccessor.InMemory.dll
+2018-06-19 16:52:26,365;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;IBDatabase => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2018_06_19.ibdb
+2018-06-19 16:52:26,630;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Name => MyCompanyDataModel
+2018-06-19 16:52:26,631;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Date => 19/06/2018 15:46:58
+2018-06-19 16:52:26,631;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Majour => 1
+2018-06-19 16:52:26,631;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
+2018-06-19 16:52:26,632;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 8
+2018-06-19 16:52:27,186;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.
+2018-06-22 22:55:49,203;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Starting IngeniBridge.IBDatabaseParser v1.0.0.0
+2018-06-22 22:55:49,218;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;StorageAccessorAssembly => IngeniBridge.StorageAccessor.InMemory.dll
+2018-06-22 22:55:49,219;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;IBDatabase => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2018_06_22.ibdb
+2018-06-22 22:55:49,365;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Name => MyCompanyDataModel
+2018-06-22 22:55:49,366;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Date => 22/06/2018 22:52:19
+2018-06-22 22:55:49,366;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Majour => 1
+2018-06-22 22:55:49,366;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
+2018-06-22 22:55:49,366;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 8
+2018-06-22 22:55:49,783;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.
+2018-06-23 08:03:27,735;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Starting IngeniBridge.IBDatabaseParser v1.0.0.0
+2018-06-23 08:03:27,763;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;StorageAccessorAssembly => IngeniBridge.StorageAccessor.InMemory.dll
+2018-06-23 08:03:27,763;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;IBDatabase => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2018_06_23.ibdb
+2018-06-23 08:03:28,161;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Name => MyCompanyDataModel
+2018-06-23 08:03:28,162;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Date => 23/06/2018 08:02:05
+2018-06-23 08:03:28,163;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Majour => 1
+2018-06-23 08:03:28,163;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
+2018-06-23 08:03:28,163;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 8
+2018-06-23 08:03:28,486;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.

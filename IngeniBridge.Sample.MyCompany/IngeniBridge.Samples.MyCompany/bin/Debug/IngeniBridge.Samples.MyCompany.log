@@ -83,3 +83,110 @@
 2018-01-23 08:34:45,129;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
 2018-01-23 08:34:45,161;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.15440
 2018-01-23 08:34:49,837;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-19 09:20:56,879;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 09:20:56,897;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 09:20:56,900;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.16815
+2018-06-19 09:20:57,504;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.Exception = All parameters must be valued
+2018-06-19 09:20:57,505;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2018-06-19 09:22:15,163;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 09:22:15,207;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 09:22:15,208;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.16815
+2018-06-19 09:29:40,699;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 09:29:40,716;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 09:29:40,717;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 10:13:13,558;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 10:13:13,572;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 10:13:13,572;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 10:13:14,068;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.Exception = All parameters must be valued
+2018-06-19 10:13:14,069;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2018-06-19 10:14:08,296;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 10:14:08,325;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 10:14:08,325;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 10:22:42,121;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 10:22:42,151;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 10:22:42,165;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 10:32:14,631;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 10:32:14,654;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 10:32:14,654;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 10:43:42,645;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 10:43:42,672;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 10:43:42,672;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 11:37:50,804;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 11:37:50,824;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 11:37:50,824;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 11:53:07,692;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 11:53:07,719;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 11:53:07,721;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 11:54:49,294;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 11:54:49,311;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 11:54:49,312;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:08:44,538;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:08:44,577;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:08:44,578;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:16:47,327;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:16:47,342;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:16:47,342;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:16:47,983;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-19 12:17:25,982;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:17:26,001;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:17:26,001;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:17:33,586;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-19 12:17:56,131;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:17:56,146;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:17:56,146;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:17:56,705;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-19 12:18:25,401;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:18:25,426;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:18:25,426;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:23:29,584;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:23:29,599;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:23:29,600;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 12:23:30,222;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-19 12:23:42,132;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 12:23:42,150;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 12:23:42,151;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.17089
+2018-06-19 15:11:47,225;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:11:47,241;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:11:47,242;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.27352
+2018-06-19 15:11:47,691;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.Exception = All parameters must be valued
+2018-06-19 15:11:47,692;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2018-06-19 15:19:22,505;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:19:22,520;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:19:22,520;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.27580
+2018-06-19 15:19:22,999;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.Exception = All parameters must be valued
+2018-06-19 15:19:23,001;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2018-06-19 15:32:22,835;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:32:22,896;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:32:22,899;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.27966
+2018-06-19 15:32:23,396;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => System.Exception = All parameters must be valued
+2018-06-19 15:32:23,419;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 1
+2018-06-19 15:32:42,394;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:32:42,434;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:32:42,435;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.27966
+2018-06-19 15:34:54,231;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:34:54,254;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:34:54,254;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.27966
+2018-06-19 15:39:05,533;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:39:05,543;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:39:05,543;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.28172
+2018-06-19 15:39:06,042;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-19 15:46:57,766;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-19 15:46:57,777;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-19 15:46:57,777;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.28408
+2018-06-19 15:46:58,327;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-22 22:52:18,481;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-22 22:52:18,512;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-22 22:52:18,513;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.41165
+2018-06-22 22:52:19,182;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-23 07:48:23,337;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-23 07:48:23,357;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-23 07:48:23,358;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.41165
+2018-06-23 07:48:24,177;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-23 08:01:05,961;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-23 08:01:05,983;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-23 08:01:05,984;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.41165
+2018-06-23 08:01:06,657;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0
+2018-06-23 08:02:04,966;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-06-23 08:02:04,982;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-06-23 08:02:04,982;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.41165
+2018-06-23 08:02:05,540;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Terminated => 0

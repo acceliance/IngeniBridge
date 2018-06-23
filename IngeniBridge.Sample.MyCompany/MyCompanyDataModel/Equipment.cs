@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 
 namespace MyCompanyDataModel
 {
-    public abstract class Equipment : MyCompanyAsset
+    public class Equipment : MyCompanyAsset
     {
         public Equipment [] SubEquipments { get; set; }
         public IOT [] IOTs { get; set; }
-        [ExternalReference]
-        public InfluenceZone InfluenceZone { get; set; }
     }
     public class GroupOfPumps : Equipment
     {
@@ -20,12 +18,16 @@ namespace MyCompanyDataModel
     public class WaterPump : Equipment
     {
     }
+    public class WaterSwitcher : Equipment
+    {
+    }
     public class ClorineInjector : Equipment
     {
     }
-    public abstract class IOT : MyCompanyAsset
+    public class IOT : MyCompanyAsset
     {
         [IndexPropertyOnParents]
+        //[DoNotIndexProperty]
         public string TelephoneNumber { get; set; }
     }
     public class PressureSensor : IOT

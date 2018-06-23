@@ -1,12 +1,13 @@
 ﻿using CommandLine;
 using IngeniBridge.Core.Diags;
-using IngeniBridge.Core.Iterator;
 using IngeniBridge.Core.MetaHelper;
 using IngeniBridge.Core.StagingData;
+using IngeniBridge.Core.Storage;
 using log4net;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -27,29 +28,34 @@ namespace IngeniBridge.IBDatabaseParser
                 ret = 1;
                 return ( ret );
             }
-            FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
-            log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
-            log.Info ( "INgeniBridgeDBFile => " + result.Value.INgeniBridgeDBFile );
+            log.Info ( "Starting " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
+            log.Info ( "StorageAccessorAssembly => " + result.Value.StorageAccessorAssembly );
+            log.Info ( "IBDatabase => " + result.Value.IBDatabase );
             try
             {
-                Core.StagingData.Serializer ser = new Core.StagingData.Serializer ();
-                Console.WriteLine ( "Deserialzing IB database => " + result.Value.INgeniBridgeDBFile );
-                DataModelVersion dmv = ser.DeserializeTree ( result.Value.INgeniBridgeDBFile );
-                MetaHelper helper = new MetaHelper ( ser.DataModelAssembly );
-                log.Info ( "DataModel Name => " + dmv.Name );
-                log.Info ( "DataModel Date => " + dmv.Generated.ToString () );
-                log.Info ( "DataModel Version Major => " + dmv.Major.ToString () );
-                log.Info ( "DataModel Version Minor => " + dmv.Minor.ToString () );
-                log.Info ( "DataModel Version Build => " + dmv.Build.ToString () );
-                TreeChecker tc = new TreeChecker ( helper );
-                Console.WriteLine ( "Verifying the tree..." );
-                tc.CheckTree ( ser.Frame, false, message => log.Error ( message ) );
-                new Core.Iterator.NodesHelper ( helper ).IterateTree ( ser.Frame.TreeRoot, ( inode ) =>
+                #region init IngeniBridge
+                UriBuilder uri = new UriBuilder ( Assembly.GetExecutingAssembly ().CodeBase );
+                string path = Path.GetDirectoryName ( Uri.UnescapeDataString ( uri.Path ) );
+                Assembly accessorasm = Assembly.LoadFile ( path + "\\" + result.Value.StorageAccessorAssembly );
+                Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
+                AssetExtension.StorageAccessor = accessor;
+                TimedDataExtension.StorageAccessor = accessor;
+                accessor.OpenDB ( result.Value.IBDatabase );
+                #endregion
+                log.Info ( "DataModel Name => " + accessor.Version.Name );
+                log.Info ( "DataModel Date => " + accessor.Version.Generated.ToString () );
+                log.Info ( "DataModel Version Majour => " + accessor.Version.Major.ToString () );
+                log.Info ( "DataModel Version Minor => " + accessor.Version.Minor.ToString () );
+                log.Info ( "DataModel Version Build => " + accessor.Version.Build.ToString () );
+                TreeChecker tc = new TreeChecker ( accessor );
+                Console.WriteLine ( "Vérification de l'arbre..." );
+                tc.CheckTree ( true, message => log.Error ( message ) );
+                accessor.IterateTree ( accessor.RootAsset, ( inode ) =>
                 {
                     Console.WriteLine ( "Tree pos => " + inode.FlatPath );
                     Console.WriteLine ( "Parent attribute containing node => " + inode.NodeParentAttribute );
-                    Console.WriteLine ( "\tObject => " + inode.vemdNode.EntityType.Name + " - " + helper.RetrieveCodeValue ( inode.Node ) + " - " + helper.RetrieveLabelValue ( inode.Node ) );
-                    new MetaHelper ( ser.DataModelAssembly ).ParseAttributes ( inode.Node, ( attribute, val ) =>
+                    Console.WriteLine ( "\tObject => " + inode.vemdNode.EntityType.Name + " - " + accessor.MetaHelper.RetrieveCodeValue ( inode.Node ) + " - " + accessor.MetaHelper.RetrieveLabelValue ( inode.Node ) );
+                    accessor.MetaHelper.ParseAttributes ( inode.Node, ( attribute, val ) =>
                     {
                         Console.WriteLine ( "\t\tAttribute => " + attribute.AttributeName + " (" + attribute.AttributeType.Name + ") = " + val.ToString () );
                         return ( true );

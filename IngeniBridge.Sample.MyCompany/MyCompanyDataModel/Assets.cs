@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyCompanyDataModel
 {
-    public abstract class MyCompanyAsset : Asset
+    public class MyCompanyAsset : Asset
     {
     }
 }

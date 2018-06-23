@@ -17,6 +17,7 @@ using IngeniBridge.Core.Service;
 using System.Runtime.Serialization.Formatters;
 using IngeniBridge.Core.Mining;
 using IngeniBridge.Core.StagingData;
+using IngeniBridge.Core.Storage;
 
 namespace IngeniBridge.TestServer
 {
@@ -33,35 +34,29 @@ namespace IngeniBridge.TestServer
                 FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
                 log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
                 log.Info ( "Starting " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
-                Console.Write ( "Login => " );
-                string login = Console.ReadLine ();
-                Console.Write ( "Password => " );
-                string password = "";
-                if ( login.Length > 0 )
-                {
-                    while ( true )
-                    {
-                        var key = Console.ReadKey ( true );
-                        if ( key.Key == ConsoleKey.Enter ) break;
-                        password += key.KeyChar;
-                    }
-                }
+                //Console.Write ( "Login => " );
+                //string login = Console.ReadLine ();
+                //Console.Write ( "Password => " );
+                //string password = "";
+                //while ( true )
+                //{
+                //    var key = Console.ReadKey ( true );
+                //    if ( key.Key == ConsoleKey.Enter ) break;
+                //    password += key.KeyChar;
+                //}
                 HttpClientHandler handler = new HttpClientHandler () { UseDefaultCredentials = true };
                 HttpClient client = new HttpClient ();
-                client.BaseAddress = new Uri (url );
+                client.BaseAddress = new Uri ( url );
                 client.DefaultRequestHeaders.Accept.Add ( new MediaTypeWithQualityHeaderValue ( "application/json" ) );
-                if ( login.Length >  0 )
-                {
-                    var byteArray = Encoding.ASCII.GetBytes ( login + ":" + password );
-                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ( "Basic", Convert.ToBase64String ( byteArray ) );
-                }
+                //var byteArray = Encoding.ASCII.GetBytes ( login + ":" + password );
+                //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ( "Basic", Convert.ToBase64String ( byteArray ) );
                 log.Info ( "Connecting => " + url );
                 Task<HttpResponseMessage> response = client.GetAsync ( url + "/REQUESTER/RetrieveDatas?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
                 string buf = response.Result.Content.ReadAsStringAsync ().Result;
                 MethodREST ( client, buf );
                 MethodMapping ( client, buf );
                 // here find data from Historian reference EXTREF 004, the acquisistion platform detected an exceeding threshold, now we must correlate this alarm with an existing alarm
-                response = client.GetAsync ( url + "/REQUESTER/RetrieveDatas?CorrelationCriteria=TimedData.ScadaExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" ); 
+                response = client.GetAsync ( url + "/REQUESTER/RetrieveDatas?CorrelationCriteria=TimedData.TimeSeriesExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" );
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
                 CorrelationInfluenceZoneBusinessUseCase ( client, buf );
             }
@@ -103,7 +98,7 @@ namespace IngeniBridge.TestServer
             log.Info ( "MethodMapping ==============================" );
             Task<HttpResponseMessage> response = client.GetAsync ( url + "/DataModel" );
             byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
-            Assembly DataModelAssembly = Serializer.RebuildDataModel ( buffer );
+            Assembly DataModelAssembly = StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             ContextedData [] cds = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf );
             cds.All ( cd =>
@@ -111,13 +106,13 @@ namespace IngeniBridge.TestServer
                 Console.Write ( "Path => " );
                 cd.Parents.Reverse ().All ( parent => { Console.Write ( parent.Code + "\\" ); return ( true ); } );
                 Console.WriteLine ();
-                Console.Write ( "Type => " + cd.Data.GetType () .FullName + "\n" );
+                Console.Write ( "Type => " + cd.Data.GetType ().FullName + "\n" );
                 Console.Write ( "Code => " + cd.Data.Code + "\n" );
                 Console.WriteLine ();
                 EntityMetaDescription emd = helper.GetMetaDataFromType ( cd.Data.GetType () );
                 helper.ParseAttributes ( cd.Data, ( attribute, val ) =>
                 {
-                    Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType () .Name + ") => " + val.ToString () + "\n" );
+                    Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType ().Name + ") => " + val.ToString () + "\n" );
                     return ( true );
                 }, true, true, true );
                 object [] vals = helper.RetrieveValuesFromType ( cd.Data, "TypeOfMeasure" );
@@ -130,7 +125,7 @@ namespace IngeniBridge.TestServer
             log.Info ( "CorrelationInfluenceZoneBusinessUseCase ==============================" );
             Task<HttpResponseMessage> response = client.GetAsync ( url + "/DataModel" );
             byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
-            Assembly DataModelAssembly = Serializer.RebuildDataModel ( buffer );
+            Assembly DataModelAssembly = StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             ContextedData cd = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.ScadaExternalReference=EXTREF 004
             //
@@ -140,27 +135,22 @@ namespace IngeniBridge.TestServer
             // - the influence zone is set on a parent of the data but the exact position is variable is a data come from an iot or from from an equipement or any other case
             //
             // conclusion:
-            // - reading the use case specification, to identify the influence zone for correlation it needs to make use of discovery features of IngeniBridge
+            // - reading the use case specification, identifying the influence zone for correlation should be made using discovery features of IngeniBridge
             // 
-            // now see code below find influence zone for correlation
-            //
-            // IngeniBridge is fully metadata driven platform
+            // now find influence zone for correlation
             string influencezonecode = "";
             string path = "";
-            // now we loop into each parent to find out the "InfluenceZone" typed attribute
-            cd.Parents.Reverse ().All ( parent => 
+            cd.Parents.Reverse ().All ( parent =>
             {
                 path += parent.Code + "\\";
-                // retrieve the asset object description before using discovery features
-                response = client.GetAsync ( url + "/REQUESTER/RetrieveAsset?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
+                response = client.GetAsync ( url + "/REQUESTER/RetrieveObject?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
                 ContextedAsset ca = ContextedAssetSerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
-                // now we try to discover the "InfluenceZone" typed attribute
                 object [] vals = helper.RetrieveValuesFromType ( ca.Asset, "InfluenceZone" );
                 if ( vals?.Count () > 0 ) influencezonecode = helper.RetrieveCodeValue ( vals [ 0 ] );
-                return ( influencezonecode.Length == 0 ); // stop looping when found
+                return ( influencezonecode.Length == 0 );
             } );
-            Console.WriteLine ( "Influence Zone found = " + influencezonecode ); // here we have what we looked for => the influence zone of the acquired timed data reference "EXTREF 004" in the data lake
+            Console.WriteLine ( "Influence Zone found = " + influencezonecode );
         }
     }
 }

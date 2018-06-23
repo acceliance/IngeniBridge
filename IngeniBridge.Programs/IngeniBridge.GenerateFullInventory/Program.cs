@@ -1,7 +1,4 @@
 ﻿using CommandLine;
-using IngeniBridge.Core;
-using IngeniBridge.Core.Iterator;
-using IngeniBridge.Core.MetaHelper;
 using log4net;
 using OfficeOpenXml;
 using System;
@@ -11,9 +8,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using IngeniBridge.Core.Diags;
-using IngeniBridge.Core.StagingData;
 using IngeniBridge.Core.Inventory;
-using System.Diagnostics;
+using IngeniBridge.Core.Storage;
 
 namespace IngeniBridge.GenerateFullInventory
 {
@@ -30,29 +26,34 @@ namespace IngeniBridge.GenerateFullInventory
                 ret = 1;
                 return ( ret );
             }
-            FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
-            log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
-            log.Info ( "INgeniBridgeDBFile => " + result.Value.INgeniBridgeDBFile );
-            log.Info ( "InventoryFilee => " + result.Value.InventoryFile );
+            log.Info ( "Starting " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
+            log.Info ( "StorageAccessorAssembly => " + result.Value.StorageAccessorAssembly );
+            log.Info ( "IBDatabase => " + result.Value.IBDatabase );
+            log.Info ( "InventoryFile => " + result.Value.InventoryFile );
             try
             {
-                Core.StagingData.Serializer ser = new Core.StagingData.Serializer ();
-                Console.WriteLine ( "Deserialzing IB database => " + result.Value.INgeniBridgeDBFile );
-                DataModelVersion dmv = ser.DeserializeTree ( result.Value.INgeniBridgeDBFile );
-                MetaHelper helper = new MetaHelper ( ser.DataModelAssembly );
-                log.Info ( "DataModel Name => " + dmv.Name );
-                log.Info ( "DataModel Date => " + dmv.Generated.ToString () );
-                log.Info ( "DataModel Version Major => " + dmv.Major.ToString () );
-                log.Info ( "DataModel Version Minor => " + dmv.Minor.ToString () );
-                log.Info ( "DataModel Version Build => " + dmv.Build.ToString () );
-                TreeChecker tc = new TreeChecker ( helper );
-                Console.WriteLine ( "Verifying the tree..." );
-                tc.CheckTree ( ser.Frame, false, message => log.Error ( message ) );
+                #region init IngeniBridge
+                UriBuilder uri = new UriBuilder ( Assembly.GetExecutingAssembly ().CodeBase );
+                string path = Path.GetDirectoryName ( Uri.UnescapeDataString ( uri.Path ) );
+                Assembly accessorasm = Assembly.LoadFile ( path + "\\" + result.Value.StorageAccessorAssembly );
+                Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
+                AssetExtension.StorageAccessor = accessor;
+                TimedDataExtension.StorageAccessor = accessor;
+                accessor.OpenDB ( result.Value.IBDatabase );
+                #endregion
+                log.Info ( "DataModel Name => " + accessor.Version.Name );
+                log.Info ( "DataModel Date => " + accessor.Version.Generated.ToString () );
+                log.Info ( "DataModel Version Majour => " + accessor.Version.Major.ToString () );
+                log.Info ( "DataModel Version Minor => " + accessor.Version.Minor.ToString () );
+                log.Info ( "DataModel Version Build => " + accessor.Version.Build.ToString () );
+                TreeChecker tc = new TreeChecker ( accessor );
+                Console.WriteLine ( "Vérification de l'arbre..." );
+                tc.CheckTree ( true, message => log.Error ( message ) );
                 FileInfo fi = new FileInfo ( result.Value.InventoryFile );
                 if ( fi.Exists ) fi.Delete ();
                 ExcelPackage xlMatricesPatrimoines = new ExcelPackage ( fi );
                 Dictionary<string, WorksheetInfo> worksheetinfos = new Dictionary<string, WorksheetInfo> ();
-                new InventoryHelper ( helper ).Launch ( ser.Frame, ( Name, Headers ) =>
+                new InventoryHelper ( accessor ).Launch ( ( Name, Headers ) =>
                 {
                     ExcelWorksheet wk = null;
                     int i = 0;
@@ -89,16 +90,17 @@ namespace IngeniBridge.GenerateFullInventory
                     return ( true );
                 } );
                 xlMatricesPatrimoines.Save ();
-                log.Info ( "Terminated OK." );
+                log.Info ( "Terminé OK." );
             }
             catch ( Exception ex )
             {
                 log.Error ( ex );
                 Console.WriteLine ( ex.Message );
-                log.Error ( "Terminated FAILED." );
+                log.Error ( "Terminé FAILED." );
                 ret = 1;
             }
             return ( ret );
+
         }
     }
 }

@@ -9,10 +9,12 @@ using System.Threading.Tasks;
 namespace MyCompanyDataModel
 {
     public enum ConsolidationType { None, Average };
-    public abstract class MyCompanyData : TimedData
+    public class MyCompanyData : TimedData
     {
         public ConsolidationType ConsolidationType { get; set; }
-        public TypeOfMeasure TypeOfMeasure { get; set; }
+        [IndexAlsoByName]
+        [IndexEntityAttribute ( "Unit" )]
+        public TypeOfMeasure tof { get; set; }
     }
     [DisplayName ( "Acquired Measure" )]
     public class AcquiredMeasure : MyCompanyData
