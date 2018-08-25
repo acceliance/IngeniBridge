@@ -50,12 +50,12 @@ namespace IngeniBridge.IBDatabaseParser
                 TreeChecker tc = new TreeChecker ( accessor );
                 Console.WriteLine ( "Vérification de l'arbre..." );
                 tc.CheckTree ( true, message => log.Error ( message ) );
-                accessor.IterateTree ( accessor.RootAsset, ( inode ) =>
+                accessor.IterateTree ( accessor.RootAsset.Entity, ( inode ) =>
                 {
-                    Console.WriteLine ( "Tree pos => " + inode.FlatPath );
-                    Console.WriteLine ( "Parent attribute containing node => " + inode.NodeParentAttribute );
-                    Console.WriteLine ( "\tObject => " + inode.vemdNode.EntityType.Name + " - " + accessor.MetaHelper.RetrieveCodeValue ( inode.Node ) + " - " + accessor.MetaHelper.RetrieveLabelValue ( inode.Node ) );
-                    accessor.MetaHelper.ParseAttributes ( inode.Node, ( attribute, val ) =>
+                    Console.WriteLine ( "Tree pos => " + inode.NodePath );
+                    Console.WriteLine ( "Parent attribute containing node => " + inode.AttributeInParent );
+                    Console.WriteLine ( "\tObject => " + inode.Entity.GetType () .Name + " - " + accessor.ContentHelper.RetrieveCodeValue ( inode.Entity ) + " - " + accessor.ContentHelper.RetrieveLabelValue ( inode.Entity ) );
+                    accessor.ContentHelper.ParseAttributes ( inode.Entity, ( attribute, val ) =>
                     {
                         Console.WriteLine ( "\t\tAttribute => " + attribute.AttributeName + " (" + attribute.AttributeType.Name + ") = " + val.ToString () );
                         return ( true );

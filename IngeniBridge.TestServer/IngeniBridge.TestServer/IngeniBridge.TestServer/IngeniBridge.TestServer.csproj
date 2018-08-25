@@ -42,12 +42,11 @@
     <Reference Include="IngeniBridge.BuildUtils, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\IngeniBridge.BuildUtils.1.0.5\lib\net461\IngeniBridge.BuildUtils.dll</HintPath>
     </Reference>
-    <Reference Include="IngeniBridge.Core, Version=1.0.33.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.Core.1.0.33\lib\net461\IngeniBridge.Core.dll</HintPath>
+    <Reference Include="IngeniBridge.Core, Version=1.0.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.Core.1.0.36\lib\net461\IngeniBridge.Core.dll</HintPath>
     </Reference>
-    <Reference Include="JT.TechCases.Threading, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\JT.TechCases.Threading.1.0.10\lib\net452\JT.TechCases.Threading.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="JT.TechCases.Threading, Version=1.0.11.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JT.TechCases.Threading.1.0.11\lib\net45\JT.TechCases.Threading.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
@@ -75,6 +74,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CorrelationInfluenceZone.cs" />
+    <Compile Include="MethodMapping.cs" />
+    <Compile Include="MethodRest.cs" />
     <Compile Include="NodeInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

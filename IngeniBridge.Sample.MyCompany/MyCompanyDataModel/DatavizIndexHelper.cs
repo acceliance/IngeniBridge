@@ -12,23 +12,26 @@ namespace MyCompanyDataModel
 {
     public class DatavizIndexHelper : IDatavizIndexHelper
     {
-        public string IndexNode ( MetaHelper helper, IteratedNode<object> inode )
+        public string IndexNode ( StorageAccessor accessor, string PathInTree, object node )
         {
             StringBuilder ret = new StringBuilder ();
-            inode.Parents.All ( asset =>
+            string [ ] l = StorageFormatter.GetAllParentsPathFromFullPath ( PathInTree );
+            StorageFormatter.GetAllParentsPathFromFullPath ( PathInTree ).All ( parentpath =>
             {
-                EntityMetaDescription emd = helper.GetMetaDataFromType ( asset.GetType () );
-                ret.Append ( emd.EntityDisplayName + " - " );
-                ret.Append ( helper.RetrieveCodeValue ( asset ) + " - " );
-                ret.Append ( helper.RetrieveLabelValue ( asset ) + " - " );
+                StorageNode<Asset> parent = accessor.RetrieveEntityFromPath<Asset> ( parentpath );
+                EntityMetaDescription emd_ = accessor.MetaHelper.GetMetaDataFromType ( parent.Entity.GetType () );
+                ret.Append ( emd_.EntityDisplayName + " - " );
+                ret.Append ( accessor.ContentHelper.RetrieveCodeValue ( parent ) + " - " );
+                ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( parent ) + " - " );
                 return ( true );
             } );
-            ret.Append ( inode.vemdNode.EntityDisplayName + " - " );
-            ret.Append ( helper.RetrieveCodeValue ( inode.Node ) + " - " );
-            ret.Append ( helper.RetrieveLabelValue ( inode.Node ) + " - " );
-            helper.ParseAttributes ( inode.Node, ( AttributeMetaDescription attribute, object val ) =>
+            EntityMetaDescription emd = accessor.MetaHelper.GetMetaDataFromType ( node.GetType () );
+            ret.Append ( emd.EntityDisplayName + " - " );
+            ret.Append ( accessor.ContentHelper.RetrieveCodeValue ( node ) + " - " );
+            ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( node ) + " - " );
+            accessor.ContentHelper.ParseAttributes ( node, ( AttributeMetaDescription attribute, object val ) =>
             {
-                if ( val.GetType ().IsSubclassOf ( typeof ( Nomenclature ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( helper.RetrieveLabelValue ( val ) + " - " );
+                if ( val.GetType ().IsSubclassOf ( typeof ( Nomenclature ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( val ) + " - " );
                 else if ( attribute.IsEnum == true ) ret.Append ( val.ToString () + " - " );
                 return ( true );
             }, true, true );

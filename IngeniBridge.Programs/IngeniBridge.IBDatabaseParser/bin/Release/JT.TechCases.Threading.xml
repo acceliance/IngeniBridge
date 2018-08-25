@@ -4,78 +4,6 @@
         <name>JT.TechCases.Threading</name>
     </assembly>
     <members>
-        <member name="T:JT.TechCases.Threading.Exceptions.DisplayException">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayException.#ctor(System.String,System.Collections.Generic.List{System.Exception})">
-            <summary>
-            Initializes a new instance of the <see cref="T:JT.TechCases.Threading.Exceptions.DisplayException"/> class.
-            </summary>
-            <param name="sContextDescription">The s context description.</param>
-            <param name="listExceptions">The list exceptions.</param>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayException.#ctor(System.String,System.Exception)">
-            <summary>
-            Initializes a new instance of the <see cref="T:JT.TechCases.Threading.Exceptions.DisplayException"/> class.
-            </summary>
-            <param name="sContextDescription">The s context description.</param>
-            <param name="ex">The ex.</param>
-        </member>
-        <member name="F:JT.TechCases.Threading.Exceptions.DisplayException.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayException.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayException.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="T:JT.TechCases.Threading.Exceptions.DisplayExceptionDetails">
-            <summary>
-            Class to display exceptions
-            </summary>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayExceptionDetails.#ctor(System.String,System.Collections.Generic.List{System.Exception})">
-            <summary>
-            Constructor
-            </summary>
-            <param name="sContextDescription">Context</param>
-            <param name="listExceptions">List of exceptions</param>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayExceptionDetails.#ctor(System.String,System.Exception)">
-            <summary>
-            Context
-            </summary>
-            <param name="sContextDescription">Context</param>
-            <param name="exc">Single exception</param>
-        </member>
-        <member name="F:JT.TechCases.Threading.Exceptions.DisplayExceptionDetails.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayExceptionDetails.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:JT.TechCases.Threading.Exceptions.DisplayExceptionDetails.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="T:JT.TechCases.Threading.Exceptions.Base">
             <summary>
             This class is the base for all exceptions. It is important so it can be treated by the global handler.
@@ -703,36 +631,14 @@
             Returns the execution time spent by the thread (cannot be called before termination)
             </summary>
         </member>
-        <member name="T:JT.TechCases.Threading.ThreadingMonitorForm">
-            <summary>
-             This class is used to monitor running threads.
-            </summary>
-        </member>
-        <member name="M:JT.TechCases.Threading.ThreadingMonitorForm.#ctor">
-            <summary>
-            This forms dislays all running threads
-            </summary>
-        </member>
-        <member name="F:JT.TechCases.Threading.ThreadingMonitorForm.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:JT.TechCases.Threading.ThreadingMonitorForm.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:JT.TechCases.Threading.ThreadingMonitorForm.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="T:JT.TechCases.Threading.ThreadPool">
             <summary>
             This class maintains a list of threads and is the only access point to create new ADFThreads.
+            </summary>
+        </member>
+        <member name="P:JT.TechCases.Threading.ThreadPool.Threads">
+            <summary>
+            This property returns the threads inside the pool
             </summary>
         </member>
         <member name="P:JT.TechCases.Threading.ThreadPool.UserData">

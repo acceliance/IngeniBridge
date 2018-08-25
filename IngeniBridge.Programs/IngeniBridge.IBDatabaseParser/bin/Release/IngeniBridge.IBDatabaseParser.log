@@ -58,3 +58,12 @@
 2018-06-23 08:03:28,163;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
 2018-06-23 08:03:28,163;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 8
 2018-06-23 08:03:28,486;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.
+2018-08-25 06:50:57,431;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Starting IngeniBridge.IBDatabaseParser v1.0.0.0
+2018-08-25 06:50:57,446;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;StorageAccessorAssembly => IngeniBridge.StorageAccessor.InMemory.dll
+2018-08-25 06:50:57,446;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;IBDatabase => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2018_08_25.ibdb
+2018-08-25 06:50:57,737;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Name => MyCompanyDataModel
+2018-08-25 06:50:57,738;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Date => 25/08/2018 06:38:25
+2018-08-25 06:50:57,738;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Majour => 1
+2018-08-25 06:50:57,739;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Minor => 0
+2018-08-25 06:50:57,739;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;DataModel Version Build => 8
+2018-08-25 06:50:58,118;[1];INFO ;IngeniBridge.IBDatabaseParser.Program;Terminated OK.

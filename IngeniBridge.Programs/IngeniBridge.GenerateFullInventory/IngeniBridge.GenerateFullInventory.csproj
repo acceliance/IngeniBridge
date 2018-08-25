@@ -45,19 +45,18 @@
     <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <HintPath>..\packages\EPPlus.4.5.2.1\lib\net40\EPPlus.dll</HintPath>
     </Reference>
-    <Reference Include="IngeniBridge.Core, Version=1.0.33.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.Core.1.0.33\lib\net461\IngeniBridge.Core.dll</HintPath>
+    <Reference Include="IngeniBridge.Core, Version=1.0.36.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.Core.1.0.36\lib\net461\IngeniBridge.Core.dll</HintPath>
     </Reference>
-    <Reference Include="IngeniBridge.StorageAccessor.InMemory, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IngeniBridge.StorageAccessor.InMemory.1.0.3\lib\net461\IngeniBridge.StorageAccessor.InMemory.dll</HintPath>
+    <Reference Include="IngeniBridge.StorageAccessor.InMemory, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IngeniBridge.StorageAccessor.InMemory.1.0.6\lib\net461\IngeniBridge.StorageAccessor.InMemory.dll</HintPath>
     </Reference>
     <Reference Include="IngeniBridge.Utils, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\IngeniBridge.Utils.1.0.3\lib\net452\IngeniBridge.Utils.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="JT.TechCases.Threading, Version=1.0.10.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\JT.TechCases.Threading.1.0.10\lib\net452\JT.TechCases.Threading.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="JT.TechCases.Threading, Version=1.0.11.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JT.TechCases.Threading.1.0.11\lib\net45\JT.TechCases.Threading.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>

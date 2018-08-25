@@ -316,3 +316,10 @@
 2018-06-23 08:01:28,997;[1];INFO ;IngeniBridge.TestServer.Program;MethodMapping ==============================
 2018-06-23 08:01:29,386;[1];INFO ;IngeniBridge.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
 2018-06-23 08:01:29,434;[1];INFO ;IngeniBridge.TestServer.Program;Terminated => 0
+2018-08-25 07:15:10,995;[1];INFO ;IngeniBridge.Server.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright ©  2017
+2018-08-25 07:15:11,033;[1];INFO ;IngeniBridge.Server.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
+2018-08-25 07:15:11,053;[1];INFO ;IngeniBridge.Server.TestServer.Program;Connecting => https://cloud.ingenibridge.com/PublicDemo/Deagital/
+2018-08-25 07:15:11,281;[1];INFO ;IngeniBridge.Server.TestServer.Program;MethodREST ==============================
+2018-08-25 07:15:11,580;[1];INFO ;IngeniBridge.Server.TestServer.Program;MethodMapping ==============================
+2018-08-25 07:15:12,023;[1];INFO ;IngeniBridge.Server.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
+2018-08-25 07:15:12,081;[1];INFO ;IngeniBridge.Server.TestServer.Program;Terminated => 0

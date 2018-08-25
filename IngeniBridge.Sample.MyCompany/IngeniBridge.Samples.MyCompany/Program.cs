@@ -1,4 +1,7 @@
 ﻿using IngeniBridge.Core.Diags;
+using IngeniBridge.Core.MetaHelper;
+using IngeniBridge.Core.StagingData;
+using IngeniBridge.BuildUtils;
 using MyCompanyDataModel;
 using System;
 using System.Collections.Generic;
@@ -6,30 +9,29 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using log4net;
-using System.Diagnostics;
+using IngeniBridge.Core.Util;
+using IngeniBridge.Core.Storage;
 using System.IO;
 using OfficeOpenXml;
-using IngeniBridge.Core.Storage;
-using IngeniBridge.Core.Util;
+using IngeniBridge.Core.Inventory;
+using log4net;
+using System.Diagnostics;
 
 namespace IngeniBridge.Samples.MyCompany
 {
     class Program
     {
         private static readonly ILog log = LogManager.GetLogger ( System.Reflection.MethodBase.GetCurrentMethod ().DeclaringType );
-        static int Main ( string [] args )
+        static int Main ( string [ ] args )
         {
-            log4net.Config.XmlConfigurator.Configure ();
             int ret = 0;
             try
             {
+                log4net.Config.XmlConfigurator.Configure ();
                 FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
                 log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
                 log.Info ( "Starting => " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );
-                log.Info ( "Data Model => " + Assembly.GetAssembly ( typeof ( ProductionSite ) ).GetName ().Name + " v" + Assembly.GetAssembly ( typeof ( ProductionSite ) ) .GetName ().Version );
-                TypeOfMeasure [] tom = new TypeOfMeasure [ 0 ];
-                Type t = tom.GetType ();
+                log.Info ( "Data Model => " + Assembly.GetAssembly ( typeof ( ProductionSite ) ).GetName ().Name + " v" + Assembly.GetAssembly ( typeof ( ProductionSite ) ).GetName ().Version );
                 #region init IngeniBridge
                 UriBuilder uri = new UriBuilder ( Assembly.GetExecutingAssembly ().CodeBase );
                 string path = Path.GetDirectoryName ( Uri.UnescapeDataString ( uri.Path ) );
@@ -71,13 +73,13 @@ namespace IngeniBridge.Samples.MyCompany
                 #endregion
                 #region assets
                 ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", Location = "Paris", Sector = accessor.FindNomenclatureEntry<Sector> ( "W" ) };
-                siteParis.Zone = accessor.FindChildObject<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z1" );
+                siteParis.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z1" ).Entity;
                 root.AddChildAsset ( siteParis );
                 ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = accessor.FindNomenclatureEntry<Sector> ( "S" ) };
-                siteLivry.Zone = accessor.FindChildObject<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" );
+                siteLivry.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
                 root.AddChildAsset ( siteLivry );
                 ProductionSite siteLeRaincy = new ProductionSite () { Code = "Site of Le Raincy", Label = "Site of Le Raincy, Itercommunication", Location = "Le Raincy", Sector = accessor.FindNomenclatureEntry<Sector> ( "S" ) };
-                siteLeRaincy.Zone = accessor.FindChildObject<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" );
+                siteLeRaincy.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
                 root.AddChildAsset ( siteLeRaincy );
                 GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
                 siteParis.AddChildAsset ( grouppumps );
@@ -122,8 +124,21 @@ namespace IngeniBridge.Samples.MyCompany
                 TreeChecker tc = new TreeChecker ( accessor );
                 tc.CheckTree ( true, message =>
                 {
-                    Console.WriteLine ( "error => " + message );
+                    log.Info ( "error => " + message );
                 } );
+                int nbtotalassets = 0;
+                int nbtotaldatas = 0;
+                new Diagnostic ( accessor ).Diagnose ( ( assettype, nbassets, nbdatas ) =>
+                {
+                    log.Info ( assettype + " => " + nbassets.ToString () + ", nbvars => " + nbdatas.ToString () );
+                    nbtotalassets += nbassets;
+                    nbtotaldatas += nbdatas;
+                }, ( nomenclature, nbentries ) =>
+                {
+                    log.Info ( nomenclature + ", nbentries => " + nbentries.ToString () );
+                } );
+                log.Info ( "nb total assets => " + nbtotalassets.ToString () );
+                log.Info ( "nb total datas => " + nbtotaldatas.ToString () );
                 accessor.CloseDB ();
                 #endregion
             }
@@ -132,7 +147,6 @@ namespace IngeniBridge.Samples.MyCompany
                 log.Error ( "Exception => " + e.GetType () + " = " + e.Message );
                 ret = 1;
             }
-            log.Info ( "Terminated => " + ret.ToString () );
             return ( ret );
         }
     }

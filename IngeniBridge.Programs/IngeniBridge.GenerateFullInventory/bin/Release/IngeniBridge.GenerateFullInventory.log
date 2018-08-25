@@ -57,3 +57,13 @@ Nom de fichier : 'C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.M
 2018-06-23 08:02:58,841;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Minor => 0
 2018-06-23 08:02:58,841;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Build => 8
 2018-06-23 08:02:59,442;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;Terminé OK.
+2018-08-25 06:50:22,879;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;Starting IngeniBridge.GenerateFullInventory v1.0.0.12104
+2018-08-25 06:50:22,894;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;StorageAccessorAssembly => IngeniBridge.StorageAccessor.InMemory.dll
+2018-08-25 06:50:22,894;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;IBDatabase => ..\..\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2018_08_25.ibdb
+2018-08-25 06:50:22,894;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;InventoryFile => InventoryFileIB.xlsx
+2018-08-25 06:50:23,167;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Name => MyCompanyDataModel
+2018-08-25 06:50:23,169;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Date => 25/08/2018 06:38:25
+2018-08-25 06:50:23,169;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Majour => 1
+2018-08-25 06:50:23,169;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Minor => 0
+2018-08-25 06:50:23,169;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;DataModel Version Build => 8
+2018-08-25 06:50:23,630;[1];INFO ;IngeniBridge.GenerateFullInventory.Program;Terminé OK.
