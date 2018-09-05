@@ -27,7 +27,7 @@ namespace IngeniBridge.Server.TestServer
             Program.log.Info ( "CorrelationInfluenceZoneBusinessUseCase ==============================" );
             Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/DataModel" );
             byte [ ] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
-            Assembly DataModelAssembly = StorageAccessor.RebuildDataModel ( buffer );
+            Assembly DataModelAssembly = IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
             ContextedData cd = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.TimedDataExternalReference=EXTREF 004

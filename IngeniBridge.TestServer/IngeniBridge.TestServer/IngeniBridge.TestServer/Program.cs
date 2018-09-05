@@ -6,11 +6,13 @@ using IngeniBridge.Core.Service;
 using IngeniBridge.Core.StagingData;
 using IngeniBridge.Core.Storage;
 using log4net;
+using log4net.Config;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -26,7 +28,7 @@ namespace IngeniBridge.Server.TestServer
         public static string url = "https://cloud.ingenibridge.com/PublicDemo/Deagital/";
         static int Main ( string [] args )
         {
-            log4net.Config.XmlConfigurator.Configure ();
+            XmlConfigurator.Configure ( LogManager.GetRepository ( Assembly.GetEntryAssembly () ), new FileInfo ( "log4net.config" ) );
             int ret = 0;
             try
             {

@@ -33,9 +33,7 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDa
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\CommandLine.xml
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\EPPlus.xml
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\IngeniBridge.Core.xml
-C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\JT.TechCases.Threading.xml
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\log4net.xml
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\Newtonsoft.Json.xml
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\System.ValueTuple.xml
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\IngeniBridge.IBDatabaseParser.csproj.CopyComplete
-C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\IngeniBridge.IBDatabaseParser.csprojAssemblyReference.cache

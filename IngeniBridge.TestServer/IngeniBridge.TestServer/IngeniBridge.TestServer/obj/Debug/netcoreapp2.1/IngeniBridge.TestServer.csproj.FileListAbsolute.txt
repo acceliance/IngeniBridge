@@ -1,0 +1,9 @@
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\bin\Debug\netcoreapp2.1\IngeniBridge.TestServer.dll.config
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\bin\Debug\netcoreapp2.1\IngeniBridge.TestServer.deps.json
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\bin\Debug\netcoreapp2.1\IngeniBridge.TestServer.runtimeconfig.json
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\bin\Debug\netcoreapp2.1\IngeniBridge.TestServer.runtimeconfig.dev.json
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\bin\Debug\netcoreapp2.1\IngeniBridge.TestServer.dll
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\netcoreapp2.1\IngeniBridge.TestServer.csprojAssemblyReference.cache
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\netcoreapp2.1\IngeniBridge.TestServer.csproj.CoreCompileInputs.cache
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\netcoreapp2.1\IngeniBridge.TestServer.AssemblyInfoInputs.cache
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\netcoreapp2.1\IngeniBridge.TestServer.AssemblyInfo.cs

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IngeniBridge.Samples.MyCompany</id>
+    <version>1.0.0</version>
+    <title>IngeniBridge.Samples.MyCompany</title>
+    <authors>JTO Tec</authors>
+    <owners>JTO Tec</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <copyright>Copyright © DEAGITAL 2016</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="MyCompanyDataModel" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="CommandLineParser" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="IngeniBridge.BuildUtils" version="1.0.6" exclude="Build,Analyzers" />
+        <dependency id="IngeniBridge.Core" version="1.0.37" exclude="Build,Analyzers" />
+        <dependency id="IngeniBridge.StorageAccessor.InMemory" version="1.0.8" exclude="Build,Analyzers" />
+        <dependency id="JT.TechCases.Threading" version="1.0.12" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\bin\Release\net45\IngeniBridge.Samples.MyCompany.exe" target="lib\net45\IngeniBridge.Samples.MyCompany.exe" />
+  </files>
+</package>

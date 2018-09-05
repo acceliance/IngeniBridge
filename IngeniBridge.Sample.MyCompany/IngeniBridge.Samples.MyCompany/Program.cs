@@ -16,6 +16,7 @@ using OfficeOpenXml;
 using IngeniBridge.Core.Inventory;
 using log4net;
 using System.Diagnostics;
+using log4net.Config;
 
 namespace IngeniBridge.Samples.MyCompany
 {
@@ -27,7 +28,7 @@ namespace IngeniBridge.Samples.MyCompany
             int ret = 0;
             try
             {
-                log4net.Config.XmlConfigurator.Configure ();
+                XmlConfigurator.Configure ( LogManager.GetRepository ( Assembly.GetEntryAssembly () ), new FileInfo ( "log4net.config" ) );
                 FileVersionInfo fvi = FileVersionInfo.GetVersionInfo ( Assembly.GetEntryAssembly ().Location );
                 log.Info ( fvi.ProductName + " v" + fvi.FileVersion + " -- " + fvi.LegalCopyright );
                 log.Info ( "Starting => " + Assembly.GetEntryAssembly ().GetName ().Name + " v" + Assembly.GetEntryAssembly ().GetName ().Version );

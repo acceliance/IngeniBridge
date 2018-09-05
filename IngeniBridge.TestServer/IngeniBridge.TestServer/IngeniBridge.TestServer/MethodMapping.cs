@@ -27,7 +27,7 @@ namespace IngeniBridge.Server.TestServer
             Program.log.Info ( "MethodMapping ==============================" );
             Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/DataModel" );
             byte [ ] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
-            Assembly DataModelAssembly = StorageAccessor.RebuildDataModel ( buffer );
+            Assembly DataModelAssembly = Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
             ContextedData [ ] cds = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf );

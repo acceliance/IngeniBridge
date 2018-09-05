@@ -206,3 +206,19 @@
 2018-08-25 06:38:25,880;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;InfluenceZone => 2, nbvars => 0
 2018-08-25 06:38:25,880;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total assets => 12
 2018-08-25 06:38:25,880;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total datas => 11
+2018-09-05 21:51:08,086;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright ©  2016
+2018-09-05 21:51:08,098;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-09-05 21:51:08,098;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.8.11699
+2018-09-05 21:51:08,709;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;TypeOfMeasure, nbentries => 5
+2018-09-05 21:51:08,709;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Sector, nbentries => 2
+2018-09-05 21:51:08,710;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;City, nbentries => 2
+2018-09-05 21:51:08,711;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ProductionSite => 3, nbvars => 1
+2018-09-05 21:51:08,711;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;GroupOfPumps => 1, nbvars => 1
+2018-09-05 21:51:08,711;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterPump => 2, nbvars => 2
+2018-09-05 21:51:08,711;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;PressureSensor => 1, nbvars => 1
+2018-09-05 21:51:08,711;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ClorineInjector => 1, nbvars => 4
+2018-09-05 21:51:08,711;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;MultiFunctionSensor => 1, nbvars => 1
+2018-09-05 21:51:08,712;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterSwitcher => 1, nbvars => 1
+2018-09-05 21:51:08,712;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;InfluenceZone => 2, nbvars => 0
+2018-09-05 21:51:08,712;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total assets => 12
+2018-09-05 21:51:08,712;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total datas => 11
