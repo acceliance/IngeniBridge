@@ -27,7 +27,6 @@ namespace MyCompanyDataModel
     public class IOT : MyCompanyAsset
     {
         [IndexPropertyOnParents]
-        //[DoNotIndexProperty]
         public string TelephoneNumber { get; set; }
     }
     public class PressureSensor : IOT
