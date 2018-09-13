@@ -16,3 +16,4 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.Gene
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.GenerateFullInventory\obj\Release\net45\IngeniBridge.GenerateFullInventory.csproj.CopyComplete
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.GenerateFullInventory\obj\Release\net45\IngeniBridge.GenerateFullInventory.exe
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.GenerateFullInventory\obj\Release\net45\IngeniBridge.GenerateFullInventory.pdb
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.GenerateFullInventory\obj\Release\net45\IngeniBridge.GenerateFullInventory.csprojAssemblyReference.cache

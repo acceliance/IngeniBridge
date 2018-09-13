@@ -16,3 +16,4 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDa
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\net45\IngeniBridge.IBDatabaseParser.csproj.CopyComplete
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\net45\IngeniBridge.IBDatabaseParser.exe
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\net45\IngeniBridge.IBDatabaseParser.pdb
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\net45\IngeniBridge.IBDatabaseParser.csprojAssemblyReference.cache

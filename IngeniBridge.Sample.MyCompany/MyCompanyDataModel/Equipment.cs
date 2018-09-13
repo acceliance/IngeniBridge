@@ -24,15 +24,4 @@ namespace MyCompanyDataModel
     public class ClorineInjector : Equipment
     {
     }
-    public class IOT : MyCompanyAsset
-    {
-        [IndexPropertyOnParents]
-        public string TelephoneNumber { get; set; }
-    }
-    public class PressureSensor : IOT
-    {
-    }
-    public class MultiFunctionSensor : IOT
-    {
-    }
 }

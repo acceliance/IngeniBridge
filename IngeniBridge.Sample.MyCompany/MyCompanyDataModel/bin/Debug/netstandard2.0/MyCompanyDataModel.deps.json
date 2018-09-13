@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "MyCompanyDataModel/1.0.0": {
+      "MyCompanyDataModel/1.0.0.1": {
         "dependencies": {
           "EPPlus": "4.5.2.1",
           "IngeniBridge.Core": "1.0.37",
@@ -854,7 +854,7 @@
     }
   },
   "libraries": {
-    "MyCompanyDataModel/1.0.0": {
+    "MyCompanyDataModel/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

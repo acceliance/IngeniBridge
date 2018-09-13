@@ -16,3 +16,4 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.Te
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\bin\Debug\net45\IngeniBridge.TestServer.pdb
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\net45\IngeniBridge.TestServer.exe
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\net45\IngeniBridge.TestServer.pdb
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.TestServer\IngeniBridge.TestServer\IngeniBridge.TestServer\obj\Debug\net45\IngeniBridge.TestServer.csprojAssemblyReference.cache

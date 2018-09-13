@@ -1,0 +1,66 @@
+2018-09-13 10:30:48,172;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright © DEAGITAL 2016
+2018-09-13 10:30:48,205;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-09-13 10:30:48,205;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.0.0
+2018-09-13 10:30:49,447;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;TypeOfMeasure, nbentries => 5
+2018-09-13 10:30:49,447;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Sector, nbentries => 2
+2018-09-13 10:30:49,449;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;City, nbentries => 2
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ProductionSite => 3, nbvars => 1
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;GroupOfPumps => 1, nbvars => 1
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterPump => 2, nbvars => 2
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;PressureSensor => 1, nbvars => 1
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ClorineInjector => 1, nbvars => 4
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;MultiFunctionSensor => 1, nbvars => 1
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterSwitcher => 1, nbvars => 1
+2018-09-13 10:30:49,451;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;InfluenceZone => 2, nbvars => 0
+2018-09-13 10:30:49,452;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total assets => 12
+2018-09-13 10:30:49,452;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total datas => 11
+2018-09-13 10:30:49,479;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero = Minor revision cannot be 0, use [assembly: AssemblyVersion("1.0.0.* ")] in your AssemblyInfo.cs file
+2018-09-13 10:31:39,174;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright © DEAGITAL 2016
+2018-09-13 10:31:39,234;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-09-13 10:31:39,234;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.0.0
+2018-09-13 10:31:41,398;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;TypeOfMeasure, nbentries => 5
+2018-09-13 10:31:41,404;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Sector, nbentries => 2
+2018-09-13 10:31:41,409;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;City, nbentries => 2
+2018-09-13 10:31:41,412;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ProductionSite => 3, nbvars => 1
+2018-09-13 10:31:41,412;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;GroupOfPumps => 1, nbvars => 1
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterPump => 2, nbvars => 2
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;PressureSensor => 1, nbvars => 1
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ClorineInjector => 1, nbvars => 4
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;MultiFunctionSensor => 1, nbvars => 1
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterSwitcher => 1, nbvars => 1
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;InfluenceZone => 2, nbvars => 0
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total assets => 12
+2018-09-13 10:31:41,413;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total datas => 11
+2018-09-13 11:11:00,724;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright © DEAGITAL 2016
+2018-09-13 11:11:00,752;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-09-13 11:11:00,752;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.0.0
+2018-09-13 11:11:01,647;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;TypeOfMeasure, nbentries => 5
+2018-09-13 11:11:01,648;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Sector, nbentries => 2
+2018-09-13 11:11:01,648;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;City, nbentries => 2
+2018-09-13 11:11:01,650;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ProductionSite => 3, nbvars => 1
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;GroupOfPumps => 1, nbvars => 1
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterPump => 2, nbvars => 2
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;PressureSensor => 1, nbvars => 1
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ClorineInjector => 1, nbvars => 4
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;MultiFunctionSensor => 1, nbvars => 1
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterSwitcher => 1, nbvars => 1
+2018-09-13 11:11:01,651;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;InfluenceZone => 2, nbvars => 0
+2018-09-13 11:11:01,652;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total assets => 12
+2018-09-13 11:11:01,652;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total datas => 11
+2018-09-13 11:11:01,668;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero = Minor revision cannot be 0, use [assembly: AssemblyVersion("1.0.0.* ")] in your AssemblyInfo.cs file
+2018-09-13 11:11:22,360;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;IngeniBridge.Samples.MyCompany v1.0.0.0 -- Copyright © DEAGITAL 2016
+2018-09-13 11:11:22,383;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Starting => IngeniBridge.Samples.MyCompany v1.0.0.0
+2018-09-13 11:11:22,383;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Data Model => MyCompanyDataModel v1.0.0.1
+2018-09-13 11:11:23,537;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;TypeOfMeasure, nbentries => 5
+2018-09-13 11:11:23,550;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;Sector, nbentries => 2
+2018-09-13 11:11:23,570;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;City, nbentries => 2
+2018-09-13 11:11:23,586;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ProductionSite => 3, nbvars => 1
+2018-09-13 11:11:23,589;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;GroupOfPumps => 1, nbvars => 1
+2018-09-13 11:11:23,595;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterPump => 2, nbvars => 2
+2018-09-13 11:11:23,600;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;PressureSensor => 1, nbvars => 1
+2018-09-13 11:11:23,606;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;ClorineInjector => 1, nbvars => 4
+2018-09-13 11:11:23,606;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;MultiFunctionSensor => 1, nbvars => 1
+2018-09-13 11:11:23,608;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;WaterSwitcher => 1, nbvars => 1
+2018-09-13 11:11:23,609;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;InfluenceZone => 2, nbvars => 0
+2018-09-13 11:11:23,610;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total assets => 12
+2018-09-13 11:11:23,611;[1];INFO ;IngeniBridge.Samples.MyCompany.Program;nb total datas => 11

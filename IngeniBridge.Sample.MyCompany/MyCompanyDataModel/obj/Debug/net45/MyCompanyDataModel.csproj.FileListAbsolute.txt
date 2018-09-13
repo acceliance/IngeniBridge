@@ -11,3 +11,4 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompany
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\net45\MyCompanyDataModel.csproj.CopyComplete
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\net45\MyCompanyDataModel.dll
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\net45\MyCompanyDataModel.pdb
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Debug\net45\MyCompanyDataModel.csprojAssemblyReference.cache

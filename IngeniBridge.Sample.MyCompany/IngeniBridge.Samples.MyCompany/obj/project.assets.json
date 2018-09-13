@@ -140,7 +140,7 @@
           "lib/netstandard1.0/System.ValueTuple.dll": {}
         }
       },
-      "MyCompanyDataModel/1.0.0": {
+      "MyCompanyDataModel/1.0.0.1": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5",
         "dependencies": {
@@ -295,7 +295,7 @@
           "lib/netstandard1.0/System.ValueTuple.dll": {}
         }
       },
-      "MyCompanyDataModel/1.0.0": {
+      "MyCompanyDataModel/1.0.0.1": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5",
         "dependencies": {
@@ -626,7 +626,7 @@
         "version.txt"
       ]
     },
-    "MyCompanyDataModel/1.0.0": {
+    "MyCompanyDataModel/1.0.0.1": {
       "type": "project",
       "path": "../MyCompanyDataModel/MyCompanyDataModel.csproj",
       "msbuildProject": "../MyCompanyDataModel/MyCompanyDataModel.csproj"
@@ -639,7 +639,7 @@
       "IngeniBridge.Core >= 1.0.37",
       "IngeniBridge.StorageAccessor.InMemory >= 1.0.8",
       "JT.TechCases.Threading >= 1.0.12",
-      "MyCompanyDataModel >= 1.0.0",
+      "MyCompanyDataModel >= 1.0.0.1",
       "log4net >= 2.0.8"
     ]
   },
@@ -662,12 +662,14 @@
       ],
       "configFilePaths": [
         "C:\\Users\\joset\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net45"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

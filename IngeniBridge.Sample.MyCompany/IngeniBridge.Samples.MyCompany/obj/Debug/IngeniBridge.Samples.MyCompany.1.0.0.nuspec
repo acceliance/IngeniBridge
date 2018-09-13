@@ -11,7 +11,7 @@
     <copyright>Copyright © DEAGITAL 2016</copyright>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="MyCompanyDataModel" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MyCompanyDataModel" version="1.0.0.1" exclude="Build,Analyzers" />
         <dependency id="CommandLineParser" version="2.3.0" exclude="Build,Analyzers" />
         <dependency id="IngeniBridge.BuildUtils" version="1.0.6" exclude="Build,Analyzers" />
         <dependency id="IngeniBridge.Core" version="1.0.37" exclude="Build,Analyzers" />

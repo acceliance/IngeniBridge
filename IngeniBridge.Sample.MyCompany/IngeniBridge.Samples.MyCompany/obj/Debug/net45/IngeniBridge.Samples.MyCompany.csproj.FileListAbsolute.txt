@@ -19,3 +19,4 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBri
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\obj\Debug\net45\IngeniBridge.Samples.MyCompany.csproj.CopyComplete
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\obj\Debug\net45\IngeniBridge.Samples.MyCompany.exe
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\obj\Debug\net45\IngeniBridge.Samples.MyCompany.pdb
+C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\bin\Debug\net45\log4net.config

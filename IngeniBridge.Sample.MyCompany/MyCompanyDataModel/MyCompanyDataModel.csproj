@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
 	<Title>MyCompanyDataModel</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Authors>JTO Tec</Authors>
     <Copyright>Copyright © DEAGITAL 2016</Copyright>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>

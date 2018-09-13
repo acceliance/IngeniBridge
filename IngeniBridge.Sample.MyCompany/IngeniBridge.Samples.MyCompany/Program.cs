@@ -40,7 +40,7 @@ namespace IngeniBridge.Samples.MyCompany
                 Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
                 TimedDataExtension.StorageAccessor = accessor;
-                string fimastername = FileDater.SetFileNameDateTime ( "..\\..\\MasterAssetMyCompany.ibdb" );
+                string fimastername = FileDater.SetFileNameDateTime ( "..\\..\\..\\MasterAssetMyCompany.ibdb" );
                 accessor.InitializeNewDB ( Assembly.GetAssembly ( typeof ( MyCompanyAsset ) ), fimastername );
                 #endregion
                 #region Init root asset
@@ -60,7 +60,7 @@ namespace IngeniBridge.Samples.MyCompany
                 #endregion
                 #region Influence zones
                 // Here you see how to access an Excel file using the EPPlus package
-                FileInfo fi = new FileInfo ( "..\\..\\Metadata content to consolidate.xlsx" );
+                FileInfo fi = new FileInfo ( "..\\..\\..\\Metadata content to consolidate.xlsx" );
                 ExcelPackage xlConsolidate = new ExcelPackage ( fi );
                 ExcelWorksheet wksZones = xlConsolidate.Workbook.Worksheets [ "Influence Zone" ];
                 int line = 2;
