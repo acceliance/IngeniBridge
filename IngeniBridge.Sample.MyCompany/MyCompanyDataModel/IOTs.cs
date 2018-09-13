@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MyCompanyDataModel
 {
-    public class IOT : MyCompanyAsset
+    public abstract class IOT : MyCompanyAsset
     {
         [IndexPropertyOnParents]
         public string TelephoneNumber { get; set; }
