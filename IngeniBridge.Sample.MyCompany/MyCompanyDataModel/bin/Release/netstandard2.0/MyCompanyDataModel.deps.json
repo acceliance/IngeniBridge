@@ -1,16 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "ee9f074775c38234cd37e0d834f0b34793ce7e39"
+    "signature": "5e8bea969e2c831cc0bd5e06ab319a573b8ae1c4"
   },
   "compilationOptions": {},
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "MyCompanyDataModel/1.0.0": {
+      "MyCompanyDataModel/1.0.0.1": {
         "dependencies": {
           "EPPlus": "4.5.2.1",
-          "IngeniBridge.Core": "1.0.37",
+          "IngeniBridge.Core": "1.0.38",
           "NETStandard.Library": "2.0.3",
           "System.ValueTuple": "4.5.0"
         },
@@ -39,24 +39,24 @@
           }
         }
       },
-      "IngeniBridge.Core/1.0.37": {
+      "IngeniBridge.Core/1.0.38": {
         "dependencies": {
-          "JT.TechCases.Threading": "1.0.12",
-          "Newtonsoft.Json": "11.0.2",
+          "JT.TechCases.Threading": "1.0.17",
+          "Newtonsoft.Json": "12.0.1",
           "System.ValueTuple": "4.5.0"
         },
         "runtime": {
           "lib/netstandard2.0/IngeniBridge.Core.dll": {
-            "assemblyVersion": "1.0.37.0",
-            "fileVersion": "1.0.37.0"
+            "assemblyVersion": "1.0.38.0",
+            "fileVersion": "1.0.38.0"
           }
         }
       },
-      "JT.TechCases.Threading/1.0.12": {
+      "JT.TechCases.Threading/1.0.17": {
         "runtime": {
           "lib/netstandard2.0/JT.TechCases.Threading.dll": {
-            "assemblyVersion": "1.0.12.0",
-            "fileVersion": "1.0.12.0"
+            "assemblyVersion": "1.0.17.0",
+            "fileVersion": "1.0.17.0"
           }
         }
       },
@@ -98,7 +98,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.0.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {
@@ -156,11 +156,11 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
           }
         }
       },
@@ -854,7 +854,7 @@
     }
   },
   "libraries": {
-    "MyCompanyDataModel/1.0.0": {
+    "MyCompanyDataModel/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -866,19 +866,19 @@
       "path": "epplus/4.5.2.1",
       "hashPath": "epplus.4.5.2.1.nupkg.sha512"
     },
-    "IngeniBridge.Core/1.0.37": {
+    "IngeniBridge.Core/1.0.38": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-V5zIao9IGH9F10UDOMN1oubR0uubmDxY2z50BtiCXUj61lOMiGnpYRrLqeUKcjNQesL9Repvwi7YW1bQ4bMtNg==",
-      "path": "ingenibridge.core/1.0.37",
-      "hashPath": "ingenibridge.core.1.0.37.nupkg.sha512"
+      "sha512": "sha512-gcp4qWS798b0P/bLnZFtCAE1fOjHDQhkTX/8YUKCUqQPskNPxBeLERJe8pHncv06JeCiHkYALaRn0XIwZpJD+A==",
+      "path": "ingenibridge.core/1.0.38",
+      "hashPath": "ingenibridge.core.1.0.38.nupkg.sha512"
     },
-    "JT.TechCases.Threading/1.0.12": {
+    "JT.TechCases.Threading/1.0.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P5/D3riDQc/cqnIMekNh7f1RVscDTq8wVI1dXQh9453BmF+7fTnNSzT3HiKcrbcO7DDugNPS9CUJFVz9xrE0cw==",
-      "path": "jt.techcases.threading/1.0.12",
-      "hashPath": "jt.techcases.threading.1.0.12.nupkg.sha512"
+      "sha512": "sha512-M4nxcYAeC/9d2T0VSh1rvHzt4mA5M9/Q6Xfb0GJWdSFmQmu0kwcf8DapEzHT10V0t+PPsYUhIDZu21Ec7E0f6Q==",
+      "path": "jt.techcases.threading/1.0.17",
+      "hashPath": "jt.techcases.threading.1.0.17.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/2.0.0": {
       "type": "package",
@@ -932,7 +932,7 @@
     "Microsoft.Extensions.Primitives/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "sha512": "sha512-AMyFwlYdEY4GjjCFGQhUr1/0ZZyYyNjjpCx8Vwfy+Ylxv8pn649uaX5J2L7aknEtQY5+XA+TSfxRSBCgy68yvQ==",
       "path": "microsoft.extensions.primitives/2.0.0",
       "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
     },
@@ -957,12 +957,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Newtonsoft.Json/11.0.2": {
+    "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
-      "path": "newtonsoft.json/11.0.2",
-      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -1142,7 +1142,7 @@
     "System.Drawing.Common/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LLI+GGolsv4K8Eu2PN5N3/1t4pM5zoU4fM3lWhSOawJuCjv9iQJJODjd4/QJIgpjlqxzQDMMoOjAaVuzrNJT0g==",
+      "sha512": "sha512-AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
       "path": "system.drawing.common/4.5.0",
       "hashPath": "system.drawing.common.4.5.0.nupkg.sha512"
     },
@@ -1240,7 +1240,7 @@
     "System.Runtime.CompilerServices.Unsafe/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "sha512": "sha512-oXzVVwwsT4sfWRzOEKaHn6GLleNZ7gGTjk+gHgLuXj3M61p3TjoAvWmZDJDeDuf0WX8UW4ew0MTJbJOmCSZrVA==",
       "path": "system.runtime.compilerservices.unsafe/4.4.0",
       "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
     },
@@ -1394,7 +1394,7 @@
     "System.ValueTuple/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },

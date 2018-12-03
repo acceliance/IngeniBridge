@@ -56,7 +56,7 @@ namespace IngeniBridge.IBDatabaseParser
                 TreeChecker tc = new TreeChecker ( accessor );
                 Console.WriteLine ( "Vérification de l'arbre..." );
                 tc.CheckTree ( true, message => log.Error ( message ) );
-                accessor.IterateTree ( accessor.RootAsset.Entity, ( inode ) =>
+                accessor.IterateSubTreeEntities ( accessor.RootAsset.Entity, ( inode ) =>
                 {
                     Console.WriteLine ( "Tree pos => " + inode.NodePath );
                     Console.WriteLine ( "Parent attribute containing node => " + inode.AttributeInParent );

@@ -1,74 +1,6 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.5": {
-      "EPPlus/4.5.2.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "System",
-          "System.Core",
-          "System.Data",
-          "System.Drawing",
-          "System.Security",
-          "System.Xml",
-          "System.configuration"
-        ],
-        "compile": {
-          "lib/net40/EPPlus.dll": {}
-        },
-        "runtime": {
-          "lib/net40/EPPlus.dll": {}
-        }
-      },
-      "IngeniBridge.Core/1.0.37": {
-        "type": "package",
-        "dependencies": {
-          "JT.TechCases.Threading": "1.0.12",
-          "Newtonsoft.Json": "11.0.2",
-          "System.ValueTuple": "4.5.0"
-        },
-        "compile": {
-          "lib/net45/IngeniBridge.Core.dll": {}
-        },
-        "runtime": {
-          "lib/net45/IngeniBridge.Core.dll": {}
-        }
-      },
-      "JT.TechCases.Threading/1.0.12": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "PresentationFramework",
-          "System.Windows.Forms",
-          "WindowsBase"
-        ],
-        "compile": {
-          "lib/net45/JT.TechCases.Threading.dll": {}
-        },
-        "runtime": {
-          "lib/net45/JT.TechCases.Threading.dll": {}
-        }
-      },
-      "Newtonsoft.Json/11.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
-        }
-      },
-      "System.ValueTuple/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/System.ValueTuple.dll": {}
-        }
-      }
-    },
     ".NETStandard,Version=v2.0": {
       "EPPlus/4.5.2.1": {
         "type": "package",
@@ -92,11 +24,11 @@
           "lib/netstandard2.0/EPPlus.dll": {}
         }
       },
-      "IngeniBridge.Core/1.0.37": {
+      "IngeniBridge.Core/1.0.38": {
         "type": "package",
         "dependencies": {
-          "JT.TechCases.Threading": "1.0.12",
-          "Newtonsoft.Json": "11.0.2",
+          "JT.TechCases.Threading": "1.0.17",
+          "Newtonsoft.Json": "12.0.1",
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
@@ -106,7 +38,7 @@
           "lib/netstandard2.0/IngeniBridge.Core.dll": {}
         }
       },
-      "JT.TechCases.Threading/1.0.12": {
+      "JT.TechCases.Threading/1.0.17": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/JT.TechCases.Threading.dll": {}
@@ -245,7 +177,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -1288,29 +1220,30 @@
         "readme.txt"
       ]
     },
-    "IngeniBridge.Core/1.0.37": {
-      "sha512": "V5zIao9IGH9F10UDOMN1oubR0uubmDxY2z50BtiCXUj61lOMiGnpYRrLqeUKcjNQesL9Repvwi7YW1bQ4bMtNg==",
+    "IngeniBridge.Core/1.0.38": {
+      "sha512": "gcp4qWS798b0P/bLnZFtCAE1fOjHDQhkTX/8YUKCUqQPskNPxBeLERJe8pHncv06JeCiHkYALaRn0XIwZpJD+A==",
       "type": "package",
-      "path": "ingenibridge.core/1.0.37",
+      "path": "ingenibridge.core/1.0.38",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "ingenibridge.core.1.0.37.nupkg.sha512",
+        "ingenibridge.core.1.0.38.nupkg.sha512",
         "ingenibridge.core.nuspec",
-        "lib/net45/IngeniBridge.Core.dll",
         "lib/netstandard2.0/IngeniBridge.Core.dll"
       ]
     },
-    "JT.TechCases.Threading/1.0.12": {
-      "sha512": "P5/D3riDQc/cqnIMekNh7f1RVscDTq8wVI1dXQh9453BmF+7fTnNSzT3HiKcrbcO7DDugNPS9CUJFVz9xrE0cw==",
+    "JT.TechCases.Threading/1.0.17": {
+      "sha512": "M4nxcYAeC/9d2T0VSh1rvHzt4mA5M9/Q6Xfb0GJWdSFmQmu0kwcf8DapEzHT10V0t+PPsYUhIDZu21Ec7E0f6Q==",
       "type": "package",
-      "path": "jt.techcases.threading/1.0.12",
+      "path": "jt.techcases.threading/1.0.17",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "jt.techcases.threading.1.0.12.nupkg.sha512",
+        "jt.techcases.threading.1.0.17.nupkg.sha512",
         "jt.techcases.threading.nuspec",
-        "lib/net40/JT.TechCases.Threading.dll",
         "lib/net45/JT.TechCases.Threading.dll",
-        "lib/netstandard2.0/JT.TechCases.Threading.dll"
+        "lib/netstandard2.0/JT.TechCases.Threading.dll",
+        "lib/netstandard2.0/JT.TechCases.Threading.xml"
       ]
     },
     "Microsoft.Extensions.Configuration/2.0.0": {
@@ -1391,10 +1324,12 @@
       ]
     },
     "Microsoft.Extensions.Primitives/2.0.0": {
-      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "sha512": "AMyFwlYdEY4GjjCFGQhUr1/0ZZyYyNjjpCx8Vwfy+Ylxv8pn649uaX5J2L7aknEtQY5+XA+TSfxRSBCgy68yvQ==",
       "type": "package",
       "path": "microsoft.extensions.primitives/2.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
         "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
@@ -1406,6 +1341,7 @@
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1554,31 +1490,42 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -2317,10 +2264,11 @@
       ]
     },
     "System.Drawing.Common/4.5.0": {
-      "sha512": "LLI+GGolsv4K8Eu2PN5N3/1t4pM5zoU4fM3lWhSOawJuCjv9iQJJODjd4/QJIgpjlqxzQDMMoOjAaVuzrNJT0g==",
+      "sha512": "AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
       "type": "package",
       "path": "system.drawing.common/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -3098,10 +3046,12 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.4.0": {
-      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "sha512": "oXzVVwwsT4sfWRzOEKaHn6GLleNZ7gGTjk+gHgLuXj3M61p3TjoAvWmZDJDeDuf0WX8UW4ew0MTJbJOmCSZrVA==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.4.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
@@ -4141,10 +4091,11 @@
       ]
     },
     "System.ValueTuple/4.5.0": {
-      "sha512": "xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "type": "package",
       "path": "system.valuetuple/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -4365,14 +4316,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.5": [
-      "EPPlus >= 4.5.2.1",
-      "IngeniBridge.Core >= 1.0.37",
-      "System.ValueTuple >= 4.5.0"
-    ],
     ".NETStandard,Version=v2.0": [
       "EPPlus >= 4.5.2.1",
-      "IngeniBridge.Core >= 1.0.37",
+      "IngeniBridge.Core >= 1.0.38",
       "NETStandard.Library >= 2.0.3",
       "System.ValueTuple >= 4.5.0"
     ]
@@ -4384,11 +4330,11 @@
   "project": {
     "version": "1.0.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joset\\repos_github\\IngeniBridge\\IngeniBridge.Sample.MyCompany\\MyCompanyDataModel\\MyCompanyDataModel.csproj",
+      "projectUniqueName": "C:\\Users\\joset\\repos_github_deagital\\IngeniBridge\\IngeniBridge.Sample.MyCompany\\MyCompanyDataModel\\MyCompanyDataModel.csproj",
       "projectName": "MyCompanyDataModel",
-      "projectPath": "C:\\Users\\joset\\repos_github\\IngeniBridge\\IngeniBridge.Sample.MyCompany\\MyCompanyDataModel\\MyCompanyDataModel.csproj",
+      "projectPath": "C:\\Users\\joset\\repos_github_deagital\\IngeniBridge\\IngeniBridge.Sample.MyCompany\\MyCompanyDataModel\\MyCompanyDataModel.csproj",
       "packagesPath": "C:\\Users\\joset\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joset\\repos_github\\IngeniBridge\\IngeniBridge.Sample.MyCompany\\MyCompanyDataModel\\obj\\",
+      "outputPath": "C:\\Users\\joset\\repos_github_deagital\\IngeniBridge\\IngeniBridge.Sample.MyCompany\\MyCompanyDataModel\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -4400,7 +4346,6 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net45",
         "netstandard2.0"
       ],
       "sources": {
@@ -4409,9 +4354,6 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net45": {
-          "projectReferences": {}
-        },
         "netstandard2.0": {
           "projectReferences": {}
         }
@@ -4423,22 +4365,6 @@
       }
     },
     "frameworks": {
-      "net45": {
-        "dependencies": {
-          "EPPlus": {
-            "target": "Package",
-            "version": "[4.5.2.1, )"
-          },
-          "IngeniBridge.Core": {
-            "target": "Package",
-            "version": "[1.0.37, )"
-          },
-          "System.ValueTuple": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          }
-        }
-      },
       "netstandard2.0": {
         "dependencies": {
           "EPPlus": {
@@ -4447,7 +4373,7 @@
           },
           "IngeniBridge.Core": {
             "target": "Package",
-            "version": "[1.0.37, )"
+            "version": "[1.0.38, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

@@ -1,8 +1,0 @@
-2017-09-18 09:01:41,326;[1];ERROR;IngeniBridge.GenerateFullInventory.Program;System.IO.FileNotFoundException: Le fichier 'C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_07_27.ibdb' est introuvable.
-Nom de fichier : 'C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Sample.MyCompany\IngeniBridge.Samples.MyCompany\MasterAssetMyCompany_2017_07_27.ibdb'
-   à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-   à System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-   à System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
-   à IngeniBridge.Core.StagingData.Serializer.DeserializeTree(String filename)
-   à IngeniBridge.GenerateFullInventory.Program.Main(String[] args) dans C:\Users\jose.torres\GitHub\IngeniBridge\IngeniBridge.Programs\IngeniBridge.GenerateFullInventory\Program.cs:ligne 39
-2017-09-18 09:01:41,341;[1];ERROR;IngeniBridge.GenerateFullInventory.Program;Terminated FAILED.

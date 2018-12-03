@@ -1,0 +1,11 @@
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.deps.json
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.runtimeconfig.json
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.runtimeconfig.dev.json
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.dll
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\bin\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.pdb
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.csprojAssemblyReference.cache
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.csproj.CoreCompileInputs.cache
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.AssemblyInfoInputs.cache
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.AssemblyInfo.cs
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.dll
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Programs\IngeniBridge.IBDatabaseParser\obj\Release\netcoreapp2.1\IngeniBridge.IBDatabaseParser.pdb

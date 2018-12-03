@@ -7,3 +7,12 @@ C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompany
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.AssemblyInfo.cs
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.dll
 C:\Users\joset\repos_github\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.pdb
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\bin\Release\netstandard2.0\MyCompanyDataModel.deps.json
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\bin\Release\netstandard2.0\MyCompanyDataModel.dll
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\bin\Release\netstandard2.0\MyCompanyDataModel.pdb
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.csprojAssemblyReference.cache
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.csproj.CoreCompileInputs.cache
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.AssemblyInfoInputs.cache
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.AssemblyInfo.cs
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.dll
+C:\Users\joset\repos_github_deagital\IngeniBridge\IngeniBridge.Sample.MyCompany\MyCompanyDataModel\obj\Release\netstandard2.0\MyCompanyDataModel.pdb
