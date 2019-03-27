@@ -30,7 +30,7 @@ namespace IngeniBridge.Server.TestServer
             Assembly DataModelAssembly = IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
-            ContextedData cd = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.TimedDataExternalReference=EXTREF 004
+            ContextedTimeSeries cd = ContextedAssetSerializer.DeserializeContextedTimeSeriessFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.TimedDataExternalReference=EXTREF 004
             //
             // the business use case states that:
             // - correlating two alarms should be made on the influence zone (the same influence zone for 2 or more alarms)

@@ -1,1 +1,0 @@
-2017-09-01 12:42:37,415;[1];ERROR;IngeniBridge.TestServer.Program;Exception => System.ArgumentException = Accessed JArray values with invalid key value: "$values". Int32 array index expected.

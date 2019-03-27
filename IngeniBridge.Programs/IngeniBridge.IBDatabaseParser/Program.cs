@@ -45,7 +45,7 @@ namespace IngeniBridge.IBDatabaseParser
                 Assembly accessorasm = Assembly.LoadFile ( path + "\\" + options.StorageAccessorAssembly );
                 Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
-                TimedDataExtension.StorageAccessor = accessor;
+                TimeSeriesExtension.StorageAccessor = accessor;
                 accessor.OpenDB ( options.IBDatabase );
                 #endregion
                 log.Info ( "DataModel Name => " + accessor.Version.Name );

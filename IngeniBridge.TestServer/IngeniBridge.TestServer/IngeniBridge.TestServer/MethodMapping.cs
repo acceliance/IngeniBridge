@@ -30,22 +30,22 @@ namespace IngeniBridge.Server.TestServer
             Assembly DataModelAssembly = Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
-            ContextedData [ ] cds = ContextedAssetSerializer.DeserializeContextedDatasFromString ( buf );
+            ContextedTimeSeries [] cds = ContextedAssetSerializer.DeserializeContextedTimeSeriessFromString ( buf );
             cds.All ( cd =>
             {
                 Console.Write ( "Path => " );
                 cd.Parents.Reverse ().All ( parent => { Console.Write ( parent.Code + "\\" ); return ( true ); } );
                 Console.WriteLine ();
-                Console.Write ( "Type => " + cd.Data.GetType ().FullName + "\n" );
-                Console.Write ( "Code => " + cd.Data.Code + "\n" );
+                Console.Write ( "Type => " + cd.TimeSeries.GetType ().FullName + "\n" );
+                Console.Write ( "Code => " + cd.TimeSeries.Code + "\n" );
                 Console.WriteLine ();
-                EntityMetaDescription emd = helper.GetMetaDataFromType ( cd.Data.GetType () );
-                contenthelper.ParseAttributes ( cd.Data, ( attribute, val ) =>
+                EntityMetaDescription emd = helper.GetMetaDataFromType ( cd.TimeSeries.GetType () );
+                contenthelper.ParseAttributes ( cd.TimeSeries, ( attribute, val ) =>
                 {
                     Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType ().Name + ") => " + val.ToString () + "\n" );
                     return ( true );
                 }, true, true, true );
-                object [ ] vals = contenthelper.RetrieveValuesFromType ( cd.Data, "TypeOfMeasure" );
+                object [ ] vals = contenthelper.RetrieveValuesFromType ( cd.TimeSeries, "TypeOfMeasure" );
                 if ( vals?.Count () > 0 ) Console.WriteLine ( "Found type TypeOfMeasure in object, value is => " + contenthelper.RetrieveCodeValue ( vals [ 0 ] ) );
                 return ( true );
             } );

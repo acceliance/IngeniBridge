@@ -37,8 +37,8 @@ namespace IngeniBridge.Server.TestServer
                     path.Append ( code + "\\" );
                     return ( true );
                 } );
-                JToken data = ( JToken ) contexteddata [ "Data" ];
-                string type = contexteddata [ "Data" ] [ "$type" ].ToString ();
+                JToken data = ( JToken ) contexteddata [ "TimeSeries" ];
+                string type = contexteddata [ "TimeSeries" ] [ "$type" ].ToString ();
                 NodeInfo ni = NodeInfo.RetrieveNodeInfo ( data, path, type );
                 Console.Write ( "Path => " + ni.path + "\n" );
                 Console.Write ( "Type => " + ni.type + "\n" );

@@ -7,7 +7,7 @@ namespace MyCompanyDataModel
 {
     public abstract class IOT : MyCompanyAsset
     {
-        [IndexPropertyOnParents]
+        [PropagatePropertyOnChildrenNodes]
         public string TelephoneNumber { get; set; }
     }
     public class PressureSensor : IOT

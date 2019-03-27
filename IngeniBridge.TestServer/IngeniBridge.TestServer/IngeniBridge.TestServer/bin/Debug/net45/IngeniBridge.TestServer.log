@@ -1,7 +1,0 @@
-2018-09-11 14:39:30,358;[1];INFO ;IngeniBridge.Server.TestServer.Program;IngeniBridge.TestServer v1.0.0.0 -- Copyright © DEAGITAL 2016
-2018-09-11 14:39:30,392;[1];INFO ;IngeniBridge.Server.TestServer.Program;Starting IngeniBridge.TestServer v1.0.0.0
-2018-09-11 14:39:30,419;[1];INFO ;IngeniBridge.Server.TestServer.Program;Connecting => https://cloud.ingenibridge.com/PublicDemo/Deagital/
-2018-09-11 14:39:34,323;[1];INFO ;IngeniBridge.Server.TestServer.Program;MethodREST ==============================
-2018-09-11 14:39:34,693;[1];INFO ;IngeniBridge.Server.TestServer.Program;MethodMapping ==============================
-2018-09-11 14:39:35,323;[1];INFO ;IngeniBridge.Server.TestServer.Program;CorrelationInfluenceZoneBusinessUseCase ==============================
-2018-09-11 14:39:35,367;[1];INFO ;IngeniBridge.Server.TestServer.Program;Terminated => 0

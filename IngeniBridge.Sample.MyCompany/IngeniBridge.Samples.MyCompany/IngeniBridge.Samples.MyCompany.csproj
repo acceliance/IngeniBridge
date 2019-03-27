@@ -6,7 +6,7 @@
     <Version>1.0.0</Version>
     <Authors>JTO Tec</Authors>
     <Copyright>Copyright © DEAGITAL 2016</Copyright>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description></Description>
     <Company>DEAGITAL</Company>
     <OutputType>Exe</OutputType>
@@ -16,10 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommandLineParser" Version="2.3.0" />
+    <PackageReference Include="CodexMicroORM.Core" Version="0.8.0" />
+    <PackageReference Include="CommandLineParser" Version="2.4.3" />
     <PackageReference Include="IngeniBridge.BuildUtils" Version="1.0.7" />
-    <PackageReference Include="IngeniBridge.Core" Version="1.0.38" />
-    <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.9" />
+    <PackageReference Include="IngeniBridge.Core" Version="1.0.41" />
+    <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.11" />
     <PackageReference Include="JT.TechCases.Threading" Version="1.0.17" />
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
@@ -37,5 +38,9 @@
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">
     <DefineConstants>NETCORE;NETSTANDARD;NETSTANDARD2_0</DefineConstants>
   </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="echo copy %25userprofile%25\.nuget\packages\ingenibridge.storageaccessor.inmemory\1.0.11\lib\netstandard2.0\IngeniBridge.StorageAccessor.InMemory.dll $(TargetDir)&#xD;&#xA;copy %25userprofile%25\.nuget\packages\ingenibridge.storageaccessor.inmemory\1.0.11\lib\netstandard2.0\IngeniBridge.StorageAccessor.InMemory.dll $(TargetDir)&#xD;&#xA;" />
+  </Target>
 
 </Project>

@@ -1,2 +1,0 @@
-2018-09-13 10:30:49,479;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero = Minor revision cannot be 0, use [assembly: AssemblyVersion("1.0.0.* ")] in your AssemblyInfo.cs file
-2018-09-13 11:11:01,668;[1];ERROR;IngeniBridge.Samples.MyCompany.Program;Exception => IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero = Minor revision cannot be 0, use [assembly: AssemblyVersion("1.0.0.* ")] in your AssemblyInfo.cs file

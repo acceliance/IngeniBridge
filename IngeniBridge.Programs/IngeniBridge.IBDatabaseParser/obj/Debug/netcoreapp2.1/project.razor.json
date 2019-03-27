@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\joset\\repos_github_deagital\\IngeniBridge\\IngeniBridge.Programs\\IngeniBridge.IBDatabaseParser\\IngeniBridge.IBDatabaseParser.csproj",
+  "ProjectFilePath": "c:\\Users\\joset\\source\\repos\\IngeniBridge\\IngeniBridge.Programs\\IngeniBridge.IBDatabaseParser\\IngeniBridge.IBDatabaseParser.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }
