@@ -14,7 +14,7 @@ namespace MyCompanyDataModel
         public ConsolidationType ConsolidationType { get; set; }
         [IndexAlsoByName]
         [IndexEntityAttribute ( "Unit" )]
-        public TypeOfMeasure tof { get; set; }
+        public TypeOfMeasure TypeOfMeasure { get; set; }
     }
     [DisplayName ( "Acquired Measure" )]
     public class AcquiredMeasure : MyCompanyData

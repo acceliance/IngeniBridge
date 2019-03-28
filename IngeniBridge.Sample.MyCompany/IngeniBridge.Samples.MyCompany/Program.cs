@@ -98,27 +98,27 @@ namespace IngeniBridge.Samples.MyCompany
                 siteLeRaincy.AddChildAsset ( ws1 );
                 #endregion
                 #region measures
-                AcquiredMeasure am1 = new AcquiredMeasure () { Code = "M 001", TimeSeriesExternalReference = "EXTREF 001", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "WT" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am1 = new AcquiredMeasure () { Code = "M 001", TimeSeriesExternalReference = "EXTREF 001", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "WT" ), ConsolidationType = ConsolidationType.None };
                 grouppumps.AddTimeSeries ( am1 );
-                AcquiredMeasure am2 = new AcquiredMeasure () { Code = "M 002", TimeSeriesExternalReference = "EXTREF 002", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am2 = new AcquiredMeasure () { Code = "M 002", TimeSeriesExternalReference = "EXTREF 002", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 wp1.AddTimeSeries ( am2 );
-                AcquiredMeasure am3 = new AcquiredMeasure () { Code = "M 003", TimeSeriesExternalReference = "EXTREF 003", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am3 = new AcquiredMeasure () { Code = "M 003", TimeSeriesExternalReference = "EXTREF 003", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 wp2.AddTimeSeries ( am3 );
-                AcquiredMeasure am4 = new AcquiredMeasure () { Code = "M 004", TimeSeriesExternalReference = "EXTREF 004", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am4 = new AcquiredMeasure () { Code = "M 004", TimeSeriesExternalReference = "EXTREF 004", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 iot1.AddTimeSeries ( am4 );
-                ComputedMeasure am5 = new ComputedMeasure () { Code = "M 005", TimeSeriesExternalReference = "EXTREF 005", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.Average };
+                ComputedMeasure am5 = new ComputedMeasure () { Code = "M 005", TimeSeriesExternalReference = "EXTREF 005", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.Average };
                 siteParis.AddTimeSeries ( am5 );
-                AcquiredMeasure am6 = new AcquiredMeasure () { Code = "M 006", TimeSeriesExternalReference = "EXTREF 006", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am6 = new AcquiredMeasure () { Code = "M 006", TimeSeriesExternalReference = "EXTREF 006", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
                 iot2.AddTimeSeries ( am6 );
-                AcquiredMeasure am7 = new AcquiredMeasure () { Code = "M 007", TimeSeriesExternalReference = "EXTREF 007", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am7 = new AcquiredMeasure () { Code = "M 007", TimeSeriesExternalReference = "EXTREF 007", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am7 );
-                AcquiredMeasure am8 = new AcquiredMeasure () { Code = "M 008", TimeSeriesExternalReference = "EXTREF 008", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am8 = new AcquiredMeasure () { Code = "M 008", TimeSeriesExternalReference = "EXTREF 008", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am8 );
-                AcquiredMeasure am9 = new AcquiredMeasure () { Code = "M 009", TimeSeriesExternalReference = "EXTREF 010", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am9 = new AcquiredMeasure () { Code = "M 009", TimeSeriesExternalReference = "EXTREF 010", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am9 );
-                AcquiredMeasure am10 = new AcquiredMeasure () { Code = "M 010", TimeSeriesExternalReference = "EXTREF 009", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am10 = new AcquiredMeasure () { Code = "M 010", TimeSeriesExternalReference = "EXTREF 009", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am10 );
-                AcquiredMeasure am11 = new AcquiredMeasure () { Code = "M 011", TimeSeriesExternalReference = "EXTREF 011", tof = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am11 = new AcquiredMeasure () { Code = "M 011", TimeSeriesExternalReference = "EXTREF 011", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 ws1.AddTimeSeries ( am11 );
                 #endregion
                 #region check and generation (generic script)
