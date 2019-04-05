@@ -2,6 +2,8 @@ IngeniBridge Git Repo
 
 This repo contains tools to help building and exploiting a local IngeniBridge database
 
+You may first follow the tutorial (in the eponym folder)
+
 Projects listed below:
 
 IngeniBridge.Programs\IngeniBridge.GenerateFullInventory

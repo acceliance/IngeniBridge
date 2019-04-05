@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MyCompanyDataModel
 {
     public enum ConsolidationType { None, Average };
-    public class MyCompanyData : TimeSeries
+    public abstract class MyCompanyData : TimeSeries
     {
         public ConsolidationType ConsolidationType { get; set; }
         [IndexAlsoByName]

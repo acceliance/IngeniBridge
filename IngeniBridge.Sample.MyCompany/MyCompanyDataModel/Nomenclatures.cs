@@ -13,7 +13,6 @@ namespace MyCompanyDataModel
     }
     public class Sector : Nomenclature
     {
-        public City City { get; set; }
     }
     public class City : Nomenclature
     {

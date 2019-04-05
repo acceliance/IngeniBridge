@@ -21,16 +21,33 @@
       <Path>
         <Point X="5" Y="4.497" />
         <Point X="5" Y="5.673" />
-        <Point X="1.562" Y="5.673" />
-        <Point X="1.562" Y="6.75" />
+        <Point X="1.875" Y="5.673" />
+        <Point X="1.875" Y="6.75" />
       </Path>
     </InheritanceLine>
+    <AssociationLine Name="Zone" Type="MyCompanyDataModel.InfluenceZone" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6.75" />
+        <Point X="1.5" Y="5.096" />
+        <Point X="2.75" Y="5.096" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="City" Type="MyCompanyDataModel.City" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="7.747" />
+        <Point X="1.75" Y="10.125" />
+        <Point X="3" Y="10.125" />
+        <Point X="3" Y="10.5" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAAAAAACAAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Site.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Sector" />
+      <Property Name="Zone" />
+      <Property Name="City" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Equipments" />
@@ -84,7 +101,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.TypeOfMeasure">
-    <Position X="15.5" Y="4.25" Width="1.5" />
+    <Position X="16" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Nomenclatures.cs</FileName>
@@ -134,9 +151,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.Sector">
-    <Position X="0.75" Y="9" Width="1.5" />
+    <Position X="0.5" Y="10.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Nomenclatures.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -170,6 +187,20 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier />
+  </Class>
+  <Class Name="MyCompanyDataModel.InfluenceZone" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfluenceZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyCompanyDataModel.City" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nomenclatures.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -11,8 +11,7 @@ namespace MyCompanyDataModel
     public class ProductionSite : MyCompanyAsset
     {
         public Equipment [] Equipments { get; set; }
-        public string Location { get; set; }
-        [IndexEntityAttribute("City")]
+        public City City { get; set; }
         public Sector Sector { get; set; }
         [ExternalReference]
         public InfluenceZone Zone { get; set; }

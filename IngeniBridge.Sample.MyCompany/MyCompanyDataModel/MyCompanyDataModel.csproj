@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
 	  <Title>MyCompanyDataModel</Title>
-    <Version>1.0.0.1</Version>
+    <Version>2.0.0.3</Version>
     <Authors>JTO Tec</Authors>
     <Copyright>Copyright © DEAGITAL 2016</Copyright>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -14,9 +14,6 @@
   <ItemGroup>
     <PackageReference Include="IngeniBridge.Core" Version="1.0.42" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">

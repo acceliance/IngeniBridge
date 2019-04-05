@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace MyCompanyDataModel
 {
+    // Implementing this method (and it is customizable) will enable DATAVIZ indexing on the IngeniBridge server
     public class DatavizIndexHelper : IDatavizIndexHelper
     {
         public string IndexNode ( StorageAccessor accessor, string PathInTree, object node )

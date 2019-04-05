@@ -50,13 +50,14 @@ namespace IngeniBridge.Samples.MyCompany
                 #region nomenclatures
                 accessor.AddNomenclatureEntry ( new City () { Code = "PAR", Label = "Paris" } );
                 accessor.AddNomenclatureEntry ( new City () { Code = "LIV", Label = "Livry-Gargan" } );
+                accessor.AddNomenclatureEntry ( new City () { Code = "LER", Label = "Le Raincy" } );
                 accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "TMP", Label = "Temperature", Unit = "°C" } );
                 accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "PRESS", Label = "Pressure", Unit = "bar" } );
                 accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "ELEC", Label = "Electricity", Unit = "kw/h" } );
                 accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "WT", Label = "Water throuput", Unit = "m3/h" } );
                 accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "CL", Label = "Clorine", Unit = "mg/l" } );
-                accessor.AddNomenclatureEntry ( new Sector () { Code = "W", Label = "West", City = accessor.RetrieveNomenclatureEntry<City> ( "LIV" ) } );
-                accessor.AddNomenclatureEntry ( new Sector () { Code = "S", Label = "South", City = accessor.RetrieveNomenclatureEntry<City> ( "PAR" ) } );
+                accessor.AddNomenclatureEntry ( new Sector () { Code = "W", Label = "West" } );
+                accessor.AddNomenclatureEntry ( new Sector () { Code = "S", Label = "South" } );
                 #endregion
                 #region Influence zones
                 // Here you see how to access an Excel file using the EPPlus package
@@ -73,13 +74,13 @@ namespace IngeniBridge.Samples.MyCompany
                 xlConsolidate.Dispose ();
                 #endregion
                 #region assets
-                ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", Location = "Paris", Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "W" ) };
+                ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", City = accessor.RetrieveNomenclatureEntry<City> ( "PAR" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "W" ) };
                 siteParis.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z1" ).Entity;
                 root.AddChildAsset ( siteParis );
-                ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", Location = "Livry-Gargan", Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
+                ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", City = accessor.RetrieveNomenclatureEntry<City> ( "LIV" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
                 siteLivry.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
                 root.AddChildAsset ( siteLivry );
-                ProductionSite siteLeRaincy = new ProductionSite () { Code = "Site of Le Raincy", Label = "Site of Le Raincy, Itercommunication", Location = "Le Raincy", Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
+                ProductionSite siteLeRaincy = new ProductionSite () { Code = "Site of Le Raincy", Label = "Site of Le Raincy, Itercommunication", City = accessor.RetrieveNomenclatureEntry<City> ( "LER" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
                 siteLeRaincy.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
                 root.AddChildAsset ( siteLeRaincy );
                 GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
@@ -121,7 +122,7 @@ namespace IngeniBridge.Samples.MyCompany
                 AcquiredMeasure am11 = new AcquiredMeasure () { Code = "M 011", TimeSeriesExternalReference = "EXTREF 011", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 ws1.AddTimeSeries ( am11 );
                 #endregion
-                #region check and generation (generic script)
+                #region check and generate IB database (generic script)
                 TreeChecker tc = new TreeChecker ( accessor );
                 tc.CheckTree ( true, message =>
                 {
