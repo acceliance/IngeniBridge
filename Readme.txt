@@ -2,7 +2,9 @@ IngeniBridge Git Repo
 
 This repo contains tools to help building and exploiting a local IngeniBridge database
 
-You may first follow the tutorial (in the eponym folder)
+tutorial folder : a tutorial to follow to build your own meta data
+
+dataviz demo folder : a jquery ajax to integrate dataviz REST requests
 
 Projects listed below:
 
