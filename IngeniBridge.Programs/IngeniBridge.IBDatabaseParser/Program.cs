@@ -45,7 +45,6 @@ namespace IngeniBridge.IBDatabaseParser
                 Assembly accessorasm = Assembly.LoadFile ( path + "\\" + options.StorageAccessorAssembly );
                 Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
-                TimeSeriesExtension.StorageAccessor = accessor;
                 accessor.OpenDB ( options.IBDatabase );
                 #endregion
                 log.Info ( "DataModel Name => " + accessor.Version.Name );
@@ -56,7 +55,7 @@ namespace IngeniBridge.IBDatabaseParser
                 TreeChecker tc = new TreeChecker ( accessor );
                 Console.WriteLine ( "Vérification de l'arbre..." );
                 tc.CheckTree ( true, message => log.Error ( message ) );
-                accessor.IterateSubTreeEntities ( accessor.RootAsset.Entity, ( inode ) =>
+                accessor.IterateSubTreeEntities ( accessor.RootAsset.Entity.StorageUniqueID, ( inode ) =>
                 {
                     Console.WriteLine ( "Tree pos => " + inode.NodePath );
                     Console.WriteLine ( "Parent attribute containing node => " + inode.AttributeInParent );

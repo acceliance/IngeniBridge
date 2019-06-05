@@ -1,4 +1,4 @@
 rem dont forget to rename ibdb file in the command line
 cd bin\Release\netcoreapp2.1
-dotnet IngeniBridge.GenerateFullInventory.dll --StorageAccessorAssembly="IngeniBridge.StorageAccessor.InMemory.dll" --IBDatabase=..\..\..\..\..\IngeniBridge.Sample.MyCompany\MasterAssetMyCompany_2019_03_28.ibdb --InventoryFile=InventoryFileIB.xlsx
+dotnet IngeniBridge.GenerateFullInventory.dll --StorageAccessorAssembly="IngeniBridge.StorageAccessor.InMemory.dll" --IBDatabase=..\..\..\..\..\IngeniBridge.Sample.MyCompany\MasterAssetMyCompany_2019_06_05.ibdb --InventoryFile=InventoryFileIB.xlsx
 pause

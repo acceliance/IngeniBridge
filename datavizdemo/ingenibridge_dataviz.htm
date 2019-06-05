@@ -15,19 +15,24 @@
 			function tbDatavizRequest_KeyUp()
 			{
 				var querytext = $('#tbDatavizRequest').val();
-				if ( querytext == "") return;
-				var url = "https://cloud.ingenibridge.com/PublicDemo/Deagital/REQUESTER/RetrieveDatavizTimeSeries?SearchString=" + querytext + "&PageSize=10";
-				$('#lblUrl').val(url);
-				$('#lblUrl').attr("href",url);
+				if ( querytext == "") 
+				{
+					$('#tbResults').val(null);
+					return;
+				}
+				var urlrest = "http://ingenibridgedemo.azurewebsites.net/REQUESTER/RetrieveDatavizTimeSeries?SearchString=" + querytext;
+				$('#lblUrl').val(urlrest);
+				$('#lblUrl').attr("href",urlrest);
 				$(document).ready(function () {
 					$.ajax(
 					{
 						type: 'GET',
-						url: url,
+						url: urlrest,
+						cache: false,
 						beforeSend: function (jqXHR, settings) 
 						{
 							jqXHR.setRequestHeader('Access-Control-Allow-Origin', '*');
-							jqXHR.setRequestHeader('authority', 'cloud.ingenibridge.com');
+							jqXHR.setRequestHeader('authority', 'ingenibridgedemo.azurewebsites.net');
 							jqXHR.setRequestHeader('upgrade-insecure-requests', '1');
 						},
 						crossDomain: true,
@@ -60,6 +65,6 @@
 		<input id="tbDatavizRequest" type="text" />
 		<input id="tbResults" type="text"></input>
 		<label id="lblNbResults" type="text"></label>
-		<label id="lblUrl" href="" type="text"></label>
+		<label id="lblUrl" href="" type="text">...</label>
 	</body>
 </html>

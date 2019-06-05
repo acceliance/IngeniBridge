@@ -39,7 +39,6 @@ namespace IngeniBridge.Samples.MyCompany
                 Assembly accessorasm = Assembly.LoadFile ( path + "\\IngeniBridge.StorageAccessor.InMemory.dll" );
                 Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
-                TimeSeriesExtension.StorageAccessor = accessor;
                 string fimastername = FileDater.SetFileNameDateTime ( "..\\..\\..\\..\\MasterAssetMyCompany.ibdb" );
                 accessor.InitializeNewDB ( Assembly.GetAssembly ( typeof ( MyCompanyAsset ) ), fimastername );
                 #endregion
@@ -75,13 +74,13 @@ namespace IngeniBridge.Samples.MyCompany
                 #endregion
                 #region assets
                 ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", City = accessor.RetrieveNomenclatureEntry<City> ( "PAR" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "W" ) };
-                siteParis.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z1" ).Entity;
+                siteParis.Zone = accessor.RetrieveChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z1" ).Entity;
                 root.AddChildAsset ( siteParis );
                 ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", City = accessor.RetrieveNomenclatureEntry<City> ( "LIV" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
-                siteLivry.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
+                siteLivry.Zone = accessor.RetrieveChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
                 root.AddChildAsset ( siteLivry );
                 ProductionSite siteLeRaincy = new ProductionSite () { Code = "Site of Le Raincy", Label = "Site of Le Raincy, Itercommunication", City = accessor.RetrieveNomenclatureEntry<City> ( "LER" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
-                siteLeRaincy.Zone = accessor.FindChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
+                siteLeRaincy.Zone = accessor.RetrieveChildEntity<InfluenceZone> ( root.StorageUniqueID, "InfluenceZones", "Z2" ).Entity;
                 root.AddChildAsset ( siteLeRaincy );
                 GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
                 siteParis.AddChildAsset ( grouppumps );
