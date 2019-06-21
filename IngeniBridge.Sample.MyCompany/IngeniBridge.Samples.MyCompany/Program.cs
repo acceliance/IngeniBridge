@@ -127,19 +127,11 @@ namespace IngeniBridge.Samples.MyCompany
                 {
                     log.Info ( "error => " + message );
                 } );
-                int nbtotalassets = 0;
-                int nbtotaldatas = 0;
-                new Diagnostic ( accessor ).Diagnose ( ( assettype, nbassets, nbdatas ) =>
-                {
-                    log.Info ( assettype + " => " + nbassets.ToString () + ", nbvars => " + nbdatas.ToString () );
-                    nbtotalassets += nbassets;
-                    nbtotaldatas += nbdatas;
-                }, ( nomenclature, nbentries ) =>
-                {
-                    log.Info ( nomenclature + ", nbentries => " + nbentries.ToString () );
-                } );
-                log.Info ( "nb total assets => " + nbtotalassets.ToString () );
-                log.Info ( "nb total datas => " + nbtotaldatas.ToString () );
+                long nbTotalAssets = 0;
+                long nbTotalDatas = 0;
+                ( nbTotalAssets, nbTotalDatas ) = accessor.GetStatistics ();
+                log.Info ( "nb total assets => " + nbTotalAssets.ToString () );
+                log.Info ( "nb total datas => " + nbTotalDatas.ToString () );
                 accessor.CloseDB ();
                 #endregion
             }
