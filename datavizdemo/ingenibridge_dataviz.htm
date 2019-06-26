@@ -1,6 +1,9 @@
 <html>
 	<head>
-		<script src="Scripts/jquery-3.3.1.js" type="text/javascript"></script>
+	
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 		<script>
             $(document).ready(function(){
                 
@@ -8,12 +11,50 @@
 				{
 					tbDatavizRequest_KeyUp();
                 })
+				
                
             });
         </script>
 		<script>
+			function createTable(tableData, tableName)
+			{
+				var tableBody = $( "#" + tableName + "> table > tbody" )[ 0 ];
+				tableData.forEach(function(rowData) 
+				{
+					var row = document.createElement('tr');
+
+					var cellDataviz = document.createElement('td');
+					 cellDataviz.innerHTML = rowData.DatavizTimeSeriesDescription;
+					 row.appendChild(cellDataviz);
+						
+					var cellTimeSeries = document.createElement('td');
+					cellTimeSeries.innerHTML = rowData.TimeSeriesExternalReference;
+					row.appendChild(cellTimeSeries);
+
+					tableBody.appendChild(row);
+				});
+
+				
+			}
+			var datatableResult;
+			function loadTable()
+			{
+				$("#tableResults").html('<table><thead><tr><th>DatavizTimeSeriesDescription</th><th>TimeSeriesExternalReference</th></tr></thead><tbody></tbody></table>');
+			}
+			function disposeTable()
+			{
+				if(datatableResult != undefined)
+					datatableResult.destroy();
+					
+				loadTable();	
+				$("#tableResults > table > tbody").empty();
+				$( "#tableResults" ).hide();
+				
+				console.log("test");
+			}
 			function tbDatavizRequest_KeyUp()
 			{
+				disposeTable();
 				var querytext = $('#tbDatavizRequest').val();
 				if ( querytext == "") 
 				{
@@ -40,7 +81,8 @@
 						contentType: "application/json",
 						error: function (e)
 						{
-							$('#tbResults').val("error");
+							$('#tableResults').val("error");
+							
 						},
 						success: function (data)
 						{
@@ -52,8 +94,16 @@
 								items.push(element.TimeSeriesExternalReference);
 								nbresults = nbresults + 1
 							});
-							$('#tbResults').val(items);
-							$('#lblNbResults').val(nbresults);
+							
+							
+							if(data.values.length > 0)
+							{
+								
+								createTable(data.values, "tableResults");
+								datatableResult = $('#tableResults > table').DataTable();
+								$( "#tableResults" ).show();
+							}
+							$('#tableResults').val(nbresults);
 						}
 					});
 				});
@@ -64,7 +114,10 @@
 	<body>
 		<input id="tbDatavizRequest" type="text" />
 		<input id="tbResults" type="text"></input>
-		<label id="lblNbResults" type="text"></label>
+		
 		<label id="lblUrl" href="" type="text">...</label>
+		<div id="tableResults" style="width:500px;display:none;">
+			
+		</div>
 	</body>
 </html>
