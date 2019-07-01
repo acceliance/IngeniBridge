@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="MyCompanyDataModel.MyCompanyRootAsset">
-    <Position X="0.5" Y="4.25" Width="2" />
+    <Position X="1.75" Y="4.25" Width="2" />
     <AssociationLine Name="ProductionSites" Type="MyCompanyDataModel.ProductionSite" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="0.938" Y="5.247" />
-        <Point X="0.938" Y="7.463" />
-        <Point X="1.5" Y="7.463" />
+        <Point X="2.188" Y="5.247" />
+        <Point X="2.188" Y="7.249" />
+        <Point X="2.75" Y="7.249" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="0.706" Y="-0.14" />
@@ -27,35 +27,53 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="MyCompanyDataModel.ProductionSite">
-    <Position X="1.5" Y="6.75" Width="1.5" />
+    <Position X="2.75" Y="6.75" Width="1.5" />
     <InheritanceLine Type="MyCompanyDataModel.MyCompanyAsset" ManuallyRouted="true" FixedToPoint="true">
       <Path>
-        <Point X="5.75" Y="5.247" />
-        <Point X="5.75" Y="5.668" />
-        <Point X="2.75" Y="5.668" />
-        <Point X="2.75" Y="6.75" />
+        <Point X="7" Y="5.247" />
+        <Point X="7" Y="5.668" />
+        <Point X="4" Y="5.668" />
+        <Point X="4" Y="6.75" />
       </Path>
     </InheritanceLine>
+    <AssociationLine Name="Zone" Type="MyCompanyDataModel.InfluenceZone" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.312" Y="6.75" />
+        <Point X="3.312" Y="5.497" />
+        <Point X="4.75" Y="5.497" />
+        <Point X="4.75" Y="4.941" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="City" Type="MyCompanyDataModel.City" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="7.747" />
+        <Point X="3" Y="8.122" />
+        <Point X="1.469" Y="8.122" />
+        <Point X="1.469" Y="8.5" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAACAAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Site.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Sector" />
+      <Property Name="Zone" />
+      <Property Name="City" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Equipments" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="MyCompanyDataModel.Equipment">
-    <Position X="5" Y="6.75" Width="1.5" />
+    <Position X="6.25" Y="6.75" Width="1.5" />
     <AssociationLine Name="SubEquipments" Type="MyCompanyDataModel.Equipment" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="6.25" Y="6.75" />
-        <Point X="6.25" Y="6.375" />
-        <Point X="6.875" Y="6.375" />
-        <Point X="6.875" Y="7.053" />
-        <Point X="6.5" Y="7.053" />
+        <Point X="7.5" Y="6.75" />
+        <Point X="7.5" Y="6.375" />
+        <Point X="8.125" Y="6.375" />
+        <Point X="8.125" Y="7.053" />
+        <Point X="7.75" Y="7.053" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="0.415" Y="0.245" />
@@ -71,114 +89,80 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="MyCompanyDataModel.MyCompanyAsset">
-    <Position X="5" Y="4.25" Width="1.5" />
+    <Position X="6.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MyCompanyDataModel.MyCompanyData">
-    <Position X="11.25" Y="3.75" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
-      <FileName>Measure.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="TypeOfMeasure" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="MyCompanyDataModel.AcquiredMeasure">
-    <Position X="10.5" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Measure.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="MyCompanyDataModel.TypeOfMeasure">
-    <Position X="15" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="MyCompanyDataModel.ComputedMeasure">
-    <Position X="12.75" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Measure.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="MyCompanyDataModel.ClorineInjector">
-    <Position X="3.25" Y="8.5" Width="1.5" />
+    <Position X="4.5" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Equipment.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.IOT">
-    <Position X="8.75" Y="8.5" Width="1.75" />
+    <Position X="11.25" Y="6.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IOTs.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MyCompanyDataModel.MultiFunctionSensor" Collapsed="true">
-    <Position X="9.75" Y="10.25" Width="1.75" />
+  <Class Name="MyCompanyDataModel.MultiFunctionSensor">
+    <Position X="12.25" Y="8.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IOTs.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MyCompanyDataModel.PressureSensor" Collapsed="true">
-    <Position X="7.75" Y="10.25" Width="1.5" />
+  <Class Name="MyCompanyDataModel.PressureSensor">
+    <Position X="10.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IOTs.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.Sector">
-    <Position X="1.5" Y="8.5" Width="1.5" />
+    <Position X="2.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Nomenclatures.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.WaterPump">
-    <Position X="5" Y="8.5" Width="1.5" />
+    <Position X="6.25" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Equipment.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.GroupOfPumps">
-    <Position X="6.75" Y="8.5" Width="1.5" />
+    <Position X="8" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Equipment.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="IngeniBridge.Core.TimeSeries">
-    <Position X="11.25" Y="0.5" Width="2.25" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="true" />
-    </Compartments>
-    <TypeIdentifier />
-  </Class>
   <Class Name="IngeniBridge.Core.Asset">
-    <Position X="4" Y="0.5" Width="1.75" />
+    <Position X="5.25" Y="0.5" Width="1.75" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier />
-    <ShowAsCollectionAssociation>
-      <Property Name="TimeSeries" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="MyCompanyDataModel.InfluenceZone" Collapsed="true">
-    <Position X="3.25" Y="4.25" Width="1.5" />
+    <Position X="4.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InfluenceZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyCompanyDataModel.City">
+    <Position X="0.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nomenclatures.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
