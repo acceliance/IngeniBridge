@@ -10,27 +10,26 @@ using System.Threading.Tasks;
 
 namespace MyCompanyDataModel
 {
-    // Implementing this method (and it is customizable) will enable DATAVIZ indexing on the IngeniBridge server
     public class DatavizIndexHelper : IDatavizIndexHelper
     {
-        public string IndexNode ( StorageAccessor accessor, string PathInTree, object node )
+        public string IndexNode ( StorageAccessor accessor, string PathInTree, IngeniBridgeEntity Entity )
         {
             StringBuilder ret = new StringBuilder ();
-            string [ ] l = StorageFormatter.GetAllParentsPathFromFullPath ( PathInTree );
+            string [] l = StorageFormatter.GetAllParentsPathFromFullPath ( PathInTree );
             StorageFormatter.GetAllParentsPathFromFullPath ( PathInTree ).All ( parentpath =>
             {
-                StorageNode<Asset> parent = accessor.RetrieveEntityFromPath<Asset> ( parentpath );
+                StorageNode parent = accessor.RetrieveStorageNodeFromPath ( parentpath );
                 EntityMetaDescription emd_ = accessor.MetaHelper.GetMetaDataFromType ( parent.Entity.GetType () );
                 ret.Append ( emd_.EntityDisplayName + " - " );
                 ret.Append ( accessor.ContentHelper.RetrieveCodeValue ( parent ) + " - " );
                 ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( parent ) + " - " );
                 return ( true );
             } );
-            EntityMetaDescription emd = accessor.MetaHelper.GetMetaDataFromType ( node.GetType () );
+            EntityMetaDescription emd = accessor.MetaHelper.GetMetaDataFromType ( Entity.GetType () );
             ret.Append ( emd.EntityDisplayName + " - " );
-            ret.Append ( accessor.ContentHelper.RetrieveCodeValue ( node ) + " - " );
-            ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( node ) + " - " );
-            accessor.ContentHelper.ParseAttributes ( node, ( AttributeMetaDescription attribute, object val ) =>
+            ret.Append ( Entity.Code + " - " );
+            ret.Append ( Entity.Label + " - " );
+            accessor.ContentHelper.ParseAttributes ( Entity, ( AttributeMetaDescription attribute, object val ) =>
             {
                 if ( val.GetType ().IsSubclassOf ( typeof ( Nomenclature ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( val ) + " - " );
                 else if ( attribute.IsEnum == true ) ret.Append ( val.ToString () + " - " );

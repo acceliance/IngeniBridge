@@ -43,7 +43,7 @@ namespace IngeniBridge.GenerateFullInventory
                 UriBuilder uri = new UriBuilder ( Assembly.GetExecutingAssembly ().CodeBase );
                 string path = Path.GetDirectoryName ( Uri.UnescapeDataString ( uri.Path ) );
                 Assembly accessorasm = Assembly.LoadFile ( path + "\\" + options.StorageAccessorAssembly );
-                Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
+                Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
                 accessor.OpenDB ( options.IBDatabase );
                 #endregion

@@ -43,7 +43,7 @@ namespace IngeniBridge.IBDatabaseParser
                 UriBuilder uri = new UriBuilder ( Assembly.GetExecutingAssembly ().CodeBase );
                 string path = Path.GetDirectoryName ( Uri.UnescapeDataString ( uri.Path ) );
                 Assembly accessorasm = Assembly.LoadFile ( path + "\\" + options.StorageAccessorAssembly );
-                Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAccessorAssembly ( accessorasm );
+                Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
                 accessor.OpenDB ( options.IBDatabase );
                 #endregion
@@ -55,12 +55,13 @@ namespace IngeniBridge.IBDatabaseParser
                 TreeChecker tc = new TreeChecker ( accessor );
                 Console.WriteLine ( "Vérification de l'arbre..." );
                 tc.CheckTree ( true, message => log.Error ( message ) );
-                accessor.IterateSubTreeEntities ( accessor.RootAsset.Entity.StorageUniqueID, ( inode ) =>
+                accessor.IterateSubTreeEntities ( accessor.RootAsset, ( inode ) =>
                 {
-                    Console.WriteLine ( "Tree pos => " + inode.NodePath );
-                    Console.WriteLine ( "Parent attribute containing node => " + inode.AttributeInParent );
-                    Console.WriteLine ( "\tObject => " + inode.Entity.GetType () .Name + " - " + accessor.ContentHelper.RetrieveCodeValue ( inode.Entity ) + " - " + accessor.ContentHelper.RetrieveLabelValue ( inode.Entity ) );
-                    accessor.ContentHelper.ParseAttributes ( inode.Entity, ( attribute, val ) =>
+                    StorageNode node = accessor.RetrieveStorageNodeFromStorageUniqueID ( inode.StorageUniqueID );
+                    Console.WriteLine ( "Tree pos => " + node.NodePath );
+                    Console.WriteLine ( "Parent attribute containing node => " + node.AttributeInParent );
+                    Console.WriteLine ( "\tObject => " + inode.GetType () .Name + " - " + inode.Code + " - " + inode.Label );
+                    accessor.ContentHelper.ParseAttributes ( inode, ( attribute, val ) =>
                     {
                         Console.WriteLine ( "\t\tAttribute => " + attribute.AttributeName + " (" + attribute.AttributeType.Name + ") = " + val.ToString () );
                         return ( true );

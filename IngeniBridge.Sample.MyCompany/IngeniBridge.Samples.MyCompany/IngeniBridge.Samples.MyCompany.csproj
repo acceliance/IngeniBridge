@@ -18,10 +18,10 @@
 
   <ItemGroup>
     <PackageReference Include="CodexMicroORM.Core" Version="0.9.1" />
-    <PackageReference Include="CommandLineParser" Version="2.5.0" />
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
     <PackageReference Include="IngeniBridge.BuildUtils" Version="1.0.7" />
-    <PackageReference Include="IngeniBridge.Core" Version="1.0.47" />
-    <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.16" />
+    <PackageReference Include="IngeniBridge.Core" Version="1.0.48" />
+    <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.18" />
     <PackageReference Include="JT.TechCases.Threading" Version="1.0.17" />
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
