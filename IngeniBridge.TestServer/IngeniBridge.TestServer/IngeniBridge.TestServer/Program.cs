@@ -25,7 +25,7 @@ namespace IngeniBridge.Server.TestServer
     class Program
     {
         public static readonly ILog log = LogManager.GetLogger ( System.Reflection.MethodBase.GetCurrentMethod ().DeclaringType );
-        public static string url = "https://cloud.ingenibridge.com/PublicDemo/Deagital/";
+        public static string url = "http://demo.ingenibridge.com/";
         static int Main ( string [] args )
         {
             XmlConfigurator.Configure ( LogManager.GetRepository ( Assembly.GetEntryAssembly () ), new FileInfo ( "log4net.config" ) );
