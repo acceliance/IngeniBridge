@@ -27,5 +27,9 @@
     <DefineConstants>NETCORE;NETSTANDARD;NETSTANDARD2_0</DefineConstants>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy %25userprofile%25\.nuget\packages\ingenibridge.core\1.0.48\lib\netstandard2.0\IngeniBridge.Core.dll $(TargetDir)&#xD;&#xA;" />
+    <Exec Command="copy %25userprofile%25\.nuget\packages\ingenibridge.storageaccessor.inmemory\1.0.18\lib\netstandard2.0\IngeniBridge.StorageAccessor.InMemory.dll $(TargetDir)&#xD;&#xA;" />
+  </Target>
 
 </Project>
