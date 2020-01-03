@@ -1,0 +1,5 @@
+To generate the REST API:
+
+use vs 2019 extension => https://marketplace.visualstudio.com/items?itemName=dmitry-pavlov.OpenAPIConnectedService
+
+generate from IngeniBridge openapi endpoint => http://demo.ingenibridge.com/swagger/docs/1.0

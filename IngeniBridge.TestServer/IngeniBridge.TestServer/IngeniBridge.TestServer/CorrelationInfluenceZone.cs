@@ -18,15 +18,18 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IngeniBridge.Server.TestServer
+namespace IngeniBridge.TestServer
 {
     public class CorrelationInfluenceZone
     {
-        public static void Launch ( HttpClient client, string buf )
+        public static void Launch ( HttpClient client )
         {
             Program.log.Info ( "CorrelationInfluenceZoneBusinessUseCase ==============================" );
-            Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/DataModel" );
-            byte [ ] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
+            // here find data from Historian reference EXTREF 004, the acquisistion platform detected an exceeding threshold, now we must correlate this alarm with an existing alarm
+            Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/REQUESTER/RetrieveTimeSeries?CorrelationCriteria=TimeSeries.TimeSeriesExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" );
+            string buf = response.Result.Content.ReadAsStringAsync ().Result;
+            response = client.GetAsync ( Program.url + "/DataModel" );
+            byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
             Assembly DataModelAssembly = IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );

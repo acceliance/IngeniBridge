@@ -18,15 +18,17 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IngeniBridge.Server.TestServer
+namespace IngeniBridge.TestServer
 {
     public class MethodMapping
     {
-        public static void Launch ( HttpClient client, string buf )
+        public static void Launch ( HttpClient client )
         {
             Program.log.Info ( "MethodMapping ==============================" );
-            Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/DataModel" );
-            byte [ ] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
+            Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/REQUESTER/RetrieveTimeSeries?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
+            string buf = response.Result.Content.ReadAsStringAsync ().Result;
+            response = client.GetAsync ( Program.url + "/DataModel" );
+            byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
             Assembly DataModelAssembly = Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );

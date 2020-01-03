@@ -18,13 +18,15 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IngeniBridge.Server.TestServer
+namespace IngeniBridge.TestServer
 {
     public class MethodRest
     {
-        public static void Launch ( HttpClient client, string buf )
+        public static void Launch ( HttpClient client )
         {
             Program.log.Info ( "MethodREST ==============================" );
+            Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/REQUESTER/RetrieveTimeSeries?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
+            string buf = response.Result.Content.ReadAsStringAsync ().Result;
             JArray jsonRoot = ( JArray ) JsonConvert.DeserializeObject ( buf );
             if ( jsonRoot.Children ().Count () == 0 ) Console.WriteLine ( "last page reached" );
             jsonRoot.Children ().All ( contexteddata =>

@@ -2,7 +2,7 @@
   "profiles": {
     "IngeniBridge.GenerateFullInventory": {
       "commandName": "Project",
-      "commandLineArgs": "--StorageAccessorAssembly=\"IngeniBridge.StorageAccessor.InMemory.dll\" --IBDatabase=..\\..\\IngeniBridge.Sample.MyCompany\\IngeniBridge.Samples.MyCompany\\MasterAssetMyCompany_2018_09_13.ibdb --InventoryFile=InventoryFileIB.xlsx"
+      "commandLineArgs": "--StorageAccessorAssembly=\"IngeniBridge.StorageAccessor.InMemory.dll\" --IBDatabase=..\\..\\..\\..\\..\\IngeniBridge.Sample.MyCompany\\MasterAssetMyCompany_2020_01_03.ibdb --InventoryFile=InventoryFileIB.xlsx"
     }
   }
 }

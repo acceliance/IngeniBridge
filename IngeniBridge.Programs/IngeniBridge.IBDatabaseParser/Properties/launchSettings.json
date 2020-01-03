@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IngeniBridge.IBDatabaseParser": {
+      "commandName": "Project",
+      "commandLineArgs": "--StorageAccessorAssembly=\"IngeniBridge.StorageAccessor.InMemory.dll\" --IBDatabase=..\\..\\..\\..\\..\\IngeniBridge.Sample.MyCompany\\MasterAssetMyCompany_2020_01_03.ibdb"
+    }
+  }
+}

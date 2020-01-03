@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IngeniBridge.Server.TestServer
+namespace IngeniBridge.TestServer
 {
     public class NodeInfo
     {

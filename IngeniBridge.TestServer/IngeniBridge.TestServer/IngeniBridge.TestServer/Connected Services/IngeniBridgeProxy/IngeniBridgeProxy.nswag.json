@@ -1,0 +1,921 @@
+﻿{
+  "swagger": "2.0",
+  "info": {
+    "title": "IngeniBridge REST Api",
+    "version": "1.0"
+  },
+  "host": "demo.ingenibridge.com",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/REQUESTER/RetrieveAssets": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves the assets",
+        "operationId": "Requester_RetrieveAssets",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "array",
+            "name": "CorrelationCriteria",
+            "in": "query",
+            "description": "Correlation creteria containing [axis]=[value] or use ! for [different than]",
+            "collectionFormat": "multi",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "type": "integer",
+            "name": "PageNumber",
+            "in": "query",
+            "description": "Page number starting from 0",
+            "format": "int32"
+          },
+          {
+            "type": "integer",
+            "name": "PageSize",
+            "in": "query",
+            "description": "Page size",
+            "format": "int32"
+          },
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "SnapshotDate",
+            "in": "query",
+            "description": "The snapshot date used to retrive the valid elements",
+            "format": "date-time"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ContextedAsset"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveAssetTypes": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves the asset types",
+        "operationId": "Requester_RetrieveAssetTypes",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveTimeSeries": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves the time series",
+        "operationId": "Requester_RetrieveTimeSeries",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "array",
+            "name": "CorrelationCriteria",
+            "in": "query",
+            "description": "Correlation creteria containing [axis]=[value] or use ! for [different than]",
+            "collectionFormat": "multi",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "type": "integer",
+            "name": "PageNumber",
+            "in": "query",
+            "description": "Page number starting from 0",
+            "format": "int32"
+          },
+          {
+            "type": "integer",
+            "name": "PageSize",
+            "in": "query",
+            "description": "Page size",
+            "format": "int32"
+          },
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "SnapshotDate",
+            "in": "query",
+            "description": "The snapshot date used to retrive the valid elements",
+            "format": "date-time"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ContextedTimeSeries"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveDatavizTimeSeries": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves the timeseries",
+        "operationId": "Requester_RetrieveDatavizTimeSeries",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "SearchString",
+            "in": "query",
+            "required": true,
+            "description": "String search"
+          },
+          {
+            "type": "integer",
+            "name": "PageSize",
+            "in": "query",
+            "description": "Page size",
+            "format": "int32"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/DatavizTimeSeries"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveEntityFromPath": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves an entity (asset or time series) using the path in tree (concatenate parents with backslashes)",
+        "operationId": "Requester_RetrieveEntityFromPath",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "PathInTree",
+            "in": "query",
+            "required": true,
+            "description": "Path in the tree"
+          },
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ContextedAsset"
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveTimeSeriesTypes": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves the time series types",
+        "operationId": "Requester_RetrieveTimeSeriesTypes",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveEntityFunctionalAxis": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves all the functional axis available to request a type of entity",
+        "operationId": "Requester_RetrieveEntityFunctionalAxis",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "EntityName",
+            "in": "query",
+            "required": true,
+            "description": "The entity type name"
+          },
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par  application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveEntityFunctionalAxisTree": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrive the whole functional axis in an inheritance tree",
+        "operationId": "Requester_RetrieveEntityFunctionalAxisTree",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/FunctionalAxisNode"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveEnumAvailableValues": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieve all values of an Enum type",
+        "operationId": "Requester_RetrieveEnumAvailableValues",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "EnumName",
+            "in": "query",
+            "required": true,
+            "description": "The Enum type name"
+          },
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveEnumAvailableTypes": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieve all the Enum types",
+        "operationId": "Requester_RetrieveEnumAvailableTypes",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveMetaInformation": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves the full meta information about the model",
+        "operationId": "Requester_RetrieveMetaInformation",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/EntityMetaDescription"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveNomenclature": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves nomenclature values",
+        "operationId": "Requester_RetrieveNomenclature",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "NomenclatureName",
+            "in": "query",
+            "required": true,
+            "description": "The nomenclature"
+          },
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Nomenclature"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/REQUESTER/RetrieveNomenclatureTypes": {
+      "get": {
+        "tags": [
+          "Requester"
+        ],
+        "summary": "Retrieves all the nomenclature types available",
+        "operationId": "Requester_RetrieveNomenclatureTypes",
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "type": "string",
+            "name": "CallingApplication",
+            "in": "query",
+            "description": "The calling application or null (if null then par application tracking is disabled)"
+          },
+          {
+            "type": "string",
+            "name": "DBVersion",
+            "in": "query",
+            "description": "Database online version or nul if default"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Asset": {
+      "type": "object",
+      "properties": {
+        "TimeSeries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TimeSeries"
+          }
+        },
+        "Code": {
+          "type": "string"
+        },
+        "Label": {
+          "type": "string"
+        },
+        "BeginValidity": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "EndValidity": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "HistoryTrackingCode": {
+          "type": "string",
+          "readOnly": true
+        },
+        "StorageUniqueID": {
+          "type": "integer",
+          "format": "int64",
+          "readOnly": true
+        },
+        "EntityKind": {
+          "type": "string",
+          "enum": [
+            "TimeSeries",
+            "Asset",
+            "Nomenclature"
+          ],
+          "readOnly": true
+        }
+      }
+    },
+    "TimeSeries": {
+      "type": "object",
+      "properties": {
+        "Description": {
+          "type": "string"
+        },
+        "TimeSeriesExternalReference": {
+          "type": "string"
+        },
+        "Code": {
+          "type": "string"
+        },
+        "Label": {
+          "type": "string"
+        },
+        "BeginValidity": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "EndValidity": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "HistoryTrackingCode": {
+          "type": "string",
+          "readOnly": true
+        },
+        "StorageUniqueID": {
+          "type": "integer",
+          "format": "int64",
+          "readOnly": true
+        },
+        "EntityKind": {
+          "type": "string",
+          "enum": [
+            "TimeSeries",
+            "Asset",
+            "Nomenclature"
+          ],
+          "readOnly": true
+        }
+      }
+    },
+    "HistorizedAsset": {
+      "type": "object",
+      "properties": {
+        "Assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ContextedAsset"
+          }
+        }
+      }
+    },
+    "ContextedAsset": {
+      "type": "object",
+      "properties": {
+        "Parents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Asset"
+          }
+        },
+        "Asset": {
+          "$ref": "#/definitions/Asset"
+        }
+      }
+    },
+    "HistorizedTimeSeries": {
+      "type": "object",
+      "properties": {
+        "Datas": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ContextedTimeSeries"
+          }
+        }
+      }
+    },
+    "ContextedTimeSeries": {
+      "type": "object",
+      "properties": {
+        "Parents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Asset"
+          }
+        },
+        "TimeSeries": {
+          "$ref": "#/definitions/TimeSeries"
+        }
+      }
+    },
+    "Nomenclature": {
+      "type": "object",
+      "properties": {
+        "Code": {
+          "type": "string"
+        },
+        "Label": {
+          "type": "string"
+        },
+        "BeginValidity": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "EndValidity": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "HistoryTrackingCode": {
+          "type": "string",
+          "readOnly": true
+        },
+        "StorageUniqueID": {
+          "type": "integer",
+          "format": "int64",
+          "readOnly": true
+        },
+        "EntityKind": {
+          "type": "string",
+          "enum": [
+            "TimeSeries",
+            "Asset",
+            "Nomenclature"
+          ],
+          "readOnly": true
+        }
+      }
+    },
+    "DatavizTimeSeries": {
+      "type": "object",
+      "properties": {
+        "DatavizTimeSeriesDescription": {
+          "type": "string"
+        },
+        "TimeSeriesExternalReference": {
+          "type": "string"
+        }
+      }
+    },
+    "FunctionalAxisNode": {
+      "type": "object",
+      "properties": {
+        "Nodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FunctionalAxisNode"
+          }
+        },
+        "EntityName": {
+          "type": "string"
+        },
+        "Axis": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "EntityMetaDescription": {
+      "type": "object",
+      "properties": {
+        "BaseEntityType": {
+          "type": "string"
+        },
+        "IsRoot": {
+          "type": "boolean"
+        },
+        "EntityKind": {
+          "type": "string",
+          "enum": [
+            "TimeSeries",
+            "Asset",
+            "Nomenclature"
+          ]
+        },
+        "EntityType": {
+          "type": "string"
+        },
+        "IsAbstract": {
+          "type": "boolean"
+        },
+        "CodeProperty": {
+          "$ref": "#/definitions/AttributeMetaDescription"
+        },
+        "LabelProperty": {
+          "$ref": "#/definitions/AttributeMetaDescription"
+        },
+        "AllLinks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AttributeMetaDescription"
+          },
+          "readOnly": true
+        },
+        "EntityDisplayName": {
+          "type": "string"
+        },
+        "EntityName": {
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "AttributeMetaDescription": {
+      "type": "object",
+      "properties": {
+        "IsArray": {
+          "type": "boolean"
+        },
+        "IsEnum": {
+          "type": "boolean"
+        },
+        "IsReference": {
+          "type": "boolean"
+        },
+        "IsExternalReference": {
+          "type": "boolean"
+        },
+        "IsTimeSeries": {
+          "type": "boolean",
+          "readOnly": true
+        },
+        "IsNomenclature": {
+          "type": "boolean"
+        },
+        "IsDescriptionField": {
+          "type": "boolean",
+          "readOnly": true
+        },
+        "IsExternalTimeSeriesReference": {
+          "type": "boolean",
+          "readOnly": true
+        },
+        "DeclaringEntityType": {
+          "type": "string"
+        },
+        "AttributeType": {
+          "type": "string"
+        },
+        "AttributeName": {
+          "type": "string"
+        },
+        "NameDesc": {
+          "type": "string"
+        },
+        "NotToDisplay": {
+          "type": "boolean"
+        },
+        "Unit": {
+          "type": "string"
+        },
+        "IndexEntityAttribute": {
+          "$ref": "#/definitions/IndexEntityAttributeAttribute"
+        }
+      }
+    },
+    "IndexEntityAttributeAttribute": {
+      "type": "object",
+      "properties": {
+        "AttributeName": {
+          "type": "string"
+        },
+        "FunctionalAxisName": {
+          "type": "string"
+        },
+        "TypeId": {
+          "type": "object",
+          "readOnly": true
+        }
+      }
+    }
+  }
+}

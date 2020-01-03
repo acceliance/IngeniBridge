@@ -13,10 +13,10 @@
 
 
   <ItemGroup>
-    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="CommandLineParser" Version="2.7.82" />
     <PackageReference Include="IngeniBridge.BuildUtils" Version="1.0.7" />
-    <PackageReference Include="IngeniBridge.Core" Version="1.0.48" />
-    <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.18" />
+    <PackageReference Include="IngeniBridge.Core" Version="1.0.49" />
+    <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.20" />
     <PackageReference Include="JT.TechCases.Threading" Version="1.0.17" />
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
@@ -33,8 +33,8 @@
   </PropertyGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy %25userprofile%25\.nuget\packages\ingenibridge.core\1.0.48\lib\netstandard2.0\IngeniBridge.Core.dll $(TargetDir)&#xD;&#xA;" />
-    <Exec Command="copy %25userprofile%25\.nuget\packages\ingenibridge.storageaccessor.inmemory\1.0.18\lib\netstandard2.0\IngeniBridge.StorageAccessor.InMemory.dll $(TargetDir)&#xD;&#xA;" />
+    <Exec Command="copy %25userprofile%25\.nuget\packages\ingenibridge.core\1.0.49\lib\netstandard2.0\IngeniBridge.Core.dll $(TargetDir)&#xD;&#xA;" />
+    <Exec Command="copy %25userprofile%25\.nuget\packages\ingenibridge.storageaccessor.inmemory\1.0.20\lib\netstandard2.0\IngeniBridge.StorageAccessor.InMemory.dll $(TargetDir)&#xD;&#xA;" />
   </Target>
 
 </Project>

@@ -20,7 +20,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IngeniBridge.Server.TestServer
+namespace IngeniBridge.TestServer
 {
     class Program
     {
@@ -52,14 +52,10 @@ namespace IngeniBridge.Server.TestServer
                 //var byteArray = Encoding.ASCII.GetBytes ( login + ":" + password );
                 //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ( "Basic", Convert.ToBase64String ( byteArray ) );
                 Program.log.Info ( "Connecting => " + Program.url );
-                Task<HttpResponseMessage> response = client.GetAsync ( Program.url + "/REQUESTER/RetrieveTimeSeries?PageNumber=0&PageSize=2&CallingApplication=IngeniBridge.TestServer" ); // here find all datas
-                string buf = response.Result.Content.ReadAsStringAsync ().Result;
-                MethodRest.Launch ( client, buf );
-                MethodMapping.Launch ( client, buf );
-                // here find data from Historian reference EXTREF 004, the acquisistion platform detected an exceeding threshold, now we must correlate this alarm with an existing alarm
-                response = client.GetAsync ( Program.url + "/REQUESTER/RetrieveTimeSeries?CorrelationCriteria=TimeSeries.TimeSeriesExternalReference=EXTREF 004&PageNumber=0&PageSize=10&CallingApplication=IngeniBridge.TestServer" );
-                buf = response.Result.Content.ReadAsStringAsync ().Result;
-                CorrelationInfluenceZone.Launch ( client, buf );
+                MethodRest.Launch ( client );
+                MethodRestProxy.Launch ( client );
+                MethodMapping.Launch ( client );
+                CorrelationInfluenceZone.Launch ( client );
             }
             catch ( Exception e )
             {
