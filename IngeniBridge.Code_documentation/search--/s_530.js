@@ -1,0 +1,1 @@
+search_result['530']=["topic_0000000000000120.html","StorageAccessor.IntIterateChildEntitiesInAttribute\u0026lt;NODETYPE\u0026gt; Method","Iterates children inside the attribute of an antity"];

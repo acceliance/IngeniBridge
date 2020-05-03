@@ -1,0 +1,1 @@
+search_result['280']=["topic_000000000000007B.html","EntityContentHelper.RetrieveDeclaringTypeFromDataName Method","Get the declaring type of a member property"];

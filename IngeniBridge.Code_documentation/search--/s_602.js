@@ -1,0 +1,1 @@
+search_result['602']=["topic_0000000000000163.html","StorageFormatter.GetAllParentsPathFromParentsPath Method","Returns the asset codes from a full parent path"];

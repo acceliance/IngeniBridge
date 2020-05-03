@@ -1,0 +1,1 @@
+search_result['376']=["topic_00000000000000C5.html","IDatavizIndexHelper.IndexNode Method","Implement this method to index a node"];

@@ -1,0 +1,1 @@
+search_result['277']=["topic_0000000000000078.html","EntityContentHelper.ParseAttributes Method","This method parses all attributes inside an entitu"];

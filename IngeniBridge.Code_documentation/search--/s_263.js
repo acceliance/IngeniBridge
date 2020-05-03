@@ -1,0 +1,1 @@
+search_result['263']=["topic_000000000000006A.html","EntityContentHelper.RetrieveLabelValue Method","This method retrieves the label property value from an entity"];

@@ -1,0 +1,1 @@
+search_result['591']=["topic_000000000000015D.html","StorageAccessor.GetNbChildEntities\u0026lt;NODETYPE\u0026gt; Method","This function returns the immediate children number"];

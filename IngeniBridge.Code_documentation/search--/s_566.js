@@ -1,0 +1,1 @@
+search_result['566']=["topic_0000000000000144.html","StorageAccessor.RetrieveTimeSeriesHistory Method","Retrieves the history of a time series object in the database"];

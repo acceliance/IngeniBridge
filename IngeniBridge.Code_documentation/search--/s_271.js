@@ -1,0 +1,1 @@
+search_result['271']=["topic_0000000000000072.html","EntityContentHelper.ParseLinkedEntities Method","This method parses all linked entities (Asset and Nomenclature)"];

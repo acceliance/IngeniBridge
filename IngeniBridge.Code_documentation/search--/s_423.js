@@ -1,0 +1,1 @@
+search_result['423']=["topic_00000000000000DB.html","HistorizedTimeSeries Class","This class is used to return the historized version of a time series object"];

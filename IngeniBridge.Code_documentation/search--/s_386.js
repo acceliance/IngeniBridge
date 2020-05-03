@@ -1,0 +1,1 @@
+search_result['386']=["topic_00000000000000CA.html","EntitySerializer.SerializeTimeSeries Method","This method serializes a time series object"];

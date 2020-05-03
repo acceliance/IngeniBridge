@@ -1,0 +1,1 @@
+search_result['513']=["topic_0000000000000114.html","IStorageServices.ValidateNewTimeSeries Method","Validates the time series object"];

@@ -1,0 +1,1 @@
+search_result['430']=["topic_00000000000000DD.html","ParentsAssetSerializer Class","This class serializes a reduces version of the asset object when referenced as a parent in the web service"];

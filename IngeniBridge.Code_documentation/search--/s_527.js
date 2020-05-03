@@ -1,0 +1,1 @@
+search_result['527']=["topic_000000000000011D.html","HandleIteratedNode\u0026lt;NODETYPE\u0026gt; Delegate","Notifies a node in the tree"];

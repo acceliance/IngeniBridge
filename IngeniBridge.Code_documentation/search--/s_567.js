@@ -1,0 +1,1 @@
+search_result['567']=["topic_0000000000000145.html","StorageAccessor.RetrieveNomenclatureList Method","Retrieves the nomenclature entries for a type of nomenclatures"];

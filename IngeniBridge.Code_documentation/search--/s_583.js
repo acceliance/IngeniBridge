@@ -1,0 +1,1 @@
+search_result['583']=["topic_0000000000000155.html","StorageAccessor.GetNbSubTreeEntities\u0026lt;NODETYPE\u0026gt; Method","Counts children in whole tree from a node"];

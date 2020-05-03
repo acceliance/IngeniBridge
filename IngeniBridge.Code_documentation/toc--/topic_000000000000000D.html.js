@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"IngeniBridge.Core Reference","topic_0000000000000193.html"],['73',"IngeniBridge.Core.Exceptions Namespace","topic_000000000000000A.html"],['80',"Base Class","topic_000000000000000B.html"],['81',"Base Constructor","topic_000000000000000C_overloads--.html"],['83',"Base(string, Exception) Constructor","topic_000000000000000D.html"]];

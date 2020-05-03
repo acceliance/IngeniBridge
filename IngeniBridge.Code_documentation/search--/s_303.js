@@ -1,0 +1,1 @@
+search_result['303']=["topic_0000000000000090.html","EntityMetaDescription.ExternalLinksToEntities Property","Link to only external entities"];

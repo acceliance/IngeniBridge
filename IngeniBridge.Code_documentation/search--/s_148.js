@@ -1,0 +1,1 @@
+search_result['148']=["topic_000000000000003D.html","AttributeMetaDescription.IsExternalTimeSeriesReference Property","Indicates if attribute is time series external reference"];

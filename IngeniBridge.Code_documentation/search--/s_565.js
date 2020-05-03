@@ -1,0 +1,1 @@
+search_result['565']=["topic_0000000000000143.html","StorageAccessor.RetrieveAssetHistory Method","Retrieves the history of an asset object into the database"];

@@ -1,0 +1,1 @@
+search_result['353']=["topic_00000000000000B8.html","MetaHelper.GetTypes Method","This method retrieves the types list in the model meta information"];

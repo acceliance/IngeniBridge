@@ -1,0 +1,1 @@
+search_result['346']=["topic_00000000000000B1.html","MetaHelper.RetrieveAllPropertiesAssignableFromAndToParamType Method","Retrieves all attributes of type either parent or derived from the specified type"];

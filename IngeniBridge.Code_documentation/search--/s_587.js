@@ -1,0 +1,1 @@
+search_result['587']=["topic_0000000000000159.html","StorageAccessor.RetrieveChildEntity\u0026lt;NODETYPE\u0026gt; Method","Finds a child from an asset object"];

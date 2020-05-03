@@ -1,0 +1,1 @@
+search_result['356']=["topic_00000000000000BB.html","ContextedEntitySerializer Class","This class contains services to serialize and deseiralize results form the webservice"];

@@ -1,0 +1,1 @@
+search_result['532']=["topic_0000000000000122.html","StorageAccessor.IntGetNbChildEntities\u0026lt;NODETYPE\u0026gt; Method","Counts children just below a node"];

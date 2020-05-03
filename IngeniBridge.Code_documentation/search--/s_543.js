@@ -1,0 +1,1 @@
+search_result['543']=["topic_000000000000012D.html","StorageAccessor.IntInitializeNewDB Method","Initializes new database"];

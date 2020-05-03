@@ -1,0 +1,1 @@
+search_result['304']=["topic_0000000000000091.html","EntityMetaDescription.ExternalLinksToEntitiesAndNomenclatures Property","Link to only external entities and nomenclatures"];

@@ -1,0 +1,1 @@
+search_result['559']=["topic_000000000000013D.html","StorageAccessor.RecreateAssetAsParent Method","Creates a light version of an asset object to be used as a parent"];

@@ -1,0 +1,1 @@
+search_result['272']=["topic_0000000000000073.html","EntityContentHelper.NbLinkedEntities\u0026lt;ENTITYTYPE\u0026gt; Method","This method returns the number of linked entities to the entity"];

@@ -1,0 +1,1 @@
+search_result['352']=["topic_00000000000000B7.html","MetaHelper.GetInheritanceMetaData Method","This method builds a tree of inheritance meta data"];

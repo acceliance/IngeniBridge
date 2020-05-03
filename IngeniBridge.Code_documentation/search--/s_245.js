@@ -1,0 +1,1 @@
+search_result['245']=["topic_0000000000000062.html","IndexAlsoByNameAttribute Class","This flag indicates if an Asset or Nomenclature attribute should also be index on its name (by default indexed on its type)"];

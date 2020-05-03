@@ -1,0 +1,1 @@
+search_result['345']=["topic_00000000000000B0.html","MetaHelper.RetrieveAllPropertiesAssignableFromParamType Method","This method retrieves all the properties inside an object instance compatible with the type"];

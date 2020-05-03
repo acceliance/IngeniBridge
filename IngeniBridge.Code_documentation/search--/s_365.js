@@ -1,0 +1,1 @@
+search_result['365']=["topic_00000000000000BF.html","ContextedEntitySerializer.SerializeDatavizTimeSeries Method","This method is used to serialize a dataviz data"];

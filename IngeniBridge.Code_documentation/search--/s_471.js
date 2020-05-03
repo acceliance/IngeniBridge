@@ -1,0 +1,1 @@
+search_result['471']=["topic_00000000000000F5.html","AssetExtension.RetrieveChildEntity\u0026lt;NODETYPE\u0026gt; Method","Finds a child entity from an asset of a type from an attribute in the parent"];

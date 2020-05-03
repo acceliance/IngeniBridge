@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"IngeniBridge.Core Reference","topic_0000000000000193.html"],['317',"IngeniBridge.Core.StagingData Namespace","topic_00000000000000E1.html"]];

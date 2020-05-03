@@ -1,0 +1,1 @@
+search_result['536']=["topic_0000000000000126.html","StorageAccessor.IntRetrieveStorageNodeFromPath Method","Retrieves the storage node from path into database"];

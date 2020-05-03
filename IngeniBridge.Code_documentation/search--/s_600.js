@@ -1,0 +1,1 @@
+search_result['600']=["topic_0000000000000161.html","StorageFormatter.FormatTimeSeries Method","Formats the time series for storage"];

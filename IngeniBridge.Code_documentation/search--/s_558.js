@@ -1,0 +1,1 @@
+search_result['558']=["topic_000000000000013C.html","StorageAccessor.CleanAsset Method","This method cleans an asset object (used when creating new objects)"];

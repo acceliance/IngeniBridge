@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"IngeniBridge.Core Reference","topic_0000000000000193.html"],['73',"IngeniBridge.Core.Exceptions Namespace","topic_000000000000000A.html"],['88',"ExternalReferencedObjectsNotDeclared Class","topic_0000000000000016.html"],['89',"ExternalReferencedObjectsNotDeclared Constructor","topic_0000000000000017.html"]];

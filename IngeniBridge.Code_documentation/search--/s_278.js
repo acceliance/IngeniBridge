@@ -1,0 +1,1 @@
+search_result['278']=["topic_0000000000000079.html","EntityContentHelper.ParseBruteAttributes Method","This method parses all nomenclatures and external references if specified"];

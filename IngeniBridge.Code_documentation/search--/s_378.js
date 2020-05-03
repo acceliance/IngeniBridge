@@ -1,0 +1,1 @@
+search_result['378']=["topic_00000000000000C7.html","EntitySerializer Class","This class provides services for serialization"];

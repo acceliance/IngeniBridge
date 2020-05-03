@@ -1,0 +1,1 @@
+search_result['570']=["topic_0000000000000148.html","StorageAccessor.GetStatistics Method","Returns database statistics"];

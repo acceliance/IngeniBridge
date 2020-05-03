@@ -1,0 +1,1 @@
+search_result['288']=["topic_0000000000000081.html","EntityMetaDescription.IsRoot Property","Indicates if entity is root in the data model"];
