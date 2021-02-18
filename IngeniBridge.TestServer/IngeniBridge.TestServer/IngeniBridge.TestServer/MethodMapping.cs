@@ -32,7 +32,7 @@ namespace IngeniBridge.TestServer
             Assembly DataModelAssembly = Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
-            ContextedTimeSeries [] cds = ContextedAssetSerializer.DeserializeContextedTimeSeriessFromString ( buf );
+            ContextedTimeSeries [] cds = ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString ( buf );
             cds.All ( cd =>
             {
                 Console.Write ( "Path => " );
@@ -47,8 +47,8 @@ namespace IngeniBridge.TestServer
                     Console.WriteLine ( "\t" + attribute + " (type=" + val.GetType ().Name + ") => " + val.ToString () + "\n" );
                     return ( true );
                 }, true, true, true );
-                object [ ] vals = contenthelper.RetrieveValuesFromType ( cd.TimeSeries, "TypeOfMeasure" );
-                if ( vals?.Count () > 0 ) Console.WriteLine ( "Found type TypeOfMeasure in object, value is => " + contenthelper.RetrieveCodeValue ( vals [ 0 ] ) );
+                object [] vals = contenthelper.RetrieveValuesFromType ( cd.TimeSeries, "TypeOfMeasure" );
+                if ( vals?.Count () > 0 ) Console.WriteLine ( "Found type TypeOfMeasure in object, value is => " + contenthelper.RetrieveCodeValue ( ( IngeniBridgeEntity ) vals [ 0 ] ) );
                 return ( true );
             } );
         }

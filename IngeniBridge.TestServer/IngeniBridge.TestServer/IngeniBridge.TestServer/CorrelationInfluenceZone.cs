@@ -33,7 +33,7 @@ namespace IngeniBridge.TestServer
             Assembly DataModelAssembly = IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
             MetaHelper helper = new MetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
-            ContextedTimeSeries cd = ContextedAssetSerializer.DeserializeContextedTimeSeriessFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.TimedDataExternalReference=EXTREF 004
+            ContextedTimeSeries cd = ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.TimedDataExternalReference=EXTREF 004
             //
             // the business use case states that:
             // - correlating two alarms should be made on the influence zone (the same influence zone for 2 or more alarms)
@@ -51,9 +51,9 @@ namespace IngeniBridge.TestServer
                 path += parent.Code + "\\";
                 response = client.GetAsync ( Program.url + "/REQUESTER/RetrieveEntityFromPath?PathInTree=" + path + "&CallingApplication=IngeniBridge.TestServer" );
                 buf = response.Result.Content.ReadAsStringAsync ().Result;
-                ContextedAsset ca = ContextedAssetSerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
-                object [ ] vals = contenthelper.RetrieveValuesFromType ( ca.Asset, "InfluenceZone" );
-                if ( vals?.Count () > 0 ) influencezonecode = contenthelper.RetrieveCodeValue ( vals [ 0 ] );
+                ContextedAsset ca = ContextedEntitySerializer.DeserializeContextedAssetsFromString ( buf ) [ 0 ];
+                object [] vals = contenthelper.RetrieveValuesFromType ( ca.Asset, "InfluenceZone" );
+                if ( vals?.Count () > 0 ) influencezonecode = contenthelper.RetrieveCodeValue ( ( IngeniBridgeEntity ) vals [ 0 ] );
                 return ( influencezonecode.Length == 0 );
             } );
             Console.WriteLine ( "Influence Zone found = " + influencezonecode );

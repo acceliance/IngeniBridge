@@ -61,6 +61,7 @@ namespace IngeniBridge.Samples.MyCompany
                 #region Influence zones
                 // Here you see how to access an Excel file using the EPPlus package
                 FileInfo fi = new FileInfo ( "..\\..\\..\\Metadata content to consolidate.xlsx" );
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
                 ExcelPackage xlConsolidate = new ExcelPackage ( fi );
                 ExcelWorksheet wksZones = xlConsolidate.Workbook.Worksheets [ "Influence Zone" ];
                 int line = 2;

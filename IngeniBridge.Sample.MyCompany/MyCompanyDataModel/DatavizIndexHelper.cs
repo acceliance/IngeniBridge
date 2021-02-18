@@ -21,8 +21,8 @@ namespace MyCompanyDataModel
                 StorageNode parent = accessor.RetrieveStorageNodeFromPath ( parentpath );
                 EntityMetaDescription emd_ = accessor.MetaHelper.GetMetaDataFromType ( parent.Entity.GetType () );
                 ret.Append ( emd_.EntityDisplayName + " - " );
-                ret.Append ( accessor.ContentHelper.RetrieveCodeValue ( parent ) + " - " );
-                ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( parent ) + " - " );
+                ret.Append ( parent.Entity.Code + " - " );
+                ret.Append ( parent.Entity.Label + " - " );
                 return ( true );
             } );
             EntityMetaDescription emd = accessor.MetaHelper.GetMetaDataFromType ( Entity.GetType () );
@@ -31,7 +31,7 @@ namespace MyCompanyDataModel
             ret.Append ( Entity.Label + " - " );
             accessor.ContentHelper.ParseAttributes ( Entity, ( AttributeMetaDescription attribute, object val ) =>
             {
-                if ( val.GetType ().IsSubclassOf ( typeof ( Nomenclature ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( val ) + " - " );
+                if ( val.GetType ().IsSubclassOf ( typeof ( Nomenclature ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( ( Nomenclature ) val ) + " - " );
                 else if ( attribute.IsEnum == true ) ret.Append ( val.ToString () + " - " );
                 return ( true );
             }, true, true );
