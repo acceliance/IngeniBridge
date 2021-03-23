@@ -28,6 +28,8 @@ IngeniBridge.TestServer
 	-		Metamodel regeneration access
 	-		Metamodel regeneration + Application Neutrality pattern (the application intelligently uses the metamodel to auto adapt to changes/evolutions on it)
 
+IngeniBridge.Server/WebDeploy
+	-	This folder contains the full Ingenibridge Server binaries ready to deploy in your on-premises IIS
 
 IngeniBridge.Code_documentation
 	- Documentation for the Core library

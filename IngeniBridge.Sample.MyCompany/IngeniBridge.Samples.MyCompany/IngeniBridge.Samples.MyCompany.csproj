@@ -19,7 +19,7 @@
   <ItemGroup>
     <PackageReference Include="CodexMicroORM.Core" Version="0.9.3" />
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
-    <PackageReference Include="IngeniBridge.BuildUtils" Version="1.0.10" />
+    <PackageReference Include="IngeniBridge.BuildUtils" Version="1.0.11" />
     <PackageReference Include="IngeniBridge.Core" Version="1.0.56" />
     <PackageReference Include="IngeniBridge.StorageAccessor.InMemory" Version="1.0.26" />
     <PackageReference Include="JT.TechCases.Threading" Version="1.0.18" />
