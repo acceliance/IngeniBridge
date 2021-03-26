@@ -5,10 +5,10 @@
     <Title>IngeniBridge.Samples.MyCompany</Title>
     <Version>1.0.0</Version>
     <Authors>JTO Tec</Authors>
-    <Copyright>Copyright © DEAGITAL 2016</Copyright>
+    <Copyright>Copyright © Acceliance 2016</Copyright>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description></Description>
-    <Company>DEAGITAL</Company>
+    <Company>Acceliance</Company>
     <OutputType>Exe</OutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>

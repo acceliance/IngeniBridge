@@ -5,10 +5,10 @@
 	  <Title>MyCompanyDataModel</Title>
     <Version>2.0.0.3</Version>
     <Authors>JTO Tec</Authors>
-    <Copyright>Copyright © DEAGITAL 2016</Copyright>
+    <Copyright>Copyright © Acceliance 2016</Copyright>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description></Description>
-    <Company>DEAGITAL</Company> 
+    <Company>Acceliance</Company> 
   </PropertyGroup>
 
   <ItemGroup>
