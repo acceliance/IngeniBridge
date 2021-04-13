@@ -11,9 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DEAGITAL")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Acceliance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © DEAGITAL 2016")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © Acceliance 2016")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("IngeniBridge.GenerateFullInventory")]
