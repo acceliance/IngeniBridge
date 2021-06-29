@@ -23,7 +23,7 @@ IngeniBridge.Sample.MyCompany
 	-			Contains data consolidation, check and serialization (produces an IBDB file to be mounted in the IngeniBridge Server)
 
 IngeniBridge.TestServer
-	-	This project is a demonstration on how to invoke an IngeniBridge Server
+	-	This project is a demonstration on how to invoke an IngeniBridge Server in several manners:
 	-		REST only access
 	-		Metamodel regeneration access
 	-		Metamodel regeneration + Application Neutrality pattern (the application intelligently uses the metamodel to auto adapt to changes/evolutions on it)
