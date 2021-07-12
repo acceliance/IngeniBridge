@@ -31,7 +31,7 @@ namespace IngeniBridge.TestServer
             response = client.GetAsync ( Program.url + "/DataModel" );
             byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
             Assembly DataModelAssembly = IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
-            MetaHelper helper = new MetaHelper ( DataModelAssembly );
+            EntityMetaHelper helper = new EntityMetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
             ContextedTimeSeries cd = ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString ( buf ) [ 0 ]; // here get the first and unique data returned by the request : TimedData.TimedDataExternalReference=EXTREF 004
             //

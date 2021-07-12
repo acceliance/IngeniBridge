@@ -30,7 +30,7 @@ namespace IngeniBridge.TestServer
             response = client.GetAsync ( Program.url + "/DataModel" );
             byte [] buffer = response.Result.Content.ReadAsByteArrayAsync ().Result;
             Assembly DataModelAssembly = Core.Storage.StorageAccessor.RebuildDataModel ( buffer );
-            MetaHelper helper = new MetaHelper ( DataModelAssembly );
+            EntityMetaHelper helper = new EntityMetaHelper ( DataModelAssembly );
             EntityContentHelper contenthelper = new EntityContentHelper ( helper );
             ContextedTimeSeries [] cds = ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString ( buf );
             cds.All ( cd =>
