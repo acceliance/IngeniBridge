@@ -1,0 +1,1150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="AddChildAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddChildAsset.htm" />
+  <HelpKINode Title="AddChildAsset method" Url="html/Overload-IngeniBridge.Core.Storage.AssetExtension.AddChildAsset.htm" />
+  <HelpKINode Title="AddFunctionalAxis property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis.htm" />
+  <HelpKINode Title="AddFunctionalAxisAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+  <HelpKINode Title="AddFunctionalAxisAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+  <HelpKINode Title="AddFunctionalAxisAttribute class">
+    <HelpKINode Title="about AddFunctionalAxisAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.-ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddFunctionalAxisAttribute.AddFunctionalAxisAttribute constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.-ctor.htm" />
+  <HelpKINode Title="AddFunctionalAxisAttribute.Name property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.Name.htm" />
+  <HelpKINode Title="AddFunctionalAxisOnBaseClass property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxisOnBaseClass.htm" />
+  <HelpKINode Title="AddFunctionalAxisOnBaseClassAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute.htm" />
+  <HelpKINode Title="AddFunctionalAxisOnBaseClassAttribute class">
+    <HelpKINode Title="about AddFunctionalAxisOnBaseClassAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNomenclatureEntry method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddNomenclatureEntry.htm" />
+  <HelpKINode Title="AddTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.AddTimeSeries.htm" />
+  <HelpKINode Title="AddTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddTimeSeries.htm" />
+  <HelpKINode Title="AllLinks property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinks.htm" />
+  <HelpKINode Title="AllLinksButTimeSeries property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinksButTimeSeries.htm" />
+  <HelpKINode Title="ApplicationProperties property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ApplicationProperties.htm" />
+  <HelpKINode Title="AssemblyUtil class" Url="html/AllMembers.T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+  <HelpKINode Title="AssemblyUtil class" Url="html/T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+  <HelpKINode Title="AssemblyUtil class">
+    <HelpKINode Title="about AssemblyUtil class" Url="html/T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssemblyUtil.FormatVersion method" Url="html/M-IngeniBridge.Core.Util.AssemblyUtil.FormatVersion.htm" />
+  <HelpKINode Title="AssemblyUtil.GetAssemblyNameVersion method" Url="html/M-IngeniBridge.Core.Util.AssemblyUtil.GetAssemblyNameVersion.htm" />
+  <HelpKINode Title="Asset class" Url="html/AllMembers.T-IngeniBridge.Core.Asset.htm" />
+  <HelpKINode Title="Asset class" Url="html/T-IngeniBridge.Core.Asset.htm" />
+  <HelpKINode Title="Asset class">
+    <HelpKINode Title="about Asset class" Url="html/T-IngeniBridge.Core.Asset.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Asset.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Asset.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Asset.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.Asset.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Asset enumeration member" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.htm" />
+  <HelpKINode Title="Asset field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset.htm" />
+  <HelpKINode Title="Asset field" Url="html/F-IngeniBridge.Core.Service.ContextedAsset.Asset.htm" />
+  <HelpKINode Title="Asset.Asset constructor" Url="html/M-IngeniBridge.Core.Asset.-ctor.htm" />
+  <HelpKINode Title="Asset.GetHashCode method" Url="html/M-IngeniBridge.Core.Asset.GetHashCode.htm" />
+  <HelpKINode Title="Asset.ReplicateForContextedAssetParent method" Url="html/M-IngeniBridge.Core.Asset.ReplicateForContextedAssetParent.htm" />
+  <HelpKINode Title="Asset.TimeSeries property" Url="html/P-IngeniBridge.Core.Asset.TimeSeries.htm" />
+  <HelpKINode Title="Asset.ToString method" Url="html/M-IngeniBridge.Core.Asset.ToString.htm" />
+  <HelpKINode Title="AssetCacheBuilder class" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+  <HelpKINode Title="AssetCacheBuilder class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+  <HelpKINode Title="AssetCacheBuilder class">
+    <HelpKINode Title="about AssetCacheBuilder class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssetCacheBuilder.AssetCacheBuilder constructor" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.-ctor.htm" />
+  <HelpKINode Title="AssetCacheBuilder.FindCachedAssetByHashCode method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByHashCode.htm" />
+  <HelpKINode Title="AssetCacheBuilder.FindCachedAssetByPath method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByPath.htm" />
+  <HelpKINode Title="AssetCacheBuilder.HandleAbsentReferencedAsset delegate" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.HandleAbsentReferencedAsset.htm" />
+  <HelpKINode Title="AssetCacheBuilder.ProcessTree method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.ProcessTree.htm" />
+  <HelpKINode Title="AssetCacheEntry class" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+  <HelpKINode Title="AssetCacheEntry class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+  <HelpKINode Title="AssetCacheEntry class">
+    <HelpKINode Title="about AssetCacheEntry class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssetCacheEntry.Node property" Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Node.htm" />
+  <HelpKINode Title="AssetCacheEntry.Path property" Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Path.htm" />
+  <HelpKINode Title="AssetCacheEntry.ToString method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.ToString.htm" />
+  <HelpKINode Title="AssetCacheEntry.UserData property" Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.UserData.htm" />
+  <HelpKINode Title="AssetExtension class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+  <HelpKINode Title="AssetExtension class" Url="html/T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+  <HelpKINode Title="AssetExtension class">
+    <HelpKINode Title="about AssetExtension class" Url="html/T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssetExtension.AddChildAsset method" Url="html/Overload-IngeniBridge.Core.Storage.AssetExtension.AddChildAsset.htm" />
+  <HelpKINode Title="AssetExtension.AddTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.AddTimeSeries.htm" />
+  <HelpKINode Title="AssetExtension.BuildChildEntitiesList(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.BuildChildEntitiesList--1.htm" />
+  <HelpKINode Title="AssetExtension.BuildChildEntitiesList&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.BuildChildEntitiesList--1.htm" />
+  <HelpKINode Title="AssetExtension.FindFirstChildEntity(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntity--1.htm" />
+  <HelpKINode Title="AssetExtension.FindFirstChildEntity&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntity--1.htm" />
+  <HelpKINode Title="AssetExtension.FindFirstChildEntityInTree(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntityInTree--1.htm" />
+  <HelpKINode Title="AssetExtension.FindFirstChildEntityInTree&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntityInTree--1.htm" />
+  <HelpKINode Title="AssetExtension.RetrieveChildEntity(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.RetrieveChildEntity--1.htm" />
+  <HelpKINode Title="AssetExtension.RetrieveChildEntity&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.RetrieveChildEntity--1.htm" />
+  <HelpKINode Title="AssetExtension.StorageAccessor property" Url="html/P-IngeniBridge.Core.Storage.AssetExtension.StorageAccessor.htm" />
+  <HelpKINode Title="Assets field" Url="html/F-IngeniBridge.Core.Service.HistorizedAsset.Assets.htm" />
+  <HelpKINode Title="AttributeInParent property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.AttributeInParent.htm" />
+  <HelpKINode Title="AttributeMetaDescription class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+  <HelpKINode Title="AttributeMetaDescription class" Url="html/T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+  <HelpKINode Title="AttributeMetaDescription class">
+    <HelpKINode Title="about AttributeMetaDescription class" Url="html/T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AttributeMetaDescription.AddFunctionalAxis property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis.htm" />
+  <HelpKINode Title="AttributeMetaDescription.AddFunctionalAxisOnBaseClass property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxisOnBaseClass.htm" />
+  <HelpKINode Title="AttributeMetaDescription.AttributeName property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeName.htm" />
+  <HelpKINode Title="AttributeMetaDescription.AttributeType property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeType.htm" />
+  <HelpKINode Title="AttributeMetaDescription.DeclaringEntityType property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DeclaringEntityType.htm" />
+  <HelpKINode Title="AttributeMetaDescription.DoNotIndexProperty field" Url="html/F-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DoNotIndexProperty.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IndexAlsoByName property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexAlsoByName.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IndexEntityAttribute property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexEntityAttribute.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IndexRefOnlyOnTarget property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexRefOnlyOnTarget.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsArray property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsArray.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsDescriptionField property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsDescriptionField.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsEnum property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsEnum.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsExternalIngeniBridgeEntityReference property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalIngeniBridgeEntityReference.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsExternalTimeSeriesReference property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalTimeSeriesReference.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsIngeniBridgeEntityReference property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsIngeniBridgeEntityReference.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsNomenclature property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsNomenclature.htm" />
+  <HelpKINode Title="AttributeMetaDescription.IsTimeSeries property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsTimeSeries.htm" />
+  <HelpKINode Title="AttributeMetaDescription.NameDesc property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NameDesc.htm" />
+  <HelpKINode Title="AttributeMetaDescription.NotToDisplay property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NotToDisplay.htm" />
+  <HelpKINode Title="AttributeMetaDescription.ParentEntityMetaDescription property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ParentEntityMetaDescription.htm" />
+  <HelpKINode Title="AttributeMetaDescription.PropagatePropertyOnChildren property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.PropagatePropertyOnChildren.htm" />
+  <HelpKINode Title="AttributeMetaDescription.ToString method" Url="html/M-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString.htm" />
+  <HelpKINode Title="AttributeMetaDescription.Unit property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.Unit.htm" />
+  <HelpKINode Title="AttributeName property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeName.htm" />
+  <HelpKINode Title="AttributeName property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.AttributeName.htm" />
+  <HelpKINode Title="AttributeType property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeType.htm" />
+  <HelpKINode Title="BadAssembly class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
+  <HelpKINode Title="BadAssembly class" Url="html/T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
+  <HelpKINode Title="BadAssembly class">
+    <HelpKINode Title="about BadAssembly class" Url="html/T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.BadAssembly.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BadAssembly.BadAssembly constructor" Url="html/M-IngeniBridge.Core.Exceptions.BadAssembly.-ctor.htm" />
+  <HelpKINode Title="BadDataModel class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
+  <HelpKINode Title="BadDataModel class" Url="html/T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
+  <HelpKINode Title="BadDataModel class">
+    <HelpKINode Title="about BadDataModel class" Url="html/T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.BadDataModel.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BadDataModel.BadDataModel constructor" Url="html/M-IngeniBridge.Core.Exceptions.BadDataModel.-ctor.htm" />
+  <HelpKINode Title="BadRootObjectFormat class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
+  <HelpKINode Title="BadRootObjectFormat class" Url="html/T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
+  <HelpKINode Title="BadRootObjectFormat class">
+    <HelpKINode Title="about BadRootObjectFormat class" Url="html/T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.BadRootObjectFormat.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BadRootObjectFormat.BadRootObjectFormat constructor" Url="html/M-IngeniBridge.Core.Exceptions.BadRootObjectFormat.-ctor.htm" />
+  <HelpKINode Title="Base class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.Base.htm" />
+  <HelpKINode Title="Base class" Url="html/T-IngeniBridge.Core.Exceptions.Base.htm" />
+  <HelpKINode Title="Base class">
+    <HelpKINode Title="about Base class" Url="html/T-IngeniBridge.Core.Exceptions.Base.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.Base.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-IngeniBridge.Core.Exceptions.Base.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Base.Base constructor" Url="html/Overload-IngeniBridge.Core.Exceptions.Base.-ctor.htm" />
+  <HelpKINode Title="BaseEntityType field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.BaseEntityType.htm" />
+  <HelpKINode Title="Build property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Build.htm" />
+  <HelpKINode Title="BuildChildEntitiesList(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.BuildChildEntitiesList--1.htm" />
+  <HelpKINode Title="BuildChildEntitiesList&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.BuildChildEntitiesList--1.htm" />
+  <HelpKINode Title="BuildParentPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.BuildParentPath.htm" />
+  <HelpKINode Title="BuildReference method" Url="html/M-IngeniBridge.Core.Storage.IStorageServices.BuildReference.htm" />
+  <HelpKINode Title="BuildUniqueEntityCode method" Url="html/Overload-IngeniBridge.Core.IngeniBridgeEntity.BuildUniqueEntityCode.htm" />
+  <HelpKINode Title="CanConvert method" Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.CanConvert.htm" />
+  <HelpKINode Title="CanMoveEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CanMoveEntity.htm" />
+  <HelpKINode Title="CheckObjectContents method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CheckObjectContents.htm" />
+  <HelpKINode Title="CheckTree method" Url="html/M-IngeniBridge.Core.Diags.TreeChecker.CheckTree.htm" />
+  <HelpKINode Title="Children field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.Children.htm" />
+  <HelpKINode Title="CleanAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CleanAsset.htm" />
+  <HelpKINode Title="CleanParentPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CleanParentPath.htm" />
+  <HelpKINode Title="CloseDB method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CloseDB.htm" />
+  <HelpKINode Title="Code property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.Code.htm" />
+  <HelpKINode Title="Code property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.Code.htm" />
+  <HelpKINode Title="CodeProperty property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodeProperty.htm" />
+  <HelpKINode Title="CombinePathAndChildEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.CombinePathAndChildEntity.htm" />
+  <HelpKINode Title="ContainedInRange enumeration member" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="ContainedInRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.ContainedInRange.htm" />
+  <HelpKINode Title="ContainsRange enumeration member" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="ContainsRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.ContainsRange.htm" />
+  <HelpKINode Title="ContentHelper property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.ContentHelper.htm" />
+  <HelpKINode Title="ContextedAsset class" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+  <HelpKINode Title="ContextedAsset class" Url="html/T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+  <HelpKINode Title="ContextedAsset class">
+    <HelpKINode Title="about ContextedAsset class" Url="html/T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContextedAsset.Asset field" Url="html/F-IngeniBridge.Core.Service.ContextedAsset.Asset.htm" />
+  <HelpKINode Title="ContextedAsset.Parents field" Url="html/F-IngeniBridge.Core.Service.ContextedAsset.Parents.htm" />
+  <HelpKINode Title="ContextedEntitySerializer class" Url="html/AllMembers.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+  <HelpKINode Title="ContextedEntitySerializer class" Url="html/T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+  <HelpKINode Title="ContextedEntitySerializer class">
+    <HelpKINode Title="about ContextedEntitySerializer class" Url="html/T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContextedEntitySerializer.DeserializeContextedAssetFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedAssetFromString.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.DeserializeContextedAssetsFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedAssetsFromString.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.DeserializeContextedTimeSeriesFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedTimeSeriesFromString.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.GetKnownTypes method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.GetKnownTypes.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.SerializeContextedAsset method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeContextedAsset.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.SerializeContextedData method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeContextedData.htm" />
+  <HelpKINode Title="ContextedEntitySerializer.SerializeDatavizTimeSeries method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeDatavizTimeSeries.htm" />
+  <HelpKINode Title="ContextedTimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+  <HelpKINode Title="ContextedTimeSeries class" Url="html/T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+  <HelpKINode Title="ContextedTimeSeries class">
+    <HelpKINode Title="about ContextedTimeSeries class" Url="html/T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContextedTimeSeries.Parents field" Url="html/F-IngeniBridge.Core.Service.ContextedTimeSeries.Parents.htm" />
+  <HelpKINode Title="ContextedTimeSeries.TimeSeries field" Url="html/F-IngeniBridge.Core.Service.ContextedTimeSeries.TimeSeries.htm" />
+  <HelpKINode Title="ConvertValue method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ConvertValue.htm" />
+  <HelpKINode Title="CreateInstance method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.CreateInstance.htm" />
+  <HelpKINode Title="CreateStorageNode(Of STORAGENODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.StorageNode.CreateStorageNode--1.htm" />
+  <HelpKINode Title="CreateStorageNode&lt;STORAGENODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.StorageNode.CreateStorageNode--1.htm" />
+  <HelpKINode Title="DataModelAssembly property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.DataModelAssembly.htm" />
+  <HelpKINode Title="DataModelAssemblyBuffer property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.DataModelAssemblyBuffer.htm" />
+  <HelpKINode Title="DataModelAssemblyCannotBeNull class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
+  <HelpKINode Title="DataModelAssemblyCannotBeNull class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
+  <HelpKINode Title="DataModelAssemblyCannotBeNull class">
+    <HelpKINode Title="about DataModelAssemblyCannotBeNull class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataModelAssemblyCannotBeNull.DataModelAssemblyCannotBeNull constructor" Url="html/M-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.-ctor.htm" />
+  <HelpKINode Title="DataModelException class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
+  <HelpKINode Title="DataModelException class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
+  <HelpKINode Title="DataModelException class">
+    <HelpKINode Title="about DataModelException class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.DataModelException.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataModelException.DataModelException constructor" Url="html/M-IngeniBridge.Core.Exceptions.DataModelException.-ctor.htm" />
+  <HelpKINode Title="DataModelIsAlreadySet class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
+  <HelpKINode Title="DataModelIsAlreadySet class" Url="html/T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
+  <HelpKINode Title="DataModelIsAlreadySet class">
+    <HelpKINode Title="about DataModelIsAlreadySet class" Url="html/T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Storage.DataModelIsAlreadySet.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataModelIsAlreadySet.DataModelIsAlreadySet constructor" Url="html/M-IngeniBridge.Core.Storage.DataModelIsAlreadySet.-ctor.htm" />
+  <HelpKINode Title="DataModelVersion class" Url="html/AllMembers.T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+  <HelpKINode Title="DataModelVersion class" Url="html/T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+  <HelpKINode Title="DataModelVersion class">
+    <HelpKINode Title="about DataModelVersion class" Url="html/T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataModelVersion.Build property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Build.htm" />
+  <HelpKINode Title="DataModelVersion.Equals method" Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.Equals.htm" />
+  <HelpKINode Title="DataModelVersion.Generated property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Generated.htm" />
+  <HelpKINode Title="DataModelVersion.GetHashCode method" Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.GetHashCode.htm" />
+  <HelpKINode Title="DataModelVersion.Major property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Major.htm" />
+  <HelpKINode Title="DataModelVersion.MajorRevision property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.MajorRevision.htm" />
+  <HelpKINode Title="DataModelVersion.Minor property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Minor.htm" />
+  <HelpKINode Title="DataModelVersion.MinorRevision property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.MinorRevision.htm" />
+  <HelpKINode Title="DataModelVersion.Name property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Name.htm" />
+  <HelpKINode Title="DataModelVersion.NumberOfAssets property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.NumberOfAssets.htm" />
+  <HelpKINode Title="DataModelVersion.NumberOfTimeSeriesReferences property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.NumberOfTimeSeriesReferences.htm" />
+  <HelpKINode Title="DataModelVersion.Revision property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Revision.htm" />
+  <HelpKINode Title="DataModelVersion.ToString method" Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.ToString.htm" />
+  <HelpKINode Title="Datas field" Url="html/F-IngeniBridge.Core.Service.HistorizedTimeSeries.Datas.htm" />
+  <HelpKINode Title="DatavizIndexHelper property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaHelper.DatavizIndexHelper.htm" />
+  <HelpKINode Title="DatavizTimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+  <HelpKINode Title="DatavizTimeSeries class" Url="html/T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+  <HelpKINode Title="DatavizTimeSeries class">
+    <HelpKINode Title="about DatavizTimeSeries class" Url="html/T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DatavizTimeSeries.DatavizTimeSeriesDescription field" Url="html/F-IngeniBridge.Core.Service.DatavizTimeSeries.DatavizTimeSeriesDescription.htm" />
+  <HelpKINode Title="DatavizTimeSeries.TimeSeriesExternalReference field" Url="html/F-IngeniBridge.Core.Service.DatavizTimeSeries.TimeSeriesExternalReference.htm" />
+  <HelpKINode Title="DatavizTimeSeriesDescription field" Url="html/F-IngeniBridge.Core.Service.DatavizTimeSeries.DatavizTimeSeriesDescription.htm" />
+  <HelpKINode Title="DateTimeRange structure" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+  <HelpKINode Title="DateTimeRange structure" Url="html/T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+  <HelpKINode Title="DateTimeRange structure">
+    <HelpKINode Title="about DateTimeRange structure" Url="html/T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+    <HelpKINode Title="operators" Url="html/Operators.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DateTimeRange.DateTimeRange constructor" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.-ctor.htm" />
+  <HelpKINode Title="DateTimeRange.End property" Url="html/P-IngeniBridge.Core.Storage.DateTimeRange.End.htm" />
+  <HelpKINode Title="DateTimeRange.Equality operator" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.op_Equality.htm" />
+  <HelpKINode Title="DateTimeRange.Equals method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.Equals.htm" />
+  <HelpKINode Title="DateTimeRange.GetHashCode method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetHashCode.htm" />
+  <HelpKINode Title="DateTimeRange.GetIntersection method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetIntersection.htm" />
+  <HelpKINode Title="DateTimeRange.GetIntersectionType method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetIntersectionType.htm" />
+  <HelpKINode Title="DateTimeRange.Inequality operator" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.op_Inequality.htm" />
+  <HelpKINode Title="DateTimeRange.Intersects method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.Intersects.htm" />
+  <HelpKINode Title="DateTimeRange.IsInRange method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.IsInRange.htm" />
+  <HelpKINode Title="DateTimeRange.Start property" Url="html/P-IngeniBridge.Core.Storage.DateTimeRange.Start.htm" />
+  <HelpKINode Title="DateTimeRange.ToString method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.ToString.htm" />
+  <HelpKINode Title="DeclaringEntityType property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DeclaringEntityType.htm" />
+  <HelpKINode Title="DeleteEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.DeleteEntity.htm" />
+  <HelpKINode Title="Description property" Url="html/P-IngeniBridge.Core.TimeSeries.Description.htm" />
+  <HelpKINode Title="DeserializeAsset method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeAsset.htm" />
+  <HelpKINode Title="DeserializeContextedAssetFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedAssetFromString.htm" />
+  <HelpKINode Title="DeserializeContextedAssetsFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedAssetsFromString.htm" />
+  <HelpKINode Title="DeserializeContextedTimeSeriesFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedTimeSeriesFromString.htm" />
+  <HelpKINode Title="DeserializeContextedTimeSeriessFromString method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedTimeSeriessFromString.htm" />
+  <HelpKINode Title="DeserializeNomenclature method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeNomenclature.htm" />
+  <HelpKINode Title="DeserializeOnlyVersion method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.DeserializeOnlyVersion.htm" />
+  <HelpKINode Title="DeserializeTimeSeries method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeTimeSeries.htm" />
+  <HelpKINode Title="Diagnose method" Url="html/M-IngeniBridge.Core.Diags.Diagnostic.Diagnose.htm" />
+  <HelpKINode Title="Diagnostic class" Url="html/AllMembers.T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+  <HelpKINode Title="Diagnostic class" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+  <HelpKINode Title="Diagnostic class">
+    <HelpKINode Title="about Diagnostic class" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Diags.Diagnostic.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Diagnostic.Diagnose method" Url="html/M-IngeniBridge.Core.Diags.Diagnostic.Diagnose.htm" />
+  <HelpKINode Title="Diagnostic.Diagnostic constructor" Url="html/M-IngeniBridge.Core.Diags.Diagnostic.-ctor.htm" />
+  <HelpKINode Title="Diagnostic.HandleDiagnosticAsset delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset.htm" />
+  <HelpKINode Title="Diagnostic.HandleDiagnosticNomenclature delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature.htm" />
+  <HelpKINode Title="DisplayNameAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+  <HelpKINode Title="DisplayNameAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+  <HelpKINode Title="DisplayNameAttribute class">
+    <HelpKINode Title="about DisplayNameAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.-ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisplayNameAttribute.DisplayNameAttribute constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.-ctor.htm" />
+  <HelpKINode Title="DisplayNameAttribute.Name property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.Name.htm" />
+  <HelpKINode Title="DoNotIndexEntity property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.DoNotIndexEntity.htm" />
+  <HelpKINode Title="DoNotIndexEntityAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute.htm" />
+  <HelpKINode Title="DoNotIndexEntityAttribute class">
+    <HelpKINode Title="about DoNotIndexEntityAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DoNotIndexProperty field" Url="html/F-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DoNotIndexProperty.htm" />
+  <HelpKINode Title="DoNotIndexPropertyAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexPropertyAttribute.htm" />
+  <HelpKINode Title="DoNotIndexPropertyAttribute class">
+    <HelpKINode Title="about DoNotIndexPropertyAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexPropertyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnableExceptions property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.EnableExceptions.htm" />
+  <HelpKINode Title="End property" Url="html/P-IngeniBridge.Core.Storage.DateTimeRange.End.htm" />
+  <HelpKINode Title="EndsInRange enumeration member" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="EndsInRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.EndsInRange.htm" />
+  <HelpKINode Title="Entity property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.Entity.htm" />
+  <HelpKINode Title="EntityAndNomenclatureLinks property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinks.htm" />
+  <HelpKINode Title="EntityAndNomenclatureLinksButTimeSeries property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinksButTimeSeries.htm" />
+  <HelpKINode Title="EntityContentHelper class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+  <HelpKINode Title="EntityContentHelper class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+  <HelpKINode Title="EntityContentHelper class">
+    <HelpKINode Title="about EntityContentHelper class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityContentHelper.EntityContentHelper constructor" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.-ctor.htm" />
+  <HelpKINode Title="EntityContentHelper.GetEntityKind method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.GetEntityKind.htm" />
+  <HelpKINode Title="EntityContentHelper.HandleAttribute delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm" />
+  <HelpKINode Title="EntityContentHelper.HandleLinkedEntity(Of ENTITYTYPE) delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity-1.htm" />
+  <HelpKINode Title="EntityContentHelper.HandleLinkedEntity&lt;ENTITYTYPE&gt; delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity-1.htm" />
+  <HelpKINode Title="EntityContentHelper.HandleProperty delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleProperty.htm" />
+  <HelpKINode Title="EntityContentHelper.MetaHelper property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityContentHelper.MetaHelper.htm" />
+  <HelpKINode Title="EntityContentHelper.ParseAttributes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseAttributes.htm" />
+  <HelpKINode Title="EntityContentHelper.ParseBruteAttributes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseBruteAttributes.htm" />
+  <HelpKINode Title="EntityContentHelper.ParsePropertiesAndLinks method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParsePropertiesAndLinks.htm" />
+  <HelpKINode Title="EntityContentHelper.RetrieveCodeValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveCodeValue.htm" />
+  <HelpKINode Title="EntityContentHelper.RetrieveDeclaringTypeFromDataName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveDeclaringTypeFromDataName.htm" />
+  <HelpKINode Title="EntityContentHelper.RetrieveLabelValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveLabelValue.htm" />
+  <HelpKINode Title="EntityContentHelper.RetrieveStorageUniqueID method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveStorageUniqueID.htm" />
+  <HelpKINode Title="EntityContentHelper.RetrieveValueFromPropertyName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveValueFromPropertyName.htm" />
+  <HelpKINode Title="EntityContentHelper.RetrieveValuesFromType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveValuesFromType.htm" />
+  <HelpKINode Title="EntityContentHelper.SetCodeValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetCodeValue.htm" />
+  <HelpKINode Title="EntityContentHelper.SetLabelValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetLabelValue.htm" />
+  <HelpKINode Title="EntityContentHelper.SetValueFromDataName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetValueFromDataName.htm" />
+  <HelpKINode Title="EntityDisplayName property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityDisplayName.htm" />
+  <HelpKINode Title="EntityKind property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.EntityKind.htm" />
+  <HelpKINode Title="EntityKind property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKind.htm" />
+  <HelpKINode Title="EntityKind property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.EntityKind.htm" />
+  <HelpKINode Title="EntityKindEnum.Asset field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Asset.htm" />
+  <HelpKINode Title="EntityKindEnum.Nomenclature field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature.htm" />
+  <HelpKINode Title="EntityKindEnum.TimeSeries field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimeSeries.htm" />
+  <HelpKINode Title="EntityMetaDescription class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+  <HelpKINode Title="EntityMetaDescription class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+  <HelpKINode Title="EntityMetaDescription class">
+    <HelpKINode Title="about EntityMetaDescription class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityMetaDescription.AllLinks property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinks.htm" />
+  <HelpKINode Title="EntityMetaDescription.AllLinksButTimeSeries property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinksButTimeSeries.htm" />
+  <HelpKINode Title="EntityMetaDescription.ApplicationProperties property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ApplicationProperties.htm" />
+  <HelpKINode Title="EntityMetaDescription.BaseEntityType field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.BaseEntityType.htm" />
+  <HelpKINode Title="EntityMetaDescription.CodeProperty property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodeProperty.htm" />
+  <HelpKINode Title="EntityMetaDescription.CreateInstance method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.CreateInstance.htm" />
+  <HelpKINode Title="EntityMetaDescription.DoNotIndexEntity property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.DoNotIndexEntity.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityAndNomenclatureLinks property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinks.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityAndNomenclatureLinksButTimeSeries property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinksButTimeSeries.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityDisplayName property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityDisplayName.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityKind property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKind.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityKindEnum enumeration" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityName property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityName.htm" />
+  <HelpKINode Title="EntityMetaDescription.EntityType property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityType.htm" />
+  <HelpKINode Title="EntityMetaDescription.ExternalLinksToEntities property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntities.htm" />
+  <HelpKINode Title="EntityMetaDescription.ExternalLinksToEntitiesAndNomenclatures property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntitiesAndNomenclatures.htm" />
+  <HelpKINode Title="EntityMetaDescription.HasExternalReferences property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.HasExternalReferences.htm" />
+  <HelpKINode Title="EntityMetaDescription.IsAbstract property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsAbstract.htm" />
+  <HelpKINode Title="EntityMetaDescription.IsExternalReferefenced property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsExternalReferefenced.htm" />
+  <HelpKINode Title="EntityMetaDescription.IsRoot property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsRoot.htm" />
+  <HelpKINode Title="EntityMetaDescription.LabelProperty property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelProperty.htm" />
+  <HelpKINode Title="EntityMetaDescription.LinksToEntity property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToEntity.htm" />
+  <HelpKINode Title="EntityMetaDescription.LinksToNomenclature property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToNomenclature.htm" />
+  <HelpKINode Title="EntityMetaDescription.Properties property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.Properties.htm" />
+  <HelpKINode Title="EntityMetaDescription.RetrieveAllPropertiesAssignableFromAndToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesAssignableFromAndToParamType.htm" />
+  <HelpKINode Title="EntityMetaDescription.RetrieveAllPropertiesAssignableFromParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesAssignableFromParamType.htm" />
+  <HelpKINode Title="EntityMetaDescription.RetrieveAllPropertiesToAssignToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesToAssignToParamType.htm" />
+  <HelpKINode Title="EntityMetaDescription.RetrieveAttribute method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAttribute.htm" />
+  <HelpKINode Title="EntityMetaDescription.ToString method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ToString.htm" />
+  <HelpKINode Title="EntityMetaDescriptionNode class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+  <HelpKINode Title="EntityMetaDescriptionNode class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+  <HelpKINode Title="EntityMetaDescriptionNode class">
+    <HelpKINode Title="about EntityMetaDescriptionNode class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityMetaDescriptionNode.Children field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.Children.htm" />
+  <HelpKINode Title="EntityMetaDescriptionNode.Node field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.Node.htm" />
+  <HelpKINode Title="EntityMetaDescriptionNode.ToString method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.ToString.htm" />
+  <HelpKINode Title="EntityMetaHelper class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+  <HelpKINode Title="EntityMetaHelper class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+  <HelpKINode Title="EntityMetaHelper class">
+    <HelpKINode Title="about EntityMetaHelper class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityMetaHelper.DatavizIndexHelper property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaHelper.DatavizIndexHelper.htm" />
+  <HelpKINode Title="EntityMetaHelper.EntityMetaHelper constructor" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.-ctor.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetCompatibleTypesForParentEntityChild method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetCompatibleTypesForParentEntityChild.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetEnumTypes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetEnumTypes.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetInheritanceMetaData method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetInheritanceMetaData.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetMetaDataFromName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataFromName.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetMetaDataFromType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataFromType.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetMetaDataOrdered method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataOrdered.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetMetaDataTimeSeries method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataTimeSeries.htm" />
+  <HelpKINode Title="EntityMetaHelper.GetRootMetaData method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetRootMetaData.htm" />
+  <HelpKINode Title="EntityMetaHelper.IsIngeniBridgeType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.IsIngeniBridgeType.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_CODE_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_CODE_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_DESCRIPTION_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_DESCRIPTION_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_ENTITYKIND_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_ENTITYKIND_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_LABEL_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_LABEL_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_STORAGEUNIQUEID_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_STORAGEUNIQUEID_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_TIMESERIESEXTERNALREFERENCE_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_TIMESERIESEXTERNALREFERENCE_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_TIMESERIES_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_TIMESERIES_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.PROPERTY_UNIQUEENTITYCODE_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_UNIQUEENTITYCODE_NAME.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveAllPropertiesAssignableFromAndToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveAllPropertiesAssignableFromAndToParamType.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveAllPropertiesAssignableFromParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveAllPropertiesAssignableFromParamType.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveAllPropertiesToAssignToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveAllPropertiesToAssignToParamType.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveEnumAvailableTypes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveEnumAvailableTypes.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveEnumAvailableValues method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveEnumAvailableValues.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveFirstPropertyAssignableFromParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveFirstPropertyAssignableFromParamType.htm" />
+  <HelpKINode Title="EntityMetaHelper.RetrieveFirstPropertyToAssignToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveFirstPropertyToAssignToParamType.htm" />
+  <HelpKINode Title="EntityMetaHelper.TimeSeriesExternalReferenceBuilder property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaHelper.TimeSeriesExternalReferenceBuilder.htm" />
+  <HelpKINode Title="EntityName property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityName.htm" />
+  <HelpKINode Title="EntitySerializer class" Url="html/AllMembers.T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+  <HelpKINode Title="EntitySerializer class" Url="html/T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+  <HelpKINode Title="EntitySerializer class">
+    <HelpKINode Title="about EntitySerializer class" Url="html/T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntitySerializer.DeserializeAsset method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeAsset.htm" />
+  <HelpKINode Title="EntitySerializer.DeserializeNomenclature method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeNomenclature.htm" />
+  <HelpKINode Title="EntitySerializer.DeserializeTimeSeries method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeTimeSeries.htm" />
+  <HelpKINode Title="EntitySerializer.ParameterizeJsonSetting method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.ParameterizeJsonSetting.htm" />
+  <HelpKINode Title="EntitySerializer.SerializeAsset method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeAsset.htm" />
+  <HelpKINode Title="EntitySerializer.SerializeNomenclature method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeNomenclature.htm" />
+  <HelpKINode Title="EntitySerializer.SerializeTimeSeries method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeTimeSeries.htm" />
+  <HelpKINode Title="EntityType property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityType.htm" />
+  <HelpKINode Title="Equality operator" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.op_Equality.htm" />
+  <HelpKINode Title="Equals method" Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.Equals.htm" />
+  <HelpKINode Title="Equals method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.Equals.htm" />
+  <HelpKINode Title="ExternalLinksToEntities property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntities.htm" />
+  <HelpKINode Title="ExternalLinksToEntitiesAndNomenclatures property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntitiesAndNomenclatures.htm" />
+  <HelpKINode Title="ExternalReferenceAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute.htm" />
+  <HelpKINode Title="ExternalReferenceAttribute class">
+    <HelpKINode Title="about ExternalReferenceAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalReferencedObjectsNotDeclared class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
+  <HelpKINode Title="ExternalReferencedObjectsNotDeclared class" Url="html/T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
+  <HelpKINode Title="ExternalReferencedObjectsNotDeclared class">
+    <HelpKINode Title="about ExternalReferencedObjectsNotDeclared class" Url="html/T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalReferencedObjectsNotDeclared.ExternalReferencedObjectsNotDeclared constructor" Url="html/M-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.-ctor.htm" />
+  <HelpKINode Title="FileDater class" Url="html/AllMembers.T-IngeniBridge.Core.Util.FileDater.htm" />
+  <HelpKINode Title="FileDater class" Url="html/T-IngeniBridge.Core.Util.FileDater.htm" />
+  <HelpKINode Title="FileDater class">
+    <HelpKINode Title="about FileDater class" Url="html/T-IngeniBridge.Core.Util.FileDater.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Util.FileDater.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Util.FileDater.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileDater.SetFileNameDateTime method" Url="html/M-IngeniBridge.Core.Util.FileDater.SetFileNameDateTime.htm" />
+  <HelpKINode Title="FileName property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.FileName.htm" />
+  <HelpKINode Title="FindCachedAssetByHashCode method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByHashCode.htm" />
+  <HelpKINode Title="FindCachedAssetByPath method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByPath.htm" />
+  <HelpKINode Title="FindFirstChildEntity(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntity--1.htm" />
+  <HelpKINode Title="FindFirstChildEntity&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntity--1.htm" />
+  <HelpKINode Title="FindFirstChildEntityInTree(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntityInTree--1.htm" />
+  <HelpKINode Title="FindFirstChildEntityInTree&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntityInTree--1.htm" />
+  <HelpKINode Title="FormatAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatAsset.htm" />
+  <HelpKINode Title="FormatParentAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatParentAsset.htm" />
+  <HelpKINode Title="FormatTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatTimeSeries.htm" />
+  <HelpKINode Title="FormatVersion method" Url="html/M-IngeniBridge.Core.Util.AssemblyUtil.FormatVersion.htm" />
+  <HelpKINode Title="FunctionalAxisName property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.FunctionalAxisName.htm" />
+  <HelpKINode Title="Generated property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Generated.htm" />
+  <HelpKINode Title="GetAllParentsPathFromFullPath method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.GetAllParentsPathFromFullPath.htm" />
+  <HelpKINode Title="GetAllParentsPathFromParentsPath method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.GetAllParentsPathFromParentsPath.htm" />
+  <HelpKINode Title="GetAssemblyNameVersion method" Url="html/M-IngeniBridge.Core.Util.AssemblyUtil.GetAssemblyNameVersion.htm" />
+  <HelpKINode Title="GetCompatibleTypesForParentEntityChild method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetCompatibleTypesForParentEntityChild.htm" />
+  <HelpKINode Title="GetEntityKind method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.GetEntityKind.htm" />
+  <HelpKINode Title="GetEnumTypes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetEnumTypes.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M-IngeniBridge.Core.Asset.GetHashCode.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.GetHashCode.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M-IngeniBridge.Core.Nomenclature.GetHashCode.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.GetHashCode.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetHashCode.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/M-IngeniBridge.Core.TimeSeries.GetHashCode.htm" />
+  <HelpKINode Title="GetInheritanceMetaData method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetInheritanceMetaData.htm" />
+  <HelpKINode Title="GetIntersection method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetIntersection.htm" />
+  <HelpKINode Title="GetIntersectionType method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetIntersectionType.htm" />
+  <HelpKINode Title="GetKnownTypes method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.GetKnownTypes.htm" />
+  <HelpKINode Title="GetMetaDataFromName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataFromName.htm" />
+  <HelpKINode Title="GetMetaDataFromType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataFromType.htm" />
+  <HelpKINode Title="GetMetaDataOrdered method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataOrdered.htm" />
+  <HelpKINode Title="GetMetaDataTimeSeries method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataTimeSeries.htm" />
+  <HelpKINode Title="GetNbChildEntities(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbChildEntities--1.htm" />
+  <HelpKINode Title="GetNbChildEntities&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbChildEntities--1.htm" />
+  <HelpKINode Title="GetRootMetaData method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetRootMetaData.htm" />
+  <HelpKINode Title="GetStatistics method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetStatistics.htm" />
+  <HelpKINode Title="GetTimeSeriesExternalReference method" Url="html/M-IngeniBridge.Core.TimeSeries.GetTimeSeriesExternalReference.htm" />
+  <HelpKINode Title="HasExternalReferences property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.HasExternalReferences.htm" />
+  <HelpKINode Title="HistorizedAsset class" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+  <HelpKINode Title="HistorizedAsset class" Url="html/T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+  <HelpKINode Title="HistorizedAsset class">
+    <HelpKINode Title="about HistorizedAsset class" Url="html/T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HistorizedAsset.Assets field" Url="html/F-IngeniBridge.Core.Service.HistorizedAsset.Assets.htm" />
+  <HelpKINode Title="HistorizedTimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+  <HelpKINode Title="HistorizedTimeSeries class" Url="html/T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+  <HelpKINode Title="HistorizedTimeSeries class">
+    <HelpKINode Title="about HistorizedTimeSeries class" Url="html/T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HistorizedTimeSeries.Datas field" Url="html/F-IngeniBridge.Core.Service.HistorizedTimeSeries.Datas.htm" />
+  <HelpKINode Title="IDatavizIndexHelper interface" Url="html/AllMembers.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+  <HelpKINode Title="IDatavizIndexHelper interface" Url="html/T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+  <HelpKINode Title="IDatavizIndexHelper interface">
+    <HelpKINode Title="about IDatavizIndexHelper interface" Url="html/T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDatavizIndexHelper.IndexNode method" Url="html/M-IngeniBridge.Core.Mining.IDatavizIndexHelper.IndexNode.htm" />
+  <HelpKINode Title="IndexAlsoByName property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexAlsoByName.htm" />
+  <HelpKINode Title="IndexAlsoByNameAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexAlsoByNameAttribute.htm" />
+  <HelpKINode Title="IndexAlsoByNameAttribute class">
+    <HelpKINode Title="about IndexAlsoByNameAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexAlsoByNameAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexEntityAttribute property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexEntityAttribute.htm" />
+  <HelpKINode Title="IndexEntityAttributeAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+  <HelpKINode Title="IndexEntityAttributeAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+  <HelpKINode Title="IndexEntityAttributeAttribute class">
+    <HelpKINode Title="about IndexEntityAttributeAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.-ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexEntityAttributeAttribute.AttributeName property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.AttributeName.htm" />
+  <HelpKINode Title="IndexEntityAttributeAttribute.FunctionalAxisName property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.FunctionalAxisName.htm" />
+  <HelpKINode Title="IndexEntityAttributeAttribute.IndexEntityAttributeAttribute constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.-ctor.htm" />
+  <HelpKINode Title="IndexNode method" Url="html/M-IngeniBridge.Core.Mining.IDatavizIndexHelper.IndexNode.htm" />
+  <HelpKINode Title="IndexRefOnlyOnTarget property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IndexRefOnlyOnTarget.htm" />
+  <HelpKINode Title="IndexRefOnlyOnTargetAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute.htm" />
+  <HelpKINode Title="IndexRefOnlyOnTargetAttribute class">
+    <HelpKINode Title="about IndexRefOnlyOnTargetAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inequality operator" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.op_Inequality.htm" />
+  <HelpKINode Title="IngeniBridge.Core namespace" Url="html/N-IngeniBridge.Core.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Asset class" Url="html/AllMembers.T-IngeniBridge.Core.Asset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Asset class" Url="html/T-IngeniBridge.Core.Asset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags namespace" Url="html/N-IngeniBridge.Core.Diags.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.Diagnostic class" Url="html/AllMembers.T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.Diagnostic class" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.TreeChecker class" Url="html/AllMembers.T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.TreeChecker class" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Diags.TreeChecker.ErrorMessage delegate" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.ErrorMessage.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions namespace" Url="html/N-IngeniBridge.Core.Exceptions.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.BadAssembly class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.BadAssembly class" Url="html/T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.BadDataModel class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.BadDataModel class" Url="html/T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.BadRootObjectFormat class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.BadRootObjectFormat class" Url="html/T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.Base class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.Base.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.Base class" Url="html/T-IngeniBridge.Core.Exceptions.Base.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.DataModelException class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.DataModelException class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared class" Url="html/T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero class" Url="html/T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot class" Url="html/T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined class" Url="html/T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.RequestCheckerException class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.RequestCheckerException class" Url="html/T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.TreeContainsErrors class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Exceptions.TreeContainsErrors class" Url="html/T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
+  <HelpKINode Title="IngeniBridge.Core.ExternalReferences namespace" Url="html/N-IngeniBridge.Core.ExternalReferences.htm" />
+  <HelpKINode Title="IngeniBridge.Core.ExternalReferences.AssetCacheBuilder class" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+  <HelpKINode Title="IngeniBridge.Core.ExternalReferences.AssetCacheBuilder class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
+  <HelpKINode Title="IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.HandleAbsentReferencedAsset delegate" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.HandleAbsentReferencedAsset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.ExternalReferences.AssetCacheEntry class" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+  <HelpKINode Title="IngeniBridge.Core.ExternalReferences.AssetCacheEntry class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
+  <HelpKINode Title="IngeniBridge.Core.IngeniBridgeEntity class" Url="html/AllMembers.T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+  <HelpKINode Title="IngeniBridge.Core.IngeniBridgeEntity class" Url="html/T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Inventory namespace" Url="html/N-IngeniBridge.Core.Inventory.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Inventory.InventoryHelper class" Url="html/AllMembers.T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Inventory.InventoryHelper class" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader delegate" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine delegate" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper namespace" Url="html/N-IngeniBridge.Core.MetaHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.AttributeMetaDescription class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.AttributeMetaDescription class" Url="html/T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes namespace" Url="html/N-IngeniBridge.Core.MetaHelper.Attributes.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexEntityAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexPropertyAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexPropertyAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.IndexAlsoByNameAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexAlsoByNameAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexRefOnlyOnTargetAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.PropagatePropertyOnChildrenNodesAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.PropagatePropertyOnChildrenNodesAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityContentHelper class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityContentHelper class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity(Of ENTITYTYPE) delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity&lt;ENTITYTYPE&gt; delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleProperty delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleProperty.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaDescription class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaDescription class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum enumeration" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaHelper class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.MetaHelper.EntityMetaHelper class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Mining namespace" Url="html/N-IngeniBridge.Core.Mining.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Mining.ContextedEntitySerializer class" Url="html/AllMembers.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Mining.ContextedEntitySerializer class" Url="html/T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Mining.IDatavizIndexHelper interface" Url="html/AllMembers.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Mining.IDatavizIndexHelper interface" Url="html/T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Nomenclature class" Url="html/AllMembers.T-IngeniBridge.Core.Nomenclature.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Nomenclature class" Url="html/T-IngeniBridge.Core.Nomenclature.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Serialization namespace" Url="html/N-IngeniBridge.Core.Serialization.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Serialization.EntitySerializer class" Url="html/AllMembers.T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Serialization.EntitySerializer class" Url="html/T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service namespace" Url="html/N-IngeniBridge.Core.Service.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.ContextedAsset class" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.ContextedAsset class" Url="html/T-IngeniBridge.Core.Service.ContextedAsset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.ContextedTimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.ContextedTimeSeries class" Url="html/T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.DatavizTimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.DatavizTimeSeries class" Url="html/T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.HistorizedAsset class" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.HistorizedAsset class" Url="html/T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.HistorizedTimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.HistorizedTimeSeries class" Url="html/T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.ParentsAssetSerializer class" Url="html/AllMembers.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Service.ParentsAssetSerializer class" Url="html/T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+  <HelpKINode Title="IngeniBridge.Core.StagingData namespace" Url="html/N-IngeniBridge.Core.StagingData.htm" />
+  <HelpKINode Title="IngeniBridge.Core.StagingData.DataModelVersion class" Url="html/AllMembers.T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+  <HelpKINode Title="IngeniBridge.Core.StagingData.DataModelVersion class" Url="html/T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage namespace" Url="html/N-IngeniBridge.Core.Storage.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.AssetExtension class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.AssetExtension class" Url="html/T-IngeniBridge.Core.Storage.AssetExtension.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.DataModelIsAlreadySet class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.DataModelIsAlreadySet class" Url="html/T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.DateTimeRange structure" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.DateTimeRange structure" Url="html/T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.IntersectionType enumeration" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.IStorageServices interface" Url="html/AllMembers.T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.IStorageServices interface" Url="html/T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageAccessor class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageAccessor class" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageAccessor.AssemblyLoaded delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.AssemblyLoaded.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode(Of NODETYPE) delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode&lt;NODETYPE&gt; delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageFormatter class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageFormatter class" Url="html/T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageNode class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageNode.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageNode class" Url="html/T-IngeniBridge.Core.Storage.StorageNode.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode(Of STORAGENODETYPE) delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode&lt;STORAGENODETYPE&gt; delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID(Of STORAGENODETYPE) delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID&lt;STORAGENODETYPE&gt; delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID-1.htm" />
+  <HelpKINode Title="IngeniBridge.Core.TimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.TimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.TimeSeries class" Url="html/T-IngeniBridge.Core.TimeSeries.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Util namespace" Url="html/N-IngeniBridge.Core.Util.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Util.AssemblyUtil class" Url="html/AllMembers.T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Util.AssemblyUtil class" Url="html/T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Util.FileDater class" Url="html/AllMembers.T-IngeniBridge.Core.Util.FileDater.htm" />
+  <HelpKINode Title="IngeniBridge.Core.Util.FileDater class" Url="html/T-IngeniBridge.Core.Util.FileDater.htm" />
+  <HelpKINode Title="IngeniBridgeEntity class" Url="html/AllMembers.T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+  <HelpKINode Title="IngeniBridgeEntity class" Url="html/T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+  <HelpKINode Title="IngeniBridgeEntity class">
+    <HelpKINode Title="about IngeniBridgeEntity class" Url="html/T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IngeniBridgeEntity.BuildUniqueEntityCode method" Url="html/Overload-IngeniBridge.Core.IngeniBridgeEntity.BuildUniqueEntityCode.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.Code property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.Code.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.EntityKind property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.EntityKind.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.GetHashCode method" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.GetHashCode.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.IngeniBridgeEntity constructor" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.-ctor.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.Label property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.Label.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.RetrieveInfoFromUniqueEntityCode method" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.RetrieveInfoFromUniqueEntityCode.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.StorageUniqueID property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.StorageUniqueID.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.ToString method" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.ToString.htm" />
+  <HelpKINode Title="IngeniBridgeEntity.UniqueEntityCode property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.UniqueEntityCode.htm" />
+  <HelpKINode Title="InitializeNewDB method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.InitializeNewDB.htm" />
+  <HelpKINode Title="InstantiateFromAssembly method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.InstantiateFromAssembly.htm" />
+  <HelpKINode Title="IntersectionType enumeration" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="IntersectionType.ContainedInRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.ContainedInRange.htm" />
+  <HelpKINode Title="IntersectionType.ContainsRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.ContainsRange.htm" />
+  <HelpKINode Title="IntersectionType.EndsInRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.EndsInRange.htm" />
+  <HelpKINode Title="IntersectionType.None field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.None.htm" />
+  <HelpKINode Title="IntersectionType.RangesEqualed field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.RangesEqualed.htm" />
+  <HelpKINode Title="IntersectionType.StartsInRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.StartsInRange.htm" />
+  <HelpKINode Title="Intersects method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.Intersects.htm" />
+  <HelpKINode Title="InventoryHelper class" Url="html/AllMembers.T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+  <HelpKINode Title="InventoryHelper class" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+  <HelpKINode Title="InventoryHelper class">
+    <HelpKINode Title="about InventoryHelper class" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Inventory.InventoryHelper.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventoryHelper.HandleInventoriedHeader delegate" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader.htm" />
+  <HelpKINode Title="InventoryHelper.HandleInventoriedLine delegate" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine.htm" />
+  <HelpKINode Title="InventoryHelper.InventoryHelper constructor" Url="html/M-IngeniBridge.Core.Inventory.InventoryHelper.-ctor.htm" />
+  <HelpKINode Title="InventoryHelper.Launch method" Url="html/M-IngeniBridge.Core.Inventory.InventoryHelper.Launch.htm" />
+  <HelpKINode Title="IsAbstract property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsAbstract.htm" />
+  <HelpKINode Title="IsArray property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsArray.htm" />
+  <HelpKINode Title="IsDescriptionField property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsDescriptionField.htm" />
+  <HelpKINode Title="IsEnum property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsEnum.htm" />
+  <HelpKINode Title="IsExternalIngeniBridgeEntityReference property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalIngeniBridgeEntityReference.htm" />
+  <HelpKINode Title="IsExternalReferefenced property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsExternalReferefenced.htm" />
+  <HelpKINode Title="IsExternalTimeSeriesReference property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalTimeSeriesReference.htm" />
+  <HelpKINode Title="IsIngeniBridgeEntityReference property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsIngeniBridgeEntityReference.htm" />
+  <HelpKINode Title="IsIngeniBridgeType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.IsIngeniBridgeType.htm" />
+  <HelpKINode Title="IsInitialized property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.IsInitialized.htm" />
+  <HelpKINode Title="IsInRange method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.IsInRange.htm" />
+  <HelpKINode Title="IsModified property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.IsModified.htm" />
+  <HelpKINode Title="IsNomenclature property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsNomenclature.htm" />
+  <HelpKINode Title="IsRoot property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsRoot.htm" />
+  <HelpKINode Title="IsTimeSeries property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsTimeSeries.htm" />
+  <HelpKINode Title="IStorageServices interface" Url="html/AllMembers.T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+  <HelpKINode Title="IStorageServices interface" Url="html/T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+  <HelpKINode Title="IStorageServices interface">
+    <HelpKINode Title="about IStorageServices interface" Url="html/T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Storage.IStorageServices.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IStorageServices.BuildReference method" Url="html/M-IngeniBridge.Core.Storage.IStorageServices.BuildReference.htm" />
+  <HelpKINode Title="IStorageServices.ValidateNewAsset method" Url="html/M-IngeniBridge.Core.Storage.IStorageServices.ValidateNewAsset.htm" />
+  <HelpKINode Title="IStorageServices.ValidateNewTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.IStorageServices.ValidateNewTimeSeries.htm" />
+  <HelpKINode Title="Label property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.Label.htm" />
+  <HelpKINode Title="LabelProperty property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelProperty.htm" />
+  <HelpKINode Title="Launch method" Url="html/M-IngeniBridge.Core.Inventory.InventoryHelper.Launch.htm" />
+  <HelpKINode Title="LinksToEntity property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToEntity.htm" />
+  <HelpKINode Title="LinksToNomenclature property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToNomenclature.htm" />
+  <HelpKINode Title="Major property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Major.htm" />
+  <HelpKINode Title="MajorRevision property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.MajorRevision.htm" />
+  <HelpKINode Title="MetaHelper property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityContentHelper.MetaHelper.htm" />
+  <HelpKINode Title="MetaHelper property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.MetaHelper.htm" />
+  <HelpKINode Title="Minor property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Minor.htm" />
+  <HelpKINode Title="MinorRevision property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.MinorRevision.htm" />
+  <HelpKINode Title="MinorRevisionVersionCannotBeZero class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
+  <HelpKINode Title="MinorRevisionVersionCannotBeZero class" Url="html/T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
+  <HelpKINode Title="MinorRevisionVersionCannotBeZero class">
+    <HelpKINode Title="about MinorRevisionVersionCannotBeZero class" Url="html/T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MinorRevisionVersionCannotBeZero.MinorRevisionVersionCannotBeZero constructor" Url="html/M-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.-ctor.htm" />
+  <HelpKINode Title="ModifyEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyEntity.htm" />
+  <HelpKINode Title="ModifyNomenclatureEntry method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyNomenclatureEntry.htm" />
+  <HelpKINode Title="MoveEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.MoveEntity.htm" />
+  <HelpKINode Title="Name property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.Name.htm" />
+  <HelpKINode Title="Name property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.Name.htm" />
+  <HelpKINode Title="Name property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Name.htm" />
+  <HelpKINode Title="NameDesc property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NameDesc.htm" />
+  <HelpKINode Title="Node field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.Node.htm" />
+  <HelpKINode Title="Node property" Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Node.htm" />
+  <HelpKINode Title="NodePath property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.NodePath.htm" />
+  <HelpKINode Title="Nomenclature class" Url="html/AllMembers.T-IngeniBridge.Core.Nomenclature.htm" />
+  <HelpKINode Title="Nomenclature class" Url="html/T-IngeniBridge.Core.Nomenclature.htm" />
+  <HelpKINode Title="Nomenclature class">
+    <HelpKINode Title="about Nomenclature class" Url="html/T-IngeniBridge.Core.Nomenclature.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Nomenclature.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Nomenclature.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Nomenclature.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.Nomenclature.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nomenclature enumeration member" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.htm" />
+  <HelpKINode Title="Nomenclature field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.Nomenclature.htm" />
+  <HelpKINode Title="Nomenclature.GetHashCode method" Url="html/M-IngeniBridge.Core.Nomenclature.GetHashCode.htm" />
+  <HelpKINode Title="Nomenclature.Nomenclature constructor" Url="html/M-IngeniBridge.Core.Nomenclature.-ctor.htm" />
+  <HelpKINode Title="Nomenclature.ToString method" Url="html/M-IngeniBridge.Core.Nomenclature.ToString.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="None field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.None.htm" />
+  <HelpKINode Title="NotToDisplay property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NotToDisplay.htm" />
+  <HelpKINode Title="NotToDisplayAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute.htm" />
+  <HelpKINode Title="NotToDisplayAttribute class">
+    <HelpKINode Title="about NotToDisplayAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NumberOfAssets property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.NumberOfAssets.htm" />
+  <HelpKINode Title="NumberOfTimeSeriesReferences property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.NumberOfTimeSeriesReferences.htm" />
+  <HelpKINode Title="ObjectMustBeTaggedRoot class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
+  <HelpKINode Title="ObjectMustBeTaggedRoot class" Url="html/T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
+  <HelpKINode Title="ObjectMustBeTaggedRoot class">
+    <HelpKINode Title="about ObjectMustBeTaggedRoot class" Url="html/T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectMustBeTaggedRoot.ObjectMustBeTaggedRoot constructor" Url="html/M-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.-ctor.htm" />
+  <HelpKINode Title="OneRootClassMustBeDefined class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
+  <HelpKINode Title="OneRootClassMustBeDefined class" Url="html/T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
+  <HelpKINode Title="OneRootClassMustBeDefined class">
+    <HelpKINode Title="about OneRootClassMustBeDefined class" Url="html/T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OneRootClassMustBeDefined.OneRootClassMustBeDefined constructor" Url="html/M-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.-ctor.htm" />
+  <HelpKINode Title="OpenDB method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.OpenDB.htm" />
+  <HelpKINode Title="ParameterizeJsonSetting method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.ParameterizeJsonSetting.htm" />
+  <HelpKINode Title="ParentEntityMetaDescription property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ParentEntityMetaDescription.htm" />
+  <HelpKINode Title="ParentPath property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.ParentPath.htm" />
+  <HelpKINode Title="Parents field" Url="html/F-IngeniBridge.Core.Service.ContextedAsset.Parents.htm" />
+  <HelpKINode Title="Parents field" Url="html/F-IngeniBridge.Core.Service.ContextedTimeSeries.Parents.htm" />
+  <HelpKINode Title="ParentsAssetSerializer class" Url="html/AllMembers.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+  <HelpKINode Title="ParentsAssetSerializer class" Url="html/T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+  <HelpKINode Title="ParentsAssetSerializer class">
+    <HelpKINode Title="about ParentsAssetSerializer class" Url="html/T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ParentsAssetSerializer.CanConvert method" Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.CanConvert.htm" />
+  <HelpKINode Title="ParentsAssetSerializer.ReadJson method" Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.ReadJson.htm" />
+  <HelpKINode Title="ParentsAssetSerializer.WriteJson method" Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.WriteJson.htm" />
+  <HelpKINode Title="ParseAttributes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseAttributes.htm" />
+  <HelpKINode Title="ParseBruteAttributes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseBruteAttributes.htm" />
+  <HelpKINode Title="ParsePropertiesAndLinks method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParsePropertiesAndLinks.htm" />
+  <HelpKINode Title="Path property" Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Path.htm" />
+  <HelpKINode Title="ProcessTree method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.ProcessTree.htm" />
+  <HelpKINode Title="PropagatePropertyOnChildren property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.PropagatePropertyOnChildren.htm" />
+  <HelpKINode Title="PropagatePropertyOnChildrenNodesAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.PropagatePropertyOnChildrenNodesAttribute.htm" />
+  <HelpKINode Title="PropagatePropertyOnChildrenNodesAttribute class">
+    <HelpKINode Title="about PropagatePropertyOnChildrenNodesAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.PropagatePropertyOnChildrenNodesAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Properties property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.Properties.htm" />
+  <HelpKINode Title="PROPERTY_CODE_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_CODE_NAME.htm" />
+  <HelpKINode Title="PROPERTY_DESCRIPTION_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_DESCRIPTION_NAME.htm" />
+  <HelpKINode Title="PROPERTY_ENTITYKIND_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_ENTITYKIND_NAME.htm" />
+  <HelpKINode Title="PROPERTY_LABEL_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_LABEL_NAME.htm" />
+  <HelpKINode Title="PROPERTY_STORAGEUNIQUEID_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_STORAGEUNIQUEID_NAME.htm" />
+  <HelpKINode Title="PROPERTY_TIMESERIESEXTERNALREFERENCE_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_TIMESERIESEXTERNALREFERENCE_NAME.htm" />
+  <HelpKINode Title="PROPERTY_TIMESERIES_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_TIMESERIES_NAME.htm" />
+  <HelpKINode Title="PROPERTY_UNIQUEENTITYCODE_NAME field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_UNIQUEENTITYCODE_NAME.htm" />
+  <HelpKINode Title="RangesEqualed enumeration member" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="RangesEqualed field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.RangesEqualed.htm" />
+  <HelpKINode Title="ReadJson method" Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.ReadJson.htm" />
+  <HelpKINode Title="RebuildDataModel method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel.htm" />
+  <HelpKINode Title="RecreateAssetAsParent method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RecreateAssetAsParent.htm" />
+  <HelpKINode Title="ReplicateForContextedAssetParent method" Url="html/M-IngeniBridge.Core.Asset.ReplicateForContextedAssetParent.htm" />
+  <HelpKINode Title="RequestCheckerException class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
+  <HelpKINode Title="RequestCheckerException class" Url="html/T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
+  <HelpKINode Title="RequestCheckerException class">
+    <HelpKINode Title="about RequestCheckerException class" Url="html/T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.RequestCheckerException.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestCheckerException.RequestCheckerException constructor" Url="html/M-IngeniBridge.Core.Exceptions.RequestCheckerException.-ctor.htm" />
+  <HelpKINode Title="RetrieveAllPropertiesAssignableFromAndToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesAssignableFromAndToParamType.htm" />
+  <HelpKINode Title="RetrieveAllPropertiesAssignableFromAndToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveAllPropertiesAssignableFromAndToParamType.htm" />
+  <HelpKINode Title="RetrieveAllPropertiesAssignableFromParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesAssignableFromParamType.htm" />
+  <HelpKINode Title="RetrieveAllPropertiesAssignableFromParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveAllPropertiesAssignableFromParamType.htm" />
+  <HelpKINode Title="RetrieveAllPropertiesToAssignToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesToAssignToParamType.htm" />
+  <HelpKINode Title="RetrieveAllPropertiesToAssignToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveAllPropertiesToAssignToParamType.htm" />
+  <HelpKINode Title="RetrieveAttribute method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAttribute.htm" />
+  <HelpKINode Title="RetrieveChildEntity(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.RetrieveChildEntity--1.htm" />
+  <HelpKINode Title="RetrieveChildEntity&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.RetrieveChildEntity--1.htm" />
+  <HelpKINode Title="RetrieveCodeValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveCodeValue.htm" />
+  <HelpKINode Title="RetrieveDeclaringTypeFromDataName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveDeclaringTypeFromDataName.htm" />
+  <HelpKINode Title="RetrieveEntityFromCode(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveEntityFromCode--1.htm" />
+  <HelpKINode Title="RetrieveEntityFromCode&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveEntityFromCode--1.htm" />
+  <HelpKINode Title="RetrieveEnumAvailableTypes method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveEnumAvailableTypes.htm" />
+  <HelpKINode Title="RetrieveEnumAvailableValues method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveEnumAvailableValues.htm" />
+  <HelpKINode Title="RetrieveFirstPropertyAssignableFromParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveFirstPropertyAssignableFromParamType.htm" />
+  <HelpKINode Title="RetrieveFirstPropertyToAssignToParamType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveFirstPropertyToAssignToParamType.htm" />
+  <HelpKINode Title="RetrieveInfoFromUniqueEntityCode method" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.RetrieveInfoFromUniqueEntityCode.htm" />
+  <HelpKINode Title="RetrieveInfoFromUniqueEntityCode method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveInfoFromUniqueEntityCode.htm" />
+  <HelpKINode Title="RetrieveLabelValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveLabelValue.htm" />
+  <HelpKINode Title="RetrieveNomenclatureEntries method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureEntries.htm" />
+  <HelpKINode Title="RetrieveNomenclatureTypes method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureTypes.htm" />
+  <HelpKINode Title="RetrieveParentsFromParentPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveParentsFromParentPath.htm" />
+  <HelpKINode Title="RetrievePathFromStorageUniqueID method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrievePathFromStorageUniqueID.htm" />
+  <HelpKINode Title="RetrieveStorageNodeFromPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromPath.htm" />
+  <HelpKINode Title="RetrieveStorageNodeFromStorageUniqueID method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromStorageUniqueID.htm" />
+  <HelpKINode Title="RetrieveStorageNodeFromUniqueEntityCode method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromUniqueEntityCode.htm" />
+  <HelpKINode Title="RetrieveStorageUniqueID method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveStorageUniqueID.htm" />
+  <HelpKINode Title="RetrieveValueFromPropertyName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveValueFromPropertyName.htm" />
+  <HelpKINode Title="RetrieveValuesFromType method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.RetrieveValuesFromType.htm" />
+  <HelpKINode Title="Revision property" Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Revision.htm" />
+  <HelpKINode Title="RootAsset property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.RootAsset.htm" />
+  <HelpKINode Title="RootAssetAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute.htm" />
+  <HelpKINode Title="RootAssetAttribute class">
+    <HelpKINode Title="about RootAssetAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializeAsset method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeAsset.htm" />
+  <HelpKINode Title="SerializeContextedAsset method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeContextedAsset.htm" />
+  <HelpKINode Title="SerializeContextedData method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeContextedData.htm" />
+  <HelpKINode Title="SerializeDatavizTimeSeries method" Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeDatavizTimeSeries.htm" />
+  <HelpKINode Title="SerializeNomenclature method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeNomenclature.htm" />
+  <HelpKINode Title="SerializeTimeSeries method" Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeTimeSeries.htm" />
+  <HelpKINode Title="SetCodeValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetCodeValue.htm" />
+  <HelpKINode Title="SetFileNameDateTime method" Url="html/M-IngeniBridge.Core.Util.FileDater.SetFileNameDateTime.htm" />
+  <HelpKINode Title="SetLabelValue method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetLabelValue.htm" />
+  <HelpKINode Title="SetRootAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.SetRootAsset.htm" />
+  <HelpKINode Title="SetValueFromDataName method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetValueFromDataName.htm" />
+  <HelpKINode Title="SplitEntityCodesFromPath method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.SplitEntityCodesFromPath.htm" />
+  <HelpKINode Title="Start property" Url="html/P-IngeniBridge.Core.Storage.DateTimeRange.Start.htm" />
+  <HelpKINode Title="StartsInRange enumeration member" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
+  <HelpKINode Title="StartsInRange field" Url="html/F-IngeniBridge.Core.Storage.IntersectionType.StartsInRange.htm" />
+  <HelpKINode Title="StorageAccessor class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+  <HelpKINode Title="StorageAccessor class" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+  <HelpKINode Title="StorageAccessor class">
+    <HelpKINode Title="about StorageAccessor class" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StorageAccessor property" Url="html/P-IngeniBridge.Core.Storage.AssetExtension.StorageAccessor.htm" />
+  <HelpKINode Title="StorageAccessor.AddChildAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddChildAsset.htm" />
+  <HelpKINode Title="StorageAccessor.AddNomenclatureEntry method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddNomenclatureEntry.htm" />
+  <HelpKINode Title="StorageAccessor.AddTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddTimeSeries.htm" />
+  <HelpKINode Title="StorageAccessor.AssemblyLoaded delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.AssemblyLoaded.htm" />
+  <HelpKINode Title="StorageAccessor.BuildParentPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.BuildParentPath.htm" />
+  <HelpKINode Title="StorageAccessor.CanMoveEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CanMoveEntity.htm" />
+  <HelpKINode Title="StorageAccessor.CheckObjectContents method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CheckObjectContents.htm" />
+  <HelpKINode Title="StorageAccessor.CleanAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CleanAsset.htm" />
+  <HelpKINode Title="StorageAccessor.CleanParentPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CleanParentPath.htm" />
+  <HelpKINode Title="StorageAccessor.CloseDB method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CloseDB.htm" />
+  <HelpKINode Title="StorageAccessor.ContentHelper property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.ContentHelper.htm" />
+  <HelpKINode Title="StorageAccessor.ConvertValue method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ConvertValue.htm" />
+  <HelpKINode Title="StorageAccessor.DataModelAssembly property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.DataModelAssembly.htm" />
+  <HelpKINode Title="StorageAccessor.DataModelAssemblyBuffer property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.DataModelAssemblyBuffer.htm" />
+  <HelpKINode Title="StorageAccessor.DeleteEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.DeleteEntity.htm" />
+  <HelpKINode Title="StorageAccessor.DeserializeOnlyVersion method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.DeserializeOnlyVersion.htm" />
+  <HelpKINode Title="StorageAccessor.EnableExceptions property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.EnableExceptions.htm" />
+  <HelpKINode Title="StorageAccessor.FileName property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.FileName.htm" />
+  <HelpKINode Title="StorageAccessor.GetNbChildEntities(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbChildEntities--1.htm" />
+  <HelpKINode Title="StorageAccessor.GetNbChildEntities&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbChildEntities--1.htm" />
+  <HelpKINode Title="StorageAccessor.GetStatistics method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetStatistics.htm" />
+  <HelpKINode Title="StorageAccessor.HandleIteratedNode(Of NODETYPE) delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode-1.htm" />
+  <HelpKINode Title="StorageAccessor.HandleIteratedNode&lt;NODETYPE&gt; delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode-1.htm" />
+  <HelpKINode Title="StorageAccessor.InitializeNewDB method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.InitializeNewDB.htm" />
+  <HelpKINode Title="StorageAccessor.InstantiateFromAssembly method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.InstantiateFromAssembly.htm" />
+  <HelpKINode Title="StorageAccessor.IsInitialized property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.IsInitialized.htm" />
+  <HelpKINode Title="StorageAccessor.IsModified property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.IsModified.htm" />
+  <HelpKINode Title="StorageAccessor.MetaHelper property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.MetaHelper.htm" />
+  <HelpKINode Title="StorageAccessor.ModifyEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyEntity.htm" />
+  <HelpKINode Title="StorageAccessor.ModifyNomenclatureEntry method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyNomenclatureEntry.htm" />
+  <HelpKINode Title="StorageAccessor.MoveEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.MoveEntity.htm" />
+  <HelpKINode Title="StorageAccessor.OpenDB method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.OpenDB.htm" />
+  <HelpKINode Title="StorageAccessor.RebuildDataModel method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel.htm" />
+  <HelpKINode Title="StorageAccessor.RecreateAssetAsParent method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RecreateAssetAsParent.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveEntityFromCode(Of NODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveEntityFromCode--1.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveEntityFromCode&lt;NODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveEntityFromCode--1.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveInfoFromUniqueEntityCode method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveInfoFromUniqueEntityCode.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveNomenclatureEntries method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureEntries.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveNomenclatureTypes method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureTypes.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveParentsFromParentPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveParentsFromParentPath.htm" />
+  <HelpKINode Title="StorageAccessor.RetrievePathFromStorageUniqueID method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrievePathFromStorageUniqueID.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveStorageNodeFromPath method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromPath.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveStorageNodeFromStorageUniqueID method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromStorageUniqueID.htm" />
+  <HelpKINode Title="StorageAccessor.RetrieveStorageNodeFromUniqueEntityCode method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromUniqueEntityCode.htm" />
+  <HelpKINode Title="StorageAccessor.RootAsset property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.RootAsset.htm" />
+  <HelpKINode Title="StorageAccessor.SetRootAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.SetRootAsset.htm" />
+  <HelpKINode Title="StorageAccessor.Version property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.Version.htm" />
+  <HelpKINode Title="StorageFormatter class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+  <HelpKINode Title="StorageFormatter class" Url="html/T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+  <HelpKINode Title="StorageFormatter class">
+    <HelpKINode Title="about StorageFormatter class" Url="html/T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StorageFormatter.CombinePathAndChildEntity method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.CombinePathAndChildEntity.htm" />
+  <HelpKINode Title="StorageFormatter.FormatAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatAsset.htm" />
+  <HelpKINode Title="StorageFormatter.FormatParentAsset method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatParentAsset.htm" />
+  <HelpKINode Title="StorageFormatter.FormatTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatTimeSeries.htm" />
+  <HelpKINode Title="StorageFormatter.GetAllParentsPathFromFullPath method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.GetAllParentsPathFromFullPath.htm" />
+  <HelpKINode Title="StorageFormatter.GetAllParentsPathFromParentsPath method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.GetAllParentsPathFromParentsPath.htm" />
+  <HelpKINode Title="StorageFormatter.SplitEntityCodesFromPath method" Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.SplitEntityCodesFromPath.htm" />
+  <HelpKINode Title="StorageNode class" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageNode.htm" />
+  <HelpKINode Title="StorageNode class" Url="html/T-IngeniBridge.Core.Storage.StorageNode.htm" />
+  <HelpKINode Title="StorageNode class">
+    <HelpKINode Title="about StorageNode class" Url="html/T-IngeniBridge.Core.Storage.StorageNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageNode.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.Storage.StorageNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StorageNode.AttributeInParent property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.AttributeInParent.htm" />
+  <HelpKINode Title="StorageNode.Code property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.Code.htm" />
+  <HelpKINode Title="StorageNode.CreateStorageNode(Of STORAGENODETYPE) method" Url="html/M-IngeniBridge.Core.Storage.StorageNode.CreateStorageNode--1.htm" />
+  <HelpKINode Title="StorageNode.CreateStorageNode&lt;STORAGENODETYPE&gt; method" Url="html/M-IngeniBridge.Core.Storage.StorageNode.CreateStorageNode--1.htm" />
+  <HelpKINode Title="StorageNode.Entity property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.Entity.htm" />
+  <HelpKINode Title="StorageNode.EntityKind property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.EntityKind.htm" />
+  <HelpKINode Title="StorageNode.HandleCreateStorageNode(Of STORAGENODETYPE) delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode-1.htm" />
+  <HelpKINode Title="StorageNode.HandleCreateStorageNode&lt;STORAGENODETYPE&gt; delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode-1.htm" />
+  <HelpKINode Title="StorageNode.HandleInsertNodeAndGetStorageUniqueID(Of STORAGENODETYPE) delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID-1.htm" />
+  <HelpKINode Title="StorageNode.HandleInsertNodeAndGetStorageUniqueID&lt;STORAGENODETYPE&gt; delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID-1.htm" />
+  <HelpKINode Title="StorageNode.NodePath property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.NodePath.htm" />
+  <HelpKINode Title="StorageNode.ParentPath property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.ParentPath.htm" />
+  <HelpKINode Title="StorageNode.StorageUniqueID property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.StorageUniqueID.htm" />
+  <HelpKINode Title="StorageNode.ToString method" Url="html/M-IngeniBridge.Core.Storage.StorageNode.ToString.htm" />
+  <HelpKINode Title="StorageNode.TypeName property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.TypeName.htm" />
+  <HelpKINode Title="StorageNode.UniqueEntityCode property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.UniqueEntityCode.htm" />
+  <HelpKINode Title="StorageUniqueID property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.StorageUniqueID.htm" />
+  <HelpKINode Title="StorageUniqueID property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.StorageUniqueID.htm" />
+  <HelpKINode Title="TimeSeries class" Url="html/AllMembers.T-IngeniBridge.Core.TimeSeries.htm" />
+  <HelpKINode Title="TimeSeries class" Url="html/T-IngeniBridge.Core.TimeSeries.htm" />
+  <HelpKINode Title="TimeSeries class">
+    <HelpKINode Title="about TimeSeries class" Url="html/T-IngeniBridge.Core.TimeSeries.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.TimeSeries.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.TimeSeries.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.TimeSeries.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.TimeSeries.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeSeries enumeration member" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.htm" />
+  <HelpKINode Title="TimeSeries field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.TimeSeries.htm" />
+  <HelpKINode Title="TimeSeries field" Url="html/F-IngeniBridge.Core.Service.ContextedTimeSeries.TimeSeries.htm" />
+  <HelpKINode Title="TimeSeries property" Url="html/P-IngeniBridge.Core.Asset.TimeSeries.htm" />
+  <HelpKINode Title="TimeSeries.Description property" Url="html/P-IngeniBridge.Core.TimeSeries.Description.htm" />
+  <HelpKINode Title="TimeSeries.GetHashCode method" Url="html/M-IngeniBridge.Core.TimeSeries.GetHashCode.htm" />
+  <HelpKINode Title="TimeSeries.GetTimeSeriesExternalReference method" Url="html/M-IngeniBridge.Core.TimeSeries.GetTimeSeriesExternalReference.htm" />
+  <HelpKINode Title="TimeSeries.TimeSeries constructor" Url="html/M-IngeniBridge.Core.TimeSeries.-ctor.htm" />
+  <HelpKINode Title="TimeSeries.TimeSeriesExternalReference property" Url="html/P-IngeniBridge.Core.TimeSeries.TimeSeriesExternalReference.htm" />
+  <HelpKINode Title="TimeSeries.ToString method" Url="html/M-IngeniBridge.Core.TimeSeries.ToString.htm" />
+  <HelpKINode Title="TimeSeriesExternalReference field" Url="html/F-IngeniBridge.Core.Service.DatavizTimeSeries.TimeSeriesExternalReference.htm" />
+  <HelpKINode Title="TimeSeriesExternalReference property" Url="html/P-IngeniBridge.Core.TimeSeries.TimeSeriesExternalReference.htm" />
+  <HelpKINode Title="TimeSeriesExternalReferenceBuilder property" Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaHelper.TimeSeriesExternalReferenceBuilder.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.Asset.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.Nomenclature.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.Storage.StorageNode.ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M-IngeniBridge.Core.TimeSeries.ToString.htm" />
+  <HelpKINode Title="TreeChecker class" Url="html/AllMembers.T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+  <HelpKINode Title="TreeChecker class" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+  <HelpKINode Title="TreeChecker class">
+    <HelpKINode Title="about TreeChecker class" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Diags.TreeChecker.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-IngeniBridge.Core.Diags.TreeChecker.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TreeChecker.CheckTree method" Url="html/M-IngeniBridge.Core.Diags.TreeChecker.CheckTree.htm" />
+  <HelpKINode Title="TreeChecker.ErrorMessage delegate" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.ErrorMessage.htm" />
+  <HelpKINode Title="TreeChecker.TreeChecker constructor" Url="html/M-IngeniBridge.Core.Diags.TreeChecker.-ctor.htm" />
+  <HelpKINode Title="TreeContainsErrors class" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
+  <HelpKINode Title="TreeContainsErrors class" Url="html/T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
+  <HelpKINode Title="TreeContainsErrors class">
+    <HelpKINode Title="about TreeContainsErrors class" Url="html/T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.Exceptions.TreeContainsErrors.-ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TreeContainsErrors.TreeContainsErrors constructor" Url="html/M-IngeniBridge.Core.Exceptions.TreeContainsErrors.-ctor.htm" />
+  <HelpKINode Title="TypeName property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.TypeName.htm" />
+  <HelpKINode Title="UniqueEntityCode property" Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.UniqueEntityCode.htm" />
+  <HelpKINode Title="UniqueEntityCode property" Url="html/P-IngeniBridge.Core.Storage.StorageNode.UniqueEntityCode.htm" />
+  <HelpKINode Title="Unit property" Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.Unit.htm" />
+  <HelpKINode Title="Unit property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.Unit.htm" />
+  <HelpKINode Title="UnitAttribute class" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+  <HelpKINode Title="UnitAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+  <HelpKINode Title="UnitAttribute class">
+    <HelpKINode Title="about UnitAttribute class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.-ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnitAttribute.Unit property" Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.Unit.htm" />
+  <HelpKINode Title="UnitAttribute.UnitAttribute constructor" Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.-ctor.htm" />
+  <HelpKINode Title="UserData property" Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.UserData.htm" />
+  <HelpKINode Title="ValidateNewAsset method" Url="html/M-IngeniBridge.Core.Storage.IStorageServices.ValidateNewAsset.htm" />
+  <HelpKINode Title="ValidateNewTimeSeries method" Url="html/M-IngeniBridge.Core.Storage.IStorageServices.ValidateNewTimeSeries.htm" />
+  <HelpKINode Title="Version property" Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.Version.htm" />
+  <HelpKINode Title="WriteJson method" Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.WriteJson.htm" />
+</HelpKI>
