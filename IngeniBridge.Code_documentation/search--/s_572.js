@@ -1,1 +1,0 @@
-search_result['572']=["topic_000000000000014A.html","StorageAccessor.OpenDB Method","Opens the database"];

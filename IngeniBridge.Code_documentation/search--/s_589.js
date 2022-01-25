@@ -1,1 +1,0 @@
-search_result['589']=["topic_000000000000015B.html","StorageAccessor.RetrieveStorageNodeFromPath Method","Retrieves the entity object from path into database"];

@@ -1,1 +1,0 @@
-search_result['270']=["topic_0000000000000071.html","EntityContentHelper.ParseLinkedEntities\u0026lt;ENTITYTYPE\u0026gt; Method","This method parses linked entities"];

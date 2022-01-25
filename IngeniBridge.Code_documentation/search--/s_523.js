@@ -1,1 +1,0 @@
-search_result['523']=["topic_0000000000000119.html","StorageAccessor.IntRetrieveAssetHistory Method","Retrieves the history of an asset object into the database"];

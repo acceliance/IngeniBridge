@@ -1,1 +1,0 @@
-search_result['266']=["topic_000000000000006D.html","EntityContentHelper.RetrieveBeginValidity Method","This method retrieves the BeginValidity property value from an entity"];

@@ -1,1 +1,0 @@
-c['45']=[['46',"TimeSeries Constructor","topic_000000000000018D.html",0],['47',"Properties","topic_000000000000018C_props--.html",1],['57',"Methods","topic_000000000000018C_methods--.html",1]];

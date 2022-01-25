@@ -1,1 +1,0 @@
-var breadcrumbs=[['-1',"",""],['2',"IngeniBridge.Core Reference","topic_0000000000000193.html"],['292',"IngeniBridge.Core.Service Namespace","topic_00000000000000CF.html"],['308',"HistorizedTimeSeries Class","topic_00000000000000DB.html"],['309',"Fields","topic_00000000000000DB_vars--.html"],['310',"Datas Field","topic_00000000000000DC.html"]];

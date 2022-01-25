@@ -1,1 +1,0 @@
-search_result['588']=["topic_000000000000015A.html","StorageAccessor.RetrieveStorageNodeFromStorageUniqueID Method","Retrieves the entity object from unique id into database"];

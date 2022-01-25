@@ -1,1 +1,0 @@
-search_result['580']=["topic_0000000000000152.html","StorageAccessor.IterateChildEntities Method","Iterates children just below a node"];

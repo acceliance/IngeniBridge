@@ -1,1 +1,0 @@
-search_result['279']=["topic_000000000000007A.html","EntityContentHelper.GetEntityKind Method","Gets the entity kind of an entity"];

@@ -1,1 +1,0 @@
-search_result['338']=["topic_00000000000000A9.html","MetaHelper.TimeSeriesExternalReferenceBuilder Property","returns a reference builder if implemented in the metamodel"];

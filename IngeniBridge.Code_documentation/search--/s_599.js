@@ -1,1 +1,0 @@
-search_result['599']=["topic_0000000000000160.html","StorageFormatter.FormatParentAsset Method","Formats the asset object as a parent (minimum information) for storage"];

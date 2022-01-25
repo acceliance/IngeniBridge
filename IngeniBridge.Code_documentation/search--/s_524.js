@@ -1,1 +1,0 @@
-search_result['524']=["topic_000000000000011A.html","StorageAccessor.IntRetrieveTimeSeriesHistory Method","Retrieves the history of a time series object in the database"];

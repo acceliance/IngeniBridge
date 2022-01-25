@@ -1,1 +1,0 @@
-search_result['659']=["topic_0000000000000188.html","Nomenclature Class","This class represents a Nomenclature into an IngeniBridge tree"];

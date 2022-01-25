@@ -1,1 +1,0 @@
-search_result['230']=["topic_000000000000005D.html","PropagatePropertyOnChildrenNodesAttribute Class","This flag indicates if a property should be indexed on the children of the node (in the model, the property propagates on the children nodes) also"];

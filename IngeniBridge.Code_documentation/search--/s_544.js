@@ -1,1 +1,0 @@
-search_result['544']=["topic_000000000000012E.html","StorageAccessor.IntGetStatistics Method","Returns database statistics"];

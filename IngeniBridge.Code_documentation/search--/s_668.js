@@ -1,1 +1,0 @@
-search_result['668']=["topic_000000000000018C.html","TimeSeries Class","This class represents a time series (Data histrian database timed value)"];

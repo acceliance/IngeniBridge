@@ -1,1 +1,0 @@
-search_result['145']=["topic_000000000000003A.html","AttributeMetaDescription.IsTimeSeries Property","Indicates if attribure is time series field"];

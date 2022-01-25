@@ -1,1 +1,0 @@
-search_result['425']=["topic_00000000000000DB_events--.html","HistorizedTimeSeries Events",""];

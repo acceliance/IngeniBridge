@@ -1,1 +1,0 @@
-var breadcrumbs=[['-1',"",""],['2',"IngeniBridge.Core Reference","topic_0000000000000193.html"],['98',"IngeniBridge.Core.ExternalReferences Namespace","topic_0000000000000022.html"],['106',"AssetCacheEntry Class","topic_0000000000000029.html"],['107',"Properties","topic_0000000000000029_props--.html"],['110',"UserData Property","topic_000000000000002C.html"]];

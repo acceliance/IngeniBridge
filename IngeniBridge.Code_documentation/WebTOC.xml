@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="fdbd2a70-4e2e-451f-af7a-4348b9813197" Title="IngeniBridge.Core Namespace" Url="html/N-IngeniBridge.Core.htm">
-    <HelpTOCNode Id="6301d22a-1651-47a4-a87e-ca1d48d2d7cc" Title="Asset Class" Url="html/T-IngeniBridge.Core.Asset.htm">
+  <HelpTOCNode Id="fc40cc7f-556c-4abb-9037-54a52c8daed4" Title="IngeniBridge.Core Namespace" Url="html/N-IngeniBridge.Core.htm">
+    <HelpTOCNode Id="70ba6394-663b-48d3-ac45-64692bfe5338" Title="Asset Class" Url="html/T-IngeniBridge.Core.Asset.htm">
       <HelpTOCNode Title="Asset Members" Url="html/AllMembers.T-IngeniBridge.Core.Asset.htm" />
       <HelpTOCNode Title="Asset Constructor " Url="html/M-IngeniBridge.Core.Asset.-ctor.htm" />
-      <HelpTOCNode Id="cf245a7b-4722-48bd-bc3e-066b09516806" Title="Asset Methods" Url="html/Methods.T-IngeniBridge.Core.Asset.htm">
+      <HelpTOCNode Id="42981b85-e513-49ae-90e9-c50d785ae85b" Title="Asset Methods" Url="html/Methods.T-IngeniBridge.Core.Asset.htm">
         <HelpTOCNode Title="GetHashCode Method " Url="html/M-IngeniBridge.Core.Asset.GetHashCode.htm" />
         <HelpTOCNode Title="ReplicateForContextedAssetParent Method " Url="html/M-IngeniBridge.Core.Asset.ReplicateForContextedAssetParent.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.Asset.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="829bd0ef-44cf-4fd7-a539-77528cef6202" Title="Asset Properties" Url="html/Properties.T-IngeniBridge.Core.Asset.htm">
+      <HelpTOCNode Id="e8d97e0f-5ad8-4ce5-9e8e-5ff7ab822c04" Title="Asset Properties" Url="html/Properties.T-IngeniBridge.Core.Asset.htm">
         <HelpTOCNode Title="TimeSeries Property " Url="html/P-IngeniBridge.Core.Asset.TimeSeries.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2c94d69f-4407-4ebf-8fd3-98f51280c750" Title="IngeniBridgeEntity Class" Url="html/T-IngeniBridge.Core.IngeniBridgeEntity.htm">
+    <HelpTOCNode Id="e1561e79-1e75-4243-81e7-965d2c7a0135" Title="IngeniBridgeEntity Class" Url="html/T-IngeniBridge.Core.IngeniBridgeEntity.htm">
       <HelpTOCNode Title="IngeniBridgeEntity Members" Url="html/AllMembers.T-IngeniBridge.Core.IngeniBridgeEntity.htm" />
       <HelpTOCNode Title="IngeniBridgeEntity Constructor " Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.-ctor.htm" />
-      <HelpTOCNode Id="44195305-c5ad-44f7-89a6-fc4bc73f3220" Title="IngeniBridgeEntity Methods" Url="html/Methods.T-IngeniBridge.Core.IngeniBridgeEntity.htm">
-        <HelpTOCNode Id="2edec584-8b8d-4080-9f36-394fc9d4e730" Title="BuildUniqueEntityCode Method " Url="html/Overload-IngeniBridge.Core.IngeniBridgeEntity.BuildUniqueEntityCode.htm">
+      <HelpTOCNode Id="8673cd6c-774d-476e-932f-441aeafb427a" Title="IngeniBridgeEntity Methods" Url="html/Methods.T-IngeniBridge.Core.IngeniBridgeEntity.htm">
+        <HelpTOCNode Id="85d9355c-4045-4cc2-8d9f-d619a62ed0c2" Title="BuildUniqueEntityCode Method " Url="html/Overload-IngeniBridge.Core.IngeniBridgeEntity.BuildUniqueEntityCode.htm">
           <HelpTOCNode Title="BuildUniqueEntityCode Method " Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.BuildUniqueEntityCode.htm" />
           <HelpTOCNode Title="BuildUniqueEntityCode Method (Type, String)" Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.BuildUniqueEntityCode_1.htm" />
         </HelpTOCNode>
@@ -26,7 +26,7 @@
         <HelpTOCNode Title="RetrieveInfoFromUniqueEntityCode Method " Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.RetrieveInfoFromUniqueEntityCode.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.IngeniBridgeEntity.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1ad16fe9-2090-4e9d-aba9-e81781fd95e3" Title="IngeniBridgeEntity Properties" Url="html/Properties.T-IngeniBridge.Core.IngeniBridgeEntity.htm">
+      <HelpTOCNode Id="9868a48b-7dcb-424a-8b65-853908f954f3" Title="IngeniBridgeEntity Properties" Url="html/Properties.T-IngeniBridge.Core.IngeniBridgeEntity.htm">
         <HelpTOCNode Title="Code Property " Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.Code.htm" />
         <HelpTOCNode Title="EntityKind Property " Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.EntityKind.htm" />
         <HelpTOCNode Title="Label Property " Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.Label.htm" />
@@ -34,145 +34,145 @@
         <HelpTOCNode Title="UniqueEntityCode Property " Url="html/P-IngeniBridge.Core.IngeniBridgeEntity.UniqueEntityCode.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="559c23b1-1daa-46f9-953e-11638c6c365e" Title="Nomenclature Class" Url="html/T-IngeniBridge.Core.Nomenclature.htm">
-      <HelpTOCNode Title="Nomenclature Members" Url="html/AllMembers.T-IngeniBridge.Core.Nomenclature.htm" />
-      <HelpTOCNode Title="Nomenclature Constructor " Url="html/M-IngeniBridge.Core.Nomenclature.-ctor.htm" />
-      <HelpTOCNode Id="0cd82bcc-d83d-44ac-83bd-9b8a70eafd9b" Title="Nomenclature Methods" Url="html/Methods.T-IngeniBridge.Core.Nomenclature.htm">
-        <HelpTOCNode Title="GetHashCode Method " Url="html/M-IngeniBridge.Core.Nomenclature.GetHashCode.htm" />
-        <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.Nomenclature.ToString.htm" />
+    <HelpTOCNode Id="bfdd9d63-5e26-4d83-a7c0-ae2d8c8abab5" Title="Table Class" Url="html/T-IngeniBridge.Core.Table.htm">
+      <HelpTOCNode Title="Table Members" Url="html/AllMembers.T-IngeniBridge.Core.Table.htm" />
+      <HelpTOCNode Title="Table Constructor " Url="html/M-IngeniBridge.Core.Table.-ctor.htm" />
+      <HelpTOCNode Id="00e99343-91b7-46bc-be10-55a54affdaab" Title="Table Methods" Url="html/Methods.T-IngeniBridge.Core.Table.htm">
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-IngeniBridge.Core.Table.GetHashCode.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.Table.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Title="Nomenclature Properties" Url="html/Properties.T-IngeniBridge.Core.Nomenclature.htm" />
+      <HelpTOCNode Title="Table Properties" Url="html/Properties.T-IngeniBridge.Core.Table.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e641826a-e1f0-4662-8f44-e289bfa35264" Title="TimeSeries Class" Url="html/T-IngeniBridge.Core.TimeSeries.htm">
+    <HelpTOCNode Id="d4f0c4dc-ea76-46eb-adb4-ae12982b48d6" Title="TimeSeries Class" Url="html/T-IngeniBridge.Core.TimeSeries.htm">
       <HelpTOCNode Title="TimeSeries Members" Url="html/AllMembers.T-IngeniBridge.Core.TimeSeries.htm" />
       <HelpTOCNode Title="TimeSeries Constructor " Url="html/M-IngeniBridge.Core.TimeSeries.-ctor.htm" />
-      <HelpTOCNode Id="83df080e-8737-42f2-8248-94af477724c5" Title="TimeSeries Methods" Url="html/Methods.T-IngeniBridge.Core.TimeSeries.htm">
+      <HelpTOCNode Id="04a4ae22-377d-40fe-a987-5b48b411a088" Title="TimeSeries Methods" Url="html/Methods.T-IngeniBridge.Core.TimeSeries.htm">
         <HelpTOCNode Title="GetHashCode Method " Url="html/M-IngeniBridge.Core.TimeSeries.GetHashCode.htm" />
         <HelpTOCNode Title="GetTimeSeriesExternalReference Method " Url="html/M-IngeniBridge.Core.TimeSeries.GetTimeSeriesExternalReference.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.TimeSeries.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="18231300-d3eb-4df5-ab15-61a3e2f2e276" Title="TimeSeries Properties" Url="html/Properties.T-IngeniBridge.Core.TimeSeries.htm">
+      <HelpTOCNode Id="aa2e15df-80a7-4079-b346-d260ef9ea5de" Title="TimeSeries Properties" Url="html/Properties.T-IngeniBridge.Core.TimeSeries.htm">
         <HelpTOCNode Title="Description Property " Url="html/P-IngeniBridge.Core.TimeSeries.Description.htm" />
         <HelpTOCNode Title="TimeSeriesExternalReference Property " Url="html/P-IngeniBridge.Core.TimeSeries.TimeSeriesExternalReference.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="675f46ff-6f88-4b84-8138-29a7ad6f34eb" Title="IngeniBridge.Core.Diags Namespace" Url="html/N-IngeniBridge.Core.Diags.htm">
-    <HelpTOCNode Id="043a787c-7aea-474d-9ca2-ae4d39d2b8f6" Title="Diagnostic Class" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.htm">
+  <HelpTOCNode Id="75b51db9-cabb-4a7e-884c-aeceeed6f8fc" Title="IngeniBridge.Core.Diags Namespace" Url="html/N-IngeniBridge.Core.Diags.htm">
+    <HelpTOCNode Id="2b3586ea-56dc-467b-8466-69afbfd95c49" Title="Diagnostic Class" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.htm">
       <HelpTOCNode Title="Diagnostic Members" Url="html/AllMembers.T-IngeniBridge.Core.Diags.Diagnostic.htm" />
       <HelpTOCNode Title="Diagnostic Constructor " Url="html/M-IngeniBridge.Core.Diags.Diagnostic.-ctor.htm" />
-      <HelpTOCNode Id="674c92e9-8d2d-41c9-9acf-4e1905a252bb" Title="Diagnostic Methods" Url="html/Methods.T-IngeniBridge.Core.Diags.Diagnostic.htm">
+      <HelpTOCNode Id="1c61090f-9da4-4468-a753-8f04ba2f5f6d" Title="Diagnostic Methods" Url="html/Methods.T-IngeniBridge.Core.Diags.Diagnostic.htm">
         <HelpTOCNode Title="Diagnose Method " Url="html/M-IngeniBridge.Core.Diags.Diagnostic.Diagnose.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="Diagnostic.HandleDiagnosticAsset Delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset.htm" />
-    <HelpTOCNode Title="Diagnostic.HandleDiagnosticNomenclature Delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature.htm" />
-    <HelpTOCNode Id="654f5293-b3fe-4ee7-8279-aaf42e39db7c" Title="TreeChecker Class" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.htm">
+    <HelpTOCNode Title="Diagnostic.HandleDiagnosticTable Delegate" Url="html/T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticTable.htm" />
+    <HelpTOCNode Id="0d96651a-aea0-46f2-ae24-ee1bc4c82ba5" Title="TreeChecker Class" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.htm">
       <HelpTOCNode Title="TreeChecker Members" Url="html/AllMembers.T-IngeniBridge.Core.Diags.TreeChecker.htm" />
       <HelpTOCNode Title="TreeChecker Constructor " Url="html/M-IngeniBridge.Core.Diags.TreeChecker.-ctor.htm" />
-      <HelpTOCNode Id="1f54952f-2a06-4a7b-8691-a1b3b3841a07" Title="TreeChecker Methods" Url="html/Methods.T-IngeniBridge.Core.Diags.TreeChecker.htm">
+      <HelpTOCNode Id="ef3dfc2b-1ad6-46b9-a6d8-264ceccf7195" Title="TreeChecker Methods" Url="html/Methods.T-IngeniBridge.Core.Diags.TreeChecker.htm">
         <HelpTOCNode Title="CheckTree Method " Url="html/M-IngeniBridge.Core.Diags.TreeChecker.CheckTree.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="TreeChecker.ErrorMessage Delegate" Url="html/T-IngeniBridge.Core.Diags.TreeChecker.ErrorMessage.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="b7aa01b9-c01b-4efb-966e-aae0d626dd3f" Title="IngeniBridge.Core.Exceptions Namespace" Url="html/N-IngeniBridge.Core.Exceptions.htm">
-    <HelpTOCNode Id="3de73a52-6445-4131-be03-6c9186e8bda5" Title="BadAssembly Class" Url="html/T-IngeniBridge.Core.Exceptions.BadAssembly.htm">
+  <HelpTOCNode Id="a7fef3d6-cc21-4d4b-98c9-e32987c691b2" Title="IngeniBridge.Core.Exceptions Namespace" Url="html/N-IngeniBridge.Core.Exceptions.htm">
+    <HelpTOCNode Id="e21d26cf-8bf2-4337-95a8-e1b93cdd2f02" Title="BadAssembly Class" Url="html/T-IngeniBridge.Core.Exceptions.BadAssembly.htm">
       <HelpTOCNode Title="BadAssembly Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadAssembly.htm" />
       <HelpTOCNode Title="BadAssembly Constructor " Url="html/M-IngeniBridge.Core.Exceptions.BadAssembly.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4a6eef7b-4a31-4d16-801d-104f38a38eb4" Title="BadDataModel Class" Url="html/T-IngeniBridge.Core.Exceptions.BadDataModel.htm">
+    <HelpTOCNode Id="18938340-9e98-476f-b69c-0b5a7274dfd9" Title="BadDataModel Class" Url="html/T-IngeniBridge.Core.Exceptions.BadDataModel.htm">
       <HelpTOCNode Title="BadDataModel Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadDataModel.htm" />
       <HelpTOCNode Title="BadDataModel Constructor " Url="html/M-IngeniBridge.Core.Exceptions.BadDataModel.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5b47df08-c307-47e2-ab70-cc03528c4132" Title="BadRootObjectFormat Class" Url="html/T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm">
+    <HelpTOCNode Id="acc05d51-8d37-4b9f-b629-7c55cbdec79c" Title="BadRootObjectFormat Class" Url="html/T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm">
       <HelpTOCNode Title="BadRootObjectFormat Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.BadRootObjectFormat.htm" />
       <HelpTOCNode Title="BadRootObjectFormat Constructor " Url="html/M-IngeniBridge.Core.Exceptions.BadRootObjectFormat.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="89b92ef7-c048-471a-aae0-8b6917c34c82" Title="Base Class" Url="html/T-IngeniBridge.Core.Exceptions.Base.htm">
+    <HelpTOCNode Id="82239fd8-2f03-4bfa-9810-a360eb57313a" Title="Base Class" Url="html/T-IngeniBridge.Core.Exceptions.Base.htm">
       <HelpTOCNode Title="Base Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.Base.htm" />
-      <HelpTOCNode Id="c6859b51-d55c-4c40-bc7f-07d3b9627326" Title="Base Constructor " Url="html/Overload-IngeniBridge.Core.Exceptions.Base.-ctor.htm">
+      <HelpTOCNode Id="dc145f01-13d8-4e9f-8cb6-5ca9a5ca5b9e" Title="Base Constructor " Url="html/Overload-IngeniBridge.Core.Exceptions.Base.-ctor.htm">
         <HelpTOCNode Title="Base Constructor (String)" Url="html/M-IngeniBridge.Core.Exceptions.Base.-ctor.htm" />
         <HelpTOCNode Title="Base Constructor (String, Exception)" Url="html/M-IngeniBridge.Core.Exceptions.Base.-ctor_1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1c18d1ee-9d07-4578-a317-0fcf810fcbe6" Title="DataModelAssemblyCannotBeNull Class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm">
+    <HelpTOCNode Id="50a91184-e462-43fd-a474-ddf9caca2eb4" Title="DataModelAssemblyCannotBeNull Class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm">
       <HelpTOCNode Title="DataModelAssemblyCannotBeNull Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.htm" />
       <HelpTOCNode Title="DataModelAssemblyCannotBeNull Constructor " Url="html/M-IngeniBridge.Core.Exceptions.DataModelAssemblyCannotBeNull.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="95898edf-279a-4873-93c9-56e156cedb37" Title="DataModelException Class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelException.htm">
+    <HelpTOCNode Id="bc3ef6b9-8a50-428d-b18c-b302573f3fd7" Title="DataModelException Class" Url="html/T-IngeniBridge.Core.Exceptions.DataModelException.htm">
       <HelpTOCNode Title="DataModelException Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.DataModelException.htm" />
       <HelpTOCNode Title="DataModelException Constructor " Url="html/M-IngeniBridge.Core.Exceptions.DataModelException.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5bc1cafd-200e-43ef-a164-7bf61b078c04" Title="ExternalReferencedObjectsNotDeclared Class" Url="html/T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm">
+    <HelpTOCNode Id="499f6fe0-dcf0-4424-b06d-5a312cb10909" Title="ExternalReferencedObjectsNotDeclared Class" Url="html/T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm">
       <HelpTOCNode Title="ExternalReferencedObjectsNotDeclared Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.htm" />
       <HelpTOCNode Title="ExternalReferencedObjectsNotDeclared Constructor " Url="html/M-IngeniBridge.Core.Exceptions.ExternalReferencedObjectsNotDeclared.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="96083f4c-9734-4774-a1c2-043e3e59537e" Title="MinorRevisionVersionCannotBeZero Class" Url="html/T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm">
+    <HelpTOCNode Id="c0160464-a4d9-43a8-acf5-9dc78573ab07" Title="MinorRevisionVersionCannotBeZero Class" Url="html/T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm">
       <HelpTOCNode Title="MinorRevisionVersionCannotBeZero Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.htm" />
       <HelpTOCNode Title="MinorRevisionVersionCannotBeZero Constructor " Url="html/M-IngeniBridge.Core.Exceptions.MinorRevisionVersionCannotBeZero.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="55f5b7e8-d3ae-48f1-affd-d3da312f1bcd" Title="ObjectMustBeTaggedRoot Class" Url="html/T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm">
+    <HelpTOCNode Id="ec30fcff-3ced-4dbf-946b-6b1568e58a29" Title="ObjectMustBeTaggedRoot Class" Url="html/T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm">
       <HelpTOCNode Title="ObjectMustBeTaggedRoot Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.htm" />
       <HelpTOCNode Title="ObjectMustBeTaggedRoot Constructor " Url="html/M-IngeniBridge.Core.Exceptions.ObjectMustBeTaggedRoot.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="70869788-0b7d-4e7b-a00a-22a9bb6464a3" Title="OneRootClassMustBeDefined Class" Url="html/T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm">
+    <HelpTOCNode Id="f74f9fcb-7f04-408d-bc43-8df4bc3ea6f1" Title="OneRootClassMustBeDefined Class" Url="html/T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm">
       <HelpTOCNode Title="OneRootClassMustBeDefined Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.htm" />
       <HelpTOCNode Title="OneRootClassMustBeDefined Constructor " Url="html/M-IngeniBridge.Core.Exceptions.OneRootClassMustBeDefined.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="3806da69-5bb1-45af-b2aa-73e68625c86e" Title="RequestCheckerException Class" Url="html/T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm">
+    <HelpTOCNode Id="70efca4a-d34b-430b-ba9e-578d12377831" Title="RequestCheckerException Class" Url="html/T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm">
       <HelpTOCNode Title="RequestCheckerException Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.RequestCheckerException.htm" />
       <HelpTOCNode Title="RequestCheckerException Constructor " Url="html/M-IngeniBridge.Core.Exceptions.RequestCheckerException.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="24b00ec5-356e-4d25-bf8c-41724e70c797" Title="TreeContainsErrors Class" Url="html/T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm">
+    <HelpTOCNode Id="01236368-7893-42d7-b80d-141ed8688a3f" Title="TreeContainsErrors Class" Url="html/T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm">
       <HelpTOCNode Title="TreeContainsErrors Members" Url="html/AllMembers.T-IngeniBridge.Core.Exceptions.TreeContainsErrors.htm" />
       <HelpTOCNode Title="TreeContainsErrors Constructor " Url="html/M-IngeniBridge.Core.Exceptions.TreeContainsErrors.-ctor.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="6906914e-0e6d-4d02-ac82-4d0039ac751f" Title="IngeniBridge.Core.ExternalReferences Namespace" Url="html/N-IngeniBridge.Core.ExternalReferences.htm">
-    <HelpTOCNode Id="59845a65-21fc-4359-bd3c-0645bf71650f" Title="AssetCacheBuilder Class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm">
+  <HelpTOCNode Id="1d696ba7-cbfa-4068-900b-6ce52e80a58b" Title="IngeniBridge.Core.ExternalReferences Namespace" Url="html/N-IngeniBridge.Core.ExternalReferences.htm">
+    <HelpTOCNode Id="fc3327f9-72a3-4d87-b6ee-5595e23f0f64" Title="AssetCacheBuilder Class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm">
       <HelpTOCNode Title="AssetCacheBuilder Members" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm" />
       <HelpTOCNode Title="AssetCacheBuilder Constructor " Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.-ctor.htm" />
-      <HelpTOCNode Id="7da053b1-b3ff-4975-b752-0d2f77367b3e" Title="AssetCacheBuilder Methods" Url="html/Methods.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm">
+      <HelpTOCNode Id="8b438458-4f03-4a4e-bcad-234a92d48501" Title="AssetCacheBuilder Methods" Url="html/Methods.T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.htm">
         <HelpTOCNode Title="FindCachedAssetByHashCode Method " Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByHashCode.htm" />
         <HelpTOCNode Title="FindCachedAssetByPath Method " Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.FindCachedAssetByPath.htm" />
         <HelpTOCNode Title="ProcessTree Method " Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.ProcessTree.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="AssetCacheBuilder.HandleAbsentReferencedAsset Delegate" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheBuilder.HandleAbsentReferencedAsset.htm" />
-    <HelpTOCNode Id="a8eb9433-7c73-433d-b7e2-58ddd8540c88" Title="AssetCacheEntry Class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm">
+    <HelpTOCNode Id="1d4ffb35-a921-4b63-88f4-b28b5ccd9fcc" Title="AssetCacheEntry Class" Url="html/T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm">
       <HelpTOCNode Title="AssetCacheEntry Members" Url="html/AllMembers.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm" />
-      <HelpTOCNode Id="7c58d7e3-959e-4852-a9ed-ca1d7abc84af" Title="AssetCacheEntry Methods" Url="html/Methods.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm">
+      <HelpTOCNode Id="67ac0cbc-9a11-4e0e-880e-a180b585ac17" Title="AssetCacheEntry Methods" Url="html/Methods.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6373d498-1f4d-4dd6-ae67-45353ed68790" Title="AssetCacheEntry Properties" Url="html/Properties.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm">
+      <HelpTOCNode Id="bbe6bbe8-43b7-4a3c-ad51-1cea57f76bc9" Title="AssetCacheEntry Properties" Url="html/Properties.T-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.htm">
         <HelpTOCNode Title="Node Property " Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Node.htm" />
         <HelpTOCNode Title="Path Property " Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.Path.htm" />
         <HelpTOCNode Title="UserData Property " Url="html/P-IngeniBridge.Core.ExternalReferences.AssetCacheEntry.UserData.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="cad895e6-7805-4d65-8cb8-06d7efe2b90d" Title="IngeniBridge.Core.Inventory Namespace" Url="html/N-IngeniBridge.Core.Inventory.htm">
-    <HelpTOCNode Id="669ccec9-76e6-4af9-a0b1-cae48a75dfbf" Title="InventoryHelper Class" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.htm">
+  <HelpTOCNode Id="dc8872ed-ed13-4ec6-ba8a-31414722bfed" Title="IngeniBridge.Core.Inventory Namespace" Url="html/N-IngeniBridge.Core.Inventory.htm">
+    <HelpTOCNode Id="bd5f2b1c-443b-419a-b0df-203a3814b585" Title="InventoryHelper Class" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.htm">
       <HelpTOCNode Title="InventoryHelper Members" Url="html/AllMembers.T-IngeniBridge.Core.Inventory.InventoryHelper.htm" />
       <HelpTOCNode Title="InventoryHelper Constructor " Url="html/M-IngeniBridge.Core.Inventory.InventoryHelper.-ctor.htm" />
-      <HelpTOCNode Id="6f05d8b6-a900-4f25-bd4f-143d72141b29" Title="InventoryHelper Methods" Url="html/Methods.T-IngeniBridge.Core.Inventory.InventoryHelper.htm">
+      <HelpTOCNode Id="b4d06a45-629a-4fd6-a700-a7af650ec73c" Title="InventoryHelper Methods" Url="html/Methods.T-IngeniBridge.Core.Inventory.InventoryHelper.htm">
         <HelpTOCNode Title="Launch Method " Url="html/M-IngeniBridge.Core.Inventory.InventoryHelper.Launch.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="InventoryHelper.HandleInventoriedHeader Delegate" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedHeader.htm" />
     <HelpTOCNode Title="InventoryHelper.HandleInventoriedLine Delegate" Url="html/T-IngeniBridge.Core.Inventory.InventoryHelper.HandleInventoriedLine.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="fa17f3f8-1d3c-4c68-8646-86faaa4b978f" Title="IngeniBridge.Core.MetaHelper Namespace" Url="html/N-IngeniBridge.Core.MetaHelper.htm">
-    <HelpTOCNode Id="56e09fc3-5b27-49aa-b1cc-024e66afc643" Title="AttributeMetaDescription Class" Url="html/T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
+  <HelpTOCNode Id="c5832a0e-9b1d-4a2a-898f-fff573e5fed1" Title="IngeniBridge.Core.MetaHelper Namespace" Url="html/N-IngeniBridge.Core.MetaHelper.htm">
+    <HelpTOCNode Id="af58589e-6523-4a6e-afb3-5b6505f06e17" Title="AttributeMetaDescription Class" Url="html/T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
       <HelpTOCNode Title="AttributeMetaDescription Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm" />
-      <HelpTOCNode Id="0580d602-ec64-4fa8-8d59-72b1eb630547" Title="AttributeMetaDescription Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
+      <HelpTOCNode Id="9b849b15-a0c3-4a52-a1c9-5d1755bfd733" Title="AttributeMetaDescription Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
         <HelpTOCNode Title="DoNotIndexProperty Field" Url="html/F-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.DoNotIndexProperty.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cb8b3964-4e27-4e57-9776-a8ffba42b747" Title="AttributeMetaDescription Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
+      <HelpTOCNode Id="b56fb8f6-a840-4607-b17d-4ae008c15374" Title="AttributeMetaDescription Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="7db99e72-8c1c-4571-b587-25e4535602e1" Title="AttributeMetaDescription Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
+      <HelpTOCNode Id="fa87a96e-abc1-431c-9e66-6f931fad824a" Title="AttributeMetaDescription Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.htm">
         <HelpTOCNode Title="AddFunctionalAxis Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxis.htm" />
         <HelpTOCNode Title="AddFunctionalAxisOnBaseClass Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AddFunctionalAxisOnBaseClass.htm" />
         <HelpTOCNode Title="AttributeName Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.AttributeName.htm" />
@@ -187,7 +187,7 @@
         <HelpTOCNode Title="IsExternalIngeniBridgeEntityReference Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalIngeniBridgeEntityReference.htm" />
         <HelpTOCNode Title="IsExternalTimeSeriesReference Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsExternalTimeSeriesReference.htm" />
         <HelpTOCNode Title="IsIngeniBridgeEntityReference Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsIngeniBridgeEntityReference.htm" />
-        <HelpTOCNode Title="IsNomenclature Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsNomenclature.htm" />
+        <HelpTOCNode Title="IsTable Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsTable.htm" />
         <HelpTOCNode Title="IsTimeSeries Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.IsTimeSeries.htm" />
         <HelpTOCNode Title="NameDesc Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NameDesc.htm" />
         <HelpTOCNode Title="NotToDisplay Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.NotToDisplay.htm" />
@@ -196,18 +196,18 @@
         <HelpTOCNode Title="Unit Property " Url="html/P-IngeniBridge.Core.MetaHelper.AttributeMetaDescription.Unit.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3ac73be3-a4fc-46e6-a290-efed0d42bde2" Title="EntityContentHelper Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">
+    <HelpTOCNode Id="f3dc7cf8-bb46-4146-9661-70ac78f2919c" Title="EntityContentHelper Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">
       <HelpTOCNode Title="EntityContentHelper Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm" />
       <HelpTOCNode Title="EntityContentHelper Constructor " Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.-ctor.htm" />
-      <HelpTOCNode Id="d2a1df11-5b10-4e45-9ca4-66dfde3332e3" Title="EntityContentHelper Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">
+      <HelpTOCNode Id="5a5c4502-566b-47ee-95b8-a826bd928adc" Title="EntityContentHelper Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">
         <HelpTOCNode Title="GetEntityKind Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.GetEntityKind.htm" />
-        <HelpTOCNode Id="285d0636-0738-459b-a9c6-69b51ab496f9" Title="Overload:IngeniBridge.Core.MetaHelper.EntityContentHelper.NbLinkedEntities">
+        <HelpTOCNode Id="46553e6e-2467-485f-82e9-3caabae1ea2e" Title="Overload:IngeniBridge.Core.MetaHelper.EntityContentHelper.NbLinkedEntities">
           <HelpTOCNode Title="NbLinkedEntities(ENTITYTYPE) Method (IngeniBridgeEntity, Boolean, Boolean)" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.NbLinkedEntities--1.htm" />
           <HelpTOCNode Title="NbLinkedEntities Method (IngeniBridgeEntity, Boolean, Boolean)" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.NbLinkedEntities.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ParseAttributes Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseAttributes.htm" />
         <HelpTOCNode Title="ParseBruteAttributes Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseBruteAttributes.htm" />
-        <HelpTOCNode Id="35a63169-2a9d-4c10-aaf0-2a4505c6df3f" Title="Overload:IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseLinkedEntities">
+        <HelpTOCNode Id="e0feda06-93f6-4cda-98fd-b967925f4018" Title="Overload:IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseLinkedEntities">
           <HelpTOCNode Title="ParseLinkedEntities(ENTITYTYPE) Method (IngeniBridgeEntity, HandleLinkedEntity(ENTITYTYPE), Boolean, Boolean)" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseLinkedEntities--1.htm" />
           <HelpTOCNode Title="ParseLinkedEntities Method (IngeniBridgeEntity, HandleLinkedEntity(Object), Boolean, Boolean)" Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.ParseLinkedEntities.htm" />
         </HelpTOCNode>
@@ -222,19 +222,19 @@
         <HelpTOCNode Title="SetLabelValue Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetLabelValue.htm" />
         <HelpTOCNode Title="SetValueFromDataName Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityContentHelper.SetValueFromDataName.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="2a22d60c-81d4-4d2a-be57-2a3c049d342f" Title="EntityContentHelper Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">
+      <HelpTOCNode Id="5d004b9d-2de3-44aa-bd65-480ac675aa3a" Title="EntityContentHelper Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">
         <HelpTOCNode Title="MetaHelper Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityContentHelper.MetaHelper.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="EntityContentHelper.HandleAttribute Delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm" />
     <HelpTOCNode Title="EntityContentHelper.HandleLinkedEntity(ENTITYTYPE) Delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleLinkedEntity-1.htm" />
     <HelpTOCNode Title="EntityContentHelper.HandleProperty Delegate" Url="html/T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleProperty.htm" />
-    <HelpTOCNode Id="be41e2ef-08ff-44ee-b7c5-940efb05d431" Title="EntityMetaDescription Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
+    <HelpTOCNode Id="e21b82e8-d47e-4929-a833-636090d26f5f" Title="EntityMetaDescription Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
       <HelpTOCNode Title="EntityMetaDescription Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm" />
-      <HelpTOCNode Id="1bbfbc48-5f3b-442b-ba3d-86ba3d454c1a" Title="EntityMetaDescription Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
+      <HelpTOCNode Id="6eeefaa1-b404-40d8-a3bb-d99a0ec9a824" Title="EntityMetaDescription Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
         <HelpTOCNode Title="BaseEntityType Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescription.BaseEntityType.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a3812c8d-4e7b-47df-9f13-48b55b9b1019" Title="EntityMetaDescription Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
+      <HelpTOCNode Id="3ea3ebf2-a75a-4ef5-9da9-30f21eccd025" Title="EntityMetaDescription Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
         <HelpTOCNode Title="CreateInstance Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.CreateInstance.htm" />
         <HelpTOCNode Title="RetrieveAllPropertiesAssignableFromAndToParamType Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesAssignableFromAndToParamType.htm" />
         <HelpTOCNode Title="RetrieveAllPropertiesAssignableFromParamType Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAllPropertiesAssignableFromParamType.htm" />
@@ -242,45 +242,45 @@
         <HelpTOCNode Title="RetrieveAttribute Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.RetrieveAttribute.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a0212649-1160-42c5-9891-787ecaa4f608" Title="EntityMetaDescription Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
+      <HelpTOCNode Id="fc1cb584-96c0-4549-be66-f44bf10673bb" Title="EntityMetaDescription Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.htm">
         <HelpTOCNode Title="AllLinks Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinks.htm" />
         <HelpTOCNode Title="AllLinksButTimeSeries Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.AllLinksButTimeSeries.htm" />
         <HelpTOCNode Title="ApplicationProperties Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ApplicationProperties.htm" />
         <HelpTOCNode Title="CodeProperty Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.CodeProperty.htm" />
         <HelpTOCNode Title="DoNotIndexEntity Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.DoNotIndexEntity.htm" />
-        <HelpTOCNode Title="EntityAndNomenclatureLinks Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinks.htm" />
-        <HelpTOCNode Title="EntityAndNomenclatureLinksButTimeSeries Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndNomenclatureLinksButTimeSeries.htm" />
+        <HelpTOCNode Title="EntityAndTableLinks Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndTableLinks.htm" />
+        <HelpTOCNode Title="EntityAndTableLinksButTimeSeries Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityAndTableLinksButTimeSeries.htm" />
         <HelpTOCNode Title="EntityDisplayName Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityDisplayName.htm" />
         <HelpTOCNode Title="EntityKind Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKind.htm" />
         <HelpTOCNode Title="EntityName Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityName.htm" />
         <HelpTOCNode Title="EntityType Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityType.htm" />
         <HelpTOCNode Title="ExternalLinksToEntities Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntities.htm" />
-        <HelpTOCNode Title="ExternalLinksToEntitiesAndNomenclatures Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntitiesAndNomenclatures.htm" />
+        <HelpTOCNode Title="ExternalLinksToEntitiesAndTables Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.ExternalLinksToEntitiesAndTables.htm" />
         <HelpTOCNode Title="HasExternalReferences Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.HasExternalReferences.htm" />
         <HelpTOCNode Title="IsAbstract Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsAbstract.htm" />
         <HelpTOCNode Title="IsExternalReferefenced Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsExternalReferefenced.htm" />
         <HelpTOCNode Title="IsRoot Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.IsRoot.htm" />
         <HelpTOCNode Title="LabelProperty Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LabelProperty.htm" />
         <HelpTOCNode Title="LinksToEntity Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToEntity.htm" />
-        <HelpTOCNode Title="LinksToNomenclature Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToNomenclature.htm" />
+        <HelpTOCNode Title="LinksToTable Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.LinksToTable.htm" />
         <HelpTOCNode Title="Properties Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaDescription.Properties.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="EntityMetaDescription.EntityKindEnum Enumeration" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescription.EntityKindEnum.htm" />
-    <HelpTOCNode Id="b54bf39f-0726-48d2-94d0-a435cb1c4602" Title="EntityMetaDescriptionNode Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm">
+    <HelpTOCNode Id="c1828738-ba19-478d-bd97-bd14bbca09b5" Title="EntityMetaDescriptionNode Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm">
       <HelpTOCNode Title="EntityMetaDescriptionNode Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm" />
-      <HelpTOCNode Id="9a5cc608-fc62-4e8d-b144-f2286129677f" Title="EntityMetaDescriptionNode Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm">
+      <HelpTOCNode Id="2b43a86e-1f0c-4644-9ff9-b82812dfd176" Title="EntityMetaDescriptionNode Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm">
         <HelpTOCNode Title="Children Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.Children.htm" />
         <HelpTOCNode Title="Node Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.Node.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6a9bf241-a8d5-4f6a-9b77-e668ab914804" Title="EntityMetaDescriptionNode Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm">
+      <HelpTOCNode Id="fd26a329-0aff-44ac-b522-7ac09406cdb7" Title="EntityMetaDescriptionNode Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.htm">
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaDescriptionNode.ToString.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e100068b-23a5-4918-b604-bd01cedadc85" Title="EntityMetaHelper Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
+    <HelpTOCNode Id="ff650791-f97f-4279-8520-b25cfef7a6a2" Title="EntityMetaHelper Class" Url="html/T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
       <HelpTOCNode Title="EntityMetaHelper Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm" />
       <HelpTOCNode Title="EntityMetaHelper Constructor " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.-ctor.htm" />
-      <HelpTOCNode Id="076ec2f4-f40e-4bab-971b-117f3c311279" Title="EntityMetaHelper Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
+      <HelpTOCNode Id="5a52f5a4-bd4c-44a6-8579-c006b13d8e0a" Title="EntityMetaHelper Fields" Url="html/Fields.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
         <HelpTOCNode Title="PROPERTY_CODE_NAME Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_CODE_NAME.htm" />
         <HelpTOCNode Title="PROPERTY_DESCRIPTION_NAME Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_DESCRIPTION_NAME.htm" />
         <HelpTOCNode Title="PROPERTY_ENTITYKIND_NAME Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_ENTITYKIND_NAME.htm" />
@@ -290,11 +290,11 @@
         <HelpTOCNode Title="PROPERTY_TIMESERIESEXTERNALREFERENCE_NAME Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_TIMESERIESEXTERNALREFERENCE_NAME.htm" />
         <HelpTOCNode Title="PROPERTY_UNIQUEENTITYCODE_NAME Field" Url="html/F-IngeniBridge.Core.MetaHelper.EntityMetaHelper.PROPERTY_UNIQUEENTITYCODE_NAME.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="26158888-7e40-413a-ba1b-f6731a05f4b9" Title="EntityMetaHelper Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
+      <HelpTOCNode Id="87d6dd53-b1db-454b-805b-97cfee23bee6" Title="EntityMetaHelper Methods" Url="html/Methods.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
         <HelpTOCNode Title="GetCompatibleTypesForParentEntityChild Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetCompatibleTypesForParentEntityChild.htm" />
         <HelpTOCNode Title="GetEnumTypes Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetEnumTypes.htm" />
         <HelpTOCNode Title="GetInheritanceMetaData Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetInheritanceMetaData.htm" />
-        <HelpTOCNode Id="a9c591cb-4047-48e7-900c-6a9ec25dfc4f" Title="Overload:IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaData">
+        <HelpTOCNode Id="3ab1114a-d66e-4393-bc85-7fcf0740a5fa" Title="Overload:IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaData">
           <HelpTOCNode Title="GetMetaData Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaData.htm" />
           <HelpTOCNode Title="GetMetaData(NODETYPE) Method (Boolean)" Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaData--1.htm" />
         </HelpTOCNode>
@@ -303,7 +303,7 @@
         <HelpTOCNode Title="GetMetaDataOrdered Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataOrdered.htm" />
         <HelpTOCNode Title="GetMetaDataTimeSeries Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetMetaDataTimeSeries.htm" />
         <HelpTOCNode Title="GetRootMetaData Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetRootMetaData.htm" />
-        <HelpTOCNode Id="377de79a-1af9-4319-aacd-2af05758673e" Title="Overload:IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetTypes">
+        <HelpTOCNode Id="b59e92e2-c92c-4514-a27f-195238165b4d" Title="Overload:IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetTypes">
           <HelpTOCNode Title="GetTypes Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetTypes.htm" />
           <HelpTOCNode Title="GetTypes(NODETYPE) Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.GetTypes--1.htm" />
         </HelpTOCNode>
@@ -316,25 +316,25 @@
         <HelpTOCNode Title="RetrieveFirstPropertyAssignableFromParamType Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveFirstPropertyAssignableFromParamType.htm" />
         <HelpTOCNode Title="RetrieveFirstPropertyToAssignToParamType Method " Url="html/M-IngeniBridge.Core.MetaHelper.EntityMetaHelper.RetrieveFirstPropertyToAssignToParamType.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cc3717c2-1c9a-45ff-a173-e64953b3dad7" Title="EntityMetaHelper Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
+      <HelpTOCNode Id="09cff507-cbf6-4633-9d5d-5bc6c116db62" Title="EntityMetaHelper Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.EntityMetaHelper.htm">
         <HelpTOCNode Title="DatavizIndexHelper Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaHelper.DatavizIndexHelper.htm" />
         <HelpTOCNode Title="TimeSeriesExternalReferenceBuilder Property " Url="html/P-IngeniBridge.Core.MetaHelper.EntityMetaHelper.TimeSeriesExternalReferenceBuilder.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="dcb901db-aa35-4d70-b426-b980e6cd4683" Title="IngeniBridge.Core.MetaHelper.Attributes Namespace" Url="html/N-IngeniBridge.Core.MetaHelper.Attributes.htm">
-    <HelpTOCNode Id="1783c8b7-e278-418f-bf3a-21ed4a3527a3" Title="AddFunctionalAxisAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm">
+  <HelpTOCNode Id="3d305bbd-cb91-4e8f-b86d-acb4fe6774d5" Title="IngeniBridge.Core.MetaHelper.Attributes Namespace" Url="html/N-IngeniBridge.Core.MetaHelper.Attributes.htm">
+    <HelpTOCNode Id="8e6bd7b0-cc8e-4f2f-840d-4a5ef6513576" Title="AddFunctionalAxisAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm">
       <HelpTOCNode Title="AddFunctionalAxisAttribute Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm" />
       <HelpTOCNode Title="AddFunctionalAxisAttribute Constructor " Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.-ctor.htm" />
-      <HelpTOCNode Id="7d8d42ec-9c73-478d-967b-33fc35ff854a" Title="AddFunctionalAxisAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm">
+      <HelpTOCNode Id="625a1dc6-789d-42f2-8756-18e89d2b64af" Title="AddFunctionalAxisAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.htm">
         <HelpTOCNode Title="Name Property " Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisAttribute.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="AddFunctionalAxisOnBaseClassAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.AddFunctionalAxisOnBaseClassAttribute.htm" />
-    <HelpTOCNode Id="813d8e85-2620-4788-94df-9d98bd69375e" Title="DisplayNameAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm">
+    <HelpTOCNode Id="01a5509f-12f8-4e02-bbdf-0178b698cbc3" Title="DisplayNameAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm">
       <HelpTOCNode Title="DisplayNameAttribute Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm" />
       <HelpTOCNode Title="DisplayNameAttribute Constructor " Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.-ctor.htm" />
-      <HelpTOCNode Id="f02ba94c-1351-4793-9708-1a793f0fe37f" Title="DisplayNameAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm">
+      <HelpTOCNode Id="cf1b5b5b-6c68-454e-b2b8-14e93c72d3b9" Title="DisplayNameAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.htm">
         <HelpTOCNode Title="Name Property " Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.DisplayNameAttribute.Name.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
@@ -342,10 +342,10 @@
     <HelpTOCNode Title="DoNotIndexPropertyAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.DoNotIndexPropertyAttribute.htm" />
     <HelpTOCNode Title="ExternalReferenceAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.ExternalReferenceAttribute.htm" />
     <HelpTOCNode Title="IndexAlsoByNameAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexAlsoByNameAttribute.htm" />
-    <HelpTOCNode Id="e87926a8-d925-4faa-83be-a29686a940a0" Title="IndexEntityAttributeAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm">
+    <HelpTOCNode Id="9ada04c0-d4c8-4490-a0e9-3d7fab750c0e" Title="IndexEntityAttributeAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm">
       <HelpTOCNode Title="IndexEntityAttributeAttribute Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm" />
       <HelpTOCNode Title="IndexEntityAttributeAttribute Constructor " Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.-ctor.htm" />
-      <HelpTOCNode Id="addcf366-f469-42d3-b39b-e306511dd21b" Title="IndexEntityAttributeAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm">
+      <HelpTOCNode Id="8801e369-1181-4219-a771-e230e23f4470" Title="IndexEntityAttributeAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.htm">
         <HelpTOCNode Title="AttributeName Property " Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.AttributeName.htm" />
         <HelpTOCNode Title="FunctionalAxisName Property " Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.IndexEntityAttributeAttribute.FunctionalAxisName.htm" />
       </HelpTOCNode>
@@ -354,18 +354,18 @@
     <HelpTOCNode Title="NotToDisplayAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.NotToDisplayAttribute.htm" />
     <HelpTOCNode Title="PropagatePropertyOnChildrenNodesAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.PropagatePropertyOnChildrenNodesAttribute.htm" />
     <HelpTOCNode Title="RootAssetAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.RootAssetAttribute.htm" />
-    <HelpTOCNode Id="8a56d4e2-a4a2-4a75-8034-04917e70a020" Title="UnitAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm">
+    <HelpTOCNode Id="ea615b47-f0cc-484a-ae51-cecdcf60ecce" Title="UnitAttribute Class" Url="html/T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm">
       <HelpTOCNode Title="UnitAttribute Members" Url="html/AllMembers.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm" />
       <HelpTOCNode Title="UnitAttribute Constructor " Url="html/M-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.-ctor.htm" />
-      <HelpTOCNode Id="a100e3bb-921d-4143-b3c9-a2cd2e2d4f96" Title="UnitAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm">
+      <HelpTOCNode Id="cbf83d55-678c-40a3-8bbb-7d1712316405" Title="UnitAttribute Properties" Url="html/Properties.T-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.htm">
         <HelpTOCNode Title="Unit Property " Url="html/P-IngeniBridge.Core.MetaHelper.Attributes.UnitAttribute.Unit.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="08de9eff-e216-4f2c-b035-b51433f9503d" Title="IngeniBridge.Core.Mining Namespace" Url="html/N-IngeniBridge.Core.Mining.htm">
-    <HelpTOCNode Id="4d0634db-a148-48f2-b407-63b84577863b" Title="ContextedEntitySerializer Class" Url="html/T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm">
+  <HelpTOCNode Id="010d7c07-e0c5-4f7b-8919-6a77d7003151" Title="IngeniBridge.Core.Mining Namespace" Url="html/N-IngeniBridge.Core.Mining.htm">
+    <HelpTOCNode Id="a5e1db1d-0b6d-4e77-9252-b432c27e098d" Title="ContextedEntitySerializer Class" Url="html/T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm">
       <HelpTOCNode Title="ContextedEntitySerializer Members" Url="html/AllMembers.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm" />
-      <HelpTOCNode Id="295593df-cdb3-433a-8167-a8c5dac04419" Title="ContextedEntitySerializer Methods" Url="html/Methods.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm">
+      <HelpTOCNode Id="cac702a7-385a-4280-b4a8-7c6aa4a62791" Title="ContextedEntitySerializer Methods" Url="html/Methods.T-IngeniBridge.Core.Mining.ContextedEntitySerializer.htm">
         <HelpTOCNode Title="DeserializeContextedAssetFromString Method " Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedAssetFromString.htm" />
         <HelpTOCNode Title="DeserializeContextedAssetsFromString Method " Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedAssetsFromString.htm" />
         <HelpTOCNode Title="DeserializeContextedTimeSeriesFromString Method " Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.DeserializeContextedTimeSeriesFromString.htm" />
@@ -376,79 +376,79 @@
         <HelpTOCNode Title="SerializeDatavizTimeSeries Method " Url="html/M-IngeniBridge.Core.Mining.ContextedEntitySerializer.SerializeDatavizTimeSeries.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a7ccc8c3-9e81-4b6c-af26-d573025ddecc" Title="IDatavizIndexHelper Interface" Url="html/T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm">
+    <HelpTOCNode Id="30c9c6f7-02f3-450c-b8b7-f40c4714ad71" Title="IDatavizIndexHelper Interface" Url="html/T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm">
       <HelpTOCNode Title="IDatavizIndexHelper Members" Url="html/AllMembers.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm" />
-      <HelpTOCNode Id="305b3474-16d3-453d-9580-a2a0af6b6725" Title="IDatavizIndexHelper Methods" Url="html/Methods.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm">
+      <HelpTOCNode Id="747f65c7-f324-4022-a821-463abedfd562" Title="IDatavizIndexHelper Methods" Url="html/Methods.T-IngeniBridge.Core.Mining.IDatavizIndexHelper.htm">
         <HelpTOCNode Title="IndexNode Method " Url="html/M-IngeniBridge.Core.Mining.IDatavizIndexHelper.IndexNode.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="6c7b3d8f-6cae-4a30-a56e-8c0b29a6536d" Title="IngeniBridge.Core.Serialization Namespace" Url="html/N-IngeniBridge.Core.Serialization.htm">
-    <HelpTOCNode Id="ba8c348a-c718-472a-84ee-27a56755c5a9" Title="EntitySerializer Class" Url="html/T-IngeniBridge.Core.Serialization.EntitySerializer.htm">
+  <HelpTOCNode Id="12d983d6-4c30-470e-af27-be6a567305d6" Title="IngeniBridge.Core.Serialization Namespace" Url="html/N-IngeniBridge.Core.Serialization.htm">
+    <HelpTOCNode Id="8a2c7905-42a7-4bfa-801e-c8fb9dd1243b" Title="EntitySerializer Class" Url="html/T-IngeniBridge.Core.Serialization.EntitySerializer.htm">
       <HelpTOCNode Title="EntitySerializer Members" Url="html/AllMembers.T-IngeniBridge.Core.Serialization.EntitySerializer.htm" />
-      <HelpTOCNode Id="beda68c6-04b1-46cc-a122-4dfed9bd90c5" Title="EntitySerializer Methods" Url="html/Methods.T-IngeniBridge.Core.Serialization.EntitySerializer.htm">
+      <HelpTOCNode Id="db370755-f8ba-4a69-9e43-3dd9083b89bd" Title="EntitySerializer Methods" Url="html/Methods.T-IngeniBridge.Core.Serialization.EntitySerializer.htm">
         <HelpTOCNode Title="DeserializeAsset Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeAsset.htm" />
-        <HelpTOCNode Title="DeserializeNomenclature Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeNomenclature.htm" />
+        <HelpTOCNode Title="DeserializeTable Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeTable.htm" />
         <HelpTOCNode Title="DeserializeTimeSeries Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.DeserializeTimeSeries.htm" />
         <HelpTOCNode Title="ParameterizeJsonSetting Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.ParameterizeJsonSetting.htm" />
         <HelpTOCNode Title="SerializeAsset Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeAsset.htm" />
-        <HelpTOCNode Title="SerializeNomenclature Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeNomenclature.htm" />
+        <HelpTOCNode Title="SerializeTable Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeTable.htm" />
         <HelpTOCNode Title="SerializeTimeSeries Method " Url="html/M-IngeniBridge.Core.Serialization.EntitySerializer.SerializeTimeSeries.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="9d31d284-c655-44e6-9ffe-90f7f877ebb4" Title="IngeniBridge.Core.Service Namespace" Url="html/N-IngeniBridge.Core.Service.htm">
-    <HelpTOCNode Id="0cd5d4fc-58ba-409c-95b8-78ade701c4df" Title="ContextedAsset Class" Url="html/T-IngeniBridge.Core.Service.ContextedAsset.htm">
+  <HelpTOCNode Id="a416b585-6968-489d-9595-5bc9c8edfd7a" Title="IngeniBridge.Core.Service Namespace" Url="html/N-IngeniBridge.Core.Service.htm">
+    <HelpTOCNode Id="bacef35e-55b8-449c-a143-18e1e08d7c7a" Title="ContextedAsset Class" Url="html/T-IngeniBridge.Core.Service.ContextedAsset.htm">
       <HelpTOCNode Title="ContextedAsset Members" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedAsset.htm" />
-      <HelpTOCNode Id="40dc2f5b-5d73-446c-b9e1-35647f093046" Title="ContextedAsset Fields" Url="html/Fields.T-IngeniBridge.Core.Service.ContextedAsset.htm">
+      <HelpTOCNode Id="25466653-b077-4f22-a75b-bd70330e1bdf" Title="ContextedAsset Fields" Url="html/Fields.T-IngeniBridge.Core.Service.ContextedAsset.htm">
         <HelpTOCNode Title="Asset Field" Url="html/F-IngeniBridge.Core.Service.ContextedAsset.Asset.htm" />
         <HelpTOCNode Title="Parents Field" Url="html/F-IngeniBridge.Core.Service.ContextedAsset.Parents.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8775120a-be80-49b6-b0e8-64f0c9129800" Title="ContextedTimeSeries Class" Url="html/T-IngeniBridge.Core.Service.ContextedTimeSeries.htm">
+    <HelpTOCNode Id="17cf30d4-b307-42a3-be1d-07854430e481" Title="ContextedTimeSeries Class" Url="html/T-IngeniBridge.Core.Service.ContextedTimeSeries.htm">
       <HelpTOCNode Title="ContextedTimeSeries Members" Url="html/AllMembers.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm" />
-      <HelpTOCNode Id="84aefa93-f237-4c63-9843-aecfb5081684" Title="ContextedTimeSeries Fields" Url="html/Fields.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm">
+      <HelpTOCNode Id="a0f45213-c7ee-42ae-8ce7-500d1089b1d1" Title="ContextedTimeSeries Fields" Url="html/Fields.T-IngeniBridge.Core.Service.ContextedTimeSeries.htm">
         <HelpTOCNode Title="Parents Field" Url="html/F-IngeniBridge.Core.Service.ContextedTimeSeries.Parents.htm" />
         <HelpTOCNode Title="TimeSeries Field" Url="html/F-IngeniBridge.Core.Service.ContextedTimeSeries.TimeSeries.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="02d20872-e75c-4ddf-af67-baba94a296c9" Title="DatavizTimeSeries Class" Url="html/T-IngeniBridge.Core.Service.DatavizTimeSeries.htm">
+    <HelpTOCNode Id="20ebb6ca-fa80-4660-bdde-8560237f6948" Title="DatavizTimeSeries Class" Url="html/T-IngeniBridge.Core.Service.DatavizTimeSeries.htm">
       <HelpTOCNode Title="DatavizTimeSeries Members" Url="html/AllMembers.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm" />
-      <HelpTOCNode Id="2d9def22-b709-49c8-8444-87e9bdbe9277" Title="DatavizTimeSeries Fields" Url="html/Fields.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm">
+      <HelpTOCNode Id="1ca03289-ce12-4017-9af7-6911324ac125" Title="DatavizTimeSeries Fields" Url="html/Fields.T-IngeniBridge.Core.Service.DatavizTimeSeries.htm">
         <HelpTOCNode Title="DatavizTimeSeriesDescription Field" Url="html/F-IngeniBridge.Core.Service.DatavizTimeSeries.DatavizTimeSeriesDescription.htm" />
         <HelpTOCNode Title="TimeSeriesExternalReference Field" Url="html/F-IngeniBridge.Core.Service.DatavizTimeSeries.TimeSeriesExternalReference.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="26ed67ed-c60e-4ed3-9643-0cf953daf4c0" Title="HistorizedAsset Class" Url="html/T-IngeniBridge.Core.Service.HistorizedAsset.htm">
+    <HelpTOCNode Id="04db32aa-a4dd-46fe-9730-583ad6b87879" Title="HistorizedAsset Class" Url="html/T-IngeniBridge.Core.Service.HistorizedAsset.htm">
       <HelpTOCNode Title="HistorizedAsset Members" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedAsset.htm" />
-      <HelpTOCNode Id="eabd4b67-2aa8-439f-b1a7-7ee2c23d1977" Title="HistorizedAsset Fields" Url="html/Fields.T-IngeniBridge.Core.Service.HistorizedAsset.htm">
+      <HelpTOCNode Id="a9e630c9-a978-4ace-a476-e61dc8097f12" Title="HistorizedAsset Fields" Url="html/Fields.T-IngeniBridge.Core.Service.HistorizedAsset.htm">
         <HelpTOCNode Title="Assets Field" Url="html/F-IngeniBridge.Core.Service.HistorizedAsset.Assets.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="cb023815-43e2-47c0-8282-33d7300d2590" Title="HistorizedTimeSeries Class" Url="html/T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm">
+    <HelpTOCNode Id="e1997298-5ea4-4b62-8dac-f13c087e292d" Title="HistorizedTimeSeries Class" Url="html/T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm">
       <HelpTOCNode Title="HistorizedTimeSeries Members" Url="html/AllMembers.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm" />
-      <HelpTOCNode Id="86b5cef3-2046-44c1-82b7-f9c06cf6ca3c" Title="HistorizedTimeSeries Fields" Url="html/Fields.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm">
+      <HelpTOCNode Id="463d8510-48ec-41e9-b218-4a82f8d75544" Title="HistorizedTimeSeries Fields" Url="html/Fields.T-IngeniBridge.Core.Service.HistorizedTimeSeries.htm">
         <HelpTOCNode Title="Datas Field" Url="html/F-IngeniBridge.Core.Service.HistorizedTimeSeries.Datas.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="371be587-7687-4b64-8254-77b977bc96fc" Title="ParentsAssetSerializer Class" Url="html/T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm">
+    <HelpTOCNode Id="8262f530-564b-453a-8b54-5323db84ec78" Title="ParentsAssetSerializer Class" Url="html/T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm">
       <HelpTOCNode Title="ParentsAssetSerializer Members" Url="html/AllMembers.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm" />
-      <HelpTOCNode Id="3d205202-d79a-40c8-b248-9508e1f4301a" Title="ParentsAssetSerializer Methods" Url="html/Methods.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm">
+      <HelpTOCNode Id="030e685b-dd07-47d0-a572-0f2f07bc18aa" Title="ParentsAssetSerializer Methods" Url="html/Methods.T-IngeniBridge.Core.Service.ParentsAssetSerializer.htm">
         <HelpTOCNode Title="CanConvert Method " Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.CanConvert.htm" />
         <HelpTOCNode Title="ReadJson Method " Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.ReadJson.htm" />
         <HelpTOCNode Title="WriteJson Method " Url="html/M-IngeniBridge.Core.Service.ParentsAssetSerializer.WriteJson.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="efdc2d77-d145-4178-a3ca-f42f29ef2fbd" Title="IngeniBridge.Core.StagingData Namespace" Url="html/N-IngeniBridge.Core.StagingData.htm">
-    <HelpTOCNode Id="258318a9-f0ee-484b-84f6-4d62d9e70b8f" Title="DataModelVersion Class" Url="html/T-IngeniBridge.Core.StagingData.DataModelVersion.htm">
+  <HelpTOCNode Id="683452ac-481d-45c6-bccb-0b4e18b1968e" Title="IngeniBridge.Core.StagingData Namespace" Url="html/N-IngeniBridge.Core.StagingData.htm">
+    <HelpTOCNode Id="f360e7e5-ef08-4901-a7ca-1086c6a8cff4" Title="DataModelVersion Class" Url="html/T-IngeniBridge.Core.StagingData.DataModelVersion.htm">
       <HelpTOCNode Title="DataModelVersion Members" Url="html/AllMembers.T-IngeniBridge.Core.StagingData.DataModelVersion.htm" />
-      <HelpTOCNode Id="02789092-dc4a-4ad1-8327-f469dac92885" Title="DataModelVersion Methods" Url="html/Methods.T-IngeniBridge.Core.StagingData.DataModelVersion.htm">
+      <HelpTOCNode Id="1bbc0f94-5d43-4f86-b00c-8833213ddb5e" Title="DataModelVersion Methods" Url="html/Methods.T-IngeniBridge.Core.StagingData.DataModelVersion.htm">
         <HelpTOCNode Title="Equals Method " Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.Equals.htm" />
         <HelpTOCNode Title="GetHashCode Method " Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.GetHashCode.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.StagingData.DataModelVersion.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a4c649f8-7052-4a3a-b143-cd2207652e4b" Title="DataModelVersion Properties" Url="html/Properties.T-IngeniBridge.Core.StagingData.DataModelVersion.htm">
+      <HelpTOCNode Id="49b24984-5174-4cdb-b50a-04667216fc6f" Title="DataModelVersion Properties" Url="html/Properties.T-IngeniBridge.Core.StagingData.DataModelVersion.htm">
         <HelpTOCNode Title="Build Property " Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Build.htm" />
         <HelpTOCNode Title="Generated Property " Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Generated.htm" />
         <HelpTOCNode Title="Major Property " Url="html/P-IngeniBridge.Core.StagingData.DataModelVersion.Major.htm" />
@@ -462,11 +462,11 @@
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="dd3af3d9-1e99-4dc9-bc3e-254ba71a896c" Title="IngeniBridge.Core.Storage Namespace" Url="html/N-IngeniBridge.Core.Storage.htm">
-    <HelpTOCNode Id="c50ecda2-b703-4fd4-aa1f-f3fe8826b614" Title="AssetExtension Class" Url="html/T-IngeniBridge.Core.Storage.AssetExtension.htm">
+  <HelpTOCNode Id="055e6b32-a5b7-46a2-ac3b-1222b680f394" Title="IngeniBridge.Core.Storage Namespace" Url="html/N-IngeniBridge.Core.Storage.htm">
+    <HelpTOCNode Id="fcd67c0d-d8ef-4ede-9ba8-009234274511" Title="AssetExtension Class" Url="html/T-IngeniBridge.Core.Storage.AssetExtension.htm">
       <HelpTOCNode Title="AssetExtension Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.AssetExtension.htm" />
-      <HelpTOCNode Id="cc38e380-4ca3-4d15-9d52-c9367c039a14" Title="AssetExtension Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.AssetExtension.htm">
-        <HelpTOCNode Id="eb89a22a-b5e6-4e05-a57e-1c1b15432f1d" Title="AddChildAsset Method " Url="html/Overload-IngeniBridge.Core.Storage.AssetExtension.AddChildAsset.htm">
+      <HelpTOCNode Id="d1b59f9f-db1b-4c3f-8447-adb032bac9e9" Title="AssetExtension Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.AssetExtension.htm">
+        <HelpTOCNode Id="e023c6b1-fa66-4480-866d-626563daca50" Title="AddChildAsset Method " Url="html/Overload-IngeniBridge.Core.Storage.AssetExtension.AddChildAsset.htm">
           <HelpTOCNode Title="AddChildAsset Method (Asset, String, Asset)" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.AddChildAsset.htm" />
           <HelpTOCNode Title="AddChildAsset Method (Asset, Asset)" Url="html/M-IngeniBridge.Core.Storage.AssetExtension.AddChildAsset_1.htm" />
         </HelpTOCNode>
@@ -476,18 +476,18 @@
         <HelpTOCNode Title="FindFirstChildEntityInTree(NODETYPE) Method " Url="html/M-IngeniBridge.Core.Storage.AssetExtension.FindFirstChildEntityInTree--1.htm" />
         <HelpTOCNode Title="RetrieveChildEntity(NODETYPE) Method " Url="html/M-IngeniBridge.Core.Storage.AssetExtension.RetrieveChildEntity--1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="c20bc9aa-f126-4914-8dbb-4f88c47cf60e" Title="AssetExtension Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.AssetExtension.htm">
+      <HelpTOCNode Id="b3b8d985-1137-443e-abd6-d38951a6fb58" Title="AssetExtension Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.AssetExtension.htm">
         <HelpTOCNode Title="StorageAccessor Property " Url="html/P-IngeniBridge.Core.Storage.AssetExtension.StorageAccessor.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="dbbea4ee-a2dd-4569-8384-70a793713c5c" Title="DataModelIsAlreadySet Class" Url="html/T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm">
+    <HelpTOCNode Id="161169c3-5c90-4e81-89b1-ada633cd3b06" Title="DataModelIsAlreadySet Class" Url="html/T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm">
       <HelpTOCNode Title="DataModelIsAlreadySet Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DataModelIsAlreadySet.htm" />
       <HelpTOCNode Title="DataModelIsAlreadySet Constructor " Url="html/M-IngeniBridge.Core.Storage.DataModelIsAlreadySet.-ctor.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e30c863e-439d-42ad-980e-daaf5da2cb89" Title="DateTimeRange Structure" Url="html/T-IngeniBridge.Core.Storage.DateTimeRange.htm">
+    <HelpTOCNode Id="ff2c165c-dafd-4169-8206-272aa60366e0" Title="DateTimeRange Structure" Url="html/T-IngeniBridge.Core.Storage.DateTimeRange.htm">
       <HelpTOCNode Title="DateTimeRange Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.DateTimeRange.htm" />
       <HelpTOCNode Title="DateTimeRange Constructor " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.-ctor.htm" />
-      <HelpTOCNode Id="146c090c-c716-492c-adba-18f34c506cf0" Title="DateTimeRange Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.DateTimeRange.htm">
+      <HelpTOCNode Id="879ca299-8992-4cc5-86c4-bb56fd0d472b" Title="DateTimeRange Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.DateTimeRange.htm">
         <HelpTOCNode Title="Equals Method " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.Equals.htm" />
         <HelpTOCNode Title="GetHashCode Method " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetHashCode.htm" />
         <HelpTOCNode Title="GetIntersection Method " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.GetIntersection.htm" />
@@ -496,29 +496,29 @@
         <HelpTOCNode Title="IsInRange Method " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.IsInRange.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="18ae6616-10b4-4d09-a869-80368def386e" Title="DateTimeRange Operators" Url="html/Operators.T-IngeniBridge.Core.Storage.DateTimeRange.htm">
+      <HelpTOCNode Id="96ce46b4-a54a-443a-a7cd-e0d8e2fcdfd1" Title="DateTimeRange Operators" Url="html/Operators.T-IngeniBridge.Core.Storage.DateTimeRange.htm">
         <HelpTOCNode Title="Equality Operator " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.op_Equality.htm" />
         <HelpTOCNode Title="Inequality Operator " Url="html/M-IngeniBridge.Core.Storage.DateTimeRange.op_Inequality.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="e6e92edb-ce95-44cd-bfd3-96fda4c6ba45" Title="DateTimeRange Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.DateTimeRange.htm">
+      <HelpTOCNode Id="510f3212-9ed8-431d-a0f0-ac52c88dd0a0" Title="DateTimeRange Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.DateTimeRange.htm">
         <HelpTOCNode Title="End Property " Url="html/P-IngeniBridge.Core.Storage.DateTimeRange.End.htm" />
         <HelpTOCNode Title="Start Property " Url="html/P-IngeniBridge.Core.Storage.DateTimeRange.Start.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="IntersectionType Enumeration" Url="html/T-IngeniBridge.Core.Storage.IntersectionType.htm" />
-    <HelpTOCNode Id="c8bb1787-6944-4429-a28e-7c3ed39e767a" Title="IStorageServices Interface" Url="html/T-IngeniBridge.Core.Storage.IStorageServices.htm">
+    <HelpTOCNode Id="c1440ea6-b7d6-4d4a-8b46-35016936962f" Title="IStorageServices Interface" Url="html/T-IngeniBridge.Core.Storage.IStorageServices.htm">
       <HelpTOCNode Title="IStorageServices Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.IStorageServices.htm" />
-      <HelpTOCNode Id="3e978447-6593-4c45-acf6-afced486a6cc" Title="IStorageServices Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.IStorageServices.htm">
+      <HelpTOCNode Id="dfb20fd5-9882-40cf-a5ea-cd968c50861b" Title="IStorageServices Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.IStorageServices.htm">
         <HelpTOCNode Title="BuildReference Method " Url="html/M-IngeniBridge.Core.Storage.IStorageServices.BuildReference.htm" />
         <HelpTOCNode Title="ValidateNewAsset Method " Url="html/M-IngeniBridge.Core.Storage.IStorageServices.ValidateNewAsset.htm" />
         <HelpTOCNode Title="ValidateNewTimeSeries Method " Url="html/M-IngeniBridge.Core.Storage.IStorageServices.ValidateNewTimeSeries.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d8821423-41df-4237-be19-4bafa6ceb1e6" Title="StorageAccessor Class" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.htm">
+    <HelpTOCNode Id="0bd094cd-f1d8-4f65-b674-12d8883d366c" Title="StorageAccessor Class" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.htm">
       <HelpTOCNode Title="StorageAccessor Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageAccessor.htm" />
-      <HelpTOCNode Id="e9d7c6c9-f26d-4616-afb2-0520da2936ba" Title="StorageAccessor Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageAccessor.htm">
+      <HelpTOCNode Id="c39ab9b1-c5d0-4a00-92fc-032194ff3fcc" Title="StorageAccessor Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageAccessor.htm">
         <HelpTOCNode Title="AddChildAsset Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddChildAsset.htm" />
-        <HelpTOCNode Title="AddNomenclatureEntry Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddNomenclatureEntry.htm" />
+        <HelpTOCNode Title="AddTableEntry Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddTableEntry.htm" />
         <HelpTOCNode Title="AddTimeSeries Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.AddTimeSeries.htm" />
         <HelpTOCNode Title="BuildParentPath Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.BuildParentPath.htm" />
         <HelpTOCNode Title="CanMoveEntity Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.CanMoveEntity.htm" />
@@ -530,51 +530,51 @@
         <HelpTOCNode Title="DeleteEntity Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.DeleteEntity.htm" />
         <HelpTOCNode Title="DeserializeOnlyVersion Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.DeserializeOnlyVersion.htm" />
         <HelpTOCNode Title="GetNbChildEntities(NODETYPE) Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbChildEntities--1.htm" />
-        <HelpTOCNode Id="77e5ceab-8d7a-43ea-8eb6-191c6bd79d9a" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.GetNbSubTreeEntities">
+        <HelpTOCNode Id="b0abf94e-0ba4-4c64-813a-7aec96cf1fc0" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.GetNbSubTreeEntities">
           <HelpTOCNode Title="GetNbSubTreeEntities(NODETYPE) Method (IngeniBridgeEntity)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbSubTreeEntities--1.htm" />
           <HelpTOCNode Title="GetNbSubTreeEntities Method (IngeniBridgeEntity)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetNbSubTreeEntities.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetStatistics Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.GetStatistics.htm" />
         <HelpTOCNode Title="InitializeNewDB Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.InitializeNewDB.htm" />
         <HelpTOCNode Title="InstantiateFromAssembly Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.InstantiateFromAssembly.htm" />
-        <HelpTOCNode Id="e556b81e-dba2-49d6-b1f4-69c78b9b9ccf" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntities">
+        <HelpTOCNode Id="48ac2daa-7cb7-43a3-9c41-1c705f0e687a" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntities">
           <HelpTOCNode Title="IterateChildEntities(NODETYPE) Method (IngeniBridgeEntity, HandleIteratedNode(NODETYPE), Boolean)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntities--1.htm" />
           <HelpTOCNode Title="IterateChildEntities Method (IngeniBridgeEntity, HandleIteratedNode(IngeniBridgeEntity), Boolean)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntities.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="c32d9828-77aa-4945-8ac0-95d86d8f9704" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntitiesInAttribute">
+        <HelpTOCNode Id="26ff322f-18db-455a-94de-d5ab937b3c03" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntitiesInAttribute">
           <HelpTOCNode Title="IterateChildEntitiesInAttribute(NODETYPE) Method (IngeniBridgeEntity, String, HandleIteratedNode(NODETYPE))" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntitiesInAttribute--1.htm" />
           <HelpTOCNode Title="IterateChildEntitiesInAttribute Method (IngeniBridgeEntity, String, HandleIteratedNode(IngeniBridgeEntity))" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.IterateChildEntitiesInAttribute.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6ef3d553-0e4b-4915-a1dc-25d615fa8e52" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.IterateSubTreeEntities">
+        <HelpTOCNode Id="63fa64dc-2e9d-468b-9136-e29f7f6997ab" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.IterateSubTreeEntities">
           <HelpTOCNode Title="IterateSubTreeEntities(NODETYPE) Method (IngeniBridgeEntity, HandleIteratedNode(NODETYPE))" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.IterateSubTreeEntities--1.htm" />
           <HelpTOCNode Title="IterateSubTreeEntities Method (IngeniBridgeEntity, HandleIteratedNode(IngeniBridgeEntity))" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.IterateSubTreeEntities.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ModifyEntity Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyEntity.htm" />
-        <HelpTOCNode Title="ModifyNomenclatureEntry Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyNomenclatureEntry.htm" />
+        <HelpTOCNode Title="ModifyTableEntry Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.ModifyTableEntry.htm" />
         <HelpTOCNode Title="MoveEntity Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.MoveEntity.htm" />
         <HelpTOCNode Title="OpenDB Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.OpenDB.htm" />
         <HelpTOCNode Title="RebuildDataModel Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RebuildDataModel.htm" />
         <HelpTOCNode Title="RecreateAssetAsParent Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RecreateAssetAsParent.htm" />
-        <HelpTOCNode Id="3df3d8d6-4d30-47c6-9ffa-52cdd556c150" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.RetrieveChildEntity">
+        <HelpTOCNode Id="b0063125-dc92-4093-922f-62468f6ea63e" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.RetrieveChildEntity">
           <HelpTOCNode Title="RetrieveChildEntity Method (IngeniBridgeEntity, String, String)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveChildEntity.htm" />
           <HelpTOCNode Title="RetrieveChildEntity(NODETYPE) Method (IngeniBridgeEntity, String, String)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveChildEntity--1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RetrieveEntityFromCode(NODETYPE) Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveEntityFromCode--1.htm" />
         <HelpTOCNode Title="RetrieveInfoFromUniqueEntityCode Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveInfoFromUniqueEntityCode.htm" />
-        <HelpTOCNode Title="RetrieveNomenclatureEntries Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureEntries.htm" />
-        <HelpTOCNode Id="c8d47fd0-73f2-48c2-ab5c-3ecf2879ab82" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureEntry">
-          <HelpTOCNode Title="RetrieveNomenclatureEntry Method (String, String)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureEntry.htm" />
-          <HelpTOCNode Title="RetrieveNomenclatureEntry(NODETYPE) Method (String)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureEntry--1.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="RetrieveNomenclatureTypes Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveNomenclatureTypes.htm" />
         <HelpTOCNode Title="RetrieveParentsFromParentPath Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveParentsFromParentPath.htm" />
         <HelpTOCNode Title="RetrievePathFromStorageUniqueID Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrievePathFromStorageUniqueID.htm" />
         <HelpTOCNode Title="RetrieveStorageNodeFromPath Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromPath.htm" />
         <HelpTOCNode Title="RetrieveStorageNodeFromStorageUniqueID Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromStorageUniqueID.htm" />
         <HelpTOCNode Title="RetrieveStorageNodeFromUniqueEntityCode Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveStorageNodeFromUniqueEntityCode.htm" />
+        <HelpTOCNode Title="RetrieveTableEntries Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveTableEntries.htm" />
+        <HelpTOCNode Id="39d81859-1282-47ff-bf09-e98732531141" Title="Overload:IngeniBridge.Core.Storage.StorageAccessor.RetrieveTableEntry">
+          <HelpTOCNode Title="RetrieveTableEntry Method (String, String)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveTableEntry.htm" />
+          <HelpTOCNode Title="RetrieveTableEntry(NODETYPE) Method (String)" Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveTableEntry--1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RetrieveTableTypes Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.RetrieveTableTypes.htm" />
         <HelpTOCNode Title="SetRootAsset Method " Url="html/M-IngeniBridge.Core.Storage.StorageAccessor.SetRootAsset.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="737ffa11-ab89-43c3-bff1-326f226b6767" Title="StorageAccessor Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.StorageAccessor.htm">
+      <HelpTOCNode Id="88dc13aa-f777-4d62-8c41-329db4b5532f" Title="StorageAccessor Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.StorageAccessor.htm">
         <HelpTOCNode Title="ContentHelper Property " Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.ContentHelper.htm" />
         <HelpTOCNode Title="DataModelAssembly Property " Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.DataModelAssembly.htm" />
         <HelpTOCNode Title="DataModelAssemblyBuffer Property " Url="html/P-IngeniBridge.Core.Storage.StorageAccessor.DataModelAssemblyBuffer.htm" />
@@ -589,9 +589,9 @@
     </HelpTOCNode>
     <HelpTOCNode Title="StorageAccessor.AssemblyLoaded Delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.AssemblyLoaded.htm" />
     <HelpTOCNode Title="StorageAccessor.HandleIteratedNode(NODETYPE) Delegate" Url="html/T-IngeniBridge.Core.Storage.StorageAccessor.HandleIteratedNode-1.htm" />
-    <HelpTOCNode Id="4652751c-9bbe-4e66-9eef-deb3106fb081" Title="StorageFormatter Class" Url="html/T-IngeniBridge.Core.Storage.StorageFormatter.htm">
+    <HelpTOCNode Id="7b4f3354-8816-407d-b35d-81862610c5aa" Title="StorageFormatter Class" Url="html/T-IngeniBridge.Core.Storage.StorageFormatter.htm">
       <HelpTOCNode Title="StorageFormatter Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageFormatter.htm" />
-      <HelpTOCNode Id="7b6f248c-1a94-484d-a420-8d72a0a0f5e9" Title="StorageFormatter Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageFormatter.htm">
+      <HelpTOCNode Id="269beabb-f2bb-4bb3-9d18-a18ca7dc4398" Title="StorageFormatter Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageFormatter.htm">
         <HelpTOCNode Title="CombinePathAndChildEntity Method " Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.CombinePathAndChildEntity.htm" />
         <HelpTOCNode Title="FormatAsset Method " Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatAsset.htm" />
         <HelpTOCNode Title="FormatParentAsset Method " Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.FormatParentAsset.htm" />
@@ -601,13 +601,13 @@
         <HelpTOCNode Title="SplitEntityCodesFromPath Method " Url="html/M-IngeniBridge.Core.Storage.StorageFormatter.SplitEntityCodesFromPath.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d85e6941-09f2-494a-bf6a-c6481f3f2ced" Title="StorageNode Class" Url="html/T-IngeniBridge.Core.Storage.StorageNode.htm">
+    <HelpTOCNode Id="67afbe66-98d7-48b5-b8c3-fbc198e73507" Title="StorageNode Class" Url="html/T-IngeniBridge.Core.Storage.StorageNode.htm">
       <HelpTOCNode Title="StorageNode Members" Url="html/AllMembers.T-IngeniBridge.Core.Storage.StorageNode.htm" />
-      <HelpTOCNode Id="e8f8e409-e525-4123-9786-b76d5768b757" Title="StorageNode Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageNode.htm">
+      <HelpTOCNode Id="30c0c392-a801-43cc-abf5-61b3e6eea466" Title="StorageNode Methods" Url="html/Methods.T-IngeniBridge.Core.Storage.StorageNode.htm">
         <HelpTOCNode Title="CreateStorageNode(STORAGENODETYPE) Method " Url="html/M-IngeniBridge.Core.Storage.StorageNode.CreateStorageNode--1.htm" />
         <HelpTOCNode Title="ToString Method " Url="html/M-IngeniBridge.Core.Storage.StorageNode.ToString.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="31300130-f0c1-4772-b207-52e33b6035ae" Title="StorageNode Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.StorageNode.htm">
+      <HelpTOCNode Id="f54ca210-c851-4faf-9986-1b64e31afea5" Title="StorageNode Properties" Url="html/Properties.T-IngeniBridge.Core.Storage.StorageNode.htm">
         <HelpTOCNode Title="AttributeInParent Property " Url="html/P-IngeniBridge.Core.Storage.StorageNode.AttributeInParent.htm" />
         <HelpTOCNode Title="Code Property " Url="html/P-IngeniBridge.Core.Storage.StorageNode.Code.htm" />
         <HelpTOCNode Title="Entity Property " Url="html/P-IngeniBridge.Core.Storage.StorageNode.Entity.htm" />
@@ -622,17 +622,17 @@
     <HelpTOCNode Title="StorageNode.HandleCreateStorageNode(STORAGENODETYPE) Delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleCreateStorageNode-1.htm" />
     <HelpTOCNode Title="StorageNode.HandleInsertNodeAndGetStorageUniqueID(STORAGENODETYPE) Delegate" Url="html/T-IngeniBridge.Core.Storage.StorageNode.HandleInsertNodeAndGetStorageUniqueID-1.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="6ce1750d-daca-48f7-99e3-dd7ebebedfd5" Title="IngeniBridge.Core.Util Namespace" Url="html/N-IngeniBridge.Core.Util.htm">
-    <HelpTOCNode Id="60af62cc-669b-4890-950c-bdef5dc8b332" Title="AssemblyUtil Class" Url="html/T-IngeniBridge.Core.Util.AssemblyUtil.htm">
+  <HelpTOCNode Id="7c6cfeb3-ebf4-4d79-8c98-3d02ce2e9f43" Title="IngeniBridge.Core.Util Namespace" Url="html/N-IngeniBridge.Core.Util.htm">
+    <HelpTOCNode Id="10ec71f0-4a24-4bc5-93bf-a76574fffb8b" Title="AssemblyUtil Class" Url="html/T-IngeniBridge.Core.Util.AssemblyUtil.htm">
       <HelpTOCNode Title="AssemblyUtil Members" Url="html/AllMembers.T-IngeniBridge.Core.Util.AssemblyUtil.htm" />
-      <HelpTOCNode Id="45a8bc92-f50c-41d2-998d-e3680078b5d1" Title="AssemblyUtil Methods" Url="html/Methods.T-IngeniBridge.Core.Util.AssemblyUtil.htm">
+      <HelpTOCNode Id="14b5c6ca-3340-4fd9-990c-c6e5549c6807" Title="AssemblyUtil Methods" Url="html/Methods.T-IngeniBridge.Core.Util.AssemblyUtil.htm">
         <HelpTOCNode Title="FormatVersion Method " Url="html/M-IngeniBridge.Core.Util.AssemblyUtil.FormatVersion.htm" />
         <HelpTOCNode Title="GetAssemblyNameVersion Method " Url="html/M-IngeniBridge.Core.Util.AssemblyUtil.GetAssemblyNameVersion.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4745f8d0-03e9-4e95-b056-d1e934cbef8c" Title="FileDater Class" Url="html/T-IngeniBridge.Core.Util.FileDater.htm">
+    <HelpTOCNode Id="23f7c264-7225-42ee-96e4-242ed2de53b9" Title="FileDater Class" Url="html/T-IngeniBridge.Core.Util.FileDater.htm">
       <HelpTOCNode Title="FileDater Members" Url="html/AllMembers.T-IngeniBridge.Core.Util.FileDater.htm" />
-      <HelpTOCNode Id="acfc0cd4-b757-496b-9c7d-8543c21de2fe" Title="FileDater Methods" Url="html/Methods.T-IngeniBridge.Core.Util.FileDater.htm">
+      <HelpTOCNode Id="e42ef868-e84c-4fe7-87d7-1d8a2877c9e8" Title="FileDater Methods" Url="html/Methods.T-IngeniBridge.Core.Util.FileDater.htm">
         <HelpTOCNode Title="SetFileNameDateTime Method " Url="html/M-IngeniBridge.Core.Util.FileDater.SetFileNameDateTime.htm" />
       </HelpTOCNode>
     </HelpTOCNode>

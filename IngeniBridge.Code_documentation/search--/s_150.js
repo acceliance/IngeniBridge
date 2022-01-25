@@ -1,1 +1,0 @@
-search_result['150']=["topic_000000000000003F.html","AttributeMetaDescription.AttributeType Property","Type of the attribute"];

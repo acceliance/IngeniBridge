@@ -1,1 +1,0 @@
-search_result['603']=["topic_0000000000000164.html","StorageNode Class","This class represents an actual record inside the database (whatever the plugin)"];

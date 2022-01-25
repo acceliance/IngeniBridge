@@ -1,1 +1,0 @@
-search_result['135']=["topic_0000000000000035.html","AttributeMetaDescription Class","This class contains meta information about a property into an entity"];

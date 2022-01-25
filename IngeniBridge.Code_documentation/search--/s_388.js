@@ -1,1 +1,0 @@
-search_result['388']=["topic_00000000000000CC.html","EntitySerializer.SerializeNomenclature Method","This method serializes a nomenclature object"];

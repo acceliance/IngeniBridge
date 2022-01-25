@@ -1,1 +1,0 @@
-search_result['679']=["topic_0000000000000192.html","TimeSeries.GetTimeSeriesExternalReference Method","Overload this property to give a single Code when using several TSDB technologies"];

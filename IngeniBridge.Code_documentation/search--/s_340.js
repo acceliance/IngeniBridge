@@ -1,1 +1,0 @@
-search_result['340']=["topic_00000000000000AB.html","MetaHelper.IsIngeniBridgeType Method","This method indicate if a type is IngeniBridge compliant"];

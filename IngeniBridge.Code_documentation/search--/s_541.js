@@ -1,1 +1,0 @@
-search_result['541']=["topic_000000000000012B.html","StorageAccessor.IntCloseDB Method","Closes database"];

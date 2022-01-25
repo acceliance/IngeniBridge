@@ -1,1 +1,0 @@
-search_result['351']=["topic_00000000000000B6.html","MetaHelper.GetEnumTypes Method","This method retrieves the enum types in the model"];

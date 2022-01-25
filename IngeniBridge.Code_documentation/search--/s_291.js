@@ -1,1 +1,0 @@
-search_result['291']=["topic_0000000000000084.html","EntityMetaDescription.IsAbstract Property","Indicates if entity is abstract (not instanciable)"];

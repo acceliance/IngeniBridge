@@ -1,1 +1,0 @@
-search_result['526']=["topic_000000000000011C.html","StorageAccessor.IntRetrieveNomenclatureEntry\u0026lt;NODETYPE\u0026gt; Method","Retrieves a nomenclature entry for a type and code"];

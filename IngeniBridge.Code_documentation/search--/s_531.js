@@ -1,1 +1,0 @@
-search_result['531']=["topic_0000000000000121.html","StorageAccessor.IntGetNbSubTreeEntities\u0026lt;NODETYPE\u0026gt; Method","Counts children in whole tree from a node"];

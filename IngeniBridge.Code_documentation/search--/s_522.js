@@ -1,1 +1,0 @@
-search_result['522']=["topic_0000000000000118.html","StorageAccessor.IntAddTimeSeries Method","Adds a time series object into the database"];

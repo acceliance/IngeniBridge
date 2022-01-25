@@ -1,1 +1,0 @@
-search_result['349']=["topic_00000000000000B4.html","MetaHelper.GetMetaDataTimeSeries Method","This method retrieves meta data for the model only about timeseries objects"];

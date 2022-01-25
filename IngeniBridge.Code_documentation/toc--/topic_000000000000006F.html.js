@@ -1,1 +1,0 @@
-var breadcrumbs=[['-1',"",""],['2',"IngeniBridge.Core Reference","topic_0000000000000193.html"],['120',"IngeniBridge.Core.MetaHelper Namespace","topic_0000000000000034.html"],['147',"EntityContentHelper Class","topic_0000000000000063.html"],['154',"Methods","topic_0000000000000063_methods--.html"],['173',"SetValueFromDataName Method","topic_000000000000006F.html"]];

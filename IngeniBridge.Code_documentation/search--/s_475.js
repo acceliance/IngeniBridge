@@ -1,1 +1,0 @@
-search_result['475']=["topic_00000000000000F9.html","AssetExtension.AddTimeSeries Method","Adds a time series object into an asset object"];

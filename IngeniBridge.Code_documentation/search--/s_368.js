@@ -1,1 +1,0 @@
-search_result['368']=["topic_00000000000000C2.html","ContextedEntitySerializer.DeserializeContextedTimeSeriesFromString Method","This method deserializes a contexted time series"];

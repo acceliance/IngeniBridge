@@ -1,1 +1,0 @@
-search_result['367']=["topic_00000000000000C1.html","ContextedEntitySerializer.DeserializeContextedAssetsFromString Method","This method deserializes a multiple contexted asset (from the Ingenibridge REST server)"];

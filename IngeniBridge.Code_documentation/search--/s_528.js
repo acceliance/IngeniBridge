@@ -1,1 +1,0 @@
-search_result['528']=["topic_000000000000011E.html","StorageAccessor.IntIterateSubTreeEntities\u0026lt;NODETYPE\u0026gt; Method","Iterates children in whole tree from down from a node"];

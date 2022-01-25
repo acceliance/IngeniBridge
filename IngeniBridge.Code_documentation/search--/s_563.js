@@ -1,1 +1,0 @@
-search_result['563']=["topic_0000000000000141.html","StorageAccessor.InstantiateFromAssembly Method","Instantiate the storage acessor from an actua limplementation"];

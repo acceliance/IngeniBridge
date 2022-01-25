@@ -1,1 +1,0 @@
-search_result['560']=["topic_000000000000013E.html","StorageAccessor.RetrieveParentsFromParentPath Method","This methods recreates the list of asset objects from a parent tree"];

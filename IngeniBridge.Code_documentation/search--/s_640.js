@@ -1,1 +1,0 @@
-search_result['640']=["topic_000000000000017A.html","Asset.TimeSeries Property","The time series associated directly with that asset"];

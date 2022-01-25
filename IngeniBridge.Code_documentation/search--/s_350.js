@@ -1,1 +1,0 @@
-search_result['350']=["topic_00000000000000B5.html","MetaHelper.GetMetaData\u0026lt;NODETYPE\u0026gt; Method","This method retrieves all meta data for the model"];

@@ -1,1 +1,0 @@
-search_result['676']=["topic_000000000000018F.html","TimeSeries.TimeSeriesExternalReference Property","The technical reference or key to the actual time series contained into the external TSBD (Time Series Database) System"];

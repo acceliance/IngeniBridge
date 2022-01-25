@@ -1,1 +1,0 @@
-search_result['236']=["topic_000000000000005E.html","IndexEntityAttributeAttribute Class","This flag indicates if an embedded entity attribute should be indexed on the container, used to enrich index with more info"];

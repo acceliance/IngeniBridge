@@ -1,1 +1,0 @@
-search_result['520']=["topic_0000000000000116.html","StorageAccessor.IntAddNomenclatureEntry Method","Add a nomenclature entry into the database"];

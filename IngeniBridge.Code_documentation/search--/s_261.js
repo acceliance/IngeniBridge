@@ -1,1 +1,0 @@
-search_result['261']=["topic_0000000000000068.html","EntityContentHelper.RetrieveCodeValue Method","This method retrieves the code property value from an entity"];

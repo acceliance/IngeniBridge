@@ -1,1 +1,0 @@
-search_result['392']=["topic_00000000000000D0.html","ContextedAsset Class","Contexted asset returned by the web service"];

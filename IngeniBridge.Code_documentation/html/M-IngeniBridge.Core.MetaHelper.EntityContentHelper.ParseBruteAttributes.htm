@@ -27,7 +27,7 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="This method parses all nomenclatures and external references if specified" />
+      <MSHelp:Attr Name="Abstract" Value="This method parses all tables and external references if specified" />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
@@ -96,7 +96,7 @@
 </div>
 </div>
 <div class="TreeNode">
-<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-IngeniBridge.Core.Nomenclature.htm" target="_self">Nomenclature Class</a>
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-IngeniBridge.Core.Table.htm" target="_self">Table Class</a>
 <div class="Hidden">
 </div>
 </div>
@@ -119,7 +119,7 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticAsset.htm" target="_self">Diagnostic.HandleDiagnosticAsset Delegate</a>
 </div>
 <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticNomenclature.htm" target="_self">Diagnostic.HandleDiagnosticNomenclature Delegate</a>
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-IngeniBridge.Core.Diags.Diagnostic.HandleDiagnosticTable.htm" target="_self">Diagnostic.HandleDiagnosticTable Delegate</a>
 </div>
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-IngeniBridge.Core.Diags.TreeChecker.htm" target="_self">TreeChecker Class</a>
@@ -548,7 +548,7 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   This method parses all nomenclatures and external references if specified
+   This method parses all tables and external references if specified
    </div>
                 <p />
     <b>Namespace:</b> 
@@ -558,14 +558,14 @@
 	<a href="T-IngeniBridge.Core.IngeniBridgeEntity.htm">IngeniBridgeEntity</a> <span class="parameter">Entity</span>,
 	<a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a> <span class="parameter">ha</span>,
 	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a> <span class="parameter">includeexternalentities</span>,
-	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a> <span class="parameter">includenomenclatures</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a> <span class="parameter">includetables</span>,
 	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a> <span class="parameter">includeentities</span>,
 	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a> <span class="parameter">includedatas</span>
 )</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">ParseBruteAttributes</span> ( _
 	<span class="parameter">Entity</span> <span class="keyword">As</span> <a href="T-IngeniBridge.Core.IngeniBridgeEntity.htm">IngeniBridgeEntity</a>, _
 	<span class="parameter">ha</span> <span class="keyword">As</span> <a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a>, _
 	<span class="parameter">includeexternalentities</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a>, _
-	<span class="parameter">includenomenclatures</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a>, _
+	<span class="parameter">includetables</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a>, _
 	<span class="parameter">includeentities</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a>, _
 	<span class="parameter">includedatas</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a> _
 ) <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a></pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span>:
@@ -573,10 +573,10 @@
 	<a href="T-IngeniBridge.Core.IngeniBridgeEntity.htm">IngeniBridgeEntity</a>^ <span class="parameter">Entity</span>, 
 	<a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a>^ <span class="parameter">ha</span>, 
 	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^ <span class="parameter">includeexternalentities</span>, 
-	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^ <span class="parameter">includenomenclatures</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^ <span class="parameter">includetables</span>, 
 	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^ <span class="parameter">includeentities</span>, 
 	<a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^ <span class="parameter">includedatas</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="Entity"><dt><span class="parameterItalic">Entity</span></dt><dd>Type: <a href="T-IngeniBridge.Core.IngeniBridgeEntity.htm">IngeniBridge.Core<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>IngeniBridgeEntity</a><br />Entity</dd></dl><dl paramName="ha"><dt><span class="parameterItalic">ha</span></dt><dd>Type: <a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">IngeniBridge.Core.MetaHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a><br />Callback to attributes, </dd></dl><dl paramName="includeexternalentities"><dt><span class="parameterItalic">includeexternalentities</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return external references as properties</dd></dl><dl paramName="includenomenclatures"><dt><span class="parameterItalic">includenomenclatures</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return nomenclatures as properties</dd></dl><dl paramName="includeentities"><dt><span class="parameterItalic">includeentities</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return links to entities as properties</dd></dl><dl paramName="includedatas"><dt><span class="parameterItalic">includedatas</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return datas as properties</dd></dl></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">EntityContentHelper Class</a></div><div class="seeAlsoStyle"><a href="N-IngeniBridge.Core.MetaHelper.htm">IngeniBridge.Core.MetaHelper Namespace</a></div><div class="seeAlsoStyle"><a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">IngeniBridge.Core.MetaHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a></div></div></div>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="Entity"><dt><span class="parameterItalic">Entity</span></dt><dd>Type: <a href="T-IngeniBridge.Core.IngeniBridgeEntity.htm">IngeniBridge.Core<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>IngeniBridgeEntity</a><br />Entity</dd></dl><dl paramName="ha"><dt><span class="parameterItalic">ha</span></dt><dd>Type: <a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">IngeniBridge.Core.MetaHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a><br />Callback to attributes, </dd></dl><dl paramName="includeexternalentities"><dt><span class="parameterItalic">includeexternalentities</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return external references as properties</dd></dl><dl paramName="includetables"><dt><span class="parameterItalic">includetables</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return tables as properties</dd></dl><dl paramName="includeentities"><dt><span class="parameterItalic">includeentities</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return links to entities as properties</dd></dl><dl paramName="includedatas"><dt><span class="parameterItalic">includedatas</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><br />return datas as properties</dd></dl></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.htm">EntityContentHelper Class</a></div><div class="seeAlsoStyle"><a href="N-IngeniBridge.Core.MetaHelper.htm">IngeniBridge.Core.MetaHelper Namespace</a></div><div class="seeAlsoStyle"><a href="T-IngeniBridge.Core.MetaHelper.EntityContentHelper.HandleAttribute.htm">IngeniBridge.Core.MetaHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>EntityContentHelper<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HandleAttribute</a></div></div></div>
             </div>
           </div>
         </div>

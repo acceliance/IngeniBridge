@@ -1,1 +1,0 @@
-search_result['142']=["topic_0000000000000037.html","AttributeMetaDescription.IsEnum Property","Indicates if attribute is enum"];

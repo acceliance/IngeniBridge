@@ -1,1 +1,0 @@
-search_result['354']=["topic_00000000000000B9.html","MetaHelper.GetTypes\u0026lt;NODETYPE\u0026gt; Method","This method retrieves the types list in the model meta information"];

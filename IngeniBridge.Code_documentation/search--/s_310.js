@@ -1,1 +1,0 @@
-search_result['310']=["topic_0000000000000097.html","EntityMetaDescription.RetrieveAllPropertiesAssignableFromParamType Method","This method retrieves all the properties inside an object instance compatible with the type"];

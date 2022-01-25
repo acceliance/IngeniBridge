@@ -1,1 +1,0 @@
-search_result['1']=["topic_0000000000000001.html","Diagnostic Class","This class provides services to make some diagnotics on the data model tree"];

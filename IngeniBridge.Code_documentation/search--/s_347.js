@@ -1,1 +1,0 @@
-search_result['347']=["topic_00000000000000B2.html","MetaHelper.GetMetaDataFromName Method","This method returns meta data describing an entity type"];

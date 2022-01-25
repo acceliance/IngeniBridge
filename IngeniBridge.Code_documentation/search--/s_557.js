@@ -1,1 +1,0 @@
-search_result['557']=["topic_000000000000013B.html","StorageAccessor.CleanParentPath Method","This method ensures the path is cleaned of any unwanted characters"];

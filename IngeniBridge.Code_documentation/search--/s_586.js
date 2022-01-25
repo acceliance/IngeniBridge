@@ -1,1 +1,0 @@
-search_result['586']=["topic_0000000000000158.html","StorageAccessor.RetrieveChildEntity Method","Finds a child from an asset object"];

@@ -1,1 +1,0 @@
-search_result['344']=["topic_00000000000000AF.html","MetaHelper.RetrieveFirstPropertyAssignableFromParamType Method","This method retrieves the first property inside an object instance equal or derived from the type"];

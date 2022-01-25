@@ -1,1 +1,0 @@
-search_result['370']=["topic_00000000000000C4.html","IDatavizIndexHelper Interface","This interface is the Dataviz index contract"];

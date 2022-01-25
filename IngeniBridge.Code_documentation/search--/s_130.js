@@ -1,1 +1,0 @@
-search_result['130']=["topic_0000000000000030.html","InventoryHelper Constructor","Constructor"];
