@@ -31,7 +31,7 @@ namespace MyCompanyDataModel
             ret.Append ( Entity.Label + " - " );
             accessor.ContentHelper.ParseAttributes ( Entity, ( AttributeMetaDescription attribute, object val ) =>
             {
-                if ( val.GetType ().IsSubclassOf ( typeof ( Nomenclature ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( ( Nomenclature ) val ) + " - " );
+                if ( val.GetType ().IsSubclassOf ( typeof ( Table ) ) || val.GetType ().IsSubclassOf ( typeof ( Asset ) ) ) ret.Append ( accessor.ContentHelper.RetrieveLabelValue ( ( Table ) val ) + " - " );
                 else if ( attribute.IsEnum == true ) ret.Append ( val.ToString () + " - " );
                 return ( true );
             }, true, true );

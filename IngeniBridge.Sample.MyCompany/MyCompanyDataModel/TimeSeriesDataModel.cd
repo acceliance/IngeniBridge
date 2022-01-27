@@ -22,7 +22,7 @@
     <Position X="7.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
+      <FileName>Tables.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.ComputedMeasure">

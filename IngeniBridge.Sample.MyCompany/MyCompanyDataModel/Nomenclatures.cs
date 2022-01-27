@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace MyCompanyDataModel
 {
-    public class TypeOfMeasure : Nomenclature
+    public class TypeOfMeasure : Table
     {
         public string Unit { get; set; }
     }
-    public class Sector : Nomenclature
+    public class Sector : Table
     {
     }
-    public class City : Nomenclature
+    public class City : Table
     {
 
     }

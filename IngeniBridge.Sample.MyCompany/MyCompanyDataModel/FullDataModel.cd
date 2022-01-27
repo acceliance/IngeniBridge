@@ -98,7 +98,7 @@
     <Position X="15" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
+      <FileName>Tables.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.ComputedMeasure">
@@ -140,7 +140,7 @@
     <Position X="1.5" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
+      <FileName>Tables.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.WaterPump">

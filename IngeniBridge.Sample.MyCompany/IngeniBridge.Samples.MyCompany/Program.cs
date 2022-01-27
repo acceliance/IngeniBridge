@@ -39,24 +39,24 @@ namespace IngeniBridge.Samples.MyCompany
                 Assembly accessorasm = Assembly.LoadFile ( path + "\\IngeniBridge.StorageAccessor.InMemory.dll" );
                 Core.Storage.StorageAccessor accessor = Core.Storage.StorageAccessor.InstantiateFromAssembly ( accessorasm );
                 AssetExtension.StorageAccessor = accessor;
-                string fimastername = FileDater.SetFileNameDateTime ( "..\\..\\..\\..\\MasterAssetMyCompany.ibdb" );
+                string fimastername = FileDater.SetFileNameDateTime ("..\\..\\..\\..\\DatabaseInit\\MasterAssetMyCompany.ibdb");
                 accessor.InitializeNewDB ( Assembly.GetAssembly ( typeof ( MyCompanyAsset ) ), fimastername );
                 #endregion
                 #region Init root asset
                 MyCompanyRootAsset root = new MyCompanyRootAsset () { Code = "Root Asset", Label = "The root of my company's assests and measures" };
                 accessor.SetRootAsset ( root );
                 #endregion
-                #region nomenclatures
-                accessor.AddNomenclatureEntry ( new City () { Code = "PAR", Label = "Paris" } );
-                accessor.AddNomenclatureEntry ( new City () { Code = "LIV", Label = "Livry-Gargan" } );
-                accessor.AddNomenclatureEntry ( new City () { Code = "LER", Label = "Le Raincy" } );
-                accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "TMP", Label = "Temperature", Unit = "°C" } );
-                accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "PRESS", Label = "Pressure", Unit = "bar" } );
-                accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "ELEC", Label = "Electricity", Unit = "kw/h" } );
-                accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "WT", Label = "Water throuput", Unit = "m3/h" } );
-                accessor.AddNomenclatureEntry ( new TypeOfMeasure () { Code = "CL", Label = "Clorine", Unit = "mg/l" } );
-                accessor.AddNomenclatureEntry ( new Sector () { Code = "W", Label = "West" } );
-                accessor.AddNomenclatureEntry ( new Sector () { Code = "S", Label = "South" } );
+                #region tables
+                accessor.AddTableEntry ( new City () { Code = "PAR", Label = "Paris" } );
+                accessor.AddTableEntry ( new City () { Code = "LIV", Label = "Livry-Gargan" } );
+                accessor.AddTableEntry ( new City () { Code = "LER", Label = "Le Raincy" } );
+                accessor.AddTableEntry ( new TypeOfMeasure () { Code = "TMP", Label = "Temperature", Unit = "°C" } );
+                accessor.AddTableEntry ( new TypeOfMeasure () { Code = "PRESS", Label = "Pressure", Unit = "bar" } );
+                accessor.AddTableEntry ( new TypeOfMeasure () { Code = "ELEC", Label = "Electricity", Unit = "kw/h" } );
+                accessor.AddTableEntry ( new TypeOfMeasure () { Code = "WT", Label = "Water throuput", Unit = "m3/h" } );
+                accessor.AddTableEntry ( new TypeOfMeasure () { Code = "CL", Label = "Clorine", Unit = "mg/l" } );
+                accessor.AddTableEntry ( new Sector () { Code = "W", Label = "West" } );
+                accessor.AddTableEntry ( new Sector () { Code = "S", Label = "South" } );
                 #endregion
                 #region Influence zones
                 // Here you see how to access an Excel file using the EPPlus package
@@ -74,13 +74,13 @@ namespace IngeniBridge.Samples.MyCompany
                 xlConsolidate.Dispose ();
                 #endregion
                 #region assets
-                ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", City = accessor.RetrieveNomenclatureEntry<City> ( "PAR" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "W" ) };
+                ProductionSite siteParis = new ProductionSite () { Code = "Site of Paris", Label = "Site of Paris, production of water", City = accessor.RetrieveTableEntry<City> ( "PAR" ), Sector = accessor.RetrieveTableEntry<Sector> ( "W" ) };
                 siteParis.Zone = accessor.RetrieveChildEntity<InfluenceZone> ( root, "InfluenceZones", "Z1" );
                 root.AddChildAsset ( siteParis );
-                ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", City = accessor.RetrieveNomenclatureEntry<City> ( "LIV" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
+                ProductionSite siteLivry = new ProductionSite () { Code = "Site of Livry", Label = "Site of Livry-Gargan, quality of water", City = accessor.RetrieveTableEntry<City> ( "LIV" ), Sector = accessor.RetrieveTableEntry<Sector> ( "S" ) };
                 siteLivry.Zone = accessor.RetrieveChildEntity<InfluenceZone> ( root, "InfluenceZones", "Z2" );
                 root.AddChildAsset ( siteLivry );
-                ProductionSite siteLeRaincy = new ProductionSite () { Code = "Site of Le Raincy", Label = "Site of Le Raincy, Itercommunication", City = accessor.RetrieveNomenclatureEntry<City> ( "LER" ), Sector = accessor.RetrieveNomenclatureEntry<Sector> ( "S" ) };
+                ProductionSite siteLeRaincy = new ProductionSite () { Code = "Site of Le Raincy", Label = "Site of Le Raincy, Itercommunication", City = accessor.RetrieveTableEntry<City> ( "LER" ), Sector = accessor.RetrieveTableEntry<Sector> ( "S" ) };
                 siteLeRaincy.Zone = accessor.RetrieveChildEntity<InfluenceZone> ( root, "InfluenceZones", "Z2" );
                 root.AddChildAsset ( siteLeRaincy );
                 GroupOfPumps grouppumps = new GroupOfPumps () { Code = "GP 001" };
@@ -99,27 +99,27 @@ namespace IngeniBridge.Samples.MyCompany
                 siteLeRaincy.AddChildAsset ( ws1 );
                 #endregion
                 #region measures
-                AcquiredMeasure am1 = new AcquiredMeasure () { Code = "M 001", TimeSeriesExternalReference = "EXTREF 001", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "WT" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am1 = new AcquiredMeasure () { Code = "M 001", TimeSeriesExternalReference = "EXTREF 001", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "WT" ), ConsolidationType = ConsolidationType.None };
                 grouppumps.AddTimeSeries ( am1 );
-                AcquiredMeasure am2 = new AcquiredMeasure () { Code = "M 002", TimeSeriesExternalReference = "EXTREF 002", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am2 = new AcquiredMeasure () { Code = "M 002", TimeSeriesExternalReference = "EXTREF 002", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 wp1.AddTimeSeries ( am2 );
-                AcquiredMeasure am3 = new AcquiredMeasure () { Code = "M 003", TimeSeriesExternalReference = "EXTREF 003", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am3 = new AcquiredMeasure () { Code = "M 003", TimeSeriesExternalReference = "EXTREF 003", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 wp2.AddTimeSeries ( am3 );
-                AcquiredMeasure am4 = new AcquiredMeasure () { Code = "M 004", TimeSeriesExternalReference = "EXTREF 004", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am4 = new AcquiredMeasure () { Code = "M 004", TimeSeriesExternalReference = "EXTREF 004", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 iot1.AddTimeSeries ( am4 );
-                ComputedMeasure am5 = new ComputedMeasure () { Code = "M 005", TimeSeriesExternalReference = "EXTREF 005", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.Average };
+                ComputedMeasure am5 = new ComputedMeasure () { Code = "M 005", TimeSeriesExternalReference = "EXTREF 005", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.Average };
                 siteParis.AddTimeSeries ( am5 );
-                AcquiredMeasure am6 = new AcquiredMeasure () { Code = "M 006", TimeSeriesExternalReference = "EXTREF 006", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am6 = new AcquiredMeasure () { Code = "M 006", TimeSeriesExternalReference = "EXTREF 006", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
                 iot2.AddTimeSeries ( am6 );
-                AcquiredMeasure am7 = new AcquiredMeasure () { Code = "M 007", TimeSeriesExternalReference = "EXTREF 007", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am7 = new AcquiredMeasure () { Code = "M 007", TimeSeriesExternalReference = "EXTREF 007", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am7 );
-                AcquiredMeasure am8 = new AcquiredMeasure () { Code = "M 008", TimeSeriesExternalReference = "EXTREF 008", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am8 = new AcquiredMeasure () { Code = "M 008", TimeSeriesExternalReference = "EXTREF 008", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am8 );
-                AcquiredMeasure am9 = new AcquiredMeasure () { Code = "M 009", TimeSeriesExternalReference = "EXTREF 010", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am9 = new AcquiredMeasure () { Code = "M 009", TimeSeriesExternalReference = "EXTREF 010", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "CL" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am9 );
-                AcquiredMeasure am10 = new AcquiredMeasure () { Code = "M 010", TimeSeriesExternalReference = "EXTREF 009", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am10 = new AcquiredMeasure () { Code = "M 010", TimeSeriesExternalReference = "EXTREF 009", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "ELEC" ), ConsolidationType = ConsolidationType.None };
                 cl1.AddTimeSeries ( am10 );
-                AcquiredMeasure am11 = new AcquiredMeasure () { Code = "M 011", TimeSeriesExternalReference = "EXTREF 011", TypeOfMeasure = accessor.RetrieveNomenclatureEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
+                AcquiredMeasure am11 = new AcquiredMeasure () { Code = "M 011", TimeSeriesExternalReference = "EXTREF 011", TypeOfMeasure = accessor.RetrieveTableEntry<TypeOfMeasure> ( "PRESS" ), ConsolidationType = ConsolidationType.None };
                 ws1.AddTimeSeries ( am11 );
                 #endregion
                 #region check and generate IB database (generic script)
@@ -133,7 +133,7 @@ namespace IngeniBridge.Samples.MyCompany
                 ( nbTotalAssets, nbTotalDatas ) = accessor.GetStatistics ();
                 log.Info ( "nb total assets => " + nbTotalAssets.ToString () );
                 log.Info ( "nb total datas => " + nbTotalDatas.ToString () );
-                accessor.CloseDB ();
+                accessor.CloseDB();
                 #endregion
             }
             catch ( Exception e )

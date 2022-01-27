@@ -20,6 +20,7 @@ namespace IngeniBridge.GenerateFullInventory
         private static readonly ILog log = LogManager.GetLogger ( System.Reflection.MethodBase.GetCurrentMethod ().DeclaringType );
         static int Main ( string [] args )
         {
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             int exitCode = 0;
             XmlConfigurator.Configure ( LogManager.GetRepository ( Assembly.GetEntryAssembly () ), new FileInfo ( "log4net.config" ) );
             CommandLineOptions options = null;
@@ -53,7 +54,7 @@ namespace IngeniBridge.GenerateFullInventory
                 log.Info ( "DataModel Version Minor => " + accessor.Version.Minor.ToString () );
                 log.Info ( "DataModel Version Build => " + accessor.Version.Build.ToString () );
                 TreeChecker tc = new TreeChecker ( accessor );
-                Console.WriteLine ( "Vérification de l'arbre..." );
+                log.Info ( "Vérification de l'arbre..." );
                 tc.CheckTree ( true, message => log.Error ( message ) );
                 FileInfo fi = new FileInfo ( options.InventoryFile );
                 if ( fi.Exists ) fi.Delete ();

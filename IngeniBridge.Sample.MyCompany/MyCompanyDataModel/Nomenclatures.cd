@@ -4,10 +4,10 @@
     <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
+      <FileName>Tables.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="IngeniBridge.Core.Nomenclature">
+  <Class Name="IngeniBridge.Core.Table">
     <Position X="2" Y="0.5" Width="2" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -18,14 +18,14 @@
     <Position X="2.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
+      <FileName>Tables.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MyCompanyDataModel.Sector">
     <Position X="4" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nomenclatures.cs</FileName>
+      <FileName>Tables.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
